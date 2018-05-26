@@ -32,6 +32,9 @@ class Patchlogs {
     const html = await request(baseUrl)
     const $ = cheerio.load(html)
     const text = $('a[id^="elPagination"]').text().trim().split(' ')
+    if (text.length < 2) {
+      throw new Error('Connection blocked by Cloudflare.')
+    }
     return parseInt(text[text.length - 1])
   }
 
