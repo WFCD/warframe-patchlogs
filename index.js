@@ -42,7 +42,7 @@ class Patchlogs {
 
     $('ol[id^="elTable"] li').each(async (i, el) => {
       const post = {
-        name: $(el).find('h4 a span').text().trim().replace(/(\t|\n)/g, ''),
+        name: $(el).find('h4 a span').text().trim().replace(/(\t|\n)/g, '').replace(/\[(.*?)\]/g, ''),
         url: $(el).find('h4 a').attr('href'),
         date: $(el).find('time').attr('datetime'),
         additions: '',
