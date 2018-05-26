@@ -32,7 +32,9 @@ for (let post of patchlogs.posts) {
 }
 ```
 You'll be able to retrieve all posts via `patchlogs.posts`. If you need patchlogs
-for a specific item, use `patchlogs.getItemChanges(itemname)`.
+for a specific item, use `patchlogs.getItemChanges({ name: 'itemname', type: 'Warframe|Sentinel|etc' })`.
+If the item type is `'Warframe'` or `'Sentinel'` and the name includes `'Prime'`,
+then we'll look for changes in the default variants of the item too.
 
 <br>
 

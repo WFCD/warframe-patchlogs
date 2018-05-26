@@ -101,7 +101,14 @@ class Patchlogs {
   async getItemChanges (item) {
     const keys = ['changes', 'fixes', 'additions']
     const logs = []
+    const target = Object.assign({}, item) // Don't mutate the original item
     await this.setup
+
+    // If item is a Prime Warframe/Sentinel, we should include patchlogs of
+    // normal variants too, as they share the same abilities.
+    if (['Sentinel', 'Warframe'].includes(target.type) && target.name.includes('Prime')) {
+      target.name = target.name.replace(' Prime', '')
+    }
 
     for (let post of this.posts) {
       const log = {
@@ -117,7 +124,7 @@ class Patchlogs {
         for (let i = 0; i < lines.length; i++) {
           const line = lines[i]
 
-          if (line.toLowerCase().includes(item.toLowerCase())) {
+          if (line.toLowerCase().includes(target.name.toLowerCase())) {
             let changes = ''
 
             // Changes are in multiple lines (until next line with `:`)
