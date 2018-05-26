@@ -1,6 +1,6 @@
 {
   "name": "warframe-patchlogs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "All warframe patchlogs parsed to more usable JSON. Also lets you find all patchlogs for a specific item.",
   "main": "index.js",
   "repository": {
