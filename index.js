@@ -83,8 +83,14 @@ class Patchlogs {
         previousCategory = strong.toLowerCase()
       }
       else if (strong && !strong.includes('Edited ') && !strong.includes(' by ')) {
-        data.changes += strong + (strong.endsWith(':') ? '\n' : ':\n')
-        previousCategory = 'changes'
+        if (strong.includes('Fix')) {
+          data.fixes += strong + (strong.endsWith(':') ? '\n' : ':\n')
+          previousCategory = 'fixes'
+        } else {
+          data.changes += strong + (strong.endsWith(':') ? '\n' : ':\n')
+          previousCategory = 'changes'
+        }
+
       }
       else if (ul) {
         // The regex gets rid of tabs, multi newlines and newlines at start/end
