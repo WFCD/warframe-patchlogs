@@ -18,7 +18,7 @@ class Patchlogs {
   async init (options) {
     const pages = options.pages || await this.getPageNumbers()
     for (let i = 1; i <= pages; i++) {
-      await sleep(2500)
+      await sleep(1000)
       await this.scrape(`${baseUrl}?page=${i}`)
     }
     this.resolve()
@@ -53,7 +53,7 @@ class Patchlogs {
       }
 
       if (post.url) {
-        await sleep(2500)
+        await sleep(1000)
         await this.scrapePost(post.url, post)
         this.posts.push(post)
       }
