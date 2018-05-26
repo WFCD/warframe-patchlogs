@@ -71,8 +71,8 @@ class Patchlogs {
     let previousCategory = 'Fixes'
 
     $(post).children().each((i, el) => {
-      const strong = title($(el).find('strong').text())
-      const em = $(el).find('em').text()
+      const strong = title($(el).find('strong').text().trim())
+      const em = $(el).find('em').text().trim()
       const ul = $(el).is('ul')
 
       if (i === 1 && em) {
@@ -82,7 +82,7 @@ class Patchlogs {
         data[strong.toLowerCase()] = ''
         previousCategory = strong.toLowerCase()
       }
-      else if (strong) {
+      else if (strong && !strong.includes('Edited ') && !strong.includes(' by ')) {
         data.changes += strong + (strong.endsWith(':') ? '\n' : ':\n')
         previousCategory = 'changes'
       }
@@ -131,10 +131,10 @@ class Patchlogs {
             if (line.endsWith(':')) {
               changes += line + '\n'
 
-              for (i += 1; i < lines.length; i++) {
+              for (let j = i + 1; j < lines.length; j++) {
                 const subline = lines[i]
                 if (subline.endsWith(':')) {
-                  i--
+                  i += j - 1
                   break
                 } else {
                   changes += subline + '\n'
@@ -146,7 +146,6 @@ class Patchlogs {
             else {
               changes += line
             }
-
             log[key] = changes
           }
         }
