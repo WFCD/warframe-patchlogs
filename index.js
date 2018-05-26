@@ -53,7 +53,6 @@ class Patchlogs {
       if (post.url) {
         await this.scrapePost(post.url, post)
         this.posts.push(post)
-        console.log(post)
       }
     })
   }
