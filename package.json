@@ -1,0 +1,20 @@
+{
+  "name": "warframe-patchlogs",
+  "version": "1.0.0",
+  "description": "All warframe patchlogs parsed to more usable JSON. Also lets you find all patchlogs for a specific item.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WFCD/warframe-patchlogs.git"
+  },
+  "author": "Kaptard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WFCD/warframe-patchlogs/issues"
+  },
+  "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "requestretry": "^1.13.0"
+  }
+}
