@@ -16,7 +16,6 @@ class Patchlogs {
 
   async init (options) {
     const pages = options.pages || await this.getPageNumbers()
-
     for (let i = 1; i <= pages; i++) {
       await this.scrape(`${baseUrl}?page=${i}`)
     }
@@ -43,7 +42,7 @@ class Patchlogs {
 
     $('ol[id^="elTable"] li').each(async (i, el) => {
       const post = {
-        name: $(el).find('h4 span').text().trim().replace(/(\t|\n|\s)/g, ''),
+        name: $(el).find('h4 a span').text().trim().replace(/(\t|\n)/g, ''),
         url: $(el).find('h4 a').attr('href'),
         date: $(el).find('time').attr('datetime'),
         additions: '',
@@ -52,8 +51,9 @@ class Patchlogs {
       }
 
       if (post.url) {
-        const content = await this.scrapePost(post.url, post)
-        this.posts.push(Object.assign(post, content))
+        await this.scrapePost(post.url, post)
+        this.posts.push(post)
+        console.log(post)
       }
     })
   }
@@ -82,7 +82,7 @@ class Patchlogs {
       }
       else if (strong) {
         data.changes += strong + (strong.endsWith(':') ? '\n' : ':\n')
-        previousCategory = 'Changes'
+        previousCategory = 'changes'
       }
       else if (ul) {
         // The regex gets rid of tabs, multi newlines and newlines at start/end
