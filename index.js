@@ -2,6 +2,7 @@ const request = require('requestretry').defaults({ fullResponse: false })
 const cheerio = require('cheerio')
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/'
 const title = (str) => str.toLowerCase().replace(/\b\w/g, l => l.toUpperCase())
+const sleep = (s) => new Promise(resolve => setTimeout(resolve, s))
 
 /**
  * Scraper to get patch logs from forums. This is gonna be too complex to keep
@@ -17,6 +18,7 @@ class Patchlogs {
   async init (options) {
     const pages = options.pages || await this.getPageNumbers()
     for (let i = 1; i <= pages; i++) {
+      await sleep(2500)
       await this.scrape(`${baseUrl}?page=${i}`)
     }
     this.resolve()
@@ -51,6 +53,7 @@ class Patchlogs {
       }
 
       if (post.url) {
+        await sleep(2500)
         await this.scrapePost(post.url, post)
         this.posts.push(post)
       }
