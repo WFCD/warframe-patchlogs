@@ -134,7 +134,7 @@ class Patchlogs {
         for (let i = 0; i < lines.length; i++) {
           const line = lines[i]
 
-          if (line.toLowerCase().includes(target.name.toLowerCase())) {
+          if (line.includes(target.name)) {
             let changes = ''
 
             // Changes are in multiple lines (until next line with `:`)
