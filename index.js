@@ -79,7 +79,7 @@ class Patchlogs {
           if (cached) {
             this.posts.push(cached)
           } else {
-            await sleep(2500)
+            await sleep(1000)
             await this.scrapePost(post.url, post)
             this.posts.push(post)
           }
@@ -106,9 +106,13 @@ class Patchlogs {
       if (i === 1 && em) {
         data.description = em
       }
-      else if (i && strong && (strong === 'Fixes' || strong === 'Changes' || strong === 'Additions')) {
-        data[strong.toLowerCase()] = ''
-        previousCategory = strong.toLowerCase()
+      else if (i && strong) {
+        ['Fixes', 'Additions', 'Changes'].forEach(type => {
+          if (strong.includes(type)) {
+            data[strong.toLowerCase()] = ''
+            previousCategory = strong.toLowerCase()
+          }
+        })
       }
       else if (strong && !strong.includes('Edited ') && !strong.includes(' by ')) {
         if (strong.includes('Fix')) {
