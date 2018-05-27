@@ -1,5 +1,6 @@
 ## warframe-patchlogs
 [![npm](https://img.shields.io/npm/v/warframe-patchlogs.svg)](https://npmjs.org/warframe-patchlogs)
+[![build](https://ci.nexus-stats.com/api/badges/WFCD/warframe-patchlogs/status.svg)](https://ci.nexus-stats.com/WFCD/warframe-patchlogs)
 
 [![Supported by Warframe Community Developers](https://warframestat.us/wfcd.png)](https://github.com/WFCD "Supported by Warframe Community Developers")
 
