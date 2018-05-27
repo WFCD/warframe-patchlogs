@@ -109,8 +109,8 @@ class Patchlogs {
       else if (i && strong) {
         ['Fixes', 'Additions', 'Changes'].forEach(type => {
           if (strong.includes(type)) {
-            data[strong.toLowerCase()] = ''
-            previousCategory = strong.toLowerCase()
+            data[type.toLowerCase()] = ''
+            previousCategory = type.toLowerCase()
           }
         })
       }
