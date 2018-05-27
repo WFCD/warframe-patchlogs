@@ -1,7 +1,7 @@
 ## warframe-patchlogs
 [![npm](https://img.shields.io/npm/v/warframe-patchlogs.svg)](https://npmjs.org/warframe-patchlogs)
 
-[![Supported by Warframe Community Developers](https://warframestat.us/wfcd.png)](https://github.com/WFCD "Supported by Warframe Community Developers") [![Greenkeeper badge](https://badges.greenkeeper.io/WFCD/warframe-patchlogs.svg)](https://greenkeeper.io/)
+[![Supported by Warframe Community Developers](https://warframestat.us/wfcd.png)](https://github.com/WFCD "Supported by Warframe Community Developers")
 
 <br>
 
