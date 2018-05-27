@@ -112,7 +112,6 @@ class Patchlogs {
           data.changes += strong + (strong.endsWith(':') ? '\n' : ':\n')
           previousCategory = 'changes'
         }
-
       }
       else if (ul) {
         // The regex gets rid of tabs, multi newlines and newlines at start/end
