@@ -20,7 +20,7 @@ class Patchlogs {
   async init (options) {
     const pages = options.pages || await this.getPageNumbers()
     for (let i = 1; i <= pages; i++) {
-      await sleep(5000)
+      await sleep(2500)
       await this.scrape(`${baseUrl}?page=${i}`)
     }
 
@@ -57,29 +57,35 @@ class Patchlogs {
   async scrape (url) {
     const html = (await request.get(url)).body.toString('utf-8')
     const $ = cheerio.load(html)
+    const selector = $('ol[id^="elTable"] .ipsDataItem')
 
-    $('ol[id^="elTable"] li').each(async (i, el) => {
-      const post = {
-        name: $(el).find('h4 a span').text().trim().replace(/(\t|\n)/g, '').replace(/\[(.*?)\]/g, ''),
-        url: $(el).find('h4 a').attr('href'),
-        date: $(el).find('time').attr('datetime'),
-        additions: '',
-        changes: '',
-        fixes: ''
-      }
+    // Loop through found elements. Stupid jquery doesn't support async inside
+    // each loop.
+    for (let key in selector) {
+      if (key.match(/^\d+$/)) {
+        const el = $(selector[key])
+        const post = {
+          name: $(el).find('h4 a span').text().trim().replace(/(\t|\n)/g, '').replace(/\[(.*?)\]/g, ''),
+          url: $(el).find('h4 a').attr('href'),
+          date: $(el).find('time').attr('datetime'),
+          additions: '',
+          changes: '',
+          fixes: ''
+        }
 
-      if (post.url) {
-        const cached = cache.find(p => p.name === post.name)
+        if (post.url) {
+          const cached = cache.find(p => p.name === post.name)
 
-        if (cached) {
-          this.posts.push(cached)
-        } else {
-          await sleep(5000)
-          await this.scrapePost(post.url, post)
-          this.posts.push(post)
+          if (cached) {
+            this.posts.push(cached)
+          } else {
+            await sleep(2500)
+            await this.scrapePost(post.url, post)
+            this.posts.push(post)
+          }
         }
       }
-    })
+    }
   }
 
   /**
