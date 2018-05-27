@@ -116,7 +116,7 @@ class Patchlogs {
 
     // If item is a Prime Warframe/Sentinel, we should include patchlogs of
     // normal variants too, as they share the same abilities.
-    if (['Sentinel', 'Warframe'].includes(target.type) && target.name.includes('Prime')) {
+    if (target.type === 'Warframe' && target.name.includes('Prime')) {
       target.name = target.name.replace(' Prime', '')
     }
 
