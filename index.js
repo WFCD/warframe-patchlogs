@@ -1,4 +1,4 @@
-const request = require('requestretry').defaults({ fullResponse: false })
+const request = require('cloudscraper-promise')
 const cheerio = require('cheerio')
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/'
 const title = (str) => str.toLowerCase().replace(/\b\w/g, l => l.toUpperCase())
@@ -18,7 +18,7 @@ class Patchlogs {
   async init (options) {
     const pages = options.pages || await this.getPageNumbers()
     for (let i = 1; i <= pages; i++) {
-      await sleep(1000)
+      await sleep(5000)
       await this.scrape(`${baseUrl}?page=${i}`)
     }
     this.resolve()
@@ -29,9 +29,10 @@ class Patchlogs {
    * 1 through the constructor if we only need the most recent changes.
    */
   async getPageNumbers () {
-    const html = await request(baseUrl)
+    const html = (await request.get(baseUrl)).body.toString('utf-8')
     const $ = cheerio.load(html)
     const text = $('a[id^="elPagination"]').text().trim().split(' ')
+
     if (text.length < 2) {
       throw new Error('Connection blocked by Cloudflare.')
     }
@@ -42,7 +43,7 @@ class Patchlogs {
    * Scrape single page of posts
    */
   async scrape (url) {
-    const html = await request(url)
+    const html = (await request.get(url)).body.toString('utf-8')
     const $ = cheerio.load(html)
 
     $('ol[id^="elTable"] li').each(async (i, el) => {
@@ -56,7 +57,7 @@ class Patchlogs {
       }
 
       if (post.url) {
-        await sleep(1000)
+        await sleep(5000)
         await this.scrapePost(post.url, post)
         this.posts.push(post)
       }
@@ -68,7 +69,7 @@ class Patchlogs {
    * Looks for changes, additions and fixes
    */
   async scrapePost (url, data) {
-    const html = await request(url)
+    const html = (await request.get(url)).body.toString('utf-8')
     const $ = cheerio.load(html)
     const post = $('article').first().find('div[data-role="commentContent"]')
     let previousCategory = 'Fixes'
@@ -164,7 +165,11 @@ class Patchlogs {
         logs.push(log)
       }
     }
-    return logs
+    return logs.sort((a, b) => {
+      const d1 = new Date(a.date) * 1
+      const d2 = new Date(b.date) * 1
+      return d2 - d1
+    })
   }
 }
 

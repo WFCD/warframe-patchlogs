@@ -15,6 +15,6 @@
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
-    "requestretry": "^1.13.0"
+    "cloudscraper-promise": "^1.0.0"
   }
 }
