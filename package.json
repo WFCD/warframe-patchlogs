@@ -1,11 +1,11 @@
 {
   "name": "warframe-patchlogs",
-  "version": "1.1.2",
+  "version": "0.0.0-development",
   "description": "All warframe patchlogs parsed to more usable JSON. Also lets you find all patchlogs for a specific item.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WFCD/warframe-patchlogs.git"
+    "url": "https://github.com/WFCD/warframe-patchlogs.git"
   },
   "author": "Kaptard",
   "license": "MIT",
@@ -16,5 +16,8 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cloudscraper-promise": "^1.0.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.5.0"
   }
 }

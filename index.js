@@ -1,5 +1,7 @@
 const request = require('cloudscraper-promise')
 const cheerio = require('cheerio')
+const fs = require('fs')
+const cache = require('./data/patchlogs.json')
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/'
 const title = (str) => str.toLowerCase().replace(/\b\w/g, l => l.toUpperCase())
 const sleep = (s) => new Promise(resolve => setTimeout(resolve, s))
@@ -21,6 +23,16 @@ class Patchlogs {
       await sleep(5000)
       await this.scrape(`${baseUrl}?page=${i}`)
     }
+
+    // Sort by newest first
+    this.posts.sort((a, b) => {
+      const d1 = new Date(a.date)
+      const d2 = new Date(b.date)
+      return d2 - d1
+    })
+
+    // Store logs so we can re-use them later without additional scraping
+    fs.writeFileSync(`${__dirname}/data/patchlogs.json`, JSON.stringify(this.posts, null, 1))
     this.resolve()
   }
 
@@ -57,9 +69,15 @@ class Patchlogs {
       }
 
       if (post.url) {
-        await sleep(5000)
-        await this.scrapePost(post.url, post)
-        this.posts.push(post)
+        const cached = cache.find(p => p.name === post.name)
+
+        if (cached) {
+          this.posts.push(cached)
+        } else {
+          await sleep(5000)
+          await this.scrapePost(post.url, post)
+          this.posts.push(post)
+        }
       }
     })
   }
@@ -166,8 +184,8 @@ class Patchlogs {
       }
     }
     return logs.sort((a, b) => {
-      const d1 = new Date(a.date) * 1
-      const d2 = new Date(b.date) * 1
+      const d1 = new Date(a.date)
+      const d2 = new Date(b.date)
       return d2 - d1
     })
   }
