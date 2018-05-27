@@ -96,12 +96,11 @@ class Patchlogs {
     const html = (await request.get(url)).body.toString('utf-8')
     const $ = cheerio.load(html)
     const post = $('article').first().find('div[data-role="commentContent"]')
-    let previousCategory = 'Fixes'
+    let previousCategory = 'fixes'
 
     $(post).children().each((i, el) => {
       const strong = title($(el).find('strong').text().trim())
       const em = $(el).find('em').text().trim()
-      const ul = $(el).is('ul')
 
       if (i === 1 && em) {
         data.description = em
@@ -123,9 +122,9 @@ class Patchlogs {
           previousCategory = 'changes'
         }
       }
-      else if (ul) {
-        // The regex gets rid of tabs, multi newlines and newlines at start/end
-        data[previousCategory] = $(el).text().replace(/\t/g, '').replace(/\n\s*\n/g, '\n').replace(/^\s+|\s+$/g, '')
+      else {
+        const text = $(el).text().trim().replace(/\t/g, '').replace(/\n\s*\n/g, '\n')
+        data[previousCategory] += text + '\n' || ''
       }
     })
     data.type = data.name.includes('Hotfix') ? 'Hotfix' : 'Update'
