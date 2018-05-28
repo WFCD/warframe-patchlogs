@@ -53,12 +53,5 @@ Log objects inside `patchlogs.posts` look like this:
 
 <br>
 
-### Options
-| Option        | Default       | Description   |
-|:------------- |:------------- |:------------- |
-| pages | `null` | Number of forum pages to look for posts in. Default fetches ALL posts, which is **not recommended** as it downloads around 200MB of data. We start counting at `1`.
-
-<br>
-
 ### License
 [MIT](/LICENSE)
