@@ -13,7 +13,9 @@
     "url": "https://github.com/WFCD/warframe-patchlogs/issues"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore ."
+    "build": "node ./build/update.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "mocha"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "dependencies": {
@@ -27,6 +29,7 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.2.0",
     "semantic-release": "^15.5.0"
   }
 }

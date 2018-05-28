@@ -8,6 +8,11 @@ pipeline:
     image: node
     commands:
       - npm run lint
+      
+  test:
+    image: node
+    commands:
+      - npm test
 
   publish:
     image: node

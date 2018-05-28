@@ -1,144 +1,16 @@
-const request = require('cloudscraper-promise')
-const cheerio = require('cheerio')
-const fs = require('fs')
-const cache = require('./data/patchlogs.json')
-const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/'
-const title = (str) => str.toLowerCase().replace(/\b\w/g, l => l.toUpperCase())
-const sleep = (s) => new Promise(resolve => setTimeout(resolve, s))
-
-/**
- * Scraper to get patch logs from forums. This is gonna be too complex to keep
- * in the main scraper.
- */
 class Patchlogs {
-  constructor (options = {}) {
-    this.init(options)
-    this.setup = new Promise(resolve => { this.resolve = resolve })
-    this.posts = []
-  }
-
-  async init (options) {
-    const pages = options.pages || await this.getPageNumbers()
-    for (let i = 1; i <= pages; i++) {
-      await sleep(2500)
-      await this.scrape(`${baseUrl}?page=${i}`)
-    }
-
-    // Sort by newest first
-    this.posts.sort((a, b) => {
-      const d1 = new Date(a.date)
-      const d2 = new Date(b.date)
-      return d2 - d1
-    })
-
-    // Store logs so we can re-use them later without additional scraping
-    fs.writeFileSync(`${__dirname}/data/patchlogs.json`, JSON.stringify(this.posts, null, 1))
-    this.resolve()
-  }
-
-  /**
-   * Retrieve number of post pages to look through. This value should be set to
-   * 1 through the constructor if we only need the most recent changes.
-   */
-  async getPageNumbers () {
-    const html = (await request.get(baseUrl)).body.toString('utf-8')
-    const $ = cheerio.load(html)
-    const text = $('a[id^="elPagination"]').text().trim().split(' ')
-
-    if (text.length < 2) {
-      throw new Error('Connection blocked by Cloudflare.')
-    }
-    return parseInt(text[text.length - 1])
-  }
-
-  /**
-   * Scrape single page of posts
-   */
-  async scrape (url) {
-    const html = (await request.get(url)).body.toString('utf-8')
-    const $ = cheerio.load(html)
-    const selector = $('ol[id^="elTable"] .ipsDataItem')
-
-    // Loop through found elements. Stupid jquery doesn't support async inside
-    // each loop.
-    for (let key in selector) {
-      if (key.match(/^\d+$/)) {
-        const el = $(selector[key])
-        const post = {
-          name: $(el).find('h4 a span').text().trim().replace(/(\t|\n)/g, '').replace(/\[(.*?)\]/g, ''),
-          url: $(el).find('h4 a').attr('href'),
-          date: $(el).find('time').attr('datetime'),
-          additions: '',
-          changes: '',
-          fixes: ''
-        }
-
-        if (post.url) {
-          const cached = cache.find(p => p.name === post.name)
-
-          if (cached) {
-            this.posts.push(cached)
-          } else {
-            await sleep(1000)
-            await this.scrapePost(post.url, post)
-            this.posts.push(post)
-          }
-        }
-      }
-    }
-  }
-
-  /**
-   * Retrieve logs from a single post.
-   * Looks for changes, additions and fixes
-   */
-  async scrapePost (url, data) {
-    const html = (await request.get(url)).body.toString('utf-8')
-    const $ = cheerio.load(html)
-    const post = $('article').first().find('div[data-role="commentContent"]')
-    let previousCategory = 'fixes'
-
-    $(post).children().each((i, el) => {
-      const strong = title($(el).find('strong').text().trim())
-      const em = $(el).find('em').text().trim()
-
-      if (i === 1 && em) {
-        data.description = em
-      }
-      else if (i && strong) {
-        ['Fixes', 'Additions', 'Changes'].forEach(type => {
-          if (strong.includes(type)) {
-            data[type.toLowerCase()] = ''
-            previousCategory = type.toLowerCase()
-          }
-        })
-      }
-      else if (strong && !strong.includes('Edited ') && !strong.includes(' by ')) {
-        if (strong.includes('Fix')) {
-          data.fixes += strong + (strong.endsWith(':') ? '\n' : ':\n')
-          previousCategory = 'fixes'
-        } else {
-          data.changes += strong + (strong.endsWith(':') ? '\n' : ':\n')
-          previousCategory = 'changes'
-        }
-      }
-      else {
-        const text = $(el).text().trim().replace(/\t/g, '').replace(/\n\s*\n/g, '\n')
-        data[previousCategory] += text + '\n' || ''
-      }
-    })
-    data.type = data.name.includes('Hotfix') ? 'Hotfix' : 'Update'
+  constructor () {
+    this.posts = require('./data/patchlogs.json')
   }
 
   /**
    * Retrieve patch logs specific to a certain item. Still very much Beta,
    * probably always will be, but I'm trying \o/
    */
-  async getItemChanges (item) {
+  getItemChanges (item) {
     const keys = ['changes', 'fixes', 'additions']
     const logs = []
     const target = Object.assign({}, item) // Don't mutate the original item
-    await this.setup
 
     // If item is a Prime Warframe/Sentinel, we should include patchlogs of
     // normal variants too, as they share the same abilities.
@@ -199,4 +71,4 @@ class Patchlogs {
   }
 }
 
-module.exports = Patchlogs
+module.exports = new Patchlogs()

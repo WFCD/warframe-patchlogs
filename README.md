@@ -23,19 +23,16 @@ npm install warframe-items
 
 ### Usage
 ```js
-const Patchlogs = require('warframe-patchlogs')
-const patchlogs = new Patchlogs(options)
+const patchlogs = require('warframe-patchlogs')
 
-// .. inside async function
-await patchlogs.setup // It'll fetch everything at runtime.
+// Have your terminal flooded with patch notes.
 for (let post of patchlogs.posts) {
-  console.log(post) // Have your terminal flooded with patch notes.
+  console.log(post)
 }
+
+// Get all logs for Ash Prime (returns an array of logs)
+patchlogs.getItemChanges({ name: 'Ash Prime', type: 'Warframe' })
 ```
-You'll be able to retrieve all posts via `patchlogs.posts`. If you need patchlogs
-for a specific item, use `patchlogs.getItemChanges({ name: 'itemname', type: 'Warframe|Sentinel|etc' })`.
-If the item type is `'Warframe'` and the name includes `'Prime'`,
-then we'll look for changes in the default variants of the item too.
 
 <br>
 
