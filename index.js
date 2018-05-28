@@ -8,7 +8,6 @@ class Patchlogs {
    * probably always will be, but I'm trying \o/
    */
   getItemChanges (item) {
-    const keys = ['changes', 'fixes', 'additions']
     const logs = []
     const target = Object.assign({}, item) // Don't mutate the original item
 
@@ -22,22 +21,25 @@ class Patchlogs {
       const log = {
         name: post.name,
         date: post.date,
-        url: post.url
+        url: post.url,
+        additions: '',
+        changes: '',
+        fixes: ''
       }
 
       // Parse changes, fixes, additions
-      for (let key of keys) {
+      for (let key of ['changes', 'fixes', 'additions']) {
         const lines = post[key].split('\n')
 
         for (let i = 0; i < lines.length; i++) {
           const line = lines[i]
 
           if (line.includes(target.name)) {
-            let changes = ''
+            let changes = []
 
             // Changes are in multiple lines (until next line with `:`)
             if (line.endsWith(':')) {
-              changes += line + '\n'
+              changes.push(line)
 
               for (let j = i + 1; j < lines.length; j++) {
                 const subline = lines[i]
@@ -45,16 +47,16 @@ class Patchlogs {
                   i += j - 1
                   break
                 } else {
-                  changes += subline + '\n'
+                  changes.push(subline)
                 }
               }
             }
 
             // Changes are in one line
             else {
-              changes += line
+              changes.push(line)
             }
-            log[key] = changes
+            log[key] += log[key] ? '\n' + changes.join('\n') : changes.join('\n')
           }
         }
       }

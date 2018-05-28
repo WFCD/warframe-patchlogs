@@ -88,7 +88,6 @@ class Scraper {
       else if (i && strong) {
         ['Fixes', 'Additions', 'Changes'].forEach(type => {
           if (strong.includes(type)) {
-            data[type.toLowerCase()] = ''
             previousCategory = type.toLowerCase()
           }
         })
@@ -103,8 +102,9 @@ class Scraper {
         }
       }
       else {
-        const text = $(el).text().trim().replace(/\t/g, '').replace(/\n\s*\n/g, '\n')
-        data[previousCategory] += text + '\n' || ''
+        // Regex removes tabs and more than one newline in a row.
+        const text = $(el).text().trim().replace(/\t/g, '').replace(/[\n]+/g, '\n')
+        data[previousCategory] += text + '\n'
       }
     })
     data.type = data.name.includes('Hotfix') ? 'Hotfix' : 'Update'
