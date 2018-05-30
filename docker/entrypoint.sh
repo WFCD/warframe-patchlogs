@@ -16,7 +16,7 @@ while : ; do
     gh_token=$(cat /run/secrets/warframe-items-gh-token)
     date=`date +%B %d %Y`
 
-    printf "Found new items - Pushing..."
+    printf "Found new patchlogs - Pushing..."
     git config --global user.email "apps@nexus-stats.com"
     git config --global user.name "nexus-ci"
 
@@ -30,13 +30,13 @@ while : ; do
     # Stage changes
     git stash pop
     git add .
-    git commit -m "feat(items): Add new patchlogs for $date."
+    git commit -m "feat(patchlogs): Add new patchlogs for $date."
 
     # Push
-    git push "https://nexus-ci:"$gh_token"@github.com/nexus-devs/warframe-items"
+    git push "https://nexus-ci:"$gh_token"@github.com/WFCD/warframe-patchlogs"
     printf "Changes have been pushed to git!\n"
   else
-    printf "No new items.\n"
+    printf "No new patchlogs.\n"
   fi
 
   sleep 600
