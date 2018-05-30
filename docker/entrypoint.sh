@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /app/warframe-items
+cd /app/warframe-patchlogs
 
 # Throttle connection. I just don't want this stuff to make my network lag.
 tc qdisc add dev eth0 handle 1: ingress
