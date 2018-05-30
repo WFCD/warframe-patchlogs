@@ -2,7 +2,7 @@ version: '3.4'
 
 
 services:
-  items_watchdog:
+  patchlogs_watchdog:
     image: nexusstats/warframe-patchlogs:armhf
     secrets:
       - warframe-items-gh-token
