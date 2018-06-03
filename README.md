@@ -47,7 +47,7 @@ Log objects inside `patchlogs.posts` look like this:
   additions: '',
   changes: '',
   fixes: 'Fixed the game submitting certain types of bug reports immediately instead of saving them for after you quit.\nDisabled some cache-corruption checks that were triggering and preventing updates; we will work on making these automatically repair the cache instead.\nFixed inability to deploy Extractors using Navigation at a Relay.\nFixed a variety of bugs caused by using Transference while going through Sanctuary Onslaught Conduit (namely not being able to do anything or use Transference while controlling Operator).\nFixed Dojo Pigment ‘Contribute’ button being automatically selected when the contribute screen appears when using a controller.\nFixed no on-screen keyboard appearing when changing Dojo room message when using a controller. \nFixed script error when displaying mission countdown in Ukrainian.\nFixed a script error related to Articulas.',
-  type: 'Hotfix' }
+  type: 'Hotfix'
 }
 ```
 
