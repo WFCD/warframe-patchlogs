@@ -10,11 +10,23 @@ class Patchlogs {
   getItemChanges (item) {
     const logs = []
     const target = Object.assign({}, item) // Don't mutate the original item
+    let abilities = /[\s\S]+/g
 
     // If item is a Prime Warframe/Sentinel, we should include patchlogs of
     // normal variants too, as they share the same abilities.
     if (target.type === 'Warframe' && target.name.includes('Prime')) {
       target.name = target.name.replace(' Prime', '')
+    }
+
+    // Generate regex for matching ability names
+    if (target.abilities) {
+      let regex = '('
+
+      for (let ability of target.abilities) {
+        regex += `${ability.name}|`
+      }
+      regex += ')'
+      abilities = new RegExp(regex)
     }
 
     for (let post of this.posts) {
@@ -34,7 +46,7 @@ class Patchlogs {
         for (let i = 0; i < lines.length; i++) {
           const line = lines[i]
 
-          if (line.includes(target.name)) {
+          if (line.includes(target.name) || line.match(abilities)) {
             let changes = []
 
             // Changes are in multiple lines (until next line with `:`)
