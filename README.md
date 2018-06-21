@@ -43,6 +43,7 @@ Log objects inside `patchlogs.posts` look like this:
   name: 'Beasts of the Sanctuary: Hotfix 22.20.6',
   url: 'https://forums.warframe.com/topic/960140-beasts-of-the-sanctuary-hotfix-22206/',
   date: '2018-05-24T22:00:50Z',
+  imgUrl: 'https://i.imgur.com/6ymAONO.jpg',
   description: 'The Orokin Decoration costs/refunds mentioned in Hotfix 22.20.3 are close to being complete. The plan is to cut the Orokin Decoration Oxium costs in half and refund the excess back to the Clan Vault. We are also removing the Orokin Cell costs on the respective Orokin Decorations and refunding those to the Clan Vault as well. Already completed Decorations will not be destroyed when these changes go live. Stay tuned!',
   additions: '',
   changes: '',

@@ -46,6 +46,7 @@ class Scraper {
           name: $(el).find('h4 a span').text().trim().replace(/(\t|\n)/g, '').replace(/\[(.*?)\]/g, ''),
           url: $(el).find('h4 a').attr('href'),
           date: $(el).find('time').attr('datetime'),
+          imgUrl: '',
           additions: '',
           changes: '',
           fixes: ''
@@ -70,21 +71,27 @@ class Scraper {
 
   /**
    * Retrieve logs from a single post.
-   * Looks for changes, additions and fixes
    */
   async scrapePost (url, data) {
     const html = (await request.get(url)).body.toString('utf-8')
     const $ = cheerio.load(html)
     const post = $('article').first().find('div[data-role="commentContent"]')
+    data.imgUrl = $('article').first().find('img.ipsImage').first().attr('data-imageproxy-source')
     let previousCategory = 'fixes'
 
+    /**
+     * Add changes, fixes, additions
+     */
     $(post).children().each((i, el) => {
-      const strong = title($(el).find('strong').text().trim())
-      const em = $(el).find('em').text().trim()
+      const strong = title($(el).find('strong').text().trim()).replace(/- /g, '\n')
+      const em = $(el).find('em').text().trim().replace(/- /g, '\n')
 
+      // Description
       if (i === 1 && em) {
         data.description = em
       }
+
+      // Detect category
       else if (i && strong) {
         ['Fixes', 'Additions', 'Changes'].forEach(type => {
           if (strong.includes(type)) {
@@ -92,6 +99,8 @@ class Scraper {
           }
         })
       }
+
+      // Fixes or changes
       else if (strong && !strong.includes('Edited ') && !strong.includes(' by ')) {
         if (strong.includes('Fix')) {
           data.fixes += strong + (strong.endsWith(':') ? '\n' : ':\n')
@@ -101,9 +110,11 @@ class Scraper {
           previousCategory = 'changes'
         }
       }
+
+      // Add to last category if none could be found
       else {
         // Regex removes tabs and more than one newline in a row.
-        const text = $(el).text().trim().replace(/\t/g, '').replace(/[\n]+/g, '\n')
+        const text = $(el).text().trim().replace(/\t/g, '').replace(/[\n]+/g, '\n').replace(/- /g, '\n')
         data[previousCategory] += text + '\n'
       }
     })
