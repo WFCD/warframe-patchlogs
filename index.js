@@ -10,23 +10,11 @@ class Patchlogs {
   getItemChanges (item) {
     const logs = []
     const target = Object.assign({}, item) // Don't mutate the original item
-    let abilities = /[\s\S]+/g
 
     // If item is a Prime Warframe/Sentinel, we should include patchlogs of
     // normal variants too, as they share the same abilities.
     if (target.type === 'Warframe' && target.name.includes('Prime')) {
       target.name = target.name.replace(' Prime', '')
-    }
-
-    // Generate regex for matching ability names
-    if (target.abilities) {
-      let regex = '('
-
-      for (let ability of target.abilities) {
-        regex += `${ability.name}|`
-      }
-      regex += ')'
-      abilities = new RegExp(regex)
     }
 
     for (let post of this.posts) {
@@ -45,8 +33,18 @@ class Patchlogs {
 
         for (let i = 0; i < lines.length; i++) {
           const line = lines[i]
+          let includesAbility = false
 
-          if (line.includes(target.name) || line.match(abilities)) {
+          // Loop through abilities to see if line contains that name. Could be
+          // solved easier with some regex, but that causes some memory leak
+          // that I'm unable to understand.
+          if (target.abilities) {
+            for (let ability of target.abilities) {
+              includesAbility = line.includes(ability.name) ? true : includesAbility
+            }
+          }
+
+          if (line.includes(target.name) || includesAbility) {
             let changes = []
 
             // Changes are in multiple lines (until next line with `:`)
