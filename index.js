@@ -22,6 +22,7 @@ class Patchlogs {
         name: post.name,
         date: post.date,
         url: post.url,
+        imgUrl: post.imgUrl,
         additions: '',
         changes: '',
         fixes: ''
