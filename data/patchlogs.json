@@ -1,5 +1,14 @@
 [
  {
+  "name": "The Sacrifice: Hotfix 23.0.7",
+  "url": "https://forums.warframe.com/topic/975538-the-sacrifice-hotfix-2307/",
+  "date": "2018-06-28T20:24:15Z",
+  "additions": "",
+  "changes": "Optimized HUD performance slightly for several mission types.\nTweaked unicode filtering for private channels so you can play in English but still chat in Swedish with your Clan!\n",
+  "fixes": "\n\nFixed crash that could occur if you died right while Ivara was drawing back an Arrow.\nFixed crash that could happen when someone affected by Harrow's Warding Thurible Augment died.\nFixed being cloaked by Ivara’s Empowered Quiver potentially resulting in a status proc by AoE procs.\nFixed Energy Conversion not increasing the Critical damage increase of Ivara’s Empowered Quiver\nFixed being able to skip the Granmu Prism cooldown by switching to and from a Scanner.\nFixed purchasing a Relic Pack from Teshin resulting in the cursor to remain on screen upon closing the Offerings menu.\nSpoiler\n \nFixed Transferring back to Umbra resulting in falling through the floor sometimes\nFurther adjustments to the Umbra Operator Earrings appearing unattached. \nImproved speed of camera during memory sequences when using a controller.\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Sacrifice: Hotfix 23.0.6",
   "url": "https://forums.warframe.com/topic/975040-the-sacrifice-hotfix-2306/",
   "date": "2018-06-27T17:23:10Z",
