@@ -6848,6 +6848,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 8.1.2",
+  "url": "https://forums.warframe.com/topic/64338-hotfix-812/",
+  "date": "2013-06-13T14:02:52Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFixed Banshee Sonar \"power in use\" issue\n\nFixed Infested bosses disappearing after being damaged by Kestrel\n\nAdded Mobile Defense missions to alerts\n\nFixed Tower Exterminate keys sometimes resulting in Raid missions\n\nFixed elevator direction being reversed in Dojo builder UI\n\nFixed elevator textures in Dojo\n\nFixed elemental effects not outlining Dual Cleavers properly\n\nFixed Acrid darts not disappearing\n\nUpdated Bo unequip sound\n\nFixed Polearm not collapsing after performing a jumping melee attack\n\nImproved collision detection on Polearm attacks\n\nFixed Polearm sometimes appearing blurry after attacking\n\nFixed Sentinels missing muzzle flash when attacking\n\nFixed Ignis and Flux Rifle showing a clip size of 1.$ in the arsenal\n\nFixed incorrect tooltip description for Snow Globe\n\nFixed sign-in reward UI showing 1 star when awarding coupon (consecutive sign-in count wasn’t actually affected)\n\nFixed gameplay crashes\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 8.1.1",
   "url": "https://forums.warframe.com/topic/62817-hotfix-811/",
   "date": "2013-06-10T18:42:32Z",
