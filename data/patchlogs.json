@@ -1,5 +1,15 @@
 [
  {
+  "name": "The Sacrifice: Hotfix 23.3.2",
+  "url": "https://forums.warframe.com/topic/996876-the-sacrifice-hotfix-2332/",
+  "date": "2018-08-13T15:10:29Z",
+  "additions": "",
+  "changes": "The Sacrifice: Hotfix 23.3.2:\nIncreased the scale of Vauban’s Mortier Heavy Blade Skin!\n",
+  "fixes": "Fixed seeing double Operators in the final cinematic of The Sacrifice.\nFixed the Mortier Heavy Blade Skin sometimes appearing distorted in the Arsenal.\nFixed join-in-progress Clients seeing previously dead enemies standing up.\nFixed Vomvalysts facing the move direction instead of target during combat.\nFixed using the Helminth chair not aligning the camera at the start of the animation. \nFixed Vauban’s Citadel Skin Channeling FX covering his whole body.\nFixed Mirage's Eclipse ability causing some Syandanas (eg. Repala, Vasa, etc.) to change colour to match her Warframe Energy.\nFixed a blocky volumetric light during a cinematic in The Sacrifice quest.\nFixed Nekros’ Shadow of the Dead Infested Brood Mothers producing looping/stacking maggot sound effects.\n",
+  "description": "We’re working on a script to give the intended 7 Day Resource, Drop Chance, Affinity, and Credit Booster to those who purchased the Shock Absorber Pinnacle Pack on Steam. We apologize for the mix up and hope you enjoy your additional Boosters! We will update this thread when the script is complete.",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Sacrifice: Hotfix 23.3.1",
   "url": "https://forums.warframe.com/topic/995277-the-sacrifice-hotfix-2331/",
   "date": "2018-08-09T20:52:48Z",
