@@ -2332,6 +2332,15 @@
   "type": "Update"
  },
  {
+  "name": "The Silver Grove: U3.2",
+  "url": "https://forums.warframe.com/topic/701993-the-silver-grove-u32/",
+  "date": "2016-09-22T21:42:01Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "The Silver Grove: U3.2\n\nChanges\nRemoved beams above the cryopod area in the Infested Defense level.\nUpdated the icons for Resource Containers.\n\nFixes\nFixed an issue with Ayatan Sculptures placed within the Landing Craft turning into duplicate version of other decorations.\nNote: Individuals who had previously been effected by this will have their broken Ayatan Sculptures corrected in a forth coming script. Thanks for your patience!\nFixed an issue with Ayatan Sculptures not being collectable after a host migration.\nFixed an issue with duplicate Ayatan Sculptures being present if a previous host reconnected before the treasure was collected.\nFixed a couple of exploitable map areas found in certain Infested Defense tilesets.\nFixed the \"Wait For Players\" button appearing prematurely before search had completed on laggy connections. Clicking on it during this time would cause it to act as if the player had pressed .“Play Now” instead.\nFixed Ayatan Stars appearing blurry when placed on the ship as Decorations. \nFixed being able to purchase Warframe slots when selling Ayatan Sculptures/Stars. \nFixed not being able to remove the Ayatan Sah Sculpture and Ayatan Orta Sculpture once placed.\nFixed Loot Crates spawning inside the walls in the Jupiter Corpus tileset. \nFixed Endo Alerts having conflicting rewards with the Twitter text. \nFixed a duplicate Accept/Decline prompt being seen after selecting an Ayatan Mission.\nFixed an issue with in-game Polymer bundle pickups not appearing correctly.\n",
+  "type": "Update"
+ },
+ {
   "name": "The Silver Grove: U3.1",
   "url": "https://forums.warframe.com/topic/701641-the-silver-grove-u31/",
   "date": "2016-09-21T23:12:00Z",
