@@ -4830,6 +4830,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 15.0.9",
+  "url": "https://forums.warframe.com/topic/336430-hotfix-1509/",
+  "date": "2014-10-30T22:22:26Z",
+  "additions": "\nAdded new death effects for Corpus Crewman and Moas.\nAdded a transparency slider for Sigils!\n\n",
+  "changes": "\nReduced Camera Shake when 'sprinting' in Archwing missions.\nTweaked snow and ice textures to be less reflective\nArchwing nodes are now excluded from Invasions. There was (and right now still is) an Invasion on Pandora, Saturn which is preventing Archwing play.\nOptimized code to better handle Syndicate Standing tracking.\nPlayers can no longer taxi squad members to Syndicate missions above their current rank. Also corrected issue where Syndicate Mission XP was given for the incorrect node in a region.\n\n",
+  "fixes": "15.0.9\n\nFixed an issue with Bonus Syndicate mission reward standing not being displayed on the mission results screen.\nFixed an issue with Corrupted Mod Transient Fortitude not being equippable simultaneously with Blind Rage.\nFixed scale issues on Orokin Explosive Barrels and Orokin Caches.  \nFixed issues with some PBR materials having incorrect opacity/alpha write values which resulted in character transmissions not looking correct.\nFixed enemies not appearing for Clients in Archwing missions.\nFixed an issue where closing a private conversation would result in a loss of functionality.\nFixed Grineer Skiff enemies firing at different rates for host and client.\nFixed Quests being re-startable (which is not fully supported right now) by simply pressing enter on the Quest Diorama screen, even though the \"Begin\" button is not showing.\nFixed missions not starting when being selected via the Worldstate panel.\nFixed issue with the Exterminate kill counter continuing to display in Archwing quest after being told to abort mission.\nFixed Syndicate Standing bar calculations to correctly display current Standing. Also, Standing bar will now display a message when a new title is required to progress.\nFixed various ‘out of bounds’ bugs in tilesets that could cause players to get stuck or fall out of level.  \nFixed an issue with unnecessary explosions in Trench Run extraction area.\nFixed issue where Corpus hack puzzle would display blank hexes.\nFixed issues with extraction messages staying after reaching extraction.\nFixed issue with too many News items disturbing layout of News Panel.\nFixed waypoint marker issues in certain Archwing Trenchrun Maps.\nFixed Ciphers not being usable for Grineer hack panels.\nFixed a game freeze that would occur in defense missions when one player leaves and the other continues playing.\nFixed several crashes and game hangs.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 15.0.8",
   "url": "https://forums.warframe.com/topic/335717-hotfix-1508/",
   "date": "2014-10-29T23:32:35Z",
