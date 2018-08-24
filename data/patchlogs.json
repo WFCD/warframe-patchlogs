@@ -2792,6 +2792,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 18.13.1",
+  "url": "https://forums.warframe.com/topic/652966-hotfix-18131/",
+  "date": "2016-05-28T02:45:03Z",
+  "additions": "",
+  "changes": "Changes:\n\nTemporarily removed Mag's Vacuum Passive sound until we can refine.\n",
+  "fixes": "\nFixed Valkyr’s Warcry not having any effect when cast.\n\nFixed having an unpurchased TennoGen attachment item in your inventory.\n\nFixed crashing in the Arcane installment screen.\n\nMultishot Secondary Mods are now properly inherited with Mesa’s Peacemaker. For added clarity, only non-weapon specific Secondary Mods scale with Peacemaker. We are still reviewing this for results to see if it needs scaling back in terms of sheer damage output. Please note that Regulators base damage was reduced in 18.13.1 to compensate for Multishot inheriting damage potential.\n\n\nPossible fix for GeForce 1080 users being unable to play Warframe.\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 18.13.0: TennoGen, Passives, & Reworks",
   "url": "https://forums.warframe.com/topic/652752-update-18130-tennogen-passives-reworks%C2%A0/",
   "date": "2016-05-27T21:20:29Z",
