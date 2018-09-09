@@ -1,5 +1,24 @@
 [
  {
+  "name": "Mask of the Revenant: Hotfix 23.7.1",
+  "url": "https://forums.warframe.com/topic/1006342-mask-of-the-revenant-hotfix-2371/",
+  "date": "2018-09-06T20:46:57Z",
+  "additions": "",
+  "changes": "Mask Of The Revenant: Hotfix 23.7.1:\nTweaked player name size in the squad info dropdown to allow more characters to fit on one line instead of breaking.\nImproved squad info dropdown to better fit long Warframe names (Trinity Prime, etc) and long Aura names (Corrosive Projection, etc). \nTweaked Mastery Icon shadow in dropdown panel to increase visibility in certain UI themes.\nDojo Decoration/Resource donating screen now displays the max number of items you can donate at a time.\n",
+  "fixes": "Fixed Wukong’s Enveloping Cloud Augment Duration scaling off of Modded Power Range instead of Duration.\nFixed Extractor’s missing their Health UI.  \nFixed pressing Y while in Navigation resulting in your cursor ghosting to the Matchmaking dropdown. \nFixed swapped controller icons for the bumper/trigger buttons.\nFixed a script error when pressing Y or X on a controller on certain screens.\nFixed a script error when using Octavia’s Conductor Augment. \nFixed a script error when joining a squad.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Mask of the Revenant: Update 23.7.0",
+  "url": "https://forums.warframe.com/topic/1006276-mask-of-the-revenant-update-2370/",
+  "date": "2018-09-06T17:30:18Z",
+  "imgUrl": "http://n9e5v4d8.ssl.hwcdn.net/uploads/ef7f519d44905c4821dcdd186acbf339.jpg",
+  "additions": "A Search bar has been added to the Friends and Clan screen!\nAdded a new timer animation to the Mission Voting UI.\n",
+  "changes": "Mask Of The Revenant: Update 23.7.0:\n\nPlease note: The stats shown are for Augment Mods at Max Rank.\nInput message boxes have received a new stylized look that matches your chosen UI theme! \nYou can now Donate MULTIPLE Resources and Decorations to your Clan Vault (Alliance remains Credits only)! An input message box will appear requesting that you enter the word ‘DONATE’ to confirm your donation.\nBe warned that you cannot retrieve these back to your Inventory once Donated.\nWhen Consigning a Pet to the Lotus, an input message box will appear requesting that you enter the name of the Pet you’re consigning to confirm. This extra step ensures you’re absolute confirmation on sending the desired Pet on a permanent vacation.\nRemoved Grineer Commanders from Simaris’ possible daily Synthesis Targets as it never functioned properly. \nMade some micro-optimizations to host performance in the replication system.\nMade some micro-optimizations to the level zoning and visibility system.\nMade some micro-optimizations to particle system recycling and initialization.\nMade some micro-optimizations in the dynamic music system.\nMade some micro-optimizations to ragdoll setup.\nReturned the controller functionality of pressing (Y) to open the Matchmaking dropdown menu.\nFocus Conversion now uses chosen themed UI for Eidolon Shard selection.\nChanged Inventory sell list to show total sell price for each row, instead of price for just one item, even when multiple were selected.\nThe pause menu UI now automatically displays the first 3 loadout items (Warframe, Aura, etc). Aura has also been moved to always be the second line under your Warframe.\nWe’re aware and working on improved line breaking for longer text Auras like Corrosive Projection, etc.\n",
+  "fixes": "Fixed a loss of functionality for Clients after completing The Pyrus Project and receiving the Project completion Inbox message. \nFixed a soft lock when manually skipping the ‘Riven Capacity Reached’ message.\nFixed breaking Gara’s Mass Vitrify by standing on an incline not always increasing your Splinter Storm timer/damage (when both active). \nFixed Melee weapon not appearing in Chroma’s hands after casting Vex Armor.\nFixed the Host not receiving confirmation that they have invited someone into a Captura session. \nFixed Clients having the voting UI stuck on their screen upon entering the Plains if they entered Cetus first.\nFixed some UI menus (Market, Foundry, etc) not displaying your Mastery Rank.\nFixed the Mute and Unmute buttons not updating player's current mute state when enabling/disabling them.\nFixed misaligned button callouts when launching a mission with a controller.\nFixed wide aspect ratios having lost usable space under the new UI Inventory screen.\nFixed common crash that was being submitted to us on game-shutdown.\nRevenant changes/fixes are still in the works \nstay tuned!\n",
+  "type": "Update"
+ },
+ {
   "name": "Mask of the Revenant: Hotfix 23.6.2",
   "url": "https://forums.warframe.com/topic/1004345-mask-of-the-revenant-hotfix-2362/",
   "date": "2018-08-31T20:29:23Z",
