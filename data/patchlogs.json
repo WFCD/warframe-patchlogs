@@ -1,5 +1,14 @@
 [
  {
+  "name": "Mask of the Revenant: Hotfix 23.8.1",
+  "url": "https://forums.warframe.com/topic/1008738-mask-of-the-revenant-hotfix-2381/",
+  "date": "2018-09-14T13:49:57Z",
+  "additions": "",
+  "changes": "Changes:\nChanged GPU Particles low/medium/high quality preset from disabled/low/medium to disabled/low/high.\nRevenant Mesmer smoke effect is now only seen on yourself, not other players, to improve performance and visibility. \nClans will now ignore players who have been inactive for more than 30 days when automatically choosing a Founding Warlord (Note: this is not retroactive for Clans that have already selected one). \nMade some micro-optimizations to Visibility and Zoning.\nMade some micro-optimizations to the Graphics and Sound drivers.\n",
+  "fixes": "Fixed an issue with lingering FX resulting from Revenant frequently using Reave and Danse Macabre.\nFixed Zephyr Prime left wings clipping into her arm.\nFixed a script error when trying to enter 2FA code with on screen keyboard.\nFixed Low particle quality setting stopping Warding Halo effect from spinning.\nFixed the Y button callout for opening match making drop down showing on teammates as well.\nFixed a script error with Divine Spears.\nFixed a script error with Warding Halo.\nFixed a script error with Danse Macabre.\nFixed a script error with Enthrall.\nFixed Blazing Chakram giving health/energy orbs from corpses. \nFixed a script error that could occur while trading. \nFixed Empyrean diorama not showing impaled enemies on spears and missing FX.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Mask of the Revenant: Update 23.8.0 + 23.8.0.1 + 23.8.0.2",
   "url": "https://forums.warframe.com/topic/1008095-mask-of-the-revenant-update-2380-23801-23802/",
   "date": "2018-09-12T18:41:12Z",
