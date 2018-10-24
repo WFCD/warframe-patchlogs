@@ -1,5 +1,15 @@
 [
  {
+  "name": "Chimera: Hotfix 23.10.7",
+  "url": "https://forums.warframe.com/topic/1021711-chimera-hotfix-23107/",
+  "date": "2018-10-24T14:34:07Z",
+  "additions": "",
+  "changes": "Chimera: Hotfix 23.10.7:\nArbitration Drones are now exempt from Infested Ancient Healer Auras.\nReduced Arbitration Defense Wave length to balance mission time played in comparison to Arbitration Survival missions.\nMade some micro-optimizations to Dojo loading.\nReturned the Dera and Dera Vandal to it’s barrel alternating VFX.\nUpdated Daman Prime Sugatra and Vala Prime Sugatra names as they were inconsistent with previous Prime item names as reported here: https://www.reddit.com/r/Warframe/comments/9pc0ct/literally_unusable\n",
+  "fixes": "Improvements towards AI jumping onto crates for no logical reason.\nImprovements towards AI getting stuck on doorways.\nFixes towards AI not spreading out between different navigation paths and instead all queuing at one.\nFixes towards an occasional crash related to memory. \nFixes towards a loss of functionality when hovering over the Featured Dojos in the Star Chart.\nFixed larger Beam weapons (Opticor, etc) unable to hit weak points, such as Vay Hek as reported here: https://forums.warframe.com/topic/1018929-opticor-does-no-damage-to-vay-hek-anymore/\nFixed the Judicial Coils not appearing on female Operator faces.\nFixed wearing Operator Masks with 'Hood Opened' causing facial accessories to be hidden.\nFixed cases of swapping Warframe Appearance loadouts resulting in more than one loadout being active.\nFixed cases where players could fall through certain platforms in Relays.\nFixed Khora’s Venari being invisible in the Cetus Arsenal when accessing it as the Operator.\nFixed inability to select items/Emotes when in the respective Gear spirals when using a controller. \nFixed inability to select an Emote in the Dojo when using a controller.\nFixed script error resulting in black icons to appear in place of HUD buffs when the Adaptation Mod is equipped.\nFixed a script error when buying a Dual Pistol Skin or Bundle that contains it, upon selecting a Skin for a single Pistol.\nFixed a script error when casting Octavia’s Metronome ability.\nFixed a rare case of UI breaking with fast mouse speeds.\nFixed the Ambush Mod having an inaccurate description. Now it mentions that the extra damage is granted specifically to weapons.\nFixed certain Clan stats in the Profile Stats section not appearing for Clans created.\nFixed the Clan Hall having an incorrect description.\n",
+  "description": "We have two relatively minor changes for Arbitrations this week \nwe are still working on bigger picture changes and improvements to the mode as a whole which require more testing and development.",
+  "type": "Hotfix"
+ },
+ {
   "name": "Chimera: Hotfix 23.10.6",
   "url": "https://forums.warframe.com/topic/1019814-chimera-hotfix-23106/",
   "date": "2018-10-18T20:38:32Z",
