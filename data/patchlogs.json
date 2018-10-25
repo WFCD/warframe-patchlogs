@@ -1,5 +1,14 @@
 [
  {
+  "name": "Chimera: Hotfix 23.10.8",
+  "url": "https://forums.warframe.com/topic/1022013-chimera-hotfix-23108/",
+  "date": "2018-10-25T15:03:53Z",
+  "additions": "",
+  "changes": "Chimera: Hotfix 23.10.8:\nfixed an issue that was preventing a small number of players from logging in.\nfixed an AI bug in Arbitration Defense missions that was causing enemies to stand around after spawning.\nslightly increased the hitbox of Arbitration Drones\nfixed a crash that could occur if a clan notification message was received while transitioning between levels.\ngameplay crash fixes.\n\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
   "name": "Chimera: Hotfix 23.10.7",
   "url": "https://forums.warframe.com/topic/1021711-chimera-hotfix-23107/",
   "date": "2018-10-24T14:34:07Z",
