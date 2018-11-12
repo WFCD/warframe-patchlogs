@@ -1,5 +1,14 @@
 [
  {
+  "name": "Fortuna: Hotfix 24.0.5",
+  "url": "https://forums.warframe.com/topic/1030252-fortuna-hotfix-2405/",
+  "date": "2018-11-12T23:54:52Z",
+  "additions": "",
+  "changes": "Fortuna: Hotfix 24.0.5:\nReduced the Fieldron crafting requirements for the Kreska, Ocucor, and Battacor from 20 to 10.\nA script is in the works and will be run tomorrow to refund Fieldron to those who have already crafted \nwe will update you in this thread when the script has completed.\nAdded strokes to Mining laser HUD components based on Forum request for improved visibility.\nTweaked some plants in the Orb Vallis to improve quality.\nThe Eye-Eye now shows up during warm temperature only instead of cool temperature in Orb Vallis.\nRecaster Bait is now correctly labeled as Longwinder Bait.\nNarrow-Spectrum Bait was incorrectly described as attracting Tinks and Brickies (they are common fish and only require Broad-Spectrum Bait; Narrow-Spectrum Bait attracts Recasters and Eye-Eyes).\n",
+  "fixes": "Fixed a crash related to Chat linking.\nFixed the Fetch mod causing other Companion Mods to not function (specific to Kavats and Kubrows).\nFixed inability to spawn any vehicle while somebody is standing in the Fortuna elevator.\nFixed being able to accept Bounties while replaying the Vox Solaris quest.\nFixed loadout summary showing gear unranked if examined while in Operator mode.\nFixed the War Within Operator ability prompts when switching between keyboard/mouse and controller inputs\nFixed public matchmaking bounty UI remaining on screen when entering the Orb Vallis\nFixed incorrect pond coolant material in Orb Vallis which resulted in inability to fish in that coolant.\nFixed Profile stats summary page being cut off on the bottom.\nFixed Daily Tribute tooltips for certain items (e.g. Oxium, Cryotic) displaying incorrect counts.\nFixed overlapping UI when attempting to Dissolve a Riven Mod.\nIntegrated localized translations and layout fixes.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Fortuna: Hotfix 24.0.4",
   "url": "https://forums.warframe.com/topic/1030143-fortuna-hotfix-2404/",
   "date": "2018-11-12T22:14:40Z",
@@ -2559,15 +2568,6 @@
   "additions": "Wukong and Nezha Noggles have been added to the Market!\nYou can now place Resource decorations in your Landing Craft! Check out the Landing Craft section in the Market.\n",
   "changes": "The Vacuum Within:\nThis particular Update note is going to be a bit of a read, so get ready!\nIt’s been a long time coming and a highly request change! If you hadn’t guessed it already, Carrier usage represents almost 80% of the total used Sentinels, and considering we have more than 5 unique choices this needed balancing. Today we're eager to introduce a community driven experiment within the Sentinel class. This is not the final book in this conversation, just the beginning.\nWe've also mentioned Kubrow/Kavat are not off the table. What we want to do is measure. We know where Carrier sits in usage compared to the rest of the options. We want a calculated release of a change that will deliver on giving Sentinels the function of Vacuum, and see how it affects the usage of content in that category. The results are something we'll be sharing as it should be very interesting to everyone invested in this particular topic. The shovel in the ground on this will apply to Sentinels first, but Pets aren't off the table.\nWe're starting with Sentinels to have this contained group of content analyzed. We will be keeping a close eye on how all of you feel about the new vacuum as well as looking at metrics to see how the distribution of sentinel usage changes across the community (right now 80% of you use Carrier)! We will share results along the way as a team, as soon as this Friday on Devstream #81!\nCarrier’s precept has been automatically changed to Ammo Case \nnow increases ammunition capacity and converts ammo pickups into ammo for the currently equipped weapon after a short delay.\n\n\n\nResearch it in the Tenno Lab or find it in the Market today!\n",
   "fixes": "Fixed an issue where Rescue targets would fall into the water and die on Ocean Lab missions, resulting in an instant fail. \nFixed Sortie Defense agents would get stuck in a reload loop.\nFixed missions not being automatically selected when clicking on an Invasion with only one active battle.\nFixed being able keep the hijack buttons in The Law of Retribution pressed indefinitely using Loki's Decoy and then re-casting somewhere else. \nFixed an issue with Ayatan minimap markers not disappearing after pickup. \nFixed performing a finisher resulting in a crash.\n\n",
-  "type": "Update"
- },
- {
-  "name": "The Silver Grove: U4.2",
-  "url": "https://forums.warframe.com/topic/704257-the-silver-grove-u42/",
-  "date": "2016-09-30T21:03:12Z",
-  "additions": "",
-  "changes": "\nThe Mods screen can now be accessed while in a Dojo.\nFixes:\nFixed an issue with Primed Mods not properly appearing in the chat auto-complete feature.\nFixed an issue with Operators being affected by the movement speed of their Warframes when Focus abilities are cast while moving.\nFixed duplicate Marelok appearing in the market. Players who purchased this item have automatically received a refund.\nFixed trade window allowing you to list more copies of Ayatan Sculptures than you currently own.\nFixed Ayatan Sculptures and Stars not appearing when viewing in Codex.\nFixed the holster position of secondary weapons on Nekros & Chroma.\nFixed animation glitch (player teleporting forward) when tapping sprint while meleeing with specific timing.\nFixed erratic player movement when wall-latching while rolling towards flat walls.\nFixed map holes in Grineer Forest tileset.\n",
-  "fixes": "The Silver Grove: U4.2\nAdditions:\nAdded in Nightwatch enemy entries to the Codex.\n\n",
   "type": "Update"
  },
  {
