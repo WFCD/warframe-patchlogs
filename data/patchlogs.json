@@ -2571,6 +2571,15 @@
   "type": "Update"
  },
  {
+  "name": "The Silver Grove: U4.2",
+  "url": "https://forums.warframe.com/topic/704257-the-silver-grove-u42/",
+  "date": "2016-09-30T21:03:12Z",
+  "additions": "",
+  "changes": "\nThe Mods screen can now be accessed while in a Dojo.\nFixes:\nFixed an issue with Primed Mods not properly appearing in the chat auto-complete feature.\nFixed an issue with Operators being affected by the movement speed of their Warframes when Focus abilities are cast while moving.\nFixed duplicate Marelok appearing in the market. Players who purchased this item have automatically received a refund.\nFixed trade window allowing you to list more copies of Ayatan Sculptures than you currently own.\nFixed Ayatan Sculptures and Stars not appearing when viewing in Codex.\nFixed the holster position of secondary weapons on Nekros & Chroma.\nFixed animation glitch (player teleporting forward) when tapping sprint while meleeing with specific timing.\nFixed erratic player movement when wall-latching while rolling towards flat walls.\nFixed map holes in Grineer Forest tileset.\n",
+  "fixes": "The Silver Grove: U4.2\nAdditions:\nAdded in Nightwatch enemy entries to the Codex.\n\n",
+  "type": "Update"
+ },
+ {
   "name": "The Silver Grove: U4+4.1",
   "url": "https://forums.warframe.com/topic/703921-the-silver-grove-u441/",
   "date": "2016-09-29T19:31:28Z",
