@@ -473,6 +473,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Fortuna: Hotfix 24.1.5",
+  "url": "https://forums.warframe.com/topic/1043389-fortuna-hotfix-2415/",
+  "date": "2018-12-13T16:57:31Z",
+  "additions": "",
+  "changes": "Fortuna: Hotfix 24.1.5:\nUpdated Life Strike, Focused Defense, and Corrupt Charge Mod descriptions to read better.\n",
+  "fixes": "Fixed Staff and Polearm Zaws not hitting properly with attacks that use the bottom end of the weapon.\nFixed an issue where Power Cell Carriers sometimes took longer than expected to spawn in Venus Excavation mission﻿s.\nFixed Host migration in Orb Vallis resulting in the remaining players finding they are missing alert level UI and Reinforcement Beacons self destructing on deployment.\nFixed glitchy/floating K-Drive animations when dismounting/mounting over water/coolant.\nFixed ‘Decline All’ pending friend requests not working.\nFixes towards Corpus Trenchers/Provisors appearing stuck in midair.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Fortuna: Hotfix 24.1.4",
   "url": "https://forums.warframe.com/topic/1042413-fortuna-hotfix-2414/",
   "date": "2018-12-10T20:09:14Z",
@@ -8001,15 +8010,6 @@
   "changes": "New:\nThe Easter Bunny has stopped by Warframe! What has he hidden within the Solar System?\n\nNew Colors?\nNew Destructable Crates?\nNew headgear for enemies?\nPlay and find out!\nWield the new Brokk! A brother of the Fragor Hammer, this faster swinging (but slower charging) Hammer is deadly!\nSentinel will now revive with the player if dead when the player spends a revive.\nPower cards will now show a tooltip explaining what will be boosted when levelled up.\nMoult decoy will no longer play idle, hit reactions or death animations for the Client.\nMind Control now provides feedback when it cannot be cast.\nBolt projectiles can now pass through Electric Shield power.\nAI will now pause during a host migration.\nSentinels should no longer appear as an Osprey drone.\nStalker will no longer hunt anyone using a less than level 5 Warframe.\nClicking anywhere off chat window will now dismiss it during game.\nMission challenges will no longer switch/reset during a host migration.\nChat history should now save when returning from a match.\nFixed a functionality loss for Clients attempting to swap weapons while charging a shot for the Paris.\n",
   "fixes": "",
   "type": "Hotfix"
- },
- {
-  "name": "Update 7.4 Hot-Fixes",
-  "url": "https://forums.warframe.com/topic/18910-update-74-hot-fixes/",
-  "date": "2013-03-27T14:34:25Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Latest batch of hot-fixes!\n\nSentinel weapons can now have mods, currently uses player's rifle/pistol mods\n\nFixed minimap breaking when trying to cycle camera when not in spectator mode\n\nFixed some alternate helmets not affecting stats as intended\n\nFixed avatar completely missing from intro cinematics in offline mode\n\nPotential fix for Apex related crashes/freezes\n\nImproved chatbox error handling and connectivity\n\nFixed chatbox breaking when attempting to send a whitespace only message\n\nPlatinum should now update when closing the steam overlay\n\nFixed an issue with infinite slide up slopes\n\nFixed an issue with wall strike melee attacks\n\nAll melee weapons should now count towards the Melee Kill challenge\n\nWeapon skins and alternate helmets can only be purchased once\n\nFixed client's Artifact Card not applying when joining in progress and using same card as host\n\nFixed Physique Artifact Card not bestowing increased max health on Host\n\nSaryn's Moult decoy no longer holds a pistol\n\nFixed fusion process for high level cores as well as issue where fusion amount would sometimes decrease when adding a core\n\nFixed an issue with host migration forcing the next wave to start even if players choose to claim and exit\n\nFixed chat user list not re-populating after returning from mission\n",
-  "type": "Update"
  },
  {
   "name": "Update 7.4 Hot-Fixes",
