@@ -1,5 +1,41 @@
 [
  {
+  "name": "The Jovian Concord: Hotfix 25.0.8",
+  "url": "https://forums.warframe.com/topic/1099109-the-jovian-concord-hotfix-2508/",
+  "date": "2019-05-31T20:15:29Z",
+  "additions": "",
+  "changes": "The Jovian Concord: Hotfix 25.0.8:\nBoosted Drop Chance of Hexenon from Amalgams to ~7.7%, and increased Hexanon rewards from the Disruption gamemode by 25%.\nReduced the run speed of Melee Nullifiers and shrunk their Nullifying bubbles down to 66% of the previous size in the Gas City tileset \nthanks for your feedback, Tenno!\n‘Copy Main Colors’ in the Arsenal will now update Energy FX as well (like Randomize does).\nOptimized leaderboard UI display.\n",
+  "fixes": "Fixed the Ropalolyst walking around in circles after landing due to being affected by Magus Lockdown! HUGE appreciation to all the Tenno who provided detailed repro steps, and shoutout to hix3r for a top tier post + many Partners for attempting to reproduce!\nFixed cases of Operator falling into a teleport volume twice before being placed safely in the middle platform during the Ropalolyst fight.\nFixed the Ropalolyst turning itself upside down for no advantageable reason at all.\nFixed tower collision volumes not being disabled for Clients in the Ropalolyst fight.\nFixed a crash that could occur if the download cache was corrupted.\nFixed Ivara’s Cloak arrow functioning on Defense objectives, leaving enemies unable to find it. \nFixed the Amalgam Argonak Metal Auger Mod not removing Armor with Dagger attacks.\nFixed inability to add a Precept Polarity to Venari using Forma.\nFixed missing various UI elements or getting a black screen after entering the vent simultaneously at the start of Profit-Taker Bounty 3.\nFixed an issue with Vapos Ranger enemies spawning infinitely in one spot in the Gas City tileset.\nFixed Arcanes awarded through Bounties showing as Mods in the UI.\nFixed Ambient Occlusion setting being disabled.\nFixed issues in a Gas City Spy Vault including stuck spots, teleports and possible performance concerns.\nFixed a bug in one of the Gas City Spy Vaults (with fire, ice, and core lasers), where the core lasers were not turning off for Clients.\nFixed Revenant's default Energy color being too green.\nFixed Maggots from Strain Mods/Nidus not using the proper emissive colors.\nFixed the Lecta Energy color persisting as default.\nFixed the Simulor Energy color persisting as default.\nFixed the Ignis Energy color persisting as default. \nFixed the Edo Prime Armor not applying Energy colors in the Dojo.\nFixed the Komorex light FX being too intense. \nFixed the Lenz jets still appearing when you apply the Dryad Bow Skin.\nFixed seeing red fog in Void tilesets.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "The Jovian Concord: Hotfix 25.0.7",
+  "url": "https://forums.warframe.com/topic/1098762-the-jovian-concord-hotfix-2507/",
+  "date": "2019-05-30T20:24:28Z",
+  "additions": "",
+  "changes": "The Jovian Concord: Hotfix 25.0.7:\nSyndicates in the Syndicate screen are now ordered by the respective Rank you have with them. The ones which don’t especially like or respect you are now greyed out to indicate that.\nImprovements to the Confirm Quantity input field to make entering new values easier.\nEximus enemies are now capped at Level 9999 like regular enemies.\n",
+  "fixes": "Fixes towards the Ropalolyst walking around in circles after landing.\nFixed the Ropalolyst going invisible if it nullifies while holding an Operator.\nFixed the ‘friendly through wall’ FX being applied to the Ropalolyst, making it difficult to see when attempting to shoot at it.\nFixed a Health scaling bug that resulted in enemies past a certain level only having 10 Health.\nFixed Health and Shield bar display for enemies with more than 2 billion points of Health and Shields combined.\nFixed a residual issue that affected exactly 29 accounts as a result of the Kogake Riven fix in Hotfix 25.0.2.\nFixed a soft lock after opening the pause menu while viewing the Syndicate screen. \nFixed Hildryn’s Melee Channeled blocking not remapping from Energy to Shield.\nFixed the Gale Kick Mod not affecting jump kick Damage.\nFixed a sneaky spot in the Gas City tileset where players could hide inside a wall, effectively cosplaying as the man in the wall. \nFixed AI pathfinding in the Gas City hangar area.\nFixed size of destruction area of effect on vulnerable wall pipes in the Gas City tileset.\nFixed a Fluxor Bot occasionally missing the its target and shooting welding beam through the windows of Gas City.\nFixed outline of a equipped Heavy Weapon being visible on Wisp when Aim Gliding after using Wil-O-Wisp.\nFixed the Prisma Rostam Kubrow Armor not displaying its Prisma cloud FX.\nFixed the Ballistica (Prime/Rakta), Cernos (Prime), Daikyu, Dread, and Paris Prime Energy color persisting as default on the strings.\nFixed clipping cloth physics with Oberon Feyarch’s skirt. \nFixed a Chat linked Mod missing indication if you own 0 or 1 of that Mod. \nFixed the map node for Saturn > Telesto displaying a Forma instead of an enemy.\nFixed all Codex > Universe > Art Galleries missing their dioramas.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "The Jovian Concord: Hotfix 25.0.6",
+  "url": "https://forums.warframe.com/topic/1098415-the-jovian-concord-hotfix-2506/",
+  "date": "2019-05-29T20:15:01Z",
+  "additions": "",
+  "changes": "The Jovian Concord: Hotfix 25.0.6:\nReduced Melee FX light intensity.\n",
+  "fixes": "Further fixes towards the Ropalolyst getting stuck in its blocking animation. \nFixed Clients being left behind in the Ropalolyst fighting area as everyone else is teleported to the extraction tile after defeating the Ropalolyst.\nFixes towards the Ropalolyst walking around in circles after landing.\nFixed Tatsu’s Soul Swarm mechanic not stacking for Clients.\nFixed Little Duck still being ‘hidden’ in the Syndicate screen at max Vox Solaris rank.\nFixed seeing Eudico’s unhidden transmissions with Creator Mode on.\nFixed Impact Status and ragdolling breaking enemies out of Nyx’s Pacify effect before its Duration is up.\nFixed Wisp’s Wil-O-Wisp spawning through geometry.\nFixed Garuda having negative Mod capacity by replacing a Stance Mod with high drain with a Stance Mod of low drain. \nFixed numerous level holes in the Gas City tileset.\nFixed minor AI issues with Dropships in the Gas City tileset.\nFixed Vapos Bioengineers missing from the Codex.\nFixed Blueprint Inventory icons appearing smaller than normal.\nFixed Attachment Energy colour preview persisting, whereas the default color should replace it once you move away from it.\nFixed the Respa Prime Mask, Erlang Prime Oculus, Kiteer Oculus, and Lumis Oculus Energy color persisting as default. \nFixed clicking on a Chat link while in the Navigation screen overlapping the nodes UI with the Market screen.\nFixed Wisp’s materials not appearing wet when in the Plains of Eidolon when it’s raining. \nFixed the Venus Vignette having a filepath instead of a name when viewed in the Market.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "The Jovian Concord: Hotfix 25.0.5",
+  "url": "https://forums.warframe.com/topic/1098082-the-jovian-concord-hotfix-2505/",
+  "date": "2019-05-28T21:14:42Z",
+  "additions": "",
+  "changes": "The Jovian Concord: Hotfix 25.0.5:\nOperation: Hostile Mergers Endurance score stat is now displayed in the Player/Clan Profile > Stats.\n",
+  "fixes": "Further fixes towards your Warframe teleporting to last Operator position when falling out of the map during the Ropalolyst fight which resulted in a constant fade-in/fade-out black screen. We are working on an additional fix that we aim to ship tomorrow.\nFixed inability to Donate Hexenon to the Clan Vault.\nFixed the Komorex’s Energy color persisting as default.\nFixed the Unity Planter not displaying properly in its Market diorama.\nFixed missing collision on the Terra Auto Turrets in Orb Vallis.\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Jovian Concord: Hotfix 25.0.4",
   "url": "https://forums.warframe.com/topic/1098019-the-jovian-concord-hotfix-2504/",
   "date": "2019-05-28T18:32:28Z",
