@@ -5311,6 +5311,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 15.13.6",
+  "url": "https://forums.warframe.com/topic/398048-hotfix-15136/",
+  "date": "2015-02-07T18:12:32Z",
+  "additions": "",
+  "changes": "Hotfix 15.13.6:\n\n\nFixed Survival rewards showing one thing when announced during mission, but awarding something different at end of mission.\n\n\nIf your post in a Hotfix/Update thread includes 'Still no fix for....\"\n \n1) Include a link to a relevant bug report/screenshot that has details on reproducibility and the nature of the issue.\n \nWithout these details it is increasingly difficult to troubleshoot the specifics involved in resolving a bug.\n\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 15.13.5 + Survival Psa",
   "url": "https://forums.warframe.com/topic/397584-hotfix-15135-survival-psa/",
   "date": "2015-02-07T02:11:30Z",
