@@ -3943,6 +3943,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 18.4.12: Saryn Prime",
+  "url": "https://forums.warframe.com/topic/611132-hotfix-18412-saryn-prime/",
+  "date": "2016-02-16T21:10:22Z",
+  "additions": "",
+  "changes": "\nInfested Sorties will no longer generate Hijack Sortie Missions because their tiny baby claws are too small to reach the core.Convergence will always spawn moving towards an objective to help reduce unnecessary backtracking.Gravity has been disabled for Convergence pickups, keeping their appearance predictable..Steel Meridian’s General Sacrifice has been changed from Rhino Prime Helmet to Trinity Prime Helmet.The Rift and its interaction with hacking terminals has now been consistently applied to be not-hackable. You may have noticed the inconsistency in Rifted targets ability to interact with hacking panels. While his Rift-based skillset does offer some unique opportunities for players one major issue discussed within the community has been determining what are the 'rules' Limbo's Riftwalking follows. Keeping this in mind players can expect future updates to contain adjustments to Limbo, enemies, and interactable elements of the environment, to help make playing Limbo a more consistent experience.  We will continue to monitor Limbo's unique interactive mechanic and its effect on gameplay, and will let you know should any other changes be necessary. Stay tuned for a Dev Workshop!\n\n",
+  "fixes": "\n\n\n\n\n\nLure enemies to their death with the venomous beauty contained in this Prime Access!\n\nUse the latest Prime Warframe today when you purchase Saryn Prime Access \nincluding Saryn Prime, Nikana Prime, Spira Prime, and exclusive cosmetics only available through Prime Access!\n\nSARYN PRIME \nA golden blossom conceals deadly nectar.\nNIKANA PRIME \nAn ancient blade predating the fall of the Orokin Empire. Forged using techniques lost over the centuries, the edge remains sharper than that of any modern Nikana.\nSPIRA PRIME \nThese rare, braided throwing daggers were a favorite tool of high ranking Orokin assassins.\nCYCUTA PRIME SYANDANA \nAn ancient Syandana worn during Tenno purification meditation.\nCYCUTA PRIME SIGIL \nThis ancient glyph was the focus of an ancient Tenno meditation ritual.\n\n\n\n\nFixed the second stage of the Law of Retribution failing if the Squad has less than four players.  The Law of Retribution will no longer allow players to continue with less than the required Squad size.Fixed an error that caused Clients to not earn standing in Conclave depending on how they entered a session.Fixed an error causing Convergence to potentially spawn off the map.Fixed Sentinels teleporting around when players get close to an out-of-bounds area of the map.Fixed the Defense objective in Sortie Defense Missions being teleported to a side room on the Grineer Asteroid tileset, preventing the Mission from being completed as per: https://forums.warframe.com/index.php?/topic/611010-sortie-defence-bug/\nFixed extraction rooms in Missions not having proper lighting FX.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 18.4.11",
   "url": "https://forums.warframe.com/topic/609136-hotfix-18411/",
   "date": "2016-02-12T19:59:22Z",
@@ -5056,15 +5065,6 @@
   "additions": "",
   "changes": "Amd Driver Issues:\n\n\n\nVauban \nPerpetual Vortex: Vortex's duration is increased by % for each additional Vortex thrown into the initial Vortex.\nZephyr \nFunnel Clouds: Tornado generates an additional X tornadoes, but tornadoes have reduced size and do not pull enemies.Excalibur \nRadial Finish: Blinded enemies are vulnerable to finishers, taking increased finisher damage.\n\n(Note: In reference to discussed Future changes to Excalibur in Devstream 50, we may adjust of some of his Augment Mods in the future)\n\n\nCorpus Crewmen Enemies will sit through their death animations for longer, rather than cutting straight to ragdoll / fade away. This refers to this particular question: https://forums.warframe.com/index.php?/topic/437046-coming-soon-devstream-50/?p=4843421\nMade various network changes to help reduce latency in users that see high ping spikes.\nUpdated the Gemini Nikana Sheathe bundle to require Mastery Rank 4 to help prevent players from purchasing the item without owning a Nikana.\nInviting someone to a Squad that fails to join will now give a more specific message instead of ‘player has declined your invitation’.\n\n",
   "fixes": "\nFixed issue in Conclave where a Host’s group was not being cleared if players left his Squad in the lobby.\nFixed issues with lighting and colour effects on certain Venus maps that could result in a very flat and desaturated look (as per screenshot).\nFixed a crash that would occur in the Relays as players joined and left.\nFixed various gameplay crashes.\n\n\nBut: managed to snag a still image of what you can expect!\n\n\n\n\nFixed an unreleased cosmetic appearing in the market.\nFixed MK1 Braton not being able to use skins.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 16.3.2",
-  "url": "https://forums.warframe.com/topic/440564-hotfix-1632/",
-  "date": "2015-04-13T20:15:53Z",
-  "additions": "",
-  "changes": "Conclave Changes:\n\nSlightly reduced the damage of Soma and Soma Prime in PvP.\n\n",
-  "fixes": "\nFixed various issues causing Host and Client hangups on the loading screen in Conclave.\nFixed an issue that would occur when using Ash’s Blade Storm when inside Limbo’s Rift.\nFixed the End of Mission ‘Summary’ screen showing an incorrect number of Mods obtained as per https://forums.warframe.com/index.php?/topic/438881-you-only-get-50-of-the-mods-collected-during-a-mission-ui-bug.\nFixed Simaris’ dialogue appearing twice when making a purchase in his Sanctuary.\nFixed an issue where the HUD would freeze after using an Ability Power.\nFixed an issue where some Upgrades were not properly showing stat changes after ranking up.\nFixed instances of the Manic getting himself stuck in open areas.\nFixed Nullifier Crewmen not nullifying Chroma’s Effigy or Nekros’ Shadows of the Dead summons.\nFixed an issue in Archwing missions causing Missions to lock up mid-combat.\nFixed MOAs still being spawnable in the Blackout Tactical Alert.\n\n",
   "type": "Hotfix"
  },
  {
