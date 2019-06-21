@@ -234,6 +234,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Plains of Eidolon Remaster: Hotfix 24.6.1",
+  "url": "https://forums.warframe.com/topic/1079735-plains-of-eidolon-remaster-hotfix-2461/",
+  "date": "2019-04-05T02:00:14Z",
+  "additions": "",
+  "changes": "Plains Of Eidolon Remaster: Hotfix 24.6.1:\nChanged Rahn Prism Blueprint to require 3 Seram Beetle Shells instead of Glappid Bait.\n",
+  "fixes": "Fixed the Film Grain setting always being enabled. \nFixed several crashes when resetting your key bindings to defaults.\nFixed a crash that could occur when transitioning from the Plains back to Cetus. \nFixed a crash when dying.\nFixed a random crash that randomly happened at random. Did we mention it's random?\nFixes towards Multishot Mods potentially not working with the Simulor.\nLoc-Pins skyrocket out of reach making them inaccessible to remove.\nScript will be run tomorrow to refund Loc-Pins back.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Plains of Eidolon Remaster: Update 24.6.0",
   "url": "https://forums.warframe.com/topic/1079621-plains-of-eidolon-remaster-update-2460/",
   "date": "2019-04-04T23:14:14Z",
@@ -457,16 +466,6 @@
   "additions": "",
   "changes": "Fortuna: Hotfix 24.2.11:\n\n\nCheck out the accompanying Fire & Ice Vault Accessories and more here: https://www.warframe.com/prime-vault\nReturned the Imperator Vandal Critical Chance to 15% and Status Chance to 10% in Archwing mode.\nChanged the cost of Rushing the Gravimag Blueprint from 50 Platinum to 10 Platinum.\nReduced the Gravimag Blueprint Rush time from 3 days to 1 day.\nIncreased the time waypoints stay active in the Plains/Vallis. They now last 5x times longer!\n",
   "fixes": "Fixed Octavia’s Mallet or Resonator ability breaking the ‘Base Capture’ phase of the Profit-Taker Bounty 1.\nFixed Magus Lockdown not spawning an actual mine upon Void Dashing.\nFixed AI that are meant to follow you becoming distracted. This was predominantly seen during the The War Within and The Sacrifice quests during certain moments.\nFixed missing ‘Operator’ HUD text when using Transference.\nFixed blurry FX for Clients when casting Mesa’s Shooting Gallery ability.\nFixed Mesa’s Shooting Gallery ability Energy color always appearing red.\nFixed a Smokefinger and Rude Zuud Memory Fragment having the same Codex image.\nFixed missing text in one of Smokefinger’s Memory Fragments.\nFixed the Tekelu Skins appearing incorrectly when equipped. \nFixed a sound glitch when being hit by Corrupted Vor's beam attack while in Limbo's Rift.\nFixed missing Korean LOC translations for Arcanes. \nFixed some spotloading caused by Arcanes on Operators.\n",
-  "description": "As mentioned back in June 2018, Warframe’s Minimum Supported Specs will change to Windows 7, 64-bit operating systems, and DirectX 10 capable graphics cards in mid-February 2019.",
-  "type": "Hotfix"
- },
- {
-  "name": "Fortuna: Hotfix 24.2.10",
-  "url": "https://forums.warframe.com/topic/1056534-fortuna-hotfix-24210/",
-  "date": "2019-01-23T20:08:15Z",
-  "additions": "",
-  "changes": "Fortuna: Hotfix 24.2.10:\nIncreased Damage from +66% to +165% (at max rank). \nIncreased Accuracy reduction from -33% to -55% (at max rank).\nIncreased the Physique Aura Mod from providing +18% Health to +90% Health (at max rank).\nIncreased the accuracy of the Brakk.\nIncreased the accuracy of the Kohmak/Twin Kohmak.\nSentient Mimics have updated their cognitive thinking and will now take on the proper form of the newly re-meshed Corpus Lockers.\nUsing a zipline now requires you to be within 2 meters of it. This should abate all manners of undesired zipline-related tomfoolery.\nImprovements towards AI navigation pathing in the Corpus Ice Planet tileset.\nImprovements towards where the Rescue Target can be told to stop and take cover in the Lua tileset.\nImprovements towards pathing issues when fighting the Ambulas in the Corpus Outpost.\n",
-  "fixes": "Fixed some rare cases of getting stuck in the Fortuna/Cetus elevator when returning to the town after a Host migration.\nFixed DirectX 10 not rendering FX in various places including the Plains of Eidolon/Orb Vallis and Relays.\nFixed inability to equip Ruinous Extension on the Ocucor. \nFixed being able to equip Stance Mods in any slot and any Mod in the Stance slot for Garuda Talons and unequip Mods that break these rules.\nFixing (again) spin attacks not working on controller unless you wait 0.15 seconds after pressing slide (not breaking toggle-sprint this time).\nFixed inability to use the Scanner as the Operator.\nFixed your Warframe floating in the Arsenal when exiting the Mod Upgrade screen (through the Exalted Weapon) quickly.\nFixed that one extraction cinematic on Earth where the Warframe mounts the ship on an angle. You know the one.\nFixed Liset customization not loading in on time when flying into a mission.\nFixed inability to Chat link Crisma Toroids.\nFixed the Stug's projectiles interacting physically with ragdolls.\nFixed some AI potentially getting stuck in their landing jump state which prevents them from being able to move from that point on.\nFixed Inaros’ Devour not working for enemy / allied Inaros AI (Specters).\nFixed certain Wyrmius rewards appearing as filepaths. \nFixed certain Warframe ability FX not appearing when in the Orokin Derelict extraction area.\nFixed Nidus’ Passive description claiming it uses 10 Mutation Stacks when it uses 15 Mutation Stacks when playing Warframe in Portuguese.\nFixed incorrect punctuation in certain subtitles during the Second Dream Quest.\nFixed broken tags in the Venari Bodyguard Mod that were broken in a few languages (German, Polish, Chinese).\n",
   "description": "As mentioned back in June 2018, Warframe’s Minimum Supported Specs will change to Windows 7, 64-bit operating systems, and DirectX 10 capable graphics cards in mid-February 2019.",
   "type": "Hotfix"
  },
