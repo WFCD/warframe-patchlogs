@@ -6642,6 +6642,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 12.4.5",
+  "url": "https://forums.warframe.com/topic/194749-hotfix-1245/",
+  "date": "2014-03-13T02:27:16Z",
+  "additions": "\n",
+  "changes": "Hotfix 12.4.5:\n\n\nFrost Changes:\n\nUsing a combination of ideas from the community and discussions between dev, Frost’s Snowglobe has changed. The changes are:\n\n Snowglobe’s health is now affected by a Warframe’s Armor value.\nThere is now a temporary invulnerability duration determined by the rank of a given Snowglobe Mod.\n Snowglobe’s health is increased by the amount of damage received in the “Invulnerability Duration” window.\nThe numerical details are as follows:\nUnranked Snowglobe: Health = 1500 + Invulnerability Duration = 1 second\nRank 1 Snowglobe: Health = 2500 + Invulnerability Duration = 2 seconds\nRank 2 Snowglobe: Health = 3000 + Invulnerability Duration = 3 seconds\nRank 3 Snowglobe: Health = 3500 + Invulnerability Duration = 4 seconds\nSnowglobe Health = Health + (Armor x 5)\nThese improvements are subject to change, let us know what you think!\n\n\n\nSelling items from the Arsenal's Inventory page now displays a full graphical manifest of all selected items before confirming sale.\n\nToned down flashing FX when light traps disintegrate in Grineer tilesets.\n\nReduced broken light damage by half.\n\nLimited ability to post messages in trade chat to once every 2 minutes to reduce channel spamming.\n\nOptimizations to Forest tileset to improve frame rate\n\nImproved audio mixing for Zephyr's Turbulence.\n\n\n",
+  "fixes": "\nFixed overly harsh Interception mode difficulty on Earth nodes (this was only meant to be applied to the Tethra's Doom mission).\n\nFixed intermittent hang when launching Survival missions on Earth .\n\nFixed clients being able to repeatedly hack Moa Cabinets to produce a flash mob of ally bipeds.\n\nFixed inability to fire Grinlok or throw Castanas and while sprinting.\n\nFixed clients immediately spawning in the middle of an active match when joining a Conclave arenas.\n\nFixed Banshee's Sonar effects lingering after enemies have been killed.\n\nFixed another case where a player could become stuck in Survival mode if oxygen supply ran out while they were activating a life support capsule.\n\nFixed Rescue missions in Grineer Galleon and Desert containing multiple hostages.\n\nFixed issues with Nova and Zephyr ability descriptions.\n\nFixed gameplay crashes.\n\nRedtext (thanks EntityOmega for capturing):\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 12.4.4",
   "url": "https://forums.warframe.com/topic/193552-hotfix-1244/",
   "date": "2014-03-11T02:39:36Z",
