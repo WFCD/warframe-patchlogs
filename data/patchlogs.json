@@ -470,6 +470,16 @@
   "type": "Hotfix"
  },
  {
+  "name": "Fortuna: Hotfix 24.2.12",
+  "url": "https://forums.warframe.com/topic/1058298-fortuna-hotfix-24212/",
+  "date": "2019-01-30T20:11:23Z",
+  "additions": "",
+  "changes": "Fortuna: Hotfix 24.2.12:\nRemoved unintentional ability for the Operator to use the Archwing Deployer Gear Item.\nImprovements towards AI becoming stuck in staircases in the Void Defense tileset.\n",
+  "fixes": "Fixed a rare case of inability to transition from the Plains of Eidolon back to Cetus.\nFixed cases of inability to customize your K-Drive.\nFixed the Rescue NPC not returning your graciously gifted Secondary weapon upon completing the Rescue Bounty phase in the Plains of Eidolon. \nFixes towards Coildrivers ramming into the Coildrive you’re defending, resulting in a huge amount of damage being taken and failing the Vallis Bounty. \nFixed the waypoint marker not leading you correctly to the Ambulas boss room in the Corpus Outpost tileset. \nFixed various issues when attempting to Chat link ‘MOA’.\nFixed a loss of functionality when K-driving with Quick Thinking equipped.\nFixed a script error when casting Garuda’s Blood Altar ability.\n",
+  "description": "As mentioned back in June 2018, Warframe’s Minimum Supported Specs will change to Windows 7, 64-bit operating systems, and DirectX 10 capable graphics cards in mid-February 2019.",
+  "type": "Hotfix"
+ },
+ {
   "name": "Fortuna: Hotfix 24.2.11",
   "url": "https://forums.warframe.com/topic/1057949-fortuna-hotfix-24211/",
   "date": "2019-01-29T19:01:28Z",
@@ -693,15 +703,6 @@
   "additions": "",
   "changes": "Fortuna: Hotfix 24.0.6:\n\n\nNova Prime, Mag Prime, Soma Prime, Boar Prime, Dakra Prime, and Vasto Prime Relics have been added to Plains of Eidolon Bounties, Orb Vallis Bounties, and in the Void drop table.\nAdded an activation ‘hack success’ sound to the Orb Vallis Coildrive Ambush encounter missions. \nSound polish towards Raknoid ability sounds.\nSound tweaks to the Venus Terra Drone rocket ability.\nTweaks and polish to Bounty transmission timing for Eudico.\nBroad Spectrum Bait description updated to reflect its use to attract Sapcaddies, Tinks, Eye-Eyes and Brickies.\n",
   "fixes": "Fixed a potential crash when entering Cetus or Fortuna.\nFixed the Ogris’ Nightwatch Napalm Mod only doing damage in the 4.5% explosion area (top of the projectile) instead of the intended 90% explosion area (at max rank).\nFixed Bounty \"more info\" screen having text boxes that are too short and wrapping text, causing text overlap.\nFixed FX Energy colors on the Spritsail Prime Armor.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Fortuna: Hotfix 24.0.5",
-  "url": "https://forums.warframe.com/topic/1030252-fortuna-hotfix-2405/",
-  "date": "2018-11-12T23:54:52Z",
-  "additions": "",
-  "changes": "Fortuna: Hotfix 24.0.5:\nReduced the Fieldron crafting requirements for the Kreska, Ocucor, and Battacor from 20 to 10.\nA script is in the works and will be run tomorrow to refund Fieldron to those who have already crafted \nwe will update you in this thread when the script has completed.\nAdded strokes to Mining laser HUD components based on Forum request for improved visibility.\nTweaked some plants in the Orb Vallis to improve quality.\nThe Eye-Eye now shows up during warm temperature only instead of cool temperature in Orb Vallis.\nRecaster Bait is now correctly labeled as Longwinder Bait.\nNarrow-Spectrum Bait was incorrectly described as attracting Tinks and Brickies (they are common fish and only require Broad-Spectrum Bait; Narrow-Spectrum Bait attracts Recasters and Eye-Eyes).\n",
-  "fixes": "Fixed a crash related to Chat linking.\nFixed the Fetch mod causing other Companion Mods to not function (specific to Kavats and Kubrows).\nFixed inability to spawn any vehicle while somebody is standing in the Fortuna elevator.\nFixed being able to accept Bounties while replaying the Vox Solaris quest.\nFixed loadout summary showing gear unranked if examined while in Operator mode.\nFixed the War Within Operator ability prompts when switching between keyboard/mouse and controller inputs\nFixed public matchmaking bounty UI remaining on screen when entering the Orb Vallis\nFixed incorrect pond coolant material in Orb Vallis which resulted in inability to fish in that coolant.\nFixed Profile stats summary page being cut off on the bottom.\nFixed Daily Tribute tooltips for certain items (e.g. Oxium, Cryotic) displaying incorrect counts.\nFixed overlapping UI when attempting to Dissolve a Riven Mod.\nIntegrated localized translations and layout fixes.\n",
   "type": "Hotfix"
  },
  {
@@ -5516,6 +5517,15 @@
   "type": "Update"
  },
  {
+  "name": "Hotfix 15.7.1",
+  "url": "https://forums.warframe.com/topic/367247-hotfix-1571/",
+  "date": "2014-12-16T21:58:50Z",
+  "additions": "",
+  "changes": "Changes:\n\nVoid Mission rewards are no longer included in caches upon finding all 3. Please note we are working on a way to return this feature, but exploits prevent us from leaving it active at this time.\n\n",
+  "fixes": "\nFixed personal contributions to Dojo color Research ingredients not being properly counted in the Dojo if you had not found any ingredients during our previous Update.\nFixed Nova’s Antimatter Drop being uncontrollable at Rank 1 as per: https://forums.warframe.com/index.php?/topic/367119-nova-prime-antimatter-drop-broken/\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 15.7.0 Nova Prime",
   "url": "https://forums.warframe.com/topic/367069-update-1570-nova-prime/",
   "date": "2014-12-16T18:58:55Z",
@@ -5729,15 +5739,6 @@
   "additions": "",
   "changes": "\nImproved Dojo load times and Dojo stability for 32-bit systems.\nMade improvements to long host migration times caused by recent optimizations.\nWarframes can now be rotated in the Sigil preview diorama.\nTweaked the volumes of Ancient Screams.\nImproved the Corpus Drone engine audio and increased the audible distance of related sound effects.\nIncreased the volume of Grineer hacking minigame related sound effects.\nRemoved the doppler effect from Orokin alarm sound effects.\nIncreased the volume of numerous Grineer combat barks.\nIncreased the movement speed of co-op hack doors to match the movement speed of other doors.\nRewrote and re-recorded one of the Archwing Quest opening transmissions.\nReduced the amount of reverb heard on the Pyrana sound effects.\nIncreased the volume of the Pyrana reload sound effect.\nCapture Targets’s Shields Drone will not provide instant shield recharges.\n\n",
   "fixes": "15.1.2\n\nFixed multiple issues with Windows XP systems, please let us know of your continued issues as they occur.\nFixed potential issues with Interception and Defense reward screens not showing mods or player names past certain waves.\nFixed an issue with Odonata’s Energy Shell impeding Melee attack homing on enemies.\nFixed issues with floating rooms and items on Europa.\nFixed an incorrect objective marker on the minimap during the Archwing Quest.\nFixed Mag's Bullet Attractor killing player sentinels as per this thread https://forums.warframe.com/index.php?/topic/254993-bullet-attractor-kills-sentinels-last-tested-nov-3\nFixed a floating Cryopod in Corpus Defense maps.\nFixed an issue with players not always receiving Cryotic after completing an Excavation mission.\nFixed a loss of functionality that could occur when attempting to access the Syndicates menu via the Pause Menu.\nFixed a number of broken visuals associated with breaking windows during Trench Run mission.\nCorrected an outdated Basic Training Codex line.\nFixed a scaling issue seen with Valkyr’s ambient visual effects during Archwing missions.\nFixed an issue with Infested Healing Ancients spamming their charge sound effects.\nFixed another instance of lockdown’s not ending correctly after the Stalker leaves.\nFixed an instance of the Stalker getting stuck in waiting to spawn mode on Interception and Defense maps.\nFixed a number of AI navigation issues seen on certain Ice Planet tiles.\nFixed an issue with Ash’s Smoke Shadow Augment lasting forever if cast by a client who subsequently quits the mission.\nFixed an issue with Ash’s Smoke Shadow affecting Defense targets.\nFixed being able to use weapons while on the Liset, specifically after removing the Grustrag Bolt.\nFixed an issue with getting inside asteroids as seen here: https://forums.warframe.com/index.php?/topic/340650-archwing-able-to-get-inside-asteroids/\nFixed an issue with enemies not always spawning at the start of Capture missions.\nFixed an issue with the player getting stuck in missions if the End of Mission screen appeared while viewing mission progress via the pause menu.\n\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 15.1.1",
-  "url": "https://forums.warframe.com/topic/340842-hotfix-1511/",
-  "date": "2014-11-06T21:48:06Z",
-  "additions": "",
-  "changes": "\nTrinity’s Energy Vampire can no longer be cast on inactive Corpus turrets.\nChanged and fixed several spawning, navigation, and objective details on Eris \nViver.\n\n",
-  "fixes": "Hotfix 15.1.1\n\n\nFixed Revive button resulting in an instant mission fail when playing alone.\nFixed Archwing Trench Run levels having invisible walls.\nFixed issue with AI flying into geometry in Archwing missions.\nFixed stealth finishers being far less effective than they should be.\nFixed Christmas coming early for Dojo Decorations.\nFixed an issue with melee channeling effects not properly matching the selected energy color.\nFixed several Sigil icons appearing as ammo boxes.\nFixed a Crash related to accessing a Clan Dojo.\nFixed many crashes on Windows XP systems.\nVarious Crash fixes.\n\n\n",
   "type": "Hotfix"
  },
  {
@@ -6416,6 +6417,15 @@
   "type": "Update"
  },
  {
+  "name": "Hotfix 13.4.1",
+  "url": "https://forums.warframe.com/topic/235797-hotfix-1341/",
+  "date": "2014-05-23T18:00:02Z",
+  "additions": "",
+  "changes": "Hotfix 13.4.1:\n\nAdditions:\nAdded mousewheel scrolling to launcher text.\nChanges:\nUpdated the textures on the Hek.\nUpdated the material and tint on the Excalibur Prime.\nUpdated the tint on the Excalibur Pendragon Alt Helmet.\nImproved the description for Valkyr's War Cry mod to better indicate melee buffs to teammates.\nFixes:\nFixed an issue with Helios' incorrectly scanning objects outside of the players aim as well as objects whose Codex entry is already complete. Helio sfix, Codex entries for crates will follow.\nFixed an issue with the player not properly leaving their present lobby when selecting to view a  Solar Rail that have been deployed from within the Clan UI element.\nFixed issue where Banshee’s Sonar was not recastable. Please note we are still working on fixing the timer not appearing for Clients, but the recast-ability has been fixed.\nFixed an issue with Loading Screen Mods showing as Max Ranked but still displaying unranked stats in the description.\n\nFor the complete Update 13.4 notes please see https://forums.warframe.com/index.php?/topic/234889-1340-serro-psa/\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
   "name": "13.4.0: Serro + Psa!",
   "url": "https://forums.warframe.com/topic/234889-1340-serro-psa/",
   "date": "2014-05-21T22:18:51Z",
@@ -6630,15 +6640,6 @@
   "changes": "Update 12.5.0: Helios:\n\n·         Improved the client side visuals for the effect created when enemies are hit by Trinity's Energy Vampire and Well of Life abilities.\n",
   "fixes": "·         Fixed Rescue targets on Alert Rescue missions demonstrating older AI behaviours and lacking proper functions (health/shield UI).·         Fixed Orokin Derelict Vaults locking players inside (https://forums.warframe.com/index.php?/topic/191684-orokin-derelict-bug/).\n",
   "type": "Update"
- },
- {
-  "name": "Hotfix 12.4.6: Luck O' The Lotus!",
-  "url": "https://forums.warframe.com/topic/197103-hotfix-1246-luck-o-the-lotus/",
-  "date": "2014-03-17T16:06:54Z",
-  "additions": "-Luck o’ The Lotus: From now until Tuesday, March 18 at 12 PM EDT, you'll earn twice the amount of resources from pickups AND have double the chance of resource drops in missions throughout Warframe!\n-Shamrock Green Colour Palette \nget it now before your luck runs out!\n\n",
-  "changes": "-Glaive FX optimizations.\n\n",
-  "fixes": "Hotfix 12.4.6: Luck O' The Lotus!\n\n-Fixed issue where Factions (Corpus/Grineer) could invade more than one planet at a time.\n-Fixed issue where player would only see equipped Warframe stats when comparing Sentinel stats.\n",
-  "type": "Hotfix"
  },
  {
   "name": "Hotfix 12.4.5",
