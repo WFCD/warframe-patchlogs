@@ -706,6 +706,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Fortuna: Hotfix 24.0.5",
+  "url": "https://forums.warframe.com/topic/1030252-fortuna-hotfix-2405/",
+  "date": "2018-11-12T23:54:52Z",
+  "additions": "",
+  "changes": "Fortuna: Hotfix 24.0.5:\nReduced the Fieldron crafting requirements for the Kreska, Ocucor, and Battacor from 20 to 10.\nA script is in the works and will be run tomorrow to refund Fieldron to those who have already crafted \nwe will update you in this thread when the script has completed.\nAdded strokes to Mining laser HUD components based on Forum request for improved visibility.\nTweaked some plants in the Orb Vallis to improve quality.\nThe Eye-Eye now shows up during warm temperature only instead of cool temperature in Orb Vallis.\nRecaster Bait is now correctly labeled as Longwinder Bait.\nNarrow-Spectrum Bait was incorrectly described as attracting Tinks and Brickies (they are common fish and only require Broad-Spectrum Bait; Narrow-Spectrum Bait attracts Recasters and Eye-Eyes).\n",
+  "fixes": "Fixed a crash related to Chat linking.\nFixed the Fetch mod causing other Companion Mods to not function (specific to Kavats and Kubrows).\nFixed inability to spawn any vehicle while somebody is standing in the Fortuna elevator.\nFixed being able to accept Bounties while replaying the Vox Solaris quest.\nFixed loadout summary showing gear unranked if examined while in Operator mode.\nFixed the War Within Operator ability prompts when switching between keyboard/mouse and controller inputs\nFixed public matchmaking bounty UI remaining on screen when entering the Orb Vallis\nFixed incorrect pond coolant material in Orb Vallis which resulted in inability to fish in that coolant.\nFixed Profile stats summary page being cut off on the bottom.\nFixed Daily Tribute tooltips for certain items (e.g. Oxium, Cryotic) displaying incorrect counts.\nFixed overlapping UI when attempting to Dissolve a Riven Mod.\nIntegrated localized translations and layout fixes.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Fortuna: Hotfix 24.0.4",
   "url": "https://forums.warframe.com/topic/1030143-fortuna-hotfix-2404/",
   "date": "2018-11-12T22:14:40Z",
@@ -1632,15 +1641,6 @@
   "additions": "",
   "changes": "Mining Buff:\nNow: 15% + 3% per filled gem icon \nPreviously: 10% + 2% per filled gem icon\nIncreased Specter ability cooldowns.\n",
   "fixes": "Fixed unconscious/ragdolled enemies not taking damage on clients; this was causing a wide range of gear to Weapons and Powers to be broken as well as a number of crashes.\nFixed Mesa Deluxe Glyph Loc.\nFixed Operator sometimes looking back during transmissions. \nFixed Larva Burst not appearing in Codex or linking in chat. \nFixed elevator markers sticking to the edge of the screen.\nFixed Metronome giving infinite buff when 2+ people activate it. \nFixed multiple castings of Hallowed Ground causing them to share the same duration. \nFixed Titania Razorwing augment adding infinite lasting buffs when casting abilities after entering and immediately exiting Razorwing.\nFixed Thurible animation not ending when out of energy. \nFixed kuva braids not disappearing after being destroyed. \nFixed a handful of weapons so that meleeing with them does not cancel sprint.\nFixed Seeking Shuriken not reducing target armor. \nFixed missing ankle buckle on Mesa Presidio. \nFixed Decoy dropping Oro in Conclave.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Plains of Eidolon: Hotfix 22.10.1",
-  "url": "https://forums.warframe.com/topic/911974-plains-of-eidolon-hotfix-22101/",
-  "date": "2018-01-26T04:48:38Z",
-  "additions": "",
-  "changes": "Plains Of Eidolon: Hotfix 22.10.1:\nThings we're still investigating for another Hotfix:\nSentinel Vacuum not Vacuuming up certain items\nHarrow's Thurible animation doesn't automatically stop playing after you run out of Energy.\nRemoved 3 unreleased Mods from Mod Packs/Transmutation and made them untradable.\n",
-  "fixes": "Fixed UI locking up when attempting to do a Focus Conversion with Eidolon Shards.\nFixed enemies not getting up from ragdoll if they survived Nidus' Larva Burst Augment being triggered.\nFixed a crash when viewing your Companion in the Arsenal. \nFixed a crash when your Kubrow picked up a ragdolled enemy.\nFixed a crash when casting Ivara’s Prowl.\nFixed not being able to Quick Melee after entering the Plains form Cetus.\nFixed some Alerts not appearing in the Alert Navigation window. \nFixed missing Syndicate Syandana FX.\nFixed Fish clipping through the floor of their Codex diorama.\nFixed Vacuum not working consistently for clients.\n",
   "type": "Hotfix"
  },
  {
