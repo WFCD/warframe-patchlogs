@@ -6642,6 +6642,15 @@
   "type": "Update"
  },
  {
+  "name": "Hotfix 12.4.6: Luck O' The Lotus!",
+  "url": "https://forums.warframe.com/topic/197103-hotfix-1246-luck-o-the-lotus/",
+  "date": "2014-03-17T16:06:54Z",
+  "additions": "-Luck o’ The Lotus: From now until Tuesday, March 18 at 12 PM EDT, you'll earn twice the amount of resources from pickups AND have double the chance of resource drops in missions throughout Warframe!\n-Shamrock Green Colour Palette \nget it now before your luck runs out!\n\n",
+  "changes": "-Glaive FX optimizations.\n\n",
+  "fixes": "Hotfix 12.4.6: Luck O' The Lotus!\n\n-Fixed issue where Factions (Corpus/Grineer) could invade more than one planet at a time.\n-Fixed issue where player would only see equipped Warframe stats when comparing Sentinel stats.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 12.4.5",
   "url": "https://forums.warframe.com/topic/194749-hotfix-1245/",
   "date": "2014-03-13T02:27:16Z",
