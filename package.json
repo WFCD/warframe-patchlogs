@@ -15,21 +15,22 @@
   "scripts": {
     "build": "node ./build/update.js",
     "lint": "eslint --ignore-path .gitignore .",
-    "test": "mocha"
+    "test": "mocha",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "cheerio": "^1.0.0-rc.3",
     "cloudscraper-promise": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-node": "^9.0.0",
-    "eslint-plugin-promise": "^4.0.0",
-    "eslint-plugin-standard": "^4.0.0",
-    "mocha": "^6.0.0",
-    "semantic-release": "^15.5.0"
+    "eslint": "^6.2.1",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.0",
+    "semantic-release": "^15.13.23"
   }
 }
