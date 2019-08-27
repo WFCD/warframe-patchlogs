@@ -39,7 +39,7 @@ class Scraper {
 
     // Loop through found elements. Stupid jquery doesn't support async inside
     // each loop.
-    for (let key in selector) {
+    for (const key in selector) {
       if (key.match(/^\d+$/)) {
         const el = $(selector[key])
         const post = {

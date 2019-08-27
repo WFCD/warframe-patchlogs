@@ -17,7 +17,7 @@ class Patchlogs {
       target.name = target.name.replace(' Prime', '')
     }
 
-    for (let post of this.posts) {
+    for (const post of this.posts) {
       const log = {
         name: post.name,
         date: post.date,
@@ -29,7 +29,7 @@ class Patchlogs {
       }
 
       // Parse changes, fixes, additions
-      for (let key of ['changes', 'fixes', 'additions']) {
+      for (const key of ['changes', 'fixes', 'additions']) {
         const lines = post[key].split('\n')
 
         for (let i = 0; i < lines.length; i++) {
@@ -40,13 +40,13 @@ class Patchlogs {
           // solved easier with some regex, but that causes some memory leak
           // that I'm unable to understand.
           if (target.abilities) {
-            for (let ability of target.abilities) {
+            for (const ability of target.abilities) {
               includesAbility = line.includes(ability.name) ? true : includesAbility
             }
           }
 
           if (line.includes(target.name) || includesAbility) {
-            let changes = []
+            const changes = []
 
             // Changes are in multiple lines (until next line with `:`)
             if (line.endsWith(':')) {
