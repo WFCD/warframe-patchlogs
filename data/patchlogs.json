@@ -7773,6 +7773,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 9.7.3",
+  "url": "https://forums.warframe.com/topic/101864-hotfix-973/",
+  "date": "2013-09-03T22:18:36Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "A few changes here to the event rewards:\n\n\nChanged Strun Wraith Crit Chance from the incorrect  50% to the correct 20%.\n\nScaled Equilibrium mod results to reflect amount of health or energy picked up.\n\nImproved handle for corrupted download caches.\n\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 9.7.2: The Reward-Ening.",
   "url": "https://forums.warframe.com/topic/101769-hotfix-972-the-reward-ening/",
   "date": "2013-09-03T17:49:38Z",
@@ -7986,15 +7995,6 @@
   "additions": "",
   "changes": "\nDamage buff for Sobek, the new Shotgun.\nResource labels restored in UI mission screen.\nResource Drops now follow regular rarity logic.\nNew UI back in Foundry.\nClan contact list now displays “last sign in” over Alias for offline and pending contacts.\nSquad information now again displays on the mission map.\nIncreased difficulty of Nightmare mode. Vampire drain rate is higher, and weapon restrictions are now enabled... coming soon. MUHAHA!\nMercury difficulty tweaks, now more new player friendly.\n\n\n",
   "fixes": "Hotfix 9.1.1\n\n\nFix for Nightmare mode appearing on nodes before entire planet had been completed.\nFix for issues completing Corpus Exterminate missions.\nFix for Vauban Vortex preventing revives in squad.\nFix for Raptor boss drops not being in reachable place.\nFix for Paris Prime blueprint not having icon or saving to inventory.\nRaptor boss will no longer flee to the surrounding mountains.\nFix for Infested Ancients replaying taunt animation if shot while playing.\nFix for players getting stuck in lobby after host leaves.\nFix for crash with Banshee “Soundquake” if gore was disabled.\nFix for Nova Molecular Prime not damaging nearby enemies after explosion.\nFix for Loki Decoy putting Vor in an inactive state.\nFix for doors not opening in Exterminate missions.\nFix for some tilesets not having hack panels in Grineer Galleon.\nFix for contact list involuntarily scrolling when contacts status changed.\nFix for Rifle Amp Aura stacking. A word from the designer: Rifle Amp, 45% damage buff stacking was too much, reduced to 27& (4.5% base).This was a typo on my part.\nFix for NOT being able to contribute to tech projects from the Clan Vault.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 9.1",
-  "url": "https://forums.warframe.com/topic/78040-hotfix-91/",
-  "date": "2013-07-13T07:47:57Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "\nSimplified the vengeful Vor's scaling \nhe will no longer be quite as tough as he thought he was (less than level 100).\n\nSwapped the old Foundry back in until we fix the recipe issues with the new version.\n\nFix for starchart camera moving around when dragging window chat.\n\nFix for resource material drops throughout solar system.\n\nFix for problem in tutorial where enemies were trying to sabotage the Lotus's guidance.\n\nFix for Dojos who had overcontributed and were in a locked state after scaling prices took effect.\n\nFix and swap for Nightmare Defense mode: mission is now 15 wave countdown aka NIghtmare Survival Defense.\n",
   "type": "Hotfix"
  },
  {
