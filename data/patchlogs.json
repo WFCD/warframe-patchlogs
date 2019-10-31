@@ -3001,6 +3001,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "The Glast Gambit: Hotfix 19.9.3",
+  "url": "https://forums.warframe.com/topic/760078-the-glast-gambit-hotfix-1993/",
+  "date": "2017-02-07T21:51:44Z",
+  "additions": "Optimized several server-side operations to prepare for Baro’s arrival this Friday.\n",
+  "changes": "The Glast Gambit: Hotfix 19.9.3:\n",
+  "fixes": "Fixed a number of server-side issues that cropped up after 19.9.2 deployment.\nFixed massive performance issues on Kuva Fortress Defense when walking around and meleeing around the Defense Target.\nFixed certain finishers (e.g. Galatine back stab) teleporting the victim into strange spots (often out of bounds) after the finisher completes.\nFixed a case of players sliding/teleporting really far when performing a ground finisher on enemies (notably with the Redeemer).\nFixed enemies remaining hostile after being spotted during your first try of the Mastery Rank 9 Test. \nFixed the Helminth Infirmary chair not curing your Warframe of the Cyst.\nFixed Nidus’ Market Build tab stating his parts drop from the ‘Purify’ mission when it’s actually the ‘Infested Salvage’ mission.\nFixed inconsistent terminology and grammar in Maroo’s Bazaar and elsewhere.\nFixed a level hole in the Grineer Settlement tileset.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Glast Gambit: Hotfix 19.9.2 (Phase One: DB Upgrades)",
   "url": "https://forums.warframe.com/topic/759911-the-glast-gambit-hotfix-1992-phase-one-db-upgrades/",
   "date": "2017-02-07T13:58:54Z",
@@ -3215,15 +3224,6 @@
   "changes": "The War Within: Update 19.3.0:\nMinor load time performance improvements to loading times!\nAn \"Accolades\" category has been added to the Profile screen to identify Staff, Senior Guides of the Lotus, Junior Guides of the Lotus, and Founders by their Badges. Example:\n \nSpoiler\nRemoved headshot multiplier and reduced the damage of the Seer in Conclave.\nAdded an option to change your server's matchmaking region without having to mess with your Profile.\n\n",
   "fixes": "Fixed Kavat Genetic Codes from Alerts not being given out in intended quantities. Alerts will now grant 5 Kavat Genetic Codes.\nFixed Orokin Derelict missions appearing as \"Assassination, Levels 1-1\" when hovering over them in the Star Chart.\nFixed the Leaderboard UI not filling the space available with information. \nFixed a door in Vor’s Prize not switching lights to green when unlocked.\n",
   "type": "Update"
- },
- {
-  "name": "The War Within: Hotfix 19.2.1",
-  "url": "https://forums.warframe.com/topic/728978-the-war-within-hotfix-1921/",
-  "date": "2016-12-02T23:03:52Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "\nFixes:\nFixed numerous unlocalized text.\nFixed incorrect/no reward if a fissure expires before the player rejoins from a crash or disconnect\nFixed Void Relic still displaying in inventory after cancelling a Fissure Mission\nFixed issue when trading Platinum and sculptures together\nFixed a bug with Martial Fury that made Power Rate a negative value\nFixed codex entries where it would assume an enemy could spawn in a region too high level for it.\nFixed Mirage’s Sleight of Hand traps going away when she dies in Conclave.\nFixed players sometimes getting Prime they rolled instead of Prime they chose when cracking Relics in endless Defense.\n\nSpoiler Fixes :\nSpoiler\nChanges:\nChanged the Kuva Siphon progress elements in hud (Progress circle is now for number of braids destroyed, and “harvested” is moved to a list underneath the circle)\n \nFixes:\nFixed Riven Cycle increasing reroll count by two when selecting the original Riven. We’ve also improved how Cycles are tracked with the hopes of adding more functionality at a later time.\nFixed potential script error in Teshin mission when players join/leave.\nFixed FoV resetting after Transference\n\n\n",
-  "type": "Hotfix"
  },
  {
   "name": "The War Within: Update 19.2.0",
