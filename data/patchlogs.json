@@ -7727,6 +7727,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix: 9.8.2",
+  "url": "https://forums.warframe.com/topic/102999-hotfix-982/",
+  "date": "2013-09-06T23:29:07Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Fixed issue for freezes on single-core machines.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 9.8.1",
   "url": "https://forums.warframe.com/topic/102978-hotfix-981/",
   "date": "2013-09-06T22:58:09Z",
