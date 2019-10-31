@@ -7727,6 +7727,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 9.8.1",
+  "url": "https://forums.warframe.com/topic/102978-hotfix-981/",
+  "date": "2013-09-06T22:58:09Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.8.1\n\nAdjusted Orokin Void door triggers and timing\n\nFixed objects disappearing when looking through certain doorways in Orokin Void\n\nFixed overlapping Beta label text on login screen\n\nFixed Grineer Galleon defense mode breaking after host migration\n\nFixed being able to bypass the Vor + Krill boss fight by using Bladestorm and other specific powers\n\nFixed physics crashes\n\nFixed inability to launch missions when playing in Turkish, also added missing Launcher text\n\nFixed random cinematics not appearing at login screen\n\nFixed \"installed\" tab showing all installed mods rather than the mods installed on the currently selected weapon\n\nFixed \"Y\" key opening Contacts menu\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 9.8",
   "url": "https://forums.warframe.com/topic/102835-update-98/",
   "date": "2013-09-06T18:30:21Z",
