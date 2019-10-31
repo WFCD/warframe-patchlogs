@@ -233,6 +233,16 @@
   "type": "Hotfix"
  },
  {
+  "name": "Tenno Reinforcements: Update 25.4.0",
+  "url": "https://forums.warframe.com/topic/1112632-tenno-reinforcements-update-2540/",
+  "date": "2019-07-18T19:02:05Z",
+  "imgUrl": "http://n9e5v4d8.ssl.hwcdn.net/uploads/bfacc64713b5a5a71637ca6bb3818d96.jpg",
+  "additions": "Added Arch-gun Ammo to the Simulacrum pickup area.\n",
+  "changes": "Tenno Reinforcements: Update 25.4.0:\n\nThe only thing Grineer hate more than seeing Tenno cut through waves of Lancers, is seeing them use Grineer Weapons to do it. Wield the power of the Grineer’s vast empire with the latest Tenno Reinforcements on PC: the Quatz Collection!\n*Quatz Pro Tip: start firing from the hip and aim while keeping the trigger held down to stay in auto mode!\nPick up the Quatz Collection or any of the individual items by visiting the in-game Market today, and put Grineer technology to use helping the Origin System instead of conquering it!\nCombat markers for enemies in Archwing / Submersible have been visually updated and now update their awareness color/fill depending on their state!\nImproved teleporting volumes spaces in the Corpus Outpost and Grineer Shipyard tilesets to catch overzealous Loki / Novas when attempting to escape the level.\nEligibility for the Get Clem & Maroo Ayatan Treasure Hunt missions now resets at 00:00 Monday each week (same as Nightwave) instead of an arbitrary 7-day cooldown from whenever you last completed them. This ensures you have a chance to complete the missions within the weekly refresh of Nightwave. \nAnyone who ran within the last 7 days will have their cooldown reset 7 days from when they ran it, and future resets will be Monday 00:00.\nIn Tuesday’s Hotfix we released a fix for a Nightwave bug that prevented proper tracking of Acts. This is Part 2 of that fix. Today’s fix retroactively provides missing Nightwave Standing to players affected by the issue we fixed Tuesday.\n",
+  "fixes": "Fixed Sortie roll-over + UI refresh not occurring exactly at 12 noon since the dawn of time.\nFixed Revenant specter not spawning reliably during the Mask of the Revenant quest if Host does not have the quest active.\nFixed Clients not seeing proper Trade offerings if the Host player swaps a Mod for Platinum. The confirmation screen does show the Platinum being offered, but players may be mislead / not paying attention and accept the Trade.\nFixed the Bullet Jump buff from Proton Pulse sometimes lasting perpetually.\nFixed Umbra’s Radial Howl sometimes leaving enemies frozen in mid-air. \nFixed Eximus Codex entries displaying the same as their non-Eximus version.\nFixed rail damage triggers in the Grineer Shipyard Defense tileset resulting in many deceased Pets, as it should only affect Warframes.\nFixed an unreachable Crate spawn in the Gas City tileset.\nFixed an unreachable Crate spawn in the Grineer Forest tileset.\nFixed some missing geometry collision in the Grineer Forest tileset.\nFixed a square box appearing in the minimap of the Ambulas boss area in the Corpus Outpost tileset.\nFixed not being able to toggle camera mode during Melee Finishers in Captura.\nFixed the Grain slider not functioning in Captura.\n",
+  "type": "Update"
+ },
+ {
   "name": "Prime Vault: Hotfix 25.3.3 + 25.3.3.1",
   "url": "https://forums.warframe.com/topic/1111888-prime-vault-hotfix-2533-25331/",
   "date": "2019-07-16T18:00:37Z",
@@ -7715,15 +7725,6 @@
   "additions": "",
   "changes": "Hotfix 9.8.3:\nFixed intermittent gameplay crashes\nFixed inability to start missions due to \"The game session is no longer available\" message appearing\nFixed crash that occur immediately after logging in\nFixed scenario where mission selection UI would become unusable after returning from a mission\nFixed players exiting lobby completely when attempting to cancel mission selection\n",
   "fixes": "",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix: 9.8.2",
-  "url": "https://forums.warframe.com/topic/102999-hotfix-982/",
-  "date": "2013-09-06T23:29:07Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Fixed issue for freezes on single-core machines.\n",
   "type": "Hotfix"
  },
  {
