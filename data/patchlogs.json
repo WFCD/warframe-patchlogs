@@ -469,6 +469,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Plains of Eidolon Remaster: Hotfix 24.8.2",
+  "url": "https://forums.warframe.com/topic/1089501-plains-of-eidolon-remaster-hotfix-2482/",
+  "date": "2019-04-30T17:59:23Z",
+  "additions": "",
+  "changes": "Plains Of Eidolon Remaster: Hotfix 24.8.2:\n\nFixed not receiving rewards at End of Mission if you’re awaiting revival while extraction is triggered by the remaining squadmates. \nFixed losing Arbitration Warframe/weapon buff each time a player respawns.\nFixed the Resurgence Burden UI lingering on the screen saying 0/5 if a player is near a Revive tower and doesn't have any Resurgence Burdens and another player performs the Revive.\nKnown Arbitaton UI bug: Host sees a different amount of Resurgence Burdens on Clients when they Transfer to Operator/Warframe.\n",
+  "fixes": "Fixed Chroma’s Vex Armor not being hindered or removed by a Corpus Nullifier field.\nFixed a level hole in the Grineer Fortress Capture tileset. \nFixed a level hole in the Corpus Outpost tileset as reported here: https://old.reddit.com/r/Warframe/comments/bhqo32/out_of_map_glitch_on_corpus_tileset_please_fix_de/ \nMore fixes towards waypoint flip-flopping in the Lua tileset.\nFixed glowy blood in the Chains of Harrow quest.\nMore fixes towards lens flare under the Temple of Profit.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Plains of Eidolon Remaster: Hotfix 24.8.1",
   "url": "https://forums.warframe.com/topic/1088451-plains-of-eidolon-remaster-hotfix-2481/",
   "date": "2019-04-26T18:38:16Z",
@@ -7716,15 +7725,6 @@
   "additions": "",
   "changes": "",
   "fixes": "Hotfix 9.8.4\nFixed frequent crashes encountered throughout the weekend\nFixed inability to claim items from Foundry even though empty slots are available\nFixed Ember's Fire Blast dealing damage to teammates and leaving permanent visual FX\nFixed Ember's World on Fire dealing inconsistent damage on host and client\nToned down Ogris charge effect\nFixed AI not advancing from upper levels of Corpus Defense map\nFixed AI not reacting to weapon-firing sounds\nFixed broken text appearing in main menu after defeating Vay Hek\nFixed descriptions of Neurodes and Neural Sensors\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 9.8.3",
-  "url": "https://forums.warframe.com/topic/103384-hotfix-983/",
-  "date": "2013-09-07T16:35:38Z",
-  "additions": "",
-  "changes": "Hotfix 9.8.3:\nFixed intermittent gameplay crashes\nFixed inability to start missions due to \"The game session is no longer available\" message appearing\nFixed crash that occur immediately after logging in\nFixed scenario where mission selection UI would become unusable after returning from a mission\nFixed players exiting lobby completely when attempting to cancel mission selection\n",
-  "fixes": "",
   "type": "Hotfix"
  },
  {
