@@ -7730,6 +7730,15 @@
   "type": "Update"
  },
  {
+  "name": "Hotfix 9.8.5",
+  "url": "https://forums.warframe.com/topic/104304-hotfix-985/",
+  "date": "2013-09-09T22:21:10Z",
+  "additions": "",
+  "changes": "Nothing:\n\nPotential fix for consumables being lost from inventory.\n*Note: A big thank-you for everyone who helped us out with information with this particularly nasty dual-core freeze bug. Between the incredibly helpful threads and support tickets, we could not have done this without you folks. We're sorry for the frustration this caused and are standing by for results based on this fix.\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 9.8.4",
   "url": "https://forums.warframe.com/topic/104222-hotfix-984/",
   "date": "2013-09-09T18:30:33Z",
