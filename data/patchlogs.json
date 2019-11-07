@@ -3231,6 +3231,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "The Glast Gambit: Update 19.5",
+  "url": "https://forums.warframe.com/topic/738152-the-glast-gambit-update-195/",
+  "date": "2016-12-22T14:13:09Z",
+  "additions": "Added an option to specify custom Dedicated Server settings type in the Launcher\n",
+  "changes": "Tiberon 30 to 21\nmk1 braton 60 to 25\nbraton 45 to 30\nBraton Prime 75 to 35\nBraton Vandal 50 to 30\nBoltor 60 to 30\nBoltor Prime 60 to 36\nTelos Boltor 90 to 42\nGorgon 90 to 60\nGorgon Wraith 90 to 60\nPrisma Gorgon 120 to 80\nGrakata 60 to 40\nPrisma Grakata 120 to 50\nKarak 30 to 20\nKarak Wraith 60 to 35\nSoma 100 to 50\nSoma Prime 200 to 70\nDera 45 to 25\nDera Vandal 60 to 35\nHind 65 to 40\nBuzlok 75 to 40\nSupra 180 to 80\nTetra 60 to 40\nPrisma Tetra 60 to 40\nStradavar 65 to 30\nAmprex 100 to 40\nFlux Rifle 200 to 30\nGlaxion 300 to 50\nSynapse 100 to 35\nMk1 Furis 35 to 20\nFuris 35 to 20\nDual Furis 70 to 40\nDex Furis 100 to 50\nCestra 60 to 30\nDual Cestra 100 to 60\nSecura Dual Cestra 100 to 60\nKohmak 40 to 30\nDual Kohmaks 80 to 60\nAzima 75 to 30\nAkSomati 70 to 30\nAtomos 50 to 30\nTwin Grakatas 120 to 60\nAkJagara 24 to 12\nAkzani 100 to 50\nEmbolist 100 to 50\nGammacor 100 to 30\nSynoid Gammacor 150 to 50\nNukor 50 to 35\nSpectra 80 to 40\ndamage for these weapons has also been rebalanced to compensate\n",
+  "fixes": "\n\nYou can find this new mission type on Oestrus, Eris!\n*Nidus Profile Icon will release in a future update\nA bloodsucker. This symbiotic burst-rifle leeches health to forge its ammo and then restores health with each headshot\nHIRUDO\nRip into the enemy with fists of razor sharp cartilage. Steals health with each critical hit.\n\nA sinuous spine of Infested anatomy.\nShow your holiday cheer with an assortment of five new holiday-themed Glyphs!\nFixed % display for Winds of Purity\nFixed several weapon augments that had flat numbers changed to percents \nFixed equip visible range being wrong in some resolutions\nFixed Nullifier bubbles providing invisible protection when the nullifier is not alerted (and therefore has their bubble deactivated). \nFixed deactivated/destroyed bubbles providing a small area of power nullification around the nullifier. \nFixed Corrupted Nullifiers having an invisible bubble always, that sometimes gets left behind.\nFixed Archwing in Jordas Verdict bug\nFixed Missing Smeeta Kavat icon and wrong Adarza icon\nFixed no reload bug in Conclave that affected some weapons\nFixed Sicarus Prime having wrong values in Conclave\nFixed Ash Carabid & Banshee Echo helmets not being improved by Arcanes \nFixed inadvertent Vulkar Riven Mod nerf. \nFixed hitch when viewing genetic imprints\nFixed script error when using Transference\nFixed Kuva being collectible by non-operator\n",
+  "type": "Update"
+ },
+ {
   "name": "The War Within: Update 19.4.2 + 19.4.2.1",
   "url": "https://forums.warframe.com/topic/737306-the-war-within-update-1942-19421/",
   "date": "2016-12-20T23:37:56Z",
