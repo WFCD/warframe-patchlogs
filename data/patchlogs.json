@@ -7713,6 +7713,681 @@
   "type": "Update"
  },
  {
+  "name": "Update 10.1.0",
+  "url": "https://forums.warframe.com/topic/110525-update-1010/",
+  "date": "2013-09-20T20:15:36Z",
+  "additions": "",
+  "changes": "Added:\n\n\nEnd-of-mission Orokin Void Rewards have been properly rectified, see here for more information on what went wrong with Update 10’s drops: https://forums.warframe.com/index.php?/topic/110474-an-apology/\n\nResource requirement changes for:\nDual Ichors:\nMutagen: 10 to 4\nForma: 2 to 1\nEmbolist:\nMutagen: 7 to 5\nForma: 2 to 1\nSynapse:\nMutagen: 11 to 5\nForma 3 to 2Djinn:\nMutagen: 15 to 6\nForma: 3 to 2\nDerelict keys:\n\nInto the Derelict: 1 hour to 1 minute.\nInto the Assassination mission aka Boss Fight: 3 hours to 1 hour (3 hours to 1 hour)\n",
+  "fixes": "Fixed Bastille affecting fewer targets than expected when immune enemies (turrets, cameras, drones) are nearby\nFix for Miter not taking energy color attributes.Fix for pickups not working in Conclave.\nFix for crash that would occur if Dethcube vaporizes opponent in the Conclaves.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 10.0.7",
+  "url": "https://forums.warframe.com/topic/110005-hotfix-1007/",
+  "date": "2013-09-19T22:03:38Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Additions:Darvo has emerged to offer discounted goods to the Tenno... he lurks in the Market.Fixes:Fix for Unranked Fusion Cores being offered as a mission reward.Fix for Turkish Players unable to join in-progress missions.Fix for motion blur in Syandana.\nFix for Gear Blueprints being sold for more credits than they cost.Fix for crash that could occur when viewing Arsenal while mission is starting.\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 10.0.5 + Hotfix 10.0.6",
+  "url": "https://forums.warframe.com/topic/109386-hotfix-1005-hotfix-1006/",
+  "date": "2013-09-18T21:17:09Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFixed News & Alerts panel disappearing randomly while traversing the UI (and actually fixed in 10.0.6)\nFixed clients receiving bottom-tiered rewards from Survival missions\nReduced cost of Team Totem blueprints, also changed resource requirements to Ferrite and Salvage only\nReduced crafting costs of Clan Tech items: Heal, Ammo, Shield, and Energy now 500cr\nFixed room prerequistites not being checked when attempting to construct new dojo rooms\nFixed \"power in use\" bug that could occur when using Desecrate\nAdded prevention for unintentionally selling last remaining sentinel weapon\nFixed damage numbers not appearing for Overheat\nFixed names for Rebound and Quick Return mods being switched\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 10.0.4",
+  "url": "https://forums.warframe.com/topic/108751-hotfix-1004/",
+  "date": "2013-09-17T20:46:56Z",
+  "additions": "",
+  "changes": "Added:\n\n\nBetter indication of selected items in arsenal\nAdded sound effect to survival artifacts.\nLess Opaque UI background.\n\nAdjustments to Credit Price of replicating Bio Blueprints (150,000 to 50,000).\n\n",
+  "fixes": "\nFix for toggle sprinting and aiming getting in the way of each other.\nFix for Alerts not properly appearing in Game UI. (Further investigation here based on claims still persisting).\nFix for Stamina not being depleted on Clients for Stamina-based actions.\nFix for Play Now button being accessible when it shouldn’t.-Fix for Uru Syandana not being color customizable. \nFix for using chat while in a non-star node (Keys)  lobby will prevent the appearance of the “Play Now” button.\nFix for clients sometimes not being able to damage Golem.\nFix for no enemies spawning in Survival missions after host migration.\nFix for German localizations.\nFix for Clan Dojo dueling not allowing players to revive.\nFix for tooltip descriptions not appearing when hovering over alert reward items.\nFix for Trinity’s Well of Life causing shields to increase exponentially during Survival missions.\nFix for Sure-Footed mod not working on Clients.\nFixed Shadows of the Dead power in use bug when used to revive/resurrect Grineer rollers (possibly other enemies as well).\nFix for player can get caught in falling loop with teleport.\nFix for branch clipping through floor in levels.\nFix for hand clipping into leg.\nFix for image preview on Clan research.\nFixed stealth challenge completing on being spotted in third phase.\nFix for rare cases where an alarm panel outside of the spawn would be enabled instead of the one in the spawn room, added log message for final score, changed how health drain works.\nFix for dojo test  Stealth Challenge not spawning enemies.\nFix for player loses rewards in key accessed defense missions if they do not claim and exit with host. Allow for migration if it's a defense mission, even if it requires a key\nFix for enemies not proceeding though some doors in Orokin level.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 10.0.3",
+  "url": "https://forums.warframe.com/topic/106722-hotfix-1003/",
+  "date": "2013-09-14T21:54:25Z",
+  "additions": "",
+  "changes": "Changes:\nStamina System tweaks:\n\n\nReduced delay on stamina recharge.\n\nIncreased stamina recharge rate.\n\nDecreased cost of stamina required for sprinting.\n\nDodging now uses stamina and has reduced damage while dodging\n\nDodges are executed slightly faster.\n\n",
+  "fixes": "\nFix for bug where \"Buy Slots\" would appear in gear menu after sell.\n\nFix for resources not dropping from The Void or Derelict Regions (this includes Mutagen).\n\nFix for Orokin Glass not being reflective.\n\nFix for Metallic look of Mod frames/borders.\n\nFixed doors shutting down on players once they failed challenge in Orokin Derelicts.\n\nFixed gap in Orokin Derelict level.\n\nFixed clients not being able to see generator hallway effects.\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 10.0.2",
+  "url": "https://forums.warframe.com/topic/106032-hotfix-1002/",
+  "date": "2013-09-14T06:21:06Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFurther reductions to Orokin Derelict recipes.\n\nAdded Charge attack melee stats to UI.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 10.0.1",
+  "url": "https://forums.warframe.com/topic/105954-hotfix-1001/",
+  "date": "2013-09-14T05:12:28Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nGrakata critical rate buff.\n\nAdded proper BP icons for Kama and Soma.\n\nFix for missing Bio Lab research component.\n\nAdjustments to Derelict Key recipes: lowered build times and adjusted resource requirements. (Note: Blueprints currently in progress will experience a UI bug with negative percentage.)\n\nFix for certain Asian languages text not appearing.\n\nFix for sentinels attacking owner in The Conclave.\n\nFix for stumbles in Sound Quake.\n\nFix for broken texture in connector.\n\nFix for Miasma not dealing correct damage.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 10: Shadows Of The Dead",
+  "url": "https://forums.warframe.com/topic/105648-update-10-shadows-of-the-dead/",
+  "date": "2013-09-14T01:39:30Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Update #10 – Shadows Of The Deadadditions:Changes:Fixes:\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 9.8.5",
+  "url": "https://forums.warframe.com/topic/104304-hotfix-985/",
+  "date": "2013-09-09T22:21:10Z",
+  "additions": "",
+  "changes": "Nothing:\n\nPotential fix for consumables being lost from inventory.\n*Note: A big thank-you for everyone who helped us out with information with this particularly nasty dual-core freeze bug. Between the incredibly helpful threads and support tickets, we could not have done this without you folks. We're sorry for the frustration this caused and are standing by for results based on this fix.\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.8.4",
+  "url": "https://forums.warframe.com/topic/104222-hotfix-984/",
+  "date": "2013-09-09T18:30:33Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.8.4\nFixed frequent crashes encountered throughout the weekend\nFixed inability to claim items from Foundry even though empty slots are available\nFixed Ember's Fire Blast dealing damage to teammates and leaving permanent visual FX\nFixed Ember's World on Fire dealing inconsistent damage on host and client\nToned down Ogris charge effect\nFixed AI not advancing from upper levels of Corpus Defense map\nFixed AI not reacting to weapon-firing sounds\nFixed broken text appearing in main menu after defeating Vay Hek\nFixed descriptions of Neurodes and Neural Sensors\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.8.3",
+  "url": "https://forums.warframe.com/topic/103384-hotfix-983/",
+  "date": "2013-09-07T16:35:38Z",
+  "additions": "",
+  "changes": "Hotfix 9.8.3:\nFixed intermittent gameplay crashes\nFixed inability to start missions due to \"The game session is no longer available\" message appearing\nFixed crash that occur immediately after logging in\nFixed scenario where mission selection UI would become unusable after returning from a mission\nFixed players exiting lobby completely when attempting to cancel mission selection\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix: 9.8.2",
+  "url": "https://forums.warframe.com/topic/102999-hotfix-982/",
+  "date": "2013-09-06T23:29:07Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Fixed issue for freezes on single-core machines.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.8.1",
+  "url": "https://forums.warframe.com/topic/102978-hotfix-981/",
+  "date": "2013-09-06T22:58:09Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.8.1\n\nAdjusted Orokin Void door triggers and timing\n\nFixed objects disappearing when looking through certain doorways in Orokin Void\n\nFixed overlapping Beta label text on login screen\n\nFixed Grineer Galleon defense mode breaking after host migration\n\nFixed being able to bypass the Vor + Krill boss fight by using Bladestorm and other specific powers\n\nFixed physics crashes\n\nFixed inability to launch missions when playing in Turkish, also added missing Launcher text\n\nFixed random cinematics not appearing at login screen\n\nFixed \"installed\" tab showing all installed mods rather than the mods installed on the currently selected weapon\n\nFixed \"Y\" key opening Contacts menu\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 9.8",
+  "url": "https://forums.warframe.com/topic/102835-update-98/",
+  "date": "2013-09-06T18:30:21Z",
+  "additions": "",
+  "changes": "Additions:\n\nThis Addition has been added at 3:42 PM EST:\n\nDefense Leaderboards are live!\nYou will see the Defense Leaderboards in your profile information screen. Here you can keep track of your personal and clans highest Waves reached in Defense!\n\n\n\n\n\nEmber: https://forums.warframe.com/index.php?/topic/102831-ember-98-feedback-thread/\nFireball: Fixed the damage-over-time (DOT) attaching to the target. Increased the damage amount and damage over time.\nFire Skin: Fire skin is now an offensive power rather than a defensive power. Reduced damage resistance and increased the damage output. Warframe strength mods now modify the damage amount.\nFire Blast: Fixed scaling problem, mesh scaled but the damage wall never did. Range mods no longer affect Fire blast, Duration and strength mods do.\nMag: https://forums.warframe.com/index.php?/topic/102829-mag-98-feedback-thread/\nPull: Change damage type to use ragdolls for the pulling instead of sliding. Increased amount of damage dealt. Should be more in-line with other Warframe powers now.\nShield Polarize: Radial damage that is dealt when shields are removed is now scaled based on fusion level.\nBullet Attractor: Added damage multiplier on the targeted enemy, making ability much more deadly.\nCrush: Damage timing changes.\nTrinity: https://forums.warframe.com/index.php?/topic/102830-trinity-98-feedback-thread/\nWell of Life:  Now plays reaction animation, Life is 10x multiplied allowing players to leech enough health out.\nEnergy Vampire:  Now plays reaction animation and doesn't require damage to get energy. Instead target radiates a set amount of energy every couple of seconds. Also does damage to the target (Damage scales with strength mod).\nLink: No longer damage immunity--changed to damage reduction, now links to several targets at once amplifying the incoming damage. Increased radius search for link targets.\nBlessing: Anim speed changes and timing. No longer wait until end of casting animation to get power effects.\nVauban: https://forums.warframe.com/index.php?/topic/102832-vauban-98-feedback-thread/\nBastille:  Ability now has a set number of targets. 6-8-10-12\nVortex:  No longer affects other players.\nNyx: https://forums.warframe.com/index.php?/topic/102833-nyx-98-feedback-thread/\nPsychic Daggers: Projectiles now seek and fly faster, more in line with other Warframes.\nAbsorb: Ability now has higher base damage and should attract more attention.\nGeneral:\nEnergy color tinting for Vauban’s Tesla and Vortex abilities.\nEnergy color tinting for Nova Antimatter Drop ability.\nTorid now uses energy color.\nParis Prime texture improvements.\nNew death animation for Mag’s Crush ability.\nVolt’s Speed ability trail FX now last the duration of the power.\nAdded some new ambient sounds to Grineer Settlement levels.\nUpdated sounds for Mag’s abilities.\nUpdated sound for Trinity’s Well of Life ability.\nVauban’s Tesla ability now has reduced FX on projectiles attached to players.\nPvP Dueling – Trinity can now effectively target opponents with all abilities.\nPvP Dueling – Vauban’s Bounce ability now does damage.\nPvP Dueling – Added cooldown to Excalibur Radial Blind ability to avoid exploits.\nHealing Ancient heal radius reduced to 30m range (was infinite).\nTool tips now appear for Alt Helmets.\nMisc. items section of inventory no longer adds empty slots (unnecessary)\nSound ducking from mix effects is now attenuated by distance as well as the volume ratio (user set volume levels, for example)\nAdded embedded damage radius to projectiles.\nChanged damage done by embedded projectiles to be affected by armor.\nAnimation and Audio tweaks to some Warframe Agile and Noble animations.\n2:43 PM addition:\nIndicated items in the Gear area of the Market are being retired in a later update \nLast Chance!\n2:53 PM addition:\n\nYou may notice that mods you have equipped in a weapon are in your options for customization in other weapons. You no longer need to remove the mod from weapon X to equip in weapon Y, it will appear in the UI for you now.\nAddition: If you find yourself saying \"Now I wasted mods fusing up duplicate X because I can equip the same mod twice on Sentinel/etc.\" This will likely not be possible in the future so don't sell your duplicates!\n\n",
+  "fixes": "Made a large number of optimizations to improve host frame-rate (especially when fighting many NPCs).\nFixed issue in Dojo where rotating decorations while holding shift will cause them to pop in some locations.\nFixed Dojo Rooms not accepting prerequisites from the old art set when trying to build rooms from the new art set.\nFixed issue where leaving a game after using a buff aura power causes the power to stay infinitely for all other players.\nFixed Thunderbolt explosive damage trumping impact damage. Projectile damage now applies first, and then the chance to explode is checked.\nFixed FX being applied incorrectly while Trinity’s Blessing ability is active, and FX lingering on clients.\nFixed Rhino Stomp being in use on the client even though it didn't affect any enemies.\nFixed some cases where projectiles that deal radial damage wouldn't hit all valid entities.\nFixed another edge case where “Cannot use in air” error occurred.\nFixed Raptor missiles following invisible targets.\nFixed issues that had AI running in circles.\nFixed some cases where damage numbers were not showing up properly.\nFixed Nova Antimatter Drop ability disappearing on clients.\nFixed Trinity's Link tendrils not going away when all targets are dead or out of range.\nFixed Saryn's Venom globes being impossible to shoot in certain situations.\nFixed AI affected by Mag’s Bullet Attractor ability from shooting once then stopping for several seconds.\nFixed abilities with cooldown timers suffering from \"power in use\" bug after used once on clients.\nFixed issue where player could lose weapon functionality if swapping weapons during an auto-reload.\nFixed issue where flashlights would remain on while weapon is holstered.\nFixed performance issues relating to Saryn’s Venom ability.\nFixed blocking volumes in Corpus Outpost Hanger so the ship doesn’t land on players.\nFix a number of issues with Trinity's powers in PVP. Blessing / EnergyVampire / Well of Life should all work correctly for valid targets in PvP.\nFixed incorrect emblem decorations on Dethcube\nFixed (again) issue with loot falling through respawn barrier and becoming unreachable.\nFixed issues with Jackal's leg shield mechanic.\nFixed missing texture on Fin sword. Waiting for notes on what is meant by Fin sword. Internal Note only.\nFixed issue where Ammo converted by Host was not available for clients.\nFixed Auras not returning after player dies and then revives.\nFixed broken Fang Prime elemental FX.\nFixed issue where players couldn’t join a Dojo session in progress if the obstacle course had previously been triggered.\nFixed issue where skipping the Tutorial, it would continue into the Warframe selection screen.\nFixed issue where players couldn’t enter Terminus immediately after completing tutorial.\nFixed stats not being properly counted upon mission complete due to host migration.\nFixed some teleporting issues to avoid specific areas where players fall through maps.\nFixed issues that resulted in clients being stuck on the loading screen after a match.\nFixed multiple areas reported as exploits or problematic for navigation across all tile sets.\nFixed various reported nav mesh, clipping, and collision problems across all tile sets.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 9.7.3",
+  "url": "https://forums.warframe.com/topic/101864-hotfix-973/",
+  "date": "2013-09-03T22:18:36Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "A few changes here to the event rewards:\n\n\nChanged Strun Wraith Crit Chance from the incorrect  50% to the correct 20%.\n\nScaled Equilibrium mod results to reflect amount of health or energy picked up.\n\nImproved handle for corrupted download caches.\n\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.7.2: The Reward-Ening.",
+  "url": "https://forums.warframe.com/topic/101769-hotfix-972-the-reward-ening/",
+  "date": "2013-09-03T17:49:38Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.7.2 is live!\n\nThis hotfix includes:\n\n\nAdded content and rewards for the completion of the Survival Weekend Event.\n\nThank you, Tenno!\n\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.7.1",
+  "url": "https://forums.warframe.com/topic/100556-hotfix-971/",
+  "date": "2013-08-30T19:23:06Z",
+  "additions": "",
+  "changes": "Hotfix 9.7.1:\nFixed crash when activating Life Support Capsule\nFixed enemies not spawning for extended periods of time during Survival missions\nFixed missing texture on Braton Vandal\nFor the full list of Update 9.7 notes please see: https://forums.warframe.com/index.php?/topic/100482-update-97/\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 9.7",
+  "url": "https://forums.warframe.com/topic/100482-update-97/",
+  "date": "2013-08-30T16:01:06Z",
+  "additions": "",
+  "changes": "Additions:\n\nAdded Warframe idle animation customization: “Agile” and “Noble”.\nMod Rewards from “Arid Fear” event (Shred, Vigor, Lethal Torrent) now available in Nightmare Mode\nFounders Badges are live in-game! Visit https://forums.warframe.com/index.php?/topic/100061-founders-badges-in-game-now/?p=1139283 for all the info.\n\nImproved Trinity’s cast animation for Blessing ability.\nMiter – increased fire rate, higher charge damage. Charged shots fire through targets.\nImprovements to ragdolls.\n",
+  "fixes": "Fixed incorrect emblem decorations on Dethcube.\nFixed Ember’s Overheat ability that was creating extra fire FX on clients.\nFixed performance issues relating to Saryn’s Venom orbs.\nFixed bug where you could navigate between regions after playing Void keys.\nFixed text field for Market sale items in Russian language.\nFixed Puncture Mods not working as intended on projectile weapons.\nFixed various reported crashes.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 9.6.1",
+  "url": "https://forums.warframe.com/topic/98468-hotfix-961/",
+  "date": "2013-08-22T21:42:24Z",
+  "additions": "",
+  "changes": "Hotfix 9.6.1:\nArid Fear Dojo Trophy Recipes have now been distributed to the top clans from the past event! Congrats!\nAdded new visual effect while Blessing is active\nAdded visual effects to several idle animations\nIntegrated text translations for various languages\nChanges\nUpdated reload sound effects for Snipetron, Snipetron Vandal, and Torid\nUpdated visual effects for Dera muzzle flash\nImproved visual effects for Flux beam\nSwitched Radial Blind's color back to white with some tinges of energy color\nRemoved inconveniently-placed loot crates that were thwarting Kril's plans for Tenno domination\nNyx's Chaos now only stuns bosses, not make them murder their subordinates\nFixes\nFixed energy colors not being applied to Trinity's Link\nFixed Link beam occasionally attaching itself to nothing in particular\nFixed Volt Speed not being affected by power duration mods for clients\nFixed Rhino Stomp being \"In Use\" on the client even though it didn't affect any enemies\nFixed energy colors not being applied to Tesla\nFixed sentinels sometimes dropping items on death\nFixed \"Cannot use in Air\" message appearing indefinitely if player jumped and used a power right away\nFixed Raptor missiles following invisible targets\nFixed energy colors not being applied to Vortex\nFixed Nova being launched into orbit if she casts Molecular Prime right as she jumps\nFixed Drop disappearing on clients after fusing it past level 1\nFixed energy colors not being applied to Drop\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 9.6",
+  "url": "https://forums.warframe.com/topic/96343-update-96/",
+  "date": "2013-08-16T19:47:03Z",
+  "additions": "",
+  "changes": "Additions:\n\nA new Grineer weapon appears: the HIND!\n\nThe first Alliances have emerged, and our 1001+ clans have been split.\n\n\nFlux energy beam is now affected by Energy Colour!\nDera muzzle flash is now affected by Energy Colour!\nExcalibur Radial Blind now uses Energy Colours!\nRemoved the Corpus Void Key Blueprint from the Store \nowned copies can be sold for the same purchase price\nEnabled selling of Corpus Ciphers and Data Masses.\nImprovements  to the Transmutation system: you can no longer transmute your final power card of a given type.\nImprovements to Enemy AI on Settlement defense, they are not as cowardly and won’t huddle in their Spawn location.\nAdded Sobek reload animiaton tweaks.\nAudio updates to the Desert Skate and Grineer Jetpack Troops\nTweaks to Twin Viper sounds\nTweaks to Orthos hit sounds\nTweaks to Grineer Miter sounds.\nTweaks to Rhino’s Iron Skin lighting.\nTweaks to settlement enemy navigation.\nAdded fancy footwork to Grineer Jetpack landing animations.\nMods and Blueprints will never expire as drops.\nElite Grineer Lancers now use the Hind!\n\n\n",
+  "fixes": "\n\nAdded multiple localization fixes\nMultiple fixes for the Grineer Settlement levels.\nFixed the fact that players can consume their final power cards with Transmute\nFixed enemies not leaving the spawn rooms in Settlement Defense\nFixed the Contact List breaking after sending a clan invite while in the Dojo\nFixed the Stalker dropping blueprints 100% of the time\nFixed not being able to perform stealth take-downs on any idle Grineer\nFixed the Stamina Orbs appearing as blue instead of green after building the Dojo Obstacle Course\nFixed the Sabotage Target not appearing on client after a host migration\nFixed enemies being inaccessible in the Settlement Spy missions\nFix for Banshee Silence effect not using correct energy colours\nFix for unlit textures in Corpus Ship room.\nFixing enemy levels on Phobos , Stickney (max level increased by 2 instead of being same as min level)\nFix for Warframe power cast animations replaying if they are knocked down during animation.\nFix Volt Overload creating two effects on clients.\nFix for animations being cancelled due to pain flinch.\n\nForgot one:\n\nFix for crashes when using continuous fire weapons through Electric Shield.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 9.5.3",
+  "url": "https://forums.warframe.com/topic/95311-hotfix-953/",
+  "date": "2013-08-14T16:54:17Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.5.3:\n\nAdditions:\nCorpus Void Keys are sellable for 1500 Credits.\nAdded hacking consoles to locations in Settlement tileset that users could be locked in.\n\nChanges\n\nImproved blueprint drop rates for Phobos boss fight.\nMore loot table changes! All enemies now have a chance to drop Fusion Cores.\nChat window tweaks to assist in readability of chat on bright levels (White text on Sand was problematic).\nTweaks to Grineer Hellion animations and movement.\nRollers have been removed from Grineer Settlements. The Grineer need to make up their mind!\nHand Positions on several weapons have been tweaked.\nKril And Vor have gone through endurance training and no longer attack and fear Sand Skates.\nReduced spawn rate of enemies on prison for Settlement Capture mission.\nBuff to pistol Armor Piercing mod.\nBuff to melee electrical damage mod: up to 10% from 5%.\n\nFixes\n\nFix for objective marker sometimes not appearing for Spy missions in Corpus Outpost.\nFixed Trinity blueprints dropping from Grineer Commanders.\nFix for Lech Kril sometimes becoming invincible when fighting him.\nFix for Sand Skate repeating his taunt animation.\nFix for credit booster not applying to end-of-match reward.\nFix for missing ceiling texture in settlement.\nFix for floating container in settlements.\nFix for Color Picker UI menu becoming unstable after “double clicking”\nFix for the Miter’s holster position.\nFix for “Reputation” UI appearing in defense missions.. more on that later!\nVarious settlement map bug fixes.\nCrash fixes.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.5.2",
+  "url": "https://forums.warframe.com/topic/94214-hotfix-952/",
+  "date": "2013-08-12T20:05:26Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.5.2\n\n\nFixed UI becoming non-functional when attempting to view Solar Landmark.\n\nFixed inability to reload Twin Gremlins while sprinting.\n\nFixed boss drop tables. A blueprint will no longer drop 100% of the time being a “Chassis”. Every Blueprint has a chance to drop, but you may not get a blueprint every time.\nPlease see DE_Steve’s post regarding Drop Tables 2.0, issues we are working on, and how Fusion Cores and Mods fit into this. https://forums.warframe.com/index.php?/topic/94177-drop-tables-20/\n\nFixed issues with the Transmutation feature. Users were unable to see or use mods resulting from Transmutation. Inventories also became unstable if a Transmuted mod resided within.  A script will be run to correct the inventories of players who had been affected.\n\nFixed Ogris charge sound effect playing randomly when it wasn't being charged.\n\nFixed being able to parry while ziplining.\n\nFixed appearance of Ether weapons. Our weapons manufacturer apologizes for the defective translucency in the 9.5 model.\n\nFixed rare loss of functionality that could occur when leaving/being disconnected from a session while in the main menu.\n\nBuffs to Orthos Prime, Slightly faster, bit higher base damage. Longer reach.\n\nFixes for gameplay crashes.\n\nFixed custom colours not applying to Miter saw blades or boomerang.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.5.1",
+  "url": "https://forums.warframe.com/topic/92756-hotfix-951/",
+  "date": "2013-08-10T01:00:55Z",
+  "additions": "",
+  "changes": "Hotfix 9.5.1:\n\nTweak to Ash’s new custom idle.\nUpdated Grandmaster Solar Landmarks (seeing reports of bug after click, noted)!\nDisabled Exterminate wrinkles in alert missions for event.\nFixed custom idles sometimes resulting in bad pose when carrying datamasses.\nFixed mods not showing icons.\nFixed Lokis’ arm clipping,breaking,fusing,merging, etc. with Supra.\nFixed problem with Transmuted mods not appearing in inventory until relogin.\nProper event badge now shows when you complete Capture in the Void (was showing sling-stone badge)\nFixed unable to sell blueprints if you only had one.\nFix for Foundry blueprints that require items not be craftable.\nFix for Foundry UI breaking if it was open when an item completed.\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 9.5: Operation Arid Fear",
+  "url": "https://forums.warframe.com/topic/92568-update-95-operation-arid-fear/",
+  "date": "2013-08-09T21:23:06Z",
+  "additions": "New Grineer Settlement. Hiding here are new enemy types waiting to be battled, blueprints for weapons, and more… Complete Operation Arid Storm to unlock its secrets!\nhttps://forums.warframe.com/index.php?/topic/92493-operation-arid-fear/ \nNew weapon: Grineer-issued Twin Gremlins! Blueprint available on the hidden Grineer Settlements…\n \nNew weapon: Miter, a sawblade gun of death! Blueprint available on the hidden Grineer Settlements…\nNew Bladestorm animations for Infested Ancients and Chargers.\nStealth Finishers for Infested Ancients.\nNew weapon skins bundle: Desert Camouflage patterns for Grineer firearms\nMod Transmutator – Combine 4 mods to produce 1 random mod. Combining mods of similar polarity, rarity, or compatibility will influence the result.\nNew custom Warframe idle animations.\nNew RNG fixes – Enemy and Level specific drops for more efficient hunting!\nAdded “Remove all” button to Mods screen.\n\n5 Halls, Power Room, and all connector pieces updated to fit new grid system for improved layout options.Older versions of these rooms are no longer available for creation but remain if you own them.Older versions of these rooms will not fit the new grid system.Older versions can be destroyed for a  full 100% refund allowing you to reconstruct with the new versions. All Platinum used to rush rooms is included in the Clan Vault.New versions fit a grid system that will eventually allow you to loop pieces with more than one entryway.New versions look better!All other room pieces not listed have updates in progress to fit the grid where necessary.Rooms that have not been updated retain their functionality,Rooms that have only one entrance are largely unaffected by the grid change (because they can’t be looped anyway)\nOlder version of the Clan Hall can be converted to the new Clan Hall instantly with no cost, if it is the only room in the Dojo (destroy all other rooms first). You must remove all Decorations in the Hall before converting.\n\n",
+  "changes": "Add charging state feedback on HUD.\nThief’s Wit mod upgraded! With a high enough fusion, you will be able to see mods on the minimap.\nBy request, chance of diorama background on login.\nCorruptors can now be sold: Alpha/Beta for 100 credits each, Stable for 50 credits each.\nInfested and Ancients no longer drop Corruptors.\nAura card UI changed to a grid system.\nAdded custom reload animations for Dera, Supra, Lanka, Ogris, Lex, and Kraken.\nAdded custom recoil animations for Latron Prime, and Lato.\nAdded custom reload sounds for Strun, Dera, Supra, Gorgon, Ignis, Grakata, Acrid, Kraken, Hek, and Lex.\nUpdated stealth finisher sounds for Axe, Dual Sword, Sword, and Staff weapon types.\nPrevent being able to revive enemy capture target while he is being affected by Nyx's mind control.\nRevised Rhino’s Iron Skin texture as requested.\nHikou fx trail now uses energy color.\nFX tweaks to Ignis\nOngoing Art and sound improvements on some Clan Dojo connector pieces and halls.\nRaptor projectile explosion FX toned down.\nReplaced existing Japanese font with new font in effort to clean up positioning and size of characters.\nCleaned up some Clan Dojo obstacle course audio.\nAdded animation and sounds for Ash’s Bladestorm ability vs. Ancients\nClan Stats are hidden in Profile unless you are in a clan or have a clan invite.\nAll Objectives in Endless Defense now scale to the mission's enemy level \nhigher end defense should now be slightly more tolerable for solo play or squads without Frost. Does not scale with additional enemy scaling per wave.\n\n\n",
+  "fixes": "Update 9.5: Operation Arid Fear!\n\nFixed Reactor FX not replicating on client.\nFixed missing skybox issues in Grineer Galleon.\nFixed HUD breaking when reviving capture target affected with Nyx's mind control.\nFixed HUD breaking when reviving rescue hostage.\nFixed streaming settings on some gun textures.\nFixed some missing art issues in Grineer Galleon.\nFixed some object collision in Grineer Caves\nFixed issue with Ash Bladestorm where the Ash’s arm may be stuck in his shoulder.\nFixed issue where Ash would become invincible after using Bladestorm on clients.\nFixed Vauban's powers not working when stuck onto Frost's Snowglobe.\nFixed bad cases with Vauban’s Tesla, Bounce, and Bastille that would occur when the instigator player would die/respawn/leave the game.\nFixed issue where mini map moves incorrectly depending on player's direction.\nFixed potential problems that may arise if a player is visiting another clan's Dojo.\nFixed shield hit FX not appearing on certain weapons.\nFixed Alt helmets that were applying visual FX twice when a clan emblem projector is equipped.\nFixed Saryn’s Moult ability FX not showing on client.\nFixed Akimbo pistols to act like akimbo pistols when carrying datamass.\nFixed enemies severing when they shouldn’t.\nFixed enemy AI throwing grenades in strange directions when players are moving.\nFixed most issues relating to “cannot use power in air” bug.\nFixed the Hikou throwings stars so that they only have 1 flashlight beam pointing in the correct direction.\nFixed heavy impact mod from activating after being teleported.\nFixed Camera controls melee direction setting will always default to On when logging in.\nFixed non-Warlords being unable to kick clan members\nFixed Lotus transmissions incorrectly calling out ships when on planets\nFixed Osprey explosion sounds\nFix for Nova's Wormhole being used on enemies and sending them to a far away place\nFix for Dera not updating with custom colours in the arsenal.\nFix for not being able  to attack immediately after a jump attack or slide slash with Cleavers/Zoren weapon.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 9.4.1: Double Affinity Weekend!",
+  "url": "https://forums.warframe.com/topic/90015-hotfix-941-double-affinity-weekend/",
+  "date": "2013-08-02T22:39:43Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.4.1\nFix for selecting wrong friend when right-clicking in friends list (Context menu now pops up on right click release instead of right click down)\nNova Helmet customization colour fixes.\nFixes for Constitution mod and Fortitude mod not working as intended.\nFlux rifle with Multishot crash fixes and over-the-top corpse destruction (phrases I never thought I’d type).\nFalse HUD affinity fixed: Was saying “100” when truly giving double or Quad.\nFix for  Orokin Void Defense enemy levels – they are now back to their original difficulty. They obviously felt the new recruits could take on Tenno, how foolish.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.4: Double Affinity Weekend!",
+  "url": "https://forums.warframe.com/topic/89853-hotfix-94-double-affinity-weekend/",
+  "date": "2013-08-02T16:37:28Z",
+  "additions": "",
+  "changes": "Additions:\n\nDouble Affinity Weekend is live now until Tuesday @ 12 noon EDT!\nDual Ether, Afuris, and Affinity Booster package is in the Market. Any Affinity Boosters this weekend will result in… QUAD AFFINITY!\n\n\nChanges to calculate Clan Tier based on number of confirmed members, not pending. We have run a script to downgrade Clans affected by this “Pending” members occupancy.\nSlash-Dash visual brightness tweaks.\nSquad info will now be kept on screen regardless of matchmaking mode.\nNova’s Molecular Prime is less blinding on explosions.\nThe Dera Energy Rifle now uses both barrels.\nDefense missions now begin when the pod/core is reached, meaning idlers do not determine when mission begins. One player must reach the defense target for the first Wave to start\nPlayers who are AFK will drop mission critical items that they are carrying.\nWarframe Nexus Android App Updated to 1.9.1\nFixed Warframe Nexus stealing focus from other running apps (finally!)\n Added new \"Resources\" section to item filter list\n Should consume less battery power when running now\n Improved auto-retry responsiveness after detecting loss of network connection\n Fixed notification filter not applying correctly to certain helmet blueprints\n Fixed expired alerts not being sorted to bottom of list in all cases\n\nNightmare mode tuning:\nDon’t allow 0 shields in nightmare mode if Vampire mode is in effect.\nEnergy Drain mode now gives zero shields in addition to draining energy. Reduced chance of Energy -Drain mode (33% instead of 50%).\nMobile Defense is now exempt from No-HUD mode.\nNo-Mini Map mode removed as it was universally despised (but if you really liked it, a post-it note will do the trick).\n\n",
+  "fixes": "Fix for case when offline players enter a lobby and then join a friend during the countdown are unable to play.\nFix for animation glitch in Grineer melee enemy units when walking.\nFix for Flux Rifle not being able to damage ragolled enemies on client.\nFix for HUD breaking when reviving capture target affected with Nyx’s “Mind Control”.\nFixed continuous fire weapons not swapping out until you stop sprinting.\nFixes for badges on Wyrm and DethCube being offset.\nFix for weapons not returning after using Ash’s Bladestorm\nFix for Clients receiving the Power In Use error when casting Saryn's Venom ability\nFixed bad cases with Tesla, Bounce, and Bastille that would occur when the instigator player would die/respawn/leave the game.\nFix for players is unable to gain credits if they have a negative credit balance\nFix for potential problems that may arrise if a player is visiting another clan's Dojo.\nFix for Machete first Strike missing a lot\nFixed character walking up on top of crates when trying to destroy them with melee attacks \nFixed alt helmets applying their effects twice when you have a clan emblem projector equipped.\nFix for Dera's laser bolts will always hit to the let of the crosshairs\nFixed being able to immediately reload bow weapons every time the sprint key is\nFixed Saryn's Molt not showing vfx on clients.\nFix for Lech Kril being stuch in invincible mode on some encounters.\nFix for killing blows with OGris or Torid affecting resource drops for client. Further stability to replicated drops has been added.\nFixed APEX crash.\nFix for Clan Emblems not appearing for Clients.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.3.4",
+  "url": "https://forums.warframe.com/topic/88013-hotfix-934/",
+  "date": "2013-07-29T18:42:45Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nfixed new Ammo Mutation Mods not being compatible with Clan Tech weapons.\n\n\nfixed blueprints for weekend event Dojo Trophies requiring 16 Forma to build instead of 16 Gallium.\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.3.3",
+  "url": "https://forums.warframe.com/topic/87914-hotfix-933/",
+  "date": "2013-07-29T16:33:22Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nSling Stone Victory entry added to Lore section of Player Profile\n\n\nLeftover corruptors can now be sold from the Inventory section of the Arsenal\n\n\nIncreased brightness of Warframe \"energy\" color\n\n\nFixed mods awarded from Steam packs not appearing in player inventory. Accounts affected will be retroactively fixed today.\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.3.2",
+  "url": "https://forums.warframe.com/topic/86723-hotfix-932/",
+  "date": "2013-07-27T04:28:27Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "One last hotfix tonight to take care of some newly-introduced shield issues before sleepy time...\n\n\n\n\nfixed host player shields taking damage when attacked by teammates\n\n\nfixed enemy shields being bypassed when taking large damage amounts\n\n\nfixed Shield Osprey not applying shield buffs to his allies\n\n\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.3.1",
+  "url": "https://forums.warframe.com/topic/86627-hotfix-931/",
+  "date": "2013-07-27T02:00:41Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nfixed active squad counts not appearing in star chart\n\n\nfixed top of Clan leaderboard not being limited to Clan tier\n\n\nadded missing weekend event localizations for various languages\n\n\nfixed \"-1d\" appearing next to destroyed Fomorian ship descriptions\n\n\nimproved sharpness of chat font\n\n\nfixed market descriptions for Femme Fatale and Go Nova! features\n\n\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.3",
+  "url": "https://forums.warframe.com/topic/86462-hotfix-93/",
+  "date": "2013-07-26T21:25:16Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "ADDITIONS:\nCalling all Tenno! Your help is needed July 26 until July 29 @ 12 PM EDT!\n\nNew Weapon: The VASTO Tenno revolver!\nFusion Core Bundles: 3 tiers to choose from in the Market.\nNew Ammo Mutator mods: converts unused ammo to select ammo type (Pistol, Shotgun, Rifle, Sniper, Bow).\nEvent Reward for Individuals: holographic badge in Warframe customization options.\nEvent Reward for Clans: Fomorian ship statue for clan dojo.\nBeware! A new enemy type is patrolling the Famorian ships. The Grineer Eviscerator.\nOngoing Marketplace revisions\nmain page now displays 6x Featured items and 6x Most Popular items.\nAdded experimental new \"Camera Controls Melee Direction\" toggle to Settings screen (ON by default). When toggled off all melee attacks will be made in the direction your character is actually facing rather than using the reticle's aiming point. Toggling OFF may be preferable for players using gamepads.\nAdded Leaderboards for personal and clan stats (including event stats) to Profile screen.\nAdded mouse wheel scrolling for news/alerts/operations.\nCHANGES:\nContinued UI re-skinning: new fonts, popups, Login UI, Market UI (now includes Popular list and separate GEAR section), Foundry UI now uses 4-row layout instead of grid.\nOnline matchmaking now favors hosts within 3 mastery ranks of player when joining a mission where multiple hosts are available.\nCan no longer join public in-progress extermination missions once half the enemies have been eliminated.\nEnable ground hit on enemies who have ragdolled (as opposed to only working on enemies who are \"knocked down\").\nCleaned up tutorial level with proper pathing on stairs, missing collision on meshes, and blocking volumes.\nOrokin Loot Runs: Adjusted timings on the loot run doors to provide appropriate challenge.\nObstacle course: Time limit shortened, and when it expires the player is teleported to the beginning with a fail message.\nObstacle course: Added \"cancel\" pads.\nAdded access to landing area in Large Corpus Cargo room (as requested).\nIncreased difficulty (just a little) of Nightmare mode.\nNightmare mode storage lockers don't give ammo.\nAsh Bladestorm ability deals increasing damage as it levels up.\nGrineer Animations for triggering consoles with more urgency.\nInfested Ancient Loki Switch Teleport reaction animations, Mag Crush react animations, and stealth attacks.\nCorpus Biped animation improvements (feet, toes, ankles, firing pose).\nArrows now use energy colors of the Bows.\nEnergy color clamped between 25%-65% luminance, sunglasses no longer required.\nReduced particle fx on Torid.\nEnsured all powersuit fx have a proper default color set, for when we add that option.\nOrthos Prime elemental FX update.\nVisual FX improvements in Grineer Galleon.\nSupra emissive fade on reload.\nLanka, Ogris updated charged sounds.\nLato Vandal, Latron Prime, Lato Prime, Snipetron Vandal, Sobek updated fire sounds.\nBetter timer sound for Nightmare mode.\nAdded vocals to Infested charger.\nVolt audio revisions on abilities.\nGeneral Audio revisions: stereo loops cut down to mono, low compression settings.\nShortened the laser impact sounds that Cropus weapons use.\nSmaller radius on impact sounds for the Flux Rifle.\nMag, Nova revisions to descriptions in Marketplace. Shorter.\nRemoved French holiday color picker from Market.\nFIXES:\nFixed missing exterminate level in Corpus missiondeck, affected 4 missions on star chart.\nFixed incorrect value in Spanish for credit bundle.\nFixed elevator bug in Orokin engine room.\nFixed Galleon connector piece that had missing gameplay.\nFixed Galleon Raid level reduced problem areas where players could get stuck\nFixed AI navigation issues in Corpus Outpost\nFixed (again) secondary objectives not enabling if a host migration takes place before the first objective is completed.\nFixed Sentinels using powers/targeting enemies during rank up challenges.\nFixed a potential bug where two secondary objective scripts running simultaneously could stop the other from running.\nFixed weapon restrictions not being applied in Nightmare mode.\nFixed Stealth Attack animation Glaive on Quadruped\nFixed reported issues with Galleon doors that pushed or moved players.\nFixed Ember's Backdraft helmet tinting options.\nFixed various collision issues in all levels.\nFixed stamina pickups not working on client in Obstacle Course.\nFixed depth bias of clan emblems so they don't interfer.\nFixed speed run exploit in Obstacle Course.\nFixed some holster positions on most Warframes.\nFixed reload animation blends (blend with aim idle instead of passive idle)\nFixed Ash Smoke Screen VFX to last as long as the ability.\nFixed AI weapon melee hit effect sounds.\nFixed broken descriptions for both melee \"dual stat\" mods.\nFixed/removed the unnecessary sounds attached to the Rolling Drones.\nFixed Ash's smoke screen from applying effect to clan emblem icon. Emblem now just goes invisible.\nFixed Lotus symbol being overlaid on the clan emblem icon from certain effects.\nFixed Broken item resources that were unavailable when playing in Polish.\nFixed stamina pickups not applying to clients when running Dojo obstacle course\nFixed Vortex damaging teammates if a player using Vauban casts it then disconnects\nFixed Infested Ancient electricity & fire death animations\nFixed default graphics settings not being detected/applied correctly for lower-end PCs\nFixed UI becoming unresponsive in the event that hosting a mission fails\nFixed incorrect default colors appearing after choosing to reset colors for specific weapons (e.g. Kunai)\nFixed number of \"alert\" enemies not being retained after host migration.\nFixed charged-melee input being ignored if held after making several normal melee attacks\nFixed host migrating during nightmare mode causing the mode to change\nFixed Rhino's iron skin effects not being removed on client\nFixed duplicate mods being added to player inventory after reaching 10+ waves of Defense\nFixed Lech Kril's hammer continuing to damage players after swing animation ends\nFixed Contacts List selecting wrong player if the user list refreshed after bringing up the right-click context menu\nFixed Bastille not affecting Grineer Seekers and Snipers, fixed damage not registering against Crewman affected by Bastille\nFixed Radial Disarm harming instead of disarming Grineer Elite Lancers\nFixed chat window disappearing after completing a mission when Global Chat option is disabled\nFixed issue of random loss of functionality when using Ash's Bladestorm ability.\nFixed being able to gain mastery rank without completing test by replaying the tutorial\nFixed various items not being awarded after completing alerts when language is set to Polish\nFixed mods purchased from the store via booster packs not displaying their fusion level on the 'results' screen.\nFixed multiple reported crashes.\nFixed some \"stuck\" issues relating to Ash's Bladestorm ability.\nFixed issue where new clans can't invite new members until the clan leader logs out and back in again.\nFixed various powers unintentionally affecting new Orokin Defense Avatar.\nFixed Infested Ancients t-posing and not ragdolling.\nFixed bug in Obstacle course where time limit ends while the player is falling out of bounds. Player would be teleported to the beginning by the failure condition, but teleported back to the checkpoint in the course by the out of bounds trigger.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.2.2",
+  "url": "https://forums.warframe.com/topic/85484-hotfix-922/",
+  "date": "2013-07-24T18:05:22Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Just a small one today!\n\n-  Relocated a number of our servers from the playwarframe.com domain to warframe.com where they will have new updated SSL certificates. This should assist with self-help method we have in place if things don't function properly.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.2.1",
+  "url": "https://forums.warframe.com/topic/83179-hotfix-921/",
+  "date": "2013-07-19T22:34:42Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFixed Seer colour customization issues.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.2.0",
+  "url": "https://forums.warframe.com/topic/83114-hotfix-920/",
+  "date": "2013-07-19T21:09:23Z",
+  "additions": "",
+  "changes": "Changes:\n\nVampire mode degeneration cannot kill the player -\nlowest health can be is 1%. Must die to enemy fire or other environmental disasters.Adjusted Vor’s scaling with tweaks to MultiPlayer matches. He should not get higher than rank 54 vs 4 rank 30 players.\nSeveral more tweaks to Vor’s difficulty.\nRemoved Nightmare mode as an option for Mercury missions.\n\"/ignore\" now stops invites from friends, ignored players will no longer be able to add you as a friend.\nCaptain Vor’s damage intake is now locked to stages, prevent massive damage from taking him down too fast.\n\n\n",
+  "fixes": "\nFixed the Sobek and Torid weapons so that they can be fired when coming out of a sprint.\nFix for account issues if user aborts dojo component having contributed with vault materials.\nFix Nova Drop disappearing for clients.\nFix Volt Shock chains not using correct energy colour.\nFix Volt Speed FX not using correct energy colour.\nFix Null Star not using correct energy colour\nFix for Corrupted Shield Drones not being targeted by Null Star.\nFixed the Glaive and Kestrels charged attacks so that they take into account any power stored in the weapon from mods such as Melee Channel.\nFix to Wormhole's destination offset.\nFixed the Seeker and Seeking Force mods so that their puncture amount increases with each level, instead of every other level.\nFixed clan emblems not appearing properly on Sentinels.\nFixed Corpus laser doors no longer activating after host migration.\nShow the ClanHall recipe in UI, so clans can build more than one of these and increase capacity without increasing tier. The intent will be to allow all hall types for all tiers, this is a coming fix, disregard this note for now.\nFix for Sentinels getting into spammy state of ability use after a duel ends.\nFix for Sentinels getting spammy with their abilities as a result of faction changes.\nFix for objective indicator sometimes not appearing in correct location in some levels.\nFix missing up/down stat arrows when you purchase mod packs.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.1.5",
+  "url": "https://forums.warframe.com/topic/81860-hotfix-915/",
+  "date": "2013-07-17T21:28:16Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "A wee Hotfix!\n\nFix for not being able to build Fang Prime or Orthos Prime in Foundry.\nFix for 10 different crash issues players were having.\nFix for Raptor Drop Rate issues.\nFix for Elite Lancer enemy type being too difficult.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.1.4",
+  "url": "https://forums.warframe.com/topic/81068-hotfix-914/",
+  "date": "2013-07-16T21:32:47Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Changes:\n\nAura mods now *boost* your mod capacity rather than drain it.\nFoundry changes: Components that you have 0 of don’t show, transition time between panels cut in half, sort by 'type' added, screen transition and panel transition concurrent.\nAdded clear labels to Dojo Halls to denote that if you build a bigger hall, you move up a Clan Tier and resources will scale accordingly.\n\nFixes:\n\nFix for clan emblems to render better in game (switched to alpha compression).\nFix for Dethcube issues with attacks.\nFix for Nightmare mode timer sound not being high enough stakes.\nFix for inaudible Lotus VO for some users. She’s baaaaaaaaaaaaaaaaaaaack!\nFix for bug where inviting new guild members fails.\nFix for boss rooms and gates being included in Corpus Ship Exterminate missions.\nFix for Corpus Ship Exterminate missions having closed doors block progress.\nFurther improvements to hack panel issues in the Grineer Galleon.\nFix for last active date displaying “unknown”\nFix for key-based missions freezing Solar Chart after aborting.\nPotential fix for first-time contributions failing if a new guild is created.\nFix for Wormhole not leveling properly.\nFix for fourth player in a lobby not being able to vote.\nFix for timed Orokin Void runs being inaccessible.\nFang Prime speed buff.\nFurther Sobek changes: more damage, longer reload.\nVarious crash fixes.\nNotes:\nFor those that polarized the Aura slot to match an Aura mod, its not wasted \nit doubles the benefit!\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.1.3",
+  "url": "https://forums.warframe.com/topic/80449-hotfix-913/",
+  "date": "2013-07-16T01:48:15Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "-Further improvements to preventing the Raptor fleeing the map*\n-Further tweaks to Nightmare Mode Vampire missions to be challenging but playable.\n-Potential crash fixes.\n\n*Note: Seeing a lot of posts about Raptor drop date. What may be happening is drops are occurring out of bounds (or getting knocked out of bounds) and being teleported back to the center of the \"Boss Arena\". We will further investigate this.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.1.2",
+  "url": "https://forums.warframe.com/topic/80366-hotfix-912/",
+  "date": "2013-07-15T23:55:48Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Gotta hotfix the hotfix!\n\n\nFix for Clan Contact list UI becoming perma-highlighted and unresponsive on hover of offline members.\nFix for Vampire Mode health degenerating too quickly to complete missions. Not working as intended.\nPotential fix for those seeing negative resource values in their Clan dojo.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.1.1",
+  "url": "https://forums.warframe.com/topic/80292-hotfix-911/",
+  "date": "2013-07-15T22:29:07Z",
+  "additions": "",
+  "changes": "\nDamage buff for Sobek, the new Shotgun.\nResource labels restored in UI mission screen.\nResource Drops now follow regular rarity logic.\nNew UI back in Foundry.\nClan contact list now displays “last sign in” over Alias for offline and pending contacts.\nSquad information now again displays on the mission map.\nIncreased difficulty of Nightmare mode. Vampire drain rate is higher, and weapon restrictions are now enabled... coming soon. MUHAHA!\nMercury difficulty tweaks, now more new player friendly.\n\n\n",
+  "fixes": "Hotfix 9.1.1\n\n\nFix for Nightmare mode appearing on nodes before entire planet had been completed.\nFix for issues completing Corpus Exterminate missions.\nFix for Vauban Vortex preventing revives in squad.\nFix for Raptor boss drops not being in reachable place.\nFix for Paris Prime blueprint not having icon or saving to inventory.\nRaptor boss will no longer flee to the surrounding mountains.\nFix for Infested Ancients replaying taunt animation if shot while playing.\nFix for players getting stuck in lobby after host leaves.\nFix for crash with Banshee “Soundquake” if gore was disabled.\nFix for Nova Molecular Prime not damaging nearby enemies after explosion.\nFix for Loki Decoy putting Vor in an inactive state.\nFix for doors not opening in Exterminate missions.\nFix for some tilesets not having hack panels in Grineer Galleon.\nFix for contact list involuntarily scrolling when contacts status changed.\nFix for Rifle Amp Aura stacking. A word from the designer: Rifle Amp, 45% damage buff stacking was too much, reduced to 27& (4.5% base).This was a typo on my part.\nFix for NOT being able to contribute to tech projects from the Clan Vault.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 9.1",
+  "url": "https://forums.warframe.com/topic/78040-hotfix-91/",
+  "date": "2013-07-13T07:47:57Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nSimplified the vengeful Vor's scaling \nhe will no longer be quite as tough as he thought he was (less than level 100).\n\nSwapped the old Foundry back in until we fix the recipe issues with the new version.\n\nFix for starchart camera moving around when dragging window chat.\n\nFix for resource material drops throughout solar system.\n\nFix for problem in tutorial where enemies were trying to sabotage the Lotus's guidance.\n\nFix for Dojos who had overcontributed and were in a locked state after scaling prices took effect.\n\nFix and swap for Nightmare Defense mode: mission is now 15 wave countdown aka NIghtmare Survival Defense.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 9: Vor's Revenge",
+  "url": "https://forums.warframe.com/topic/77575-update-9-vors-revenge/",
+  "date": "2013-07-13T01:52:41Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "ADDITIONS:\n\n\n\n\n\n\n\n\n\nCHANGES:\nEnabled Clan size caps. This cap is Phase One of making the shift to the new Alliance System. With this change also comes the new scaled resourced per Clan Tier . Please see this post to see where you and your clan fit in: https://forums.warframe.com/index.php?/topic/77361-clan-caps-coming/\nAdded toggle for “gore” in Options Menu. Gore enabled by default.\nAdded friendly system message in EU Region Global chat reminding players to “take a break” every hour they play.\nChanged a variety of blueprint recipes in the Marketplace.\nRefined the tint options on the Burston, Viper, Gram, Furis, Afuris, Dera, Furax, and Boltor.\nRevisions to Snipetron Vandal sounds.\nMobile Defense: Adjusted number of active enemies allowed during defense stages \nmore for solo & increase numbers slightly in stage 2 & 3 to make them more epic.\nEnemies will storm the defense targets, which makes them much more aggressive towards it.\nImproved sprint animations for throwing weapons movement set.\nPrevent players from entering missions once a build update has been detected.\nImproved color tinting on Ash’s smoke armband—more subtle.\nMobile Defense – Release lockdown when going into a defense wave. NPC’s abort running to panic button during defense wave.\nWeapon skins selector now supports displaying more than 7 skins.\nAdded arrow trail to Dread projectiles.\nShow Squad count when hovering over nodes.\nDisabled mantle/wall run on decorative trees to prevent players from getting stuck in them.\nBurston \ndamage and fire rate buff.\nDera \nprojectile speed increased (doubled flight speed).\nFlux Rifle – damage and fire rate buff.\nLanka – damage and damage type (serrated) buff.\nTrue Steel mod buff (doubled).\nPressure Point mod buff (20% base).\nReaper Prime buff – a bit more speed, damage, and charge damage.\nShield Lancers now use Grineer Viper instead of Tenno weapon.\nSniper Mods can now be applied to Lanka\nIncreased the drop rate for Control Modules, Alloy Plate, Neural Sensors, and Gallium.\n\nFIXES:\nFixed Acrid DOT numbers not showing up on capture target, and death affect not replicating.\nFixed a case where exterminate missions could be left with non-zero enemy remaining count, but no enemies would spawn.\nFixed Rhino's Iron Skin being removed by other players causing damage to it.\nFixed ability effects for Nyx to be consistent on host/client both in terms of what is created and what colour it is.\nFixed Rescue mission from being completed without freeing the prisoner.\nFixed some reported navigation and cover issues AI were having in Grineer Defense.\nFixed Volt’s Speed ability not making you jog faster.\nFixed player sliding issues.\nFixed host migration issue in Grineer Galleon Sabotage where the target would be missing after migration.\nFixed health regeneration in PvP dueling.\nFixes to prevent objective related triggers being re-enabled after host migration.\nFixed Volt’s Shock ability to chain properly off turrets and cameras.\nFixed Supra \nshots from the Supra will now correctly line up with the target reticule.\nFixed weapon attachments (Kunai/Despair holsters) that would detach from player while using a sniper rifle.\nFixed/removed off-hand flashlight when using Despair.\nFixed Capture target hostage AI not following player after host migration.\nFixed icon for default Frost helmet.\nFixed issue where Bladestorm would get “stuck” on clients.\nFixed various reported level issues (clipping, AI nav, level holes).\nVarious crash fixes.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 8.3.3",
+  "url": "https://forums.warframe.com/topic/76141-hotfix-833/",
+  "date": "2013-07-09T17:43:28Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFix for Rhino Roar only lasting for 4 seconds.\n\n\nFixed Exterminate missions indicating enemies remaining when none are left.\n\n\nUpdated Snipetron & Snipetron Vandal sound FX\n\n\nFix for Volt Speed not making you jog faster\n\n\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.3.2",
+  "url": "https://forums.warframe.com/topic/75604-hotfix-832/",
+  "date": "2013-07-08T18:49:28Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFix for Volt's Shock \"Power in Use\" bug.\nFix for Dojos being unaccessible for new clans.\nFix Rhino Roar effects not appearing on client\nDamage modifiers such as armor and headshots no longer unintentionally apply to shields.\n\nNo further Informer drones detected!\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.3.1",
+  "url": "https://forums.warframe.com/topic/74108-hotfix-831/",
+  "date": "2013-07-05T23:10:32Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Additions:\nVulkar Pack is now live! Get your snipin’ on in Grineer Style!\nThe Grineer Informers have arrived. Take ‘em out all weekend long!\nChanges:\nMag’s Shield Polarize is now percentage-based instead of flat power (10/15/25/50)%\nVolt’s Overload DPS increased and casting time reduced.\nOptimized network code for contact list to better handle large numbers of friends or clan-mates.\nImproved handling of online status updates in congested network conditions (often related to contact-list size).\nTweaks to opacity of MiniMap.\nAdded FX to Rhino Roar.\nSound tweak to Bronco.\n\nFixes:\nFixed for Grandmaster icon showing for all players if you backout of lobby.\nFixed Volt’s shield – it now functions as intended which is to allow shots to fire through from Warframes with increased damage.\nFixed a number of general performance issues affecting very large clans.\nFix for cipher being unplayable with controller.\nFix for players being staggered in air, instead they are knocked down.\nVarious tweaks to Mag’s Pull.\nA few sound ambiance tweaks, plus Aklato tweaks.\nFixed rank 0 fusion cores being a defense reward.\nFix for Ember’s FX on clients.\nFix for Vauban’s Vortex killing friendlies if owner dies and respawns.\nFix for Radial Disarm being able to manipulate the “enemies remaining” in Exterminate missions.\nFix for size inconstancy in Mag’s Bullet Attractor.\nFix for Mag’s Pull not working as intended when client.\nFix for Snow Globe “Power in Use” bug.\nFix for Overload “Power in Use” bug.\nFix for Saryn’s Venom “Power in Use” bug.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.3",
+  "url": "https://forums.warframe.com/topic/73282-hotfix-83/",
+  "date": "2013-07-04T22:45:50Z",
+  "additions": "",
+  "changes": "Additions:\nAdded improved Solar Landmark system for Grandmasters.\nExpanded animation library for the Grineer (combat and ambient animations)\nMOTD now displayed in halls of the Dojo.\nAdded support for /invite in chat, and inviting people who aren't on your friends list or in your clan.\nAdded 2 options for consumable Fireworks items to the Market.\nAdded Red White & Blue color picker.\nAdded game invite and add friend options to chat user list context menu.\n\n\nDoubled the length of alerts for rare rewards.\nAlert System 2.0 is live\nStalker Bow and Paris 3D draw sounds now have fire rate multiplier.\n3D Sounds on Pistols and Sentinel now have proper mix effects.\nImproved NPC awareness transfer across host migration.\nRevised multiple melee weapon animations.\nImproved enemy waypoints on minimap to show true location instead of next closest nav location.\nDojo pieces that are dead ends are marked as such.\nEnemies that had had elemental immunities now take regular damage, with multiplied damage for weaknesses (fire and electricity).\nUpdated Warframe abilities to use energy color selected by player.\nGrineer now play animation while activating security system, allowing slightly more time to interrupt.\nImproved anti-cheat detection.\nReplaced all known Corpus consoles with Grineer consoles in Grineer levels.\nMade session join failures able to identify when the failure was because the session is full; hopefuly this will make losing a void key join race a little less magical.\nAdded missing sounds from Prime melee weapons (swoosh!).\nOnly enemies that see the player will activate panic buttons, preventing enemies in other zones hitting activating the alarms.\nReduced particle systems on some fog that were causing performance issues on low-end machines.\nEDIT @ 8:24 PM Prova Weapon model updated.\nMag: Pull\nChanged to pull all targets in front of the player.\nMag: Shield Polarize \nNow radial instead of single target. Radial damage around enemy targets that suffer shield drain.\nMag: Bullet Attractor \nBullet attractors now become volatile when target dies before attractor is finished, these cause radial damage around the dead target.(needs more visual polish)\nRhino: Iron Skin \n400,600,800,1200 damage caps. Removed timer.\nRhino Roar: NEW POWER: Radial damage buff for all players within range (10%,15%,25%,50%)\nRhino: Rhino Stomp \nRolled Radial blast and Rhino Stomp together. Rhino Stomp now does damage to enemies(150,300,500,800)\nVolt: Speed: Now a radial group buff, All Tenno in a radius around the caster will get a speed and melee weapon speed increase (speed, range, duration all increase with fusion level). Range (15,20,22,25) Speed (10%,15%,25%,50%) Duration (5,6,8,10).\nOverload: Higher damage output during entire animation.\nShock: Has proper chaining, fusion now increases the number of chains and the radius it looks for further chaining targets.\n\n\n",
+  "fixes": "\nFixed Defense Missions awarding level 0 Fusion Cores Refixing!\nFixed Endless Defense missions that could be ended immediately upon host migration.\nFixed AI pathfinding reported in Grineer Boss room.\nFixed areas in Grineer maps that players could wall run out of the level.\nFixed edge case issue where objective marker would not clear upon completing Capture objective.\nFixed issue where some AI types could not be executed with stealth kills.\nFixed stealth attacks on Infested Chargers that failed to bring out melee weapon.\nFixed stealth attack kills not counting towards mission kill stats.\nFixed loot crate positions in Corpus Outpost hanger that were inside the floor.\nFixed loss of functionality when loading mods if user has significant amount in inventory.\nFixed missing sound effects for Fang and Ether Daggers slide attack.\nFixed all projectiles to accept energy color selection.\nFixed lag and FX issues when shooting through Volt’s shield.\nFixed Ember’s World on Fire ability not showing effects on enemies.\nFixed missing Loc strings observed in Orokin missions.\nFixed missing ragdoll events on Infested death animations.\nFixed missing Cronus charge attack sound.\nFixed idle animations that would move the player slightly when no weapons are equipped (Dojo).\nFixed mis-aligned muzzle flash on Burston weapon.\nFixed instances of inactive Corpus AI when spawned on centre platform of Outpost Defense.\nFixed some Defense text strings that would appear to clients in host’s language.\nFixed various Warframe abilities that were not working on Cryopod/Core.\nFixed issue where pending recipe list was falsely reporting to be empty.\nFixed various reported graphics clipping and z-fighting issues.\nFixed Vortex instantly killing enemies in certain cases .\nFixed ragdolls being destroyed when held in a Vortex for too long (more than 15 seconds).\nFixed various lightmap and z-fighting issues in reported levels.\nFixed issue where game invites would not be ignored from ignored users.\nFixed Orokin traps causing shockwave will cause screen blur throughout the whole level.\nFixed a Corpus extraction level that allowed users to climb out of it.\nFixed Ash’s Smoke Screen where he’d hold both melee and primary weapon.\nFixed Kogake charge attack from damaging Sentinels.\nFixed various reported collision and clipping issues across all maps.\nFixed some edge cases where melee strikes would attack with primary weapon.\nFixed melee action being temporarily blocked after completing a slide attack with Dual Zorens.\nFixed some missions may be completed by simply walking into the extraction.\nFixed mantling not always working when there are some obstructions above the player.\nFixed issue where doors remain locked after lockdown is cleared.\nFixed Phorid not attacking crouched players.\nFixed Orokin laser trap cooldown UI timer not showing on clients.\nFixed various map holes and clipping issues based on user reports.\nFixed issue where Rescue Agents and nearby AI would pause if player ran two rooms ahead.\nFixed progression stopper where secondary capture mission target did not appear.\nFixed an issue where Trinity could get sliced in half or ragdoll when her link target was meant to receive such an injury.\nFixed rescue room triggers to only enable when the objective is active to prevent bugs when it's a secondary objective.\nFixed enemies springing to their feet immediately after surviving Mag's Crush ability.\nFixed some animation blending issues when carrying Datamass.\nFixed some common trouble spots where Datamass could get stuck and be unreachable.\nFixed issue where Corpus elevator could occasionally change direction before reaching the top.\nFixed Ember’s World on Fire ability from targeting inactive turrets.\nFixed multiple issues with Mag Bullet Attractor ability (FX on host/client, unintended projectile weapon behaviour, Glaive was not working with this ability).\nFixed Hammer Boss phases breaking after Frost’s Avalanche ability.\nFixed issue where a primary or secondary Spy objective would require 0 terminals.\nFixed multiple reported crash issues.\n\nFixed 'Power In Use' bug when using Frost's Avalanche\nFixed missing animation with Volt's Overload.\nFixed Matchmaking region resetting on Login.\nFixed 'square' light artifact around dynamic lights (most noticable in cave tilesets).\nReturned Infested pack to the store after accidentally removing it.\nNote: Star Chart connections have changed in this Update in prep for rolling out the upcoming reworked UI.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.2.1",
+  "url": "https://forums.warframe.com/topic/72746-hotfix-821/",
+  "date": "2013-07-03T17:45:14Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Just a small hotfix this afternoon... enjoy the livestream!\n\n\nfixed gameplay crash when joining a mission in progress\n\nSee the full 8.2 notes here: https://forums.warframe.com/index.php?/topic/70880-hotfix-82-tenno-reinforcement/\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.2: Tenno Reinforcement",
+  "url": "https://forums.warframe.com/topic/70880-hotfix-82-tenno-reinforcement/",
+  "date": "2013-06-28T17:08:23Z",
+  "additions": "",
+  "changes": "Additions:\n\n\n\n\n\n\n\n\nTenno Reinforcement!\n\n\nThe KOGAKE are coverings for your hands and feet which will allow you to engage in hand-to-hand combat. Get up close and personal with these combat wraps and strike down your enemies!\n\nLove the Kogake? Join our Kogake Kills contest! The 5 Best Kogake Kills win 1000 Platinum: https://forums.warframe.com/index.php?/topic/70878-kogake-kills-contest/\n\nWant to walk like an Infested? Check out the latest Infested Color Palette!\n\nGreen with envy over the Grineer? Curious about your nemesis’ arsenal? Try out some Grineer weapons as an alternative to your Tenno starting gear!\n\nAdded a “recruitment” channel to Global Chat!\n\n\n\nChanges to Streamline Mod: cost reduction is now linear (further explanation: https://forums.warframe.com/index.php?/topic/70880-hotfix-82-tenno-reinforcement/?p=760062)\n\nChanges to Scythe hit detection: adjusted timing of first swing, and added appropriate damage once swing is over (people were being murdered long after the Scythe was no longer swinging).\n\nLato now has queued fire, and is set up like other semi-auto weapons.\n\nFusion Moa hitbox has been adjusted to be larger.\n\nChanges to IRC commands to be case insensitive and reject unknown commands to avoid embarrassing chat attempts.\n\nEdit:\nUpdated Prova model   waiting on further positive reports beyond an updated icon. Results of reports: icon has been updated, rest remains to be added.\n\n",
+  "fixes": "\n\nFix for Team Heal not healing the team.\n\nFixing Warframe abilities not notifying in-mission challenges for clients.\n\nSeveral Fixes for “In Air” bug when trying to cast certain powers.\n\nFix for Trinity’s Well of Life and Energy Vampire being considered “in use” even on dead targets.\n\nFix for Vauban’s abilities not working if thrown on Orokin ice trap.\n\nFixed Fusion Moa’s from launching themselves into low-earth orbit.\n\nFix for Vauban’s Tesla not activating if tossed onto a Grineer Shield Lancer’s shield.\n\nFixed Torid gas clouds not receiving damage buffs from mods.\n\nFixed shockwave orbs not hitting the player at certain angles.\n\nFixed Acrid’s DOT not always working on client.\n\nFixed ammo not being consumed on some weapons when shooting Nyx’s absorb.\n\nFixed UI issues when resizing window when mod screen is open.\n\nFixes for Infested “arm” attacks behaving poorly after death.\n\nFix for Wyrm’s crowd dispersion not being able to stun certain enemy types.\n\nFix for Wyrm’s crowd dispersion not stunning certain enemies during attack sequences.\n\nFixed range damage issues with Wyrm’s crowd dispersion.\n\nAdjusted crowd dispersion FX to better match damage radius.\n\nFix for bosses not dropping resources on clients if they’re killed by the host with a projectile weapon.\n\nFix for melee weapon not being usable after host migration.\n\nFix for jump attack now setting velocity\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.7: Chat Optimizations And More!",
+  "url": "https://forums.warframe.com/topic/70155-hotfix-817-chat-optimizations-and-more/",
+  "date": "2013-06-26T19:48:09Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Small and powerful!\n\n\nHuge optimizations to chat UI performance.\n\nAdded workarounds for 10054 and 10060 connection failures.\n\nFixed online missions becoming locked after host migration occurs. Players can now join provided that the objective has not yet been completed.\n\nFixed another case of \"power in use\" occurring when using Bladestorm.\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.6",
+  "url": "https://forums.warframe.com/topic/69308-hotfix-816/",
+  "date": "2013-06-24T20:41:27Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "A small batch!\n\n\nWeekend Dethcube bundle deal is now over.\n\nFixed crash when upgrading mod just as mission starts.\n\nFixed rare hang that could occur when joining alert missions.\n\nAdded better back-end diagnostics for chat server connection issues.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.5",
+  "url": "https://forums.warframe.com/topic/68042-hotfix-815/",
+  "date": "2013-06-21T20:50:10Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Some fixes!\n\n\nFixed AI spawning issues in the Grineer Galleon defense level.\n\nIncreased napalm damage resistance for the Artifact Pod.\n\nAdded a new Dethcube bundle to the Market! Pew pew pew!\n\nEdit:\n\n\nRemoved Crawler type enemies from Artifact Defense missions.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.4",
+  "url": "https://forums.warframe.com/topic/67864-hotfix-814/",
+  "date": "2013-06-21T14:27:44Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "A tiny hotfix in prep for the Weekend!\n\n\n\nPolish for the Weekend Event.\nImproved diagnostic report generated by crash reporter.\nImproved font legibility.\n\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.3",
+  "url": "https://forums.warframe.com/topic/66795-hotfix-813/",
+  "date": "2013-06-19T13:43:51Z",
+  "additions": "",
+  "changes": "Changes:\n\nRemoved Slide Cooldown\n",
+  "fixes": "\nFixed an issue causing players to not acquire Pickups when rolling, sliding or using a power through them\nFixed crash that could occur when using Vortex\nFixed shields not replenishing if damaged while using Nyx's Absorb\nFixed missing Charge-up Sound FX on various swords\nFixed dead ends appearing in Dojo at the point where two rooms perfectly connect\nFixed some collision and AI navigation issues in Corpus Defense missions\nFixed an issue causing enemies to continue spawning in an Extermination mission, after the count had reached zero\nFixed an issue with Saryn’s Poison ability, so that the globes now replicate correctly for clients\nFixed Hornet Strike not affecting DOT from the Acrid\nFixed an issue causing some traps in the Orokin Void levels to not take any damage from certain weapons\nFixed an issue causing players to be left in an unresponsive, black screen state when a duel round completes\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.2",
+  "url": "https://forums.warframe.com/topic/64338-hotfix-812/",
+  "date": "2013-06-13T14:02:52Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFixed Banshee Sonar \"power in use\" issue\n\nFixed Infested bosses disappearing after being damaged by Kestrel\n\nAdded Mobile Defense missions to alerts\n\nFixed Tower Exterminate keys sometimes resulting in Raid missions\n\nFixed elevator direction being reversed in Dojo builder UI\n\nFixed elevator textures in Dojo\n\nFixed elemental effects not outlining Dual Cleavers properly\n\nFixed Acrid darts not disappearing\n\nUpdated Bo unequip sound\n\nFixed Polearm not collapsing after performing a jumping melee attack\n\nImproved collision detection on Polearm attacks\n\nFixed Polearm sometimes appearing blurry after attacking\n\nFixed Sentinels missing muzzle flash when attacking\n\nFixed Ignis and Flux Rifle showing a clip size of 1.$ in the arsenal\n\nFixed incorrect tooltip description for Snow Globe\n\nFixed sign-in reward UI showing 1 star when awarding coupon (consecutive sign-in count wasn’t actually affected)\n\nFixed gameplay crashes\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.1",
+  "url": "https://forums.warframe.com/topic/62817-hotfix-811/",
+  "date": "2013-06-10T18:42:32Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nfixed issues with Ash's Bladestorm on client\n\nfixed elemental visual FX not applying to polearm correctly\n\nfixed fire visual FX missing from levels\n\nfixed missing textures and floor in Mars \nWar and other Grineer Cave levels\n\nhighlight effect for Mod pickups will remain until all players have acquired the Mod\n\nfixed cases where players could fall through elevator floor when jumping & meleeing\n\nfixed rare DirectX crash when switching between windowed & fullscreen mode\n\nfixed NPCs jumping down through terrain in Outpost Defense level\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.1.0",
+  "url": "https://forums.warframe.com/topic/60679-hotfix-810/",
+  "date": "2013-06-07T21:10:24Z",
+  "additions": "",
+  "changes": "Additionschangesfixeshotfix 8.1.0.1:\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.0.7.1",
+  "url": "https://forums.warframe.com/topic/60106-hotfix-8071/",
+  "date": "2013-06-06T21:10:14Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 8.0.7.1:\nFixed issues with Decoy’s ability to distract enemies. The current design is that the AI will give up trying to kill a decoy they cannot reach or damage.\nFix for reticule not being in center of screen.\nReposition for reload animations. This is related to the Reticule. Sorry for any confusion!\nFix for clients not seeing Banshee’s silence.\nIncreased the damage on Dera Energy Rifle.\nIncreased fire distance on the Flux Rifle.\nReduced fieldron cost for Lanka Rifle.\nFixed issues where Void Key missions were unjoinable by invite.\n\nSee full 8.0.7 notes here: https://forums.warframe.com/index.php?/topic/59853-hotfix-807/\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.0.7",
+  "url": "https://forums.warframe.com/topic/59853-hotfix-807/",
+  "date": "2013-06-06T15:11:20Z",
+  "additions": "",
+  "changes": "Hotfix 8.0.7:\n\nFix for Jackal falling through floor. We have removed the portal-creating escape methods from his arsenal.\nFixes for reloads repeating at low framerates (this should help with Kunai).\nCoupons have returned to the login-reward pool! They are for use on the www.warframe.com/buyplatinum for discounts!\nFix for Kunai sound FX.\nGame now indicates when a game invite was successfully sent.\nFix for getting stuck in a sprinting state after sliding.\nFix for matchmaking options when joining a Void Key Lobby.\nFix for objective markers not disappearing after completing capture objective.\nFix for Lotus not talking in languages other than English. Rephrase: If you run game in language other than \"English\", Lotus would not speak her lines (these lines were still English).\nFix for Nyx Power in Use bug (maybe time for a Livestream rematch!).\nFix Ember's Overheat ability preventing all damage/healing when damaged when upgraded and mixed with upgraded Focus mod.\nFixed Banshee’s Silence ability not affecting enemies.\nImproved aiming reticule visibility.\nFixed Torid rockets detonating immediately after firing.\nAdditional fixes:\n\n\nFix for Ogris and Multishot damaging player.\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.0.6",
+  "url": "https://forums.warframe.com/topic/56204-hotfix-806/",
+  "date": "2013-05-31T19:52:26Z",
+  "additions": "",
+  "changes": "Hotfix 8.0.6.1:\n\n\nFix for Rhino Stomp.\n\nPotential fix for Kunai reload.\nFix for not being able to claim sentinel in Marketplace\n\nOptional Reset enabled.\n___________\nHotfix 8.0.6\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "8.0.5: It's Getting Hot(Fix) In Here",
+  "url": "https://forums.warframe.com/topic/53908-805-its-getting-hotfix-in-here/",
+  "date": "2013-05-28T22:09:57Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "8.0.5.1 Hotfix @ 10:55 PM EST:\n\n\nVolt in Void Missions fixed.\n\nBroken Textures in missions fixed.\n\nRemoved Placeholder text strings.\n\nRan Script to fix up accounts affected by Void Key Pack changes.\n\n________\n\n\nFixed Sonic Boom damage on client\nFixed Ash Shuriken and Nyx Psychic Bolts not functioning correctly on clients\nFixed exploit where an Orokin Void mission could be started without the host directly using a Void Key\nFixed dueling in Dojo breaking after a host migration occurs\nFixed clients not connecting to new host when host migration occurs in Dojo\nFixed not being able to sell Blueprints received from Orokin Void missions\nVoid Key packs are now guaranteed to include one rare key\nIncreased drop rate of Reaper Blade and Latron Prime Receiver to \"Common\" for Void Level \"III\" Missions\nSentinel buffs: improved firing accuracy, plus extended attack range for Warrior and Revenge to 15m\nDecreased volume on DethCube firing effects\nLauncher improvements: Added a new content download system and verification tool. You can trigger a verification scan from the launcher settings to repair corrupted files in place without having to re-download the entire game. Content updates are now even more rigorously checked for corruption and the launcher now includes download statistics for the content update phase.EDIT: Added note regarding Orokin Void blueprint drop rates.\n\nEDIT 2: Here is a link of what to do for those who have bought past Void Key Packs https://forums.warframe.com/index.php?/topic/53908-805-its-getting-hotfix-in-here/page-13?p=557788#entry557788 ... make a support.warframe.com ticket.\n\nEDIT 3: All Void Key Pack issues, see this PSA: https://forums.warframe.com/index.php?/topic/54035-psa-void-key-packs-before-udpate-805/\n\nEDIT 4: A bug that was limiting Dojos to 40 components has been fixed and will be deployed in an upcoming hotfix. The limit is still there, but is now 64 components.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 8.0.4: Hit Me With Your Best Hot(Fix).",
+  "url": "https://forums.warframe.com/topic/50567-hotfix-804-hit-me-with-your-best-hotfix/",
+  "date": "2013-05-24T22:54:02Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Postponed:\n\n\nAdded workarounds for \"login failed\" issues that had unusual HTTP certificate problems.\n_____________\n\nSome Hotfixes for y'all:\n\n\nAdded confirmation when quitting or leaving Clans.\nOption added for larger font size in chat window.\nOnly members with forged dojo keys can contibute to Dojos.\nCritical chances on bows have been fixed, (10% for normal, 20% for charged).\nVauban powers now working as intended. A bug prevented the physics of most skills to work properly.\nFix for Level 1 enemies appearing in difficult missions in The Void.\nFix for Reaper Handle drop rate being too high.\nFixes for various Blueprints not being saved to inventory, including Reaper.\nFlame Lancer and Shotgun Grineer improvements. They will no longer shoot at targets out of range.\nFixed objective not disappearing for clients on Orokin Levels.\nFixed issue where Players would get stuck in the Dojo GreatHall\nFixed issue where destruction of Dojo Elements not working as intended.\nFixed issue where permisssions for Dojo Roles not working as intended.\nImproved communication cues for Speed Runs in The Void.\nFix for game invites between Clan members who aren't on Friends list.\nFixed issues with beam being visible for too long on certain beam weapons.\nFix for UI Syncronization when other players did contributions to rooms you were simultaneously contributing to.\nFix for fire effects now showing up on clients until shields are down.\nFix for Grineer Lancers not shield-bashing.\nFix for Grineer Scoprion Rope remaining out when she is killed during pull action.\nLech Kril no longer burns himself with Fire... what a Pyro!\nVarious Crash fixes.\n\nMade a ticket about the BP Bug in \"The Void\"?\nSee here: https://forums.warframe.com/index.php?/topic/50567-hotfix-804-hit-me-with-your-best-hotfix/page-4#entry521923\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.0.3: Some Like It Hotter!",
+  "url": "https://forums.warframe.com/topic/49588-hotfix-803-some-like-it-hotter/",
+  "date": "2013-05-24T02:47:56Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Here are the latest hotfixes:\n\n\nFixed Nyx Absorb not working, resulting in \"Power in Use\" bug.\n\nFixed remaining levels that resulted in Critical failures, sending users into emptiness.\n\nSnowglobe bug fixed.\n\nFixed issue where end-of-mission rewards were not being saved (namely in The Void).\n\nFixed issue where Login Rewards (including Forma) were not being obtained.\n\nFixed issue where Foundry would break after receiving certain drops.\n\nFixed Ash  Chassis tag appearing on incorrect items.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 8.0.2 : Comin In' Hot!",
+  "url": "https://forums.warframe.com/topic/49393-hotfix-802-comin-in-hot/",
+  "date": "2013-05-24T00:49:49Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "The following issues have been fixed:\n\n\nFrost Powers not working\n\nLatron Prime recipes reading \"Ash Chassis\" requirement\n\nGeneral bugs with \"Ash Chassis\" appearing where not intended\n\nVoid Key pack giving 3 out of 5 keys (ALL people with this should make support.warframe.com tickets)\n\nDojo Permissions not working as intended.\n\nCan no longer sell Clan Key Blueprint\n\nImprovement to Critical Mission bug where levels would send users into emptiness and death. More progress coming soon.\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 8: Rise Of The Warlords",
+  "url": "https://forums.warframe.com/topic/49101-update-8-rise-of-the-warlords/",
+  "date": "2013-05-23T22:13:42Z",
+  "additions": "",
+  "changes": "Hotfix 8.0.4 Deployed:\nhttps://forums.warframe.com/index.php?/topic/50567-hotfix-804-hit-me-with-your-best-hotfix/\n\nhttps://forums.warframe.com/index.php?/topic/49588-hotfix-803-some-like-it-hotter/\n\nhttps://forums.warframe.com/index.php?/topic/49393-hotfix-802-comin-in-hot/\n\nFixed crash-to-desktop bug.\n\n\nAsh's Shuriken improvements added: it now seeks targets and multiple projectiles added at higher ranks.\n",
+  "fixes": "\nFix for fused ability mods, it now properly and consistently increases power.Additional Information:\n\"WHERE IS TRADING?\" It is still being worked on, not ready for deployment yet.\n\nTeam standing by for bug reports!\n\nClan Vault is part of Trading, not yet deployed. Sit tight!\n",
+  "type": "Update"
+ },
+ {
+  "name": "Update 7.11.0: Vauban!",
+  "url": "https://forums.warframe.com/topic/45777-update-7110-vauban/",
+  "date": "2013-05-17T20:49:30Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nADDITONS:\nNew Warframe: VAUBAN \nThe combat engineer!\n\nAre you a crafty Ninja? Then this is the warframe for you. The highly tactical VAUBAN uses his powers to create deadly traps that can zap, imprison and dimensionally crush enemies!\nGet him today in the Market with Platinum, OR purchase the Blueprint and await the drop of his components from \"?\" Alerts!\n\nAdded new avatar icons for profile customization, retired the old avatar packs.\nAdded \"Invite Only\" matchmaking mode. Session can only be joined if host has directly sent an invite to client.\nUsers can now specify a ping range to filter out undesirable sessions.\nAdded \"Operation\" kills to profile.\nOur Optional Reset tool is ready, please check www.warframe.com/user for instructions!\nCHANGES:\nOur Marketplace Weapon Pricing has received an overhaul. The Weapon Prices have been the same since Closed Beta, and now that we have grown, we are going to balance the pricing of our gear. An End-Goal of this is also to eventually include Platinum to Credit Bundles.\nNameCredit PricePlat PriceNotes\nBratonWas 10,000, Now 25,000No longer Plat \nSicaris20,000No longer Plat \nAK LatoWas 12000, Now 25000No longer Plat \nBroncoWas 35,000, now Blueprint.190Blueprints in store\nBurstonWas 12,000, now Blueprint120Blueprints in store\nBoar75,000No longer Plat \nSnipetronWas 50,000, now Blueprint.225Blueprints in store\nGorgon 225Blueprints in store\nDual SkanaWas 45,000, now Blueprint.125Blueprints in store\nFurisWas 15,000, now Blueprint120Blueprints in store\nFuraxWas 30,000, now Blueprint125Blueprints in store\nStrun 225Blueprints in store\nLexWas 35,000, Now 50,000No longer Plat \nSkana 150Blueprints in store\nLato10,00050Starting Gear\nLatronWas 50,000, now Blueprint225Blueprints in store\nBo Staff 65Blueprints in store\nMk1-Braton15000No longer PlatStarting Gear\nRhino Skin no longer grants full invincibility, but can now reach up to 80% Damage Reduction at highest Mod level.\nUI Improvements have been added to the \"Contact\" Area of the Menus.\nBanshee's Sound Quake has been balanced to do more intended damage amounts on use.\nGlaive is no longer affected by Client vs Host lag. This allows clients to immediately throw the glaive and have normal-looking motion even with a laggy host.\nDisabled challenges (optional objectives) in Master Rank tests\nWeapon damage amount no longer stacks on to of Weapon projectile explosion chance.\nNews feed now updates real-time with alerts when syncing world state instead of waiting for relogin by user.\nMax health = 100 for Leech/Mine drones.\nReworked Paris firing sound. No more musical notes. Added dedicated 2D and 3D sounds.\nReworked bow draw and added dedicated 2D and 3D sounds.\nReworked all bolt impacts and added water and flesh.\nFusion Moa drones spawn with a level similar to the Moa instead of level 1.\nChanged scale of Leech Drone.\nSuper MOA added to main enemy list, but is still rare.\nPlayers using hacking terminals will not be affected by Mag's Pull power or Loki's Switch power.\nCrouch-aim walk is now slower than stand-aim walk\nSeekers now have limit to number of active Latchers they can deploy.\nFIXES:\nFixed Infested Crawlers being able to jump. You are a crawler....you crawl.\nFixed Mag's Bullet Attractor hanging when cast on certain enemies.\nFixed Ember's World on Fire ability having inconsistent duration times.\nFixed clients are stuck in \"ground fire\" posture/modifier from everyone else's point of view after reviving.\nFixed vertical damage deformer resulting in black artifacts appearing on enemies.\nFixed Shield Osprey from hiding if last enemy in defense mission.\nFixed Paris not appearing in player profile stats page\nFixed bonus XP being displayed when you forfeit a mission.\nFixed objective complete status not being removed when players abort or finish a mission\nFixed enemy count being reset on extermination missions when host migrates\nFixed an issue where the \"Hit Point\" of radial damage was always the centre of the explosion (powers like radial blast would have the damage indicators show up at your feet)\nFixed electricity FX on Ether weapons\nFixed hit proxies for MOAs\nFixed Mag's Bullet Attractor and Trinity Link abilities having limited use against Fusion Moas, power effect now more in-line with other enemies.\nFixed clipping issues on moving ships and ramps in Cave Hanger\nFixed bolts impaling pickups\nFixed Trinity's Link ability affecting the rescue target, even when other enemies are nearby. Link ability now ignores all friendlies.\nFixed \"Skip Tutorial\" option that was replacing \"Abort Mission\" while in tutorial state.\nFixed falling through stairs on respawn/revive.\nFixed stats not collecting for projectile weapons.\nFixed glaive not doing critical hits when thrown.\nFixed some blocking volumes in Corpus Outpost that allowed players to go under the map.\nFixed collision volumes on some rocks in Outpost\nFixed Outpost weather VFX that extended into interior environments\nFixed Outpost door prefab that was causing some agents to get stuck\nFixed clients not having charge melee interrupted by enemy melee\nFixed quiver holster position to avoid the flip of the quiver when firing the bow offhand.\nFixed Paris not auto-switching to pistol when out of ammo.\nFixed unusable context actions when client disconnects while using context action. The server will perform cleanup so that usage can be released.\nFixed ability to parry when glaive is in flight. Parrying only works when glaive is in melee mode.\nFixed reload animation playing twice when interrupting auto-reload with glaive.\nFixed clipless weapons of clients never firing on host = never consuming ammo = bow never deducts ammo on host = can never pick up ammo.\nFixed multiple reported crashes\nFixed various issues with ragdolls\nHot-fix 7.11.1\nfixed crash at boot experienced by some users\nremoved opaque background from Market and Foundry\n",
+  "type": "Update"
+ },
+ {
+  "name": "Hotfix 7.10.5 + Hotfix 7.10.6 + 7.10.7",
+  "url": "https://forums.warframe.com/topic/44230-hotfix-7105-hotfix-7106-7107/",
+  "date": "2013-05-13T20:41:22Z",
+  "additions": "",
+  "changes": "May 15 @ 4 Pm Est:\n\n-Fixed crashes with DirectX11\n__________________________________\n\n\n-Fixed certain causes of auto-login not working on platforms that support it.\n\n\nFixed issue where UI would become unusable when trying to select mission.\n\nFixed issue where \"Session Unavailable\" message would force close of game client.\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 7.10.3 + Hotfix 7.10.4",
+  "url": "https://forums.warframe.com/topic/42229-hotfix-7103-hotfix-7104/",
+  "date": "2013-05-09T17:24:28Z",
+  "additions": "",
+  "changes": "Hotfix 7.10.4 (4:00 Pm Est, May 10):\n\nA little one today:\n\n-Fixed DirectX 11 crash reported by some users.\n\n\n\nFixed a crash caused by the last build.\n\n\n\n\nFixed networking issue that would result in intermittent failures to join online sessions.\nImproved load times, most noticeably on lower-end hardware. This should help alleviate disconnection errors when joining a session in progress.\nFixed problems with ignoring users in global chat.\nFull 7.10.0 is available here:\n\nhttps://forums.warframe.com/index.php?/topic/39130-update-7100-weekend-extermination-event/\n\n\n\nPSA: We are aware of a crash that is going to be fixed very soon in a hot-hot-fix!\n\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 7.10.2",
+  "url": "https://forums.warframe.com/topic/41635-hotfix-7102/",
+  "date": "2013-05-08T16:54:47Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Additions:\n\n-Ingame Avatars now reflect forum Avatar\n\nFixes:\n\n-Fixed bug where Ospreys had too much health.\n-Fix for download errors in the Launcher.\n\nFor full 7.10.0 notes, see here: https://forums.warframe.com/index.php?/topic/39130-update-7100-weekend-extermination-event/\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 7.10.1",
+  "url": "https://forums.warframe.com/topic/40608-hotfix-7101/",
+  "date": "2013-05-06T17:28:47Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 7.10.1\n\n\nFixed Artifact Rewards not being saved to Inventory\n\nFusion MOAs have begun showing up in new areas, not just Europa!\n\nMine Osprey is now correct size\n\nFor detailed 7.10.0 notes, see here: https://forums.warframe.com/index.php?/topic/39130-update-7100-weekend-extermination-event/\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 7.10.0: Weekend Extermination Event!",
+  "url": "https://forums.warframe.com/topic/39130-update-7100-weekend-extermination-event/",
+  "date": "2013-05-04T02:28:56Z",
+  "additions": "\n\nNew \"Operations\" global challenge system.\n\nNew Corpus enemy type: Fusion MOA.\n\nNew Warframe mod: Retribution.\n\nNew Warframe mod: Handspring.\n\nNew rifle mod: Thunderbolt.\n\nAdded new \"Smoke\" colour palette.\n\nAdded new death animations for Infested Charger, and Grineer Marine class enemies.\n\n\n",
+  "changes": "\n\nAllow users to zoom out & view entire star chart so long as session isn't public (i.e. user is waiting for random players to join via matchmaking) and final countdown isn't running.\n\nMod fusion screen now resizes based on viewport size and uses a scroll bar.\n\nCharged melee glow now uses energy color from color picker.\n\nAll Shotguns get a boost, effective range increased. Hek is boosted further than Strun and Boar.\n\nGorgon rifle accuracy increases.\n\nSnipetron now has Armor Piercing damage by default, but with a slight increase to recoil.\n\nBurston rifle hip fire accuracy increases.\n\nBraton damage buff.\n\nCorpus Crewman head shot armor piercing multiplier reduced.\n\nSaryn's Moult power now has a timer, was highly exploitable\n\nNyx's Chaos power now has a timer.\n\nCan no longer join alert missions after they’ve expired.\n\nReplaying an alert mission that you’ve already successfully completed will no longer award credits.\n\n\n\n",
+  "fixes": "WEEKEND EXTERMINATION EVENT!\n\nThe Moa Army has landed!\n\nTenno, now is the time to fight. You will be rewarded.\n\nThis is a call to arms: Update Warframe now!\n\n\n\n\n\nFixed issue where mods would somehow occupy the same spot and could not be accessed.\n\nFixed FX on Ether Swords and Ether Daggers.\n\nFixed missing terrain in Grineer levels.\n\nFixed client's indication of revive progress not showing up, number of free revives on clients not being correct.\n\nFixed extraction timer starting in MP when a player reaches the end trigger then goes inactive.\n\nFixed Freeze Damage mods not working on some Grineer enemy types.\n\nFixed bug where you could use Loki to Switch Teleport with a downed capture target.\n\nFixed Loki's Switch Teleport not working on Shockwave MOA.\n\nFixed Loki's Decoy power that would hang around after its creator left the game.\n\nFixed distortion FX on fires.\n\nFixed Datamass not being obtainable after its been teleported/respawned.\n\nFixed Paris and Boar sounds that were not consistent between what the user hears and what the other players hear.\n\nFixed Mag's Crush power being locked \"in use\" after using destructive power on explosive nervos.\n\nFixed bug where lag on clients could be exploited to avoid damage from AI.\n\nFixed avatars falling through active elevators when selecting revive.\n\nFixed various level holes and mesh errors.\n\nFixed multiple graphics related crashes.\n\nFixed mods not affecting Banshee’s sonar power.\n\n\n\nRetribution [Warframe]: Chance to do electrical damage when shield struck by melee enemies.\n\nHandspring [Warframe]: Quicker recovery after being knocked down.\n\nThunderbolt [Paris]: Chance for arrows to explode.\n\n\n\nFixed Paris unable to pick up ammo on clients.\n\nFixed red damage numbers showing up randomly.\n\nFixed crazy Mine Drone scale.\n\nImproved launcher patching of corrupt data-files.\n\nFusion Moas down to early tier in defense missions.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Update 7.9.0: The Glaive",
+  "url": "https://forums.warframe.com/topic/35529-update-790-the-glaive/",
+  "date": "2013-04-26T22:56:42Z",
+  "additions": "",
+  "changes": "Additions:\n\n\nNew melee weapon: The Glaive.*\n\nAdded new damage deformers for enemies, meaning more ways to dismember your foes.\n\nAdded Dual Dagger stealth attack (was sharing dual sword stealth attack).\n\nAdded new Grineer death/fall sounds.\n\n\n\nFrost power mods moved to common pool, increased chance for drops.\n\nIncreased base Crit Chance and Damage on Grakata.\n\nTrinity and Mag's helmet effect now works with \"energy\" palette color changes.\n\nMoved Objectives to later part of missions so the route to extraction is shorter after objective is complete.\n\nToned down lighting/flare on most melee weapons.\n\nAdded damage fall-off to all shotguns--no more shotgun sniping.\n\nRevised sounds for security cameras.\n\nRevised sound for Trinity's Link power.\n\nMultiple improvements to various sounds events (mixing, attenuation, surface materials).\n\nRemoved pit under Jackal spawn to prevent any accidents.\nGorgon accuracy adjustments while aimed.\n\nFire rate adjustments to Akimbo and Semi-Auto Pistols.\n\n",
+  "fixes": "\n\nFixed Saryn's Miasma power not awarding XP or kills.\n\nFixed Saryn's Miasma power not being affected by Continuity or Focus mods.\n\nFixed Saryn's Venom power not being affected by Continuity mod.\n\nFixed the linking of Loki's Decoy and Switch Teleport powers that was causing avatars to sometimes fall outside the level.\n\nFixed Trinity's link ability that was affecting/destroying her Sentinel.\n\nFixed Rhino Charge and Slash Dash powers framerate dependencies, powers now consistently work as intended.\n\nFixed Banshee Soundquake power that was causing visibility issues for other players (not the caster).\n\nFixed Ember's Fire Blast power that was causing visibility issues for other players (not the caster).\n\nFixed Apex particles that would remain on ragdolls after using Nyx's Mind Control power.\n\nFixed Mag's Shield Polarize power playing sound twice.\n\nFixed Frost's Freeze power not being affected by Continuity mod.\n\nFixed Frost's Snow Globe power not being affected by Continuity and Range mods.\n\nFixed Ancient Healer power that was not healing surrounding Infested.\n\nFixed Nyx's armband FX showing up with projectors.\n\nFixed some Defense mission issues with enemies spawning in areas they can't get down from.\n\nFixed host migration during Spy missions where objectives would reset for clients after a host migration.\n\nFixed Slash Dash not dealing appropriate damage on clients.\n\nFixed login rewards clobbering your current loadout.\n\nFixed Long Range weapons not consistently hitting targets at 50m or greater.\n\nFixed visibility of \"BACK\" button on color customization screen.\n\nFixed various bugs and nav mesh issues in reported levels.\n\nFixed common matchmaking issue where users would receive a “Disconnected” error.\n\nFixed Sentinel death affect that was causing frame rate issues.\n\nFixed Ash’s Bladestorm power, it will no longer target turrets or security cameras.\nFixed Login reward handing out \"0 Shotgun Ammo\" boxes.\n\n\n",
+  "type": "Update"
+ },
+ {
+  "name": "Update 7.8.1",
+  "url": "https://forums.warframe.com/topic/34366-update-781/",
+  "date": "2013-04-24T13:47:15Z",
+  "additions": "\nAll Cheaters will now be Banned. No Exceptions!Hacking/Cheating bans are now automatic. Our existing cheat/hack detection code that has been tracking hacks and is now configured to take action automatically now. Do not run hacking programs while playing Warframe. You will be banned.\nMod UI has received significant improvements:    Added category tabs to the Mod pages    Enabled fusion for installed mods\n",
+  "changes": "Update 7.8.1:\n\n\nFix for inventory transactions committing 3 times if log server is unresponsive\nFix for spy mission objective resetting after host migration\nFix Trinity’s Link ability destroying equipped Sentinel.\n\n",
+  "fixes": "\n\nMod UI will now display Shotgun for Primary.\nUI Properly filters out old fusion cores.\nRename gun Mod categories: 2H is now Primary and 1H is now Secondary.\n\nUI no longer shows \"Equipped\" icon for mods that were just purchased\nAdded Tooltips for mod tabs.\nFix for \"news feed\" inching further and further up the screen each time you relogin to game.\n\"Hold to Wall Run\" option now properly saves.\nFixed missed FX when gibbing an enemy on client\n\nFix for post-fusion UI errors. Mod slots were not properly vacated, and fusion could be performed in error.\n\n\nUpdate Downloads are now more fault tolerant.\n\nFix for crash that had chance to occur at extraction.\n",
+  "type": "Update"
+ },
+ {
+  "name": "Update 7.8.0",
+  "url": "https://forums.warframe.com/topic/31722-update-780/",
+  "date": "2013-04-19T21:13:26Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Update 7.8.0\n\nFixes, UI improvements, credit exploits reduced, credit rewards boosted, a freakishly fast Machinegun and skull-crushing Gauntlets!\n\n\n\nADDITIONS\n\nNew weapon: The Grineer GRAKATA assault rifle.\n\nNew weapon: ANKYROS Tenno power gauntlets\n\nNew Sentinel attachments including custom masks, wings, and tail pieces.\n\nAdded up/down arrows to objectives on the minimap if objective is above or below the player's current level\n\nCHANGES\n\nMission completion credit rewards now scale up based on the AI level\n\nAborting missions now forfeits any obtained credits, mods, resources or blueprints, earned XP is still rewarded\n\nDojo targeting challenge now rotates player camera to the first target, and made timer more forgiving\n\nSniper ammo now drops from containers during Jackal fight\n\nGrineer Lancers are now deployed with the Grakata assault rifle\n\nCronus blueprint now only a guaranteed drop the first time Tolstoj is completed, % chance to drop continues to decrease on additional runs\n\nPrevent fusing/selling critical ability/precept mods when no duplicates are present\n\nAnimation tweaks to some weapon positions, and JumpDiveAim poses for Rifle and Dual Pistol grips\n\nImproved Moa, Osprey and Jackal models\n\nFIXES\n\nFixed Sentinels not activating Regen if they took damage from multiple sources in the same frame\n\nFixed an issue with multiple XP sources having trouble displaying on the screen at the same time\n\nFixed an issue where more than 4 players could be in a match at once\n\nFixed an issue where enemies would hang back in Defense\n\nFixed leaping infested not moving towards targets\n\nFixed Stalker sound not being affected by in game audio settings\n\nFixed Dagger Axe blueprint being incorrectly linked to Paris\n\nFixed Banshee 'Push' power not working against Chargers\n\nFixed players being able to run out of ammo in Dojo tests that force a specific weapon\n\nFixed an issue where failing the wall run dojo would still count as a success\n\nFixed Darksword blueprint, it can now be crafted\n\nFixed large number of spots that AI would get stuck\n\nFixed some material types to display proper hit effects\n\nFixed additional cases of old accounts missing fusion cores\n\nFix scroll wheel on large contact/clan list\n\nFix cases where Reach, Focus, and Continuity Mods were not affecting many Warframe abilities\n\nEdit:\n\nFix elemental Mods not stacking properly on projectile weapons (e.g. Bolt/Arrow)\n\nFix slide exploit: velocity boost from slide is on a cool down to prevent macroing.\n\n\nRewards of \"0\" Credits should be fixed!\n",
+  "type": "Update"
+ },
+ {
+  "name": "Update 7.7.4: Hotfixes",
+  "url": "https://forums.warframe.com/topic/29617-update-774-hotfixes/",
+  "date": "2013-04-15T19:49:28Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Fixed enemies not spawning during Endless Defense missions.Fixed avatar images not appearing for clan members.Fixed areas where player could fall through ground in Corpus Outpost level.Fixed Dark Sword blueprint Alert reward.Fixed flickering Ether Sword effects.Reduced firing rate of Grineer Lancers.Fixed unresponsive AI if host migration occurs after Assassination target has been eliminated.Fixed older accounts missing fusion cores.Fixed objective marker not indicating correct location in Grineer Cave level areas.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Update 7.7.3: Level Expansions And New Weapons!",
+  "url": "https://forums.warframe.com/topic/27448-update-773-level-expansions-and-new-weapons/",
+  "date": "2013-04-12T18:30:56Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Tenno, behold new weapons and explore new terrains!\n\nNew Ether Melee Weapons and Twin Vipers will devastate the enemy. New Level Expansions to be explored and conquered await you, Tenno!\n\nADDITIONS:\n\nNew Weapon: Twin Vipers\n\nNew Weapon: Dual Ether\n\nNew Weapon: Ether Daggers\n\nNew Level Expansion: New levels added to Grineer Asteroid and Corpus Outpost tile sets\n\nNew animations for Infested enemies\n\nNew Grineer helmets for Trooper, Seeker and Commander\n\n\nCHANGES:\n\nBanshee blueprints moved to the uncommon pool\n\nQuiver and arrows for the Paris now properly apply colour customization\n\nHalf of the active players in a squad must reach extraction before extraction timer starts\n\nEffect added to revive from bleedout\n\nCorpus Crewmen can use zip-lines now too. Enemies on zip-lines will not stagger or stun.\n\nSentinels can now properly shoot crawling enemies\n\nShade sentinel will now cloak as well when casting Ghost\n\nIncreased the amount of time before targets change in the 2nd and 3rd round of the target shooting rank up challenge\n\nMelee enemies will no longer attack the sentinel when sentinel is out of range\n\nIncreased weapon critical chance for all weapons\n\nBuffed Rifle mods to bring them closer to Pistol and Shotgun mods\n\nLaser door traps no longer deal health damage, will still damage shields and knockback\n\nAdded damage reduction description to Ember's Overheat power, boosted level increase damage reduction\n\nRemoved red overlay from Ember’s World on Fire power\n\nIncreased the DoT for Ember’s Fireball power\n\nIncreased the spread range of Saryn's Venom power\n\nSaryn's Moult power will no longer expire after a set time, must be destroyed\n\nPerformance optimizations! Fixed portal/occlusion not working in network games, reduced network replication set. This should give a nice boost to low/mid range hardware, reducing both CPU and GPU burden.\n\nShifting mod rarity to balance the the distribution better (too many rares before).\n\nFIXES:\n\nFixed frame-rate affecting weapon fire-rate. Some weapons will have different stats in the UI: don't panic, the baseline values had to change when the frame-rate dependency was fixed.\n\nFixed network-related bug that enabled parry damage reduction even when you weren't parrying.\n\nFixed selling recipes into a negative amount\n\nFixed akimbo pistols firing from the offhand while wall sliding\n\nFixed an issue with Sgt Nef Anyo remaining in cloak mode permanently\n\nFixed an issue with squad chat breaking when exiting and re-entering a lobby\n\nFixed an issue with bogus alerts appearing on Terminus\n\nFixed an error when trying to whisper a user with a hyphen in their name\n\nFixed enemy/loot radar not kicking in for existing players when new player joins mission in progress\n\nFixed an issue where Clients were attempting to replicate thousands of objects causing severe performance issues\n\nFixed charged Paris shot that would be spent without the player releasing the shot\n\nFixed profile picture showing as default on profile screen, and added support for showing friend's picture when viewing profile\n\nFixed energy colour not showing properly for Clients\n\nFixed sentinel re-equipping itself when returning from a mission\n\nFixed an issue with AI becoming inactive after a host migration\n\nFixed an issue with the contacts list not properly updating and leaving large gaps intermittently\n\nFixed an issue with host migration not occurring if host quits after objective is completed\n",
+  "type": "Update"
+ },
+ {
+  "name": "Update 7.7.2: Hotfixes",
+  "url": "https://forums.warframe.com/topic/23639-update-772-hotfixes/",
+  "date": "2013-04-05T18:33:25Z",
+  "additions": "",
+  "changes": "Additions:\n\nNew Weapon: Mire \na gruesome infested sword capable of spreading disease.\nNew Weapon Skin: Manticore \na Grineer war axe that deals more damage than the Scindo but has slower swing speed.\nAdd support for showing active squads for alerts.\nAdded an option in controls to toggle wall run to a tap instead of holding jump.\nNew Screen to customize your Gamepad Controls.\nDefense reward popup now lasts for a full 15 seconds even if all players have voted.\nSniper rifle uses new fire recoil animation.\n",
+  "fixes": "Fixed an animation issue with interrupting a reload with a melee swing.\nFixed melee weapon sticking in hands when melee interrupted by using a power.\nFixed intro cinematic replaying if spending a revive in the Dojo.\nFixed issue where selecting an alert directly from the main menu's alert list would host a public session regardless of what mode you were playing.\nFixed Online mode dropdown not refreshing when backing out of lobby.\nFixed per-node squad counts disappearing after selecting node with no players.\nFixed locally-selected online mode getting clobbered by the value of the last session you were in.\nFixed an issue with players being unable to use powers after being affected by a stagger damage type during the power cast animation.\nFixed various powers not affecting the Grinders and Turrets.\nFixed Contagion granting invincibility.\nFixed mod descriptions not showing up in non-latin character sets.\n+ Fixed \"power in use bug\" with Rhino Stomp.\n+ Fixed drop table problems with high level enemies (was reversed, reducing variety, now is increasing drop variety properly)\n+ CPU performance improvements when lighting dynamic objects/characters.\nContagion damage for Saryn fixed.\nFixed Looping Reload animation.\nFixed Slash Dash not working on Client\nFaction Swaps and Combinations will now occur again.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "7.7.1 Hot-Fix + \"about Last Night...\"",
   "url": "https://forums.warframe.com/topic/23034-771-hot-fix-about-last-night/",
   "date": "2013-04-04T17:54:15Z",
