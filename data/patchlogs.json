@@ -7942,6 +7942,15 @@
   "type": "Update"
  },
  {
+  "name": "Update 9.6",
+  "url": "https://forums.warframe.com/topic/96343-update-96/",
+  "date": "2013-08-16T19:47:03Z",
+  "additions": "",
+  "changes": "Additions:\n\nA new Grineer weapon appears: the HIND!\n\nThe first Alliances have emerged, and our 1001+ clans have been split.\n\n\nFlux energy beam is now affected by Energy Colour!\nDera muzzle flash is now affected by Energy Colour!\nExcalibur Radial Blind now uses Energy Colours!\nRemoved the Corpus Void Key Blueprint from the Store \nowned copies can be sold for the same purchase price\nEnabled selling of Corpus Ciphers and Data Masses.\nImprovements  to the Transmutation system: you can no longer transmute your final power card of a given type.\nImprovements to Enemy AI on Settlement defense, they are not as cowardly and won’t huddle in their Spawn location.\nAdded Sobek reload animiaton tweaks.\nAudio updates to the Desert Skate and Grineer Jetpack Troops\nTweaks to Twin Viper sounds\nTweaks to Orthos hit sounds\nTweaks to Grineer Miter sounds.\nTweaks to Rhino’s Iron Skin lighting.\nTweaks to settlement enemy navigation.\nAdded fancy footwork to Grineer Jetpack landing animations.\nMods and Blueprints will never expire as drops.\nElite Grineer Lancers now use the Hind!\n\n\n",
+  "fixes": "\n\nAdded multiple localization fixes\nMultiple fixes for the Grineer Settlement levels.\nFixed the fact that players can consume their final power cards with Transmute\nFixed enemies not leaving the spawn rooms in Settlement Defense\nFixed the Contact List breaking after sending a clan invite while in the Dojo\nFixed the Stalker dropping blueprints 100% of the time\nFixed not being able to perform stealth take-downs on any idle Grineer\nFixed the Stamina Orbs appearing as blue instead of green after building the Dojo Obstacle Course\nFixed the Sabotage Target not appearing on client after a host migration\nFixed enemies being inaccessible in the Settlement Spy missions\nFix for Banshee Silence effect not using correct energy colours\nFix for unlit textures in Corpus Ship room.\nFixing enemy levels on Phobos , Stickney (max level increased by 2 instead of being same as min level)\nFix for Warframe power cast animations replaying if they are knocked down during animation.\nFix Volt Overload creating two effects on clients.\nFix for animations being cancelled due to pain flinch.\n\nForgot one:\n\nFix for crashes when using continuous fire weapons through Electric Shield.\n",
+  "type": "Update"
+ },
+ {
   "name": "Hotfix 9.5.3",
   "url": "https://forums.warframe.com/topic/95311-hotfix-953/",
   "date": "2013-08-14T16:54:17Z",
