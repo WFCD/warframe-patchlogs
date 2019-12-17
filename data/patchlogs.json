@@ -7942,6 +7942,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 9.5.3",
+  "url": "https://forums.warframe.com/topic/95311-hotfix-953/",
+  "date": "2013-08-14T16:54:17Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 9.5.3:\n\nAdditions:\nCorpus Void Keys are sellable for 1500 Credits.\nAdded hacking consoles to locations in Settlement tileset that users could be locked in.\n\nChanges\n\nImproved blueprint drop rates for Phobos boss fight.\nMore loot table changes! All enemies now have a chance to drop Fusion Cores.\nChat window tweaks to assist in readability of chat on bright levels (White text on Sand was problematic).\nTweaks to Grineer Hellion animations and movement.\nRollers have been removed from Grineer Settlements. The Grineer need to make up their mind!\nHand Positions on several weapons have been tweaked.\nKril And Vor have gone through endurance training and no longer attack and fear Sand Skates.\nReduced spawn rate of enemies on prison for Settlement Capture mission.\nBuff to pistol Armor Piercing mod.\nBuff to melee electrical damage mod: up to 10% from 5%.\n\nFixes\n\nFix for objective marker sometimes not appearing for Spy missions in Corpus Outpost.\nFixed Trinity blueprints dropping from Grineer Commanders.\nFix for Lech Kril sometimes becoming invincible when fighting him.\nFix for Sand Skate repeating his taunt animation.\nFix for credit booster not applying to end-of-match reward.\nFix for missing ceiling texture in settlement.\nFix for floating container in settlements.\nFix for Color Picker UI menu becoming unstable after “double clicking”\nFix for the Miter’s holster position.\nFix for “Reputation” UI appearing in defense missions.. more on that later!\nVarious settlement map bug fixes.\nCrash fixes.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 9.5.2",
   "url": "https://forums.warframe.com/topic/94214-hotfix-952/",
   "date": "2013-08-12T20:05:26Z",
