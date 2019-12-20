@@ -24,7 +24,7 @@
     "cloudscraper-promise": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.2.1",
+    "eslint": "^6.8.0",
     "eslint-config-standard": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
