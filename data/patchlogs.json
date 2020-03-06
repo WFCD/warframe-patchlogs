@@ -5922,6 +5922,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 15.11.2",
+  "url": "https://forums.warframe.com/topic/390009-hotfix-15112/",
+  "date": "2015-01-23T19:52:31Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Changes:\nThe Prisma Gorgon is now tradable!\nImproved movement physics on the Yamako Syandana.\n\nFixes:\nFixed a potential issue with host election if you stayed in a lobby for a long time.\nFixed grey lines on numerous Immortal Skins.\nFixed an issue where queuing up an air attack and then landing before the air attack started, would stop all melee action until you finish holstering.\nFixed clients not seeing the “explode effect” when picking up items as per: https://forums.warframe.com/index.php?/topic/365147-new-orb-collection-animation-doesnt-always-play/\nFixed players not being removed from the squad list when crashing/terminating abruptly.\nFixed a VOIP related crash.\n\nIf your post in a Hotfix/Update thread includes 'Still no fix for....\"\n\n1) Include a link to a relevant bug report/screenshot that has details on reproducibility and the nature of the issue.\n\nWithout these details it is increasingly difficult to troubleshoot the specifics involved in resolving a bug.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 15.11.1",
   "url": "https://forums.warframe.com/topic/389459-hotfix-15111/",
   "date": "2015-01-22T21:18:54Z",
