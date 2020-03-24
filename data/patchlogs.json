@@ -469,6 +469,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Wukong Deluxe: Hotfix 25.5.3",
+  "url": "https://forums.warframe.com/topic/1118336-wukong-deluxe-hotfix-2553/",
+  "date": "2019-08-06T20:07:47Z",
+  "additions": "",
+  "changes": "Wukong Deluxe: Hotfix 25.5.3:\n",
+  "fixes": "Fixed an exploit where the mission timer would continue to run when paused in Solo mode which awarded players victory & rewards for the score.\nFixed a progstop that would occur if viewing mission progress right when extraction is enabled. This impacted missions beyond Dog Days as well! \nFixed an issue with the Abysso Skin among other rewards not appearing in Chat link (Captura Scenes overall still not linkable).\nImproved handling of certain crashes. \nFixed for crash related to certain icons. \nFixed missing subtitles after first login due to a Daily Tribute bug. \nFixed an issue with a foliage/vegetation shaders not looking properly lit compared to the terrain below it. \nFixed an issue where Hydroid players could progstop the Ropalolyst fight if picked up while in Undertow.\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Wukong Deluxe: Hotfix 25.5.1 + 25.5.2",
   "url": "https://forums.warframe.com/topic/1117121-wukong-deluxe-hotfix-2551-2552/",
   "date": "2019-08-02T20:04:13Z",
@@ -1625,15 +1634,6 @@
   "additions": "",
   "changes": "The Sacrifice: Hotfix 23.0.8:\nMade minor optimizations to Carrier's Looter precept. \nMade optimizations to Djinn's Fatal Attraction precept.\nFixed a performance issue with multiple Sentinel attack Precepts. \nOptimized the Sacrifice precept.\nOptimized Helios's Detect Vulnerability Precept.\nOptimized performance of GPU particles in various cases.\n",
   "fixes": "Fixed using Transference while entering a teleport volume resulting in the screen turning fully black/white.\nFixed Vazarin Protective Dash healing being removed when using Umbra and Transferring back to your Warframe.\nFixed Transferring from a downed Operator to your Warframe in Submersible Archwing resulting in the camera breaking.\nFixed using a Warframe with an Exalted Melee weapon (Excalibur, Wukong or Valkyr), certain actions will lead to a weird \"in-between\" state, where your Exalted Melee Stance incorporates moves from your currently equipped melee weapon. \nFixed issues with Fishing hitboxes not always matching their model. \nFixed an issue with the Day 950 Login Tribute... but did not fix Login 3.0 but hopefully we can talk more about that later this summer, stay tuned! \nFixed Umbra Courtyard Captura Scene lacking help text.\nFixed issues where Zephyr could get stuck in bad animations. \nFixed an issue where trading an MR locked item could lock the screen. \nFixed the D-Pad not working on the Daily Tribute screen\nFixed various crashes and game freezes. \nFixed a frequent crash on systems running Sandy Bridge graphics. \nFixed various incorrect translations. \nFixed an issue with Clients seeing violent shakes in the Jordas Golem boss fight. \nFixed an issue with your Operator doing an 'AC Slater' on the chair in the Orbiter. \nFixed an issue with the Prisma Skana having incorrect properties.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "The Sacrifice: Hotfix 23.0.7",
-  "url": "https://forums.warframe.com/topic/975538-the-sacrifice-hotfix-2307/",
-  "date": "2018-06-28T20:24:15Z",
-  "additions": "",
-  "changes": "Optimized HUD performance slightly for several mission types.\nTweaked unicode filtering for private channels so you can play in English but still chat in Swedish with your Clan!\n",
-  "fixes": "\n\nFixed crash that could occur if you died right while Ivara was drawing back an Arrow.\nFixed crash that could happen when someone affected by Harrow's Warding Thurible Augment died.\nFixed being cloaked by Ivara’s Empowered Quiver potentially resulting in a status proc by AoE procs.\nFixed Energy Conversion not increasing the Critical damage increase of Ivara’s Empowered Quiver\nFixed being able to skip the Granmu Prism cooldown by switching to and from a Scanner.\nFixed purchasing a Relic Pack from Teshin resulting in the cursor to remain on screen upon closing the Offerings menu.\nSpoiler\n \nFixed Transferring back to Umbra resulting in falling through the floor sometimes\nFurther adjustments to the Umbra Operator Earrings appearing unattached. \nImproved speed of camera during memory sequences when using a controller.\n\n",
   "type": "Hotfix"
  },
  {
