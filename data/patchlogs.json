@@ -7947,6 +7947,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 10.0.2",
+  "url": "https://forums.warframe.com/topic/106032-hotfix-1002/",
+  "date": "2013-09-14T06:21:06Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFurther reductions to Orokin Derelict recipes.\n\nAdded Charge attack melee stats to UI.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 10.0.1",
   "url": "https://forums.warframe.com/topic/105954-hotfix-1001/",
   "date": "2013-09-14T05:12:28Z",
