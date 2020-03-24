@@ -7048,6 +7048,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 13.0.5",
+  "url": "https://forums.warframe.com/topic/214088-hotfix-1305/",
+  "date": "2014-04-14T03:28:37Z",
+  "additions": "",
+  "changes": "Hotfix 13.0.5:\n\n\n\n\nFixed alternate helmets for Valkyr, Banshee, and Saryn missing from the market.\n\n\nFixed not being allowed to unequip your Sentinel from the Arsenal if you already had two weapons unequipped.\n\n\nFixed \"Dual Daggers\" Mod category appearing as a file path in the UI.\n\n\nPreemptively fixed a couple of minor UI issues that would've occurred in Solar Rail Sabotage missions later tonight.\n\n\n\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 13.0.4",
   "url": "https://forums.warframe.com/topic/212197-hotfix-1304/",
   "date": "2014-04-12T05:38:30Z",
@@ -7936,15 +7945,6 @@
   "additions": "",
   "changes": "Added:\n\n\nBetter indication of selected items in arsenal\nAdded sound effect to survival artifacts.\nLess Opaque UI background.\n\nAdjustments to Credit Price of replicating Bio Blueprints (150,000 to 50,000).\n\n",
   "fixes": "\nFix for toggle sprinting and aiming getting in the way of each other.\nFix for Alerts not properly appearing in Game UI. (Further investigation here based on claims still persisting).\nFix for Stamina not being depleted on Clients for Stamina-based actions.\nFix for Play Now button being accessible when it shouldn’t.-Fix for Uru Syandana not being color customizable. \nFix for using chat while in a non-star node (Keys)  lobby will prevent the appearance of the “Play Now” button.\nFix for clients sometimes not being able to damage Golem.\nFix for no enemies spawning in Survival missions after host migration.\nFix for German localizations.\nFix for Clan Dojo dueling not allowing players to revive.\nFix for tooltip descriptions not appearing when hovering over alert reward items.\nFix for Trinity’s Well of Life causing shields to increase exponentially during Survival missions.\nFix for Sure-Footed mod not working on Clients.\nFixed Shadows of the Dead power in use bug when used to revive/resurrect Grineer rollers (possibly other enemies as well).\nFix for player can get caught in falling loop with teleport.\nFix for branch clipping through floor in levels.\nFix for hand clipping into leg.\nFix for image preview on Clan research.\nFixed stealth challenge completing on being spotted in third phase.\nFix for rare cases where an alarm panel outside of the spawn would be enabled instead of the one in the spawn room, added log message for final score, changed how health drain works.\nFix for dojo test  Stealth Challenge not spawning enemies.\nFix for player loses rewards in key accessed defense missions if they do not claim and exit with host. Allow for migration if it's a defense mission, even if it requires a key\nFix for enemies not proceeding though some doors in Orokin level.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 10.0.3",
-  "url": "https://forums.warframe.com/topic/106722-hotfix-1003/",
-  "date": "2013-09-14T21:54:25Z",
-  "additions": "",
-  "changes": "Changes:\nStamina System tweaks:\n\n\nReduced delay on stamina recharge.\n\nIncreased stamina recharge rate.\n\nDecreased cost of stamina required for sprinting.\n\nDodging now uses stamina and has reduced damage while dodging\n\nDodges are executed slightly faster.\n\n",
-  "fixes": "\nFix for bug where \"Buy Slots\" would appear in gear menu after sell.\n\nFix for resources not dropping from The Void or Derelict Regions (this includes Mutagen).\n\nFix for Orokin Glass not being reflective.\n\nFix for Metallic look of Mod frames/borders.\n\nFixed doors shutting down on players once they failed challenge in Orokin Derelicts.\n\nFixed gap in Orokin Derelict level.\n\nFixed clients not being able to see generator hallway effects.\n\n",
   "type": "Hotfix"
  },
  {
