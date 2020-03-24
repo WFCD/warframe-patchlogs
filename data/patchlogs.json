@@ -3672,6 +3672,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Recurring Nightmares: Hotfix 1+1.1",
+  "url": "https://forums.warframe.com/topic/711455-recurring-nightmares-hotfix-111/",
+  "date": "2016-10-27T21:07:47Z",
+  "additions": "New Nightmare modifiers have been added to the mix! Take on the new ‘Death Detonation’, and ‘Friendly Fire’ modifiers.\n",
+  "changes": "Optimized sounds in the Rathuum Arena.\nImproved Dedicated Server matchmaking. This should encourage more aggressive preference to non-empty servers.\n",
+  "fixes": "Main Update:\n\nFix a rare script error that can sometimes occur if a regular transmission interrupts a screen transmission.\nFixed visual discrepancies with Sigils (particularly some Prime Access ones) due to lighting. \nFixed not being able to equip Valkyr Augment Mods on Valkyr. \nFixed not being able to purchase Valkyr’s Bonds in the Market. \nFixed Nightmare modifiers not re-applying after a Host Migration. \nFixed the Hallowed Nightmares Inbox message appearing as a localization file path.\n=============================\nFixed being able to place decorations outside the Landing Craft where they cannot be retrieved.\nFixed Nightmare Exterminate missions spawning an insane.. Or… nightmarish number of enemies.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Recurring Nightmares",
   "url": "https://forums.warframe.com/topic/711418-recurring-nightmares/",
   "date": "2016-10-27T19:03:48Z",
@@ -5698,15 +5707,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Hotfix 16.1.2 + Anniversary Gifts",
-  "url": "https://forums.warframe.com/topic/426353-hotfix-1612-anniversary-gifts/",
-  "date": "2015-03-25T18:13:25Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "\n\nSecond Anniversary Gifts are in!  Thank you for your patience as we distribute the goods, and thank you all for your support these past two years.\n\nAvailable on Login:\n\n·         Dex Dakra\n·         Dex Furis\n\nAvailable in Market:\n·         Excalibur Proto Armor Skin\n·         Proto Glaive Skin\n\nPvP Changes\nExcalibur’s Radial Javelin will now double check that enemies are within range before launching.\nQuick Melee will no longer do full damage on last hit in PvP, slightly reducing the amount of damage dual weapons deal.\n\nChanges\nUpdated Breeding Grounds trophies to use PBR.\n\nFixes\nFixed issue that would occur when Grineer Rollers would enter Limbo’s Cataclysm.\nFixed insignias showing on invisible targets in PvP.\nFixed tint coloring on Dojo trophies from the Mutalist Incursion event.\nFixed <RAID> appearing in the in-game invitation popup instead of <Trial>.\nFixed error that would occur when trying to change Clan tier.\nFixed crash that would occur when NPCs tried using abilities when ragdolled out of bounds.\nFixed Warframe level up notifications appearing partially offscreen in some resolutions.\n",
-  "type": "Hotfix"
- },
- {
   "name": "Hotfix 16.1.1",
   "url": "https://forums.warframe.com/topic/425719-hotfix-1611/",
   "date": "2015-03-24T23:35:27Z",
@@ -6373,6 +6373,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 14.10.1",
+  "url": "https://forums.warframe.com/topic/322132-hotfix-14101/",
+  "date": "2014-10-09T16:41:54Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 14.10.1\n\n\n\nJust a small Hotfix this morning to address a couple issues:\n\n\n\n\nFixed inability to complete Void Mobile Defense missions due to countdown timer not starting.\n\n\nFixed Psychic Bolts unintentionally colliding with environmental objects after they had been levelled to Ranks 1-3.\n\n\n\nThe complete Update 14.10.0 notes can be found here: https://forums.warframe.com/index.php?/topic/321746-update-14100/\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 14.10.0",
   "url": "https://forums.warframe.com/topic/321746-update-14100/",
   "date": "2014-10-08T22:00:00Z",
@@ -7036,15 +7045,6 @@
   "additions": "",
   "changes": "Hotfix 13.0.5:\n\n\n\n\nFixed alternate helmets for Valkyr, Banshee, and Saryn missing from the market.\n\n\nFixed not being allowed to unequip your Sentinel from the Arsenal if you already had two weapons unequipped.\n\n\nFixed \"Dual Daggers\" Mod category appearing as a file path in the UI.\n\n\nPreemptively fixed a couple of minor UI issues that would've occurred in Solar Rail Sabotage missions later tonight.\n\n\n\n",
   "fixes": "",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 13.0.4",
-  "url": "https://forums.warframe.com/topic/212197-hotfix-1304/",
-  "date": "2014-04-12T05:38:30Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Additions:\n\n\n\nAdded a new \"View Permissions\" context menu item to Alliance View. Allows people to see each clans permissions, and change them if they have the proper permissions.\n\nAdded ‘Stance’ category to mod view.\n\n\n\nChanges:\n\n\n\nTweaked the Mace grip melee animations.\n\nOnly those with the Tactician role can deploy Solar Rails.\n\nImproved the Glaive parry movement animations.\n\nReduced the drop rate on Oberon pieces from Leader type enemies.\n\nCapitalized GRUSTRAG BOLT RELEASE for consistency.\n\nRemoved the character limitation from Invite to Clan option under Clan Management tab\n\nNew clans invited to an Alliance will now have no permissions by default.\n\nTweaked the sound radius of Hydroid's abilities and the Stug.\n\nImproved a number of Melee animations across all weapon types.\n\nRevised the positions of accessories on the Nami Skyla.\n\nImproved the sorting of Users in the chat box to properly account for lower case names\n\nPlayers will no longer be able to enter Master Rank tests which require a specific weapon if that weapon is not currently equipped in their loadout.\n\n\n\nFixes\n\n\n\nFixed the Korean translations for Argon Crystal.\n\nFixed issue with Hydroid’s Kraken spawning in random spawn positions on clients.\n\nFixed issue where PM’s would auto-reply #F[ALIAS] is not online when they are.\n\nFixed an issue with faulty connector tiles in the Shipyards tileset.\n\nFixed some broken visuals on certain Dojo assets\n\nFixed a number of localization issues.\n\nFixed clients being unable to see custom energy colors on melee weapons.\n\nFixed player's being able to get to unintended areas on the Shipyards tileset.\n\nFixed an issue with the Join Session window in the Friend's Tab.\n\nFixed an issue with other player's being unable to see Glaive throws properly.\n\nFixed an instance of player's getting stuck after using an oxygen supply in a Survival match.\n\nFixed an number of map holes in the Vay Hek boss battle room.\n\nFixed an issue with Water visuals persisting during Vay Hek's death cinematic.\n\nFixed the Lotus giving incorrect information during the melee portion of the introductory tutorial.\n\nFixed a progression stopper in Rescue missions that would occur after a host migration.\n\nFixed an issue with the Alliance Creator losing proper functionality after multiple Warlord's have accepted and then left the same Alliance.\n\nFixed an instance of objective markers disappearing after a host migration has occurred.\n\nFixed a number of crashes.\n\nFixed a Lotus subtitle seen during the Hijack missions incorrectly showing Project Tethra instead of Vay Hek.\n\nFixed the inability to bind X when using an Xbox controller\n\nFixed an issue with players being unable to properly perform melee attacks in the Rank 3 Mastery test.\n\nFixed a missing image seen when funding the construction of a Solar Rail.\n\nFixed the chat window breaking after creating a private conversation tab through the context menu.\n\n",
   "type": "Hotfix"
  },
  {
