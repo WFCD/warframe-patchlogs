@@ -7950,6 +7950,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 10.0.5 + Hotfix 10.0.6",
+  "url": "https://forums.warframe.com/topic/109386-hotfix-1005-hotfix-1006/",
+  "date": "2013-09-18T21:17:09Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "\nFixed News & Alerts panel disappearing randomly while traversing the UI (and actually fixed in 10.0.6)\nFixed clients receiving bottom-tiered rewards from Survival missions\nReduced cost of Team Totem blueprints, also changed resource requirements to Ferrite and Salvage only\nReduced crafting costs of Clan Tech items: Heal, Ammo, Shield, and Energy now 500cr\nFixed room prerequistites not being checked when attempting to construct new dojo rooms\nFixed \"power in use\" bug that could occur when using Desecrate\nAdded prevention for unintentionally selling last remaining sentinel weapon\nFixed damage numbers not appearing for Overheat\nFixed names for Rebound and Quick Return mods being switched\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 10.0.4",
   "url": "https://forums.warframe.com/topic/108751-hotfix-1004/",
   "date": "2013-09-17T20:46:56Z",
