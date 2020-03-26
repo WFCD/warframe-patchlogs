@@ -1639,6 +1639,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "The Sacrifice: Prime Vault Hotfix 23.1.2!",
+  "url": "https://forums.warframe.com/topic/987805-the-sacrifice-prime-vault-hotfix-2312/",
+  "date": "2018-07-24T17:56:42Z",
+  "additions": "",
+  "changes": "Fixed an issue where the Simulacrum 'kill enemies' command is unavailable on controllers.\nFixed an issue with being unable to use the D-pad on setting sliders. \nFixed an issue with the virtual cursor being unable to select chat links unless you move the cursor off and on again. \nFixed being unable to put items on your Wishlist in the Market when playing with a controller.\nFixed being unable to move cursors up to equip landing craft with the D-pad. \nFixed an issue where you could not purchase an item with the cursor on the purchase button. \nFixed being unable to select and begin the advanced movement tutorial with a Controller.\n\nSortie Interception missions now only require 2 rounds instead of 3.\nAdjusted the extreme color corrections on the Corpus Outpost. \nOptimized performance of many companion precepts. \nKavats are now included in the description for DNA Stabilizers in the market.\n\n",
+  "fixes": "Nyx Prime and Rhino Prime are back!\n\n\nFor the first time ever, the hypnotic Nyx Prime is leaving the Vault! Charging out beside her is Rhino Prime along with other high-demand Vaulted Prime Accessories, Prime Weapons and discounted Platinum.\nThanks to your feedback, this is also the first time we’re offering separate Prime Accessory Packs!\nBRAINS AND BRAWN DUAL PRIME PACK FEATURES:\n1200 Platinum\nNyx Prime\nRhino Prime\nBoltor Prime\nHikou Prime\nAnkyros Prime\nScindo Prime\nTargis Prime Armor Set\nNoru Syandana Prime\nVala Sugatra Prime\nDistilling Extractor Prime + Blueprint\nPrime Glyphs\n\nNYX PRIME PACK FEATURES:\n400 Platinum\nNyx Prime\nHikou Prime\nScindo Prime\nTargis Prime Armor Set\nVala Sugatra Prime\nPrime Glyphs/Profile Icons\n\nBRUTE PRIME PACK FEATURES:\n400 Platinum\nRhino Prime\nBoltor Prime\nAnkyros Prime\nDistilling Extractor Prime + BP\nNoru Syandana Prime\nPrime Glyphs/Profile Icons\nNYX PRIME ACCESSORY PACK FEATURES:\n200 Platinum\nTargis Prime Armor Set\nVala Sugatra Prime\nRHINO PRIME ACCESSORY PACK FEATURES:\n200 Platinum\nNoru Syandana Prime\nDistilling Extractor Prime + Blueprint\nVisit www.warframe.com to pick up these Prime Vault Packs before the Vault closes!All Relics can be found in the Void region while the Prime Vault is open!\nFixed scanning with the Operator not counting toward any progress for Daily Targets or otherwise. \nFixed previewing Nakak's masks causing player's hood open/close customization to be forced to closed.\nFixed issues with layering in the Captura scene selection. \nFixed being unable to customize Ivara's Artemis Bow's Arrows. \nFixed an issue with the Inventory UI not showing the Argon Crystal decay timer. \nFixed an issue where clients reviving before the 'mission complete' end-cinematic can lead to a loss of functionality for the host. \nFixed an issue with Glyphs changing their texture scale after reloading. \nFixed Operators not being able to use the Synthesis Scanner without a Sol Battery Widget. \nFixed The Sacrifice Somachord fragment unlocks being in random order, which could result in fragments not spawning, or spawning when they shouldn't.\nFixed Spearfishing bait and dyes not floating in ponds or the ocean after a host migration.\nFixed Umbra losing Armor in Infested Salvage missions when he shouldn't. \nFixed level issues in the Sealab tileset. \nFixed level issues in the Europa tileset. \nFixed an issue where you could soft-lock the game in the Arsenal. \nFixed an issue with some TennoGen Round 13 Syandana Offsets. \nFixed an issue with the leaderboard not appearing in the custom obstacle course room for clients.\nFixed an issue with some decoration's rotation cylinder being too large. \nFixed the Vala Sugatra Prime having untintable gold, it is now tintable!\nFixed an issue with the camera getting detached from players when summoning an Archwing in the Plains. \nFixed a visual bug with Standing when viewing progress as per: https://forums.warframe.com/topic/876266-syndicate-standings-bug-new-one/\nFixed Prisma Shade removing cosmetics as per: https://forums.warframe.com/topic/787411-shade-stealth-ability-can-remove-head-or-cosmetics/\nFixed audio crackling when firing the Baza with Ivara's Prowl ability. \nFixed an issue with the Scourge's throw sounds playing when Modding. \nFixed an issue with negative crit Rivens leading to increased critical chance as per https://www.reddit.com/r/Warframe/comments/915ctj/bug_having_a_negative_crit_multiplier_causes_you/\nFixed an issue where the Stalker could get stuck in walls in certain levels. \nFixed an issue where Melee sorting by 'Usage' for Zaws wasn't reflecting profile stats. \nFixed an issue where some Eximus enemies appear pitch black.\nFixed an issue where you may not be able to use fishing gear after the first toss.\nFixed an issue where some pressure plates do not function in the Void. \nFixed multiple issues with flickering objects across multiple levels. \nFixed an issue where the ice bubble created by Arctic Eximus does not match the visual effect. \nFixed the Celestia Syandana not having energy when previewed. \nFixed a visual bug with the Tysis' dangles getting tangled. \nFixed multiple issues with improper FX and models in the Codex Dioramas. \nFixed the Dual Dagger Should Holster market item not having a proper preview. \nFixed being unable to Gift UI themes that you have purchased. \nFixed being unable to see your Platinum total in Darvo's Market in the Relay. \nFixed an issue with squadmates disappearing in the Simulacrum when accessing the Terminal. \nFixed Operator Void Blast not respecting energy colour. \nFixed an issue with the Life-Support VFX not disappearing in Survival Missions.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Sacrifice: Hotfix 23.1.1",
   "url": "https://forums.warframe.com/topic/985581-the-sacrifice-hotfix-2311/",
   "date": "2018-07-19T20:31:38Z",
@@ -3663,15 +3672,6 @@
   "changes": "Recurring Dreams: Hotfix 3:\nInaros can no longer use the Conclave Mod Low Current Leap.\n",
   "fixes": "Fixed forced solo Quest missions not giving out proper Quest rewards (Mission 1 of Vor's Prize & mission 3 of Kubrow Quest). This should help a handful of players who cannot progress through their Quests. \nFixed a script error when casting Nezha’s Divine Spears ability.\nFixed a script error when casting Rhino’s Charge ability.\n*Please note that a script is being run in ~30 minutes to fix players stuck in quests. \nThe script is complete! Please relog now if you were stuck in your Quests.\n",
   "type": "Hotfix"
- },
- {
-  "name": "PC: Baro: 2 Day Extension (PAX Aus)",
-  "url": "https://forums.warframe.com/topic/714130-pc-baro-2-day-extension-pax-aus/",
-  "date": "2016-11-06T10:21:46Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Hey all,\nJust a heads up that current PC Baro Ki Teer has been extended by 48 hours! Our time in Australia at PAX revealed that a large portion of our Aussie players would miss the 50th visit from Baro due to travel for the event. The extension is live!\nThanks,\nRebecca\n",
-  "type": "Update"
  },
  {
   "name": "Recurring Dreams: Hotfix 2",
@@ -5700,6 +5700,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 16.1.6",
+  "url": "https://forums.warframe.com/topic/431380-hotfix-1616/",
+  "date": "2015-03-31T15:41:16Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Changes\n\nMade various localization changes for Portuguese and Chinese.\n\nFixes\n\nAdded packet-loss tolerance to the network analysis to avoid bogus Firewall errors (evidently Singapore is difficult for some people to communicate with).\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 16.1.5",
   "url": "https://forums.warframe.com/topic/430816-hotfix-1615/",
   "date": "2015-03-30T22:24:13Z",
@@ -6366,15 +6375,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Hotfix 15.0.1",
-  "url": "https://forums.warframe.com/topic/329586-hotfix-1501/",
-  "date": "2014-10-24T20:59:41Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Hotfix 15.0.1\n\nChanges:\n\nOptimized server queries to deal with popularity.\nCamera zoom will now only occur when player is viewing sigils for optimal viewing pleasure.\nChanged the description of the Limbo Theorem quest to better indicate that Archwings are required to complete.\n\nFixes:\n\nFixed several common and rampant gameplay crashes.\nFixed a progression stopper in Orokin Sabotage missions due to a missing Miniboss\nFixed an issue with Limbo Profile Avatar pack’s not pointing to the correct icons.\nFixed an issue with Limbo’s animation sets both being labelled “AGILE”.\nFixed issue with the Atterax whip not extending.\nFixed an issue with Corpus Archwing enemies not attacking when you’re in point blank range.\nFixed infested decorations appearing for no reason on Corpus Ice Planet room.\nFixed several broken Archwing quest states that would prevent players from advancing.\nFixed an issue where player would respawn outside the level after revive in trench-run if you died close to the ceiling.\nFixed rounding errors causing some weapons to show at rank 29 in the codex.\nFixed an issue with Mastery Rank showing as ‘0’ in player Profiles.\nFixed materials on Grineer caches\nFixed an issue with the Codex showing unreleased weapons.\nFixed Limbo’s Banish becoming stuck as ‘Power in use”: https://forums.warframe.com/index.php?/topic/328908-power-in-use-stuck-while-using-limbo-limbo-hat-animation/\nFixed an issue with the Opticor’s sound being heard by entire squad as if they were using it.\nFixed the wrong mission reward being given for the main objective for Orokin Void Sabotage missions.\nFixed issued with the scale and position of Syandanas on Limbo.\nFixed an issue with early extractions from Archwing missions not showing proper mission result loadout information.\nFixed an issue where viewing other player’s profile would hang game.\nFixed the World State panel becoming unresponsive after selecting an invasion for a locked planet\nFixed an issue with level doors not being properly replicated to Client/Host in Archwing Trench Run missions.\nFixed subtitle on Ordis inbox message for Limbo Quest.\nFixed an issue with players who don’t have Archwings being able to join the last part of the Archwing quest.\nFixed Cipher minigames not working with a controller.\nFixed an issue with Volt's Overload not showing up on the Abilities screen.\nFixed an issue with Syndicate Sacrifice being deducted more than one time in the same Rank.\nFixed for Grineer bobblehead having missing head during placement mode.\nFixed a progression stopper in Orokin Sabotage missions due to a missing Miniboss.\nFixed a bug that was incorrectly scaling Syandanas down on Banshee, Nova and Valkyr by 20%. This should address some physics issues with Syandanas on these Warframes too.\nFixed an issue with casting Warframe abilities on a controller not working properly.\nFixed issue with 'Corvette' Corpus Enemy damage output being significantly larger than the rest of the enemies.\nFixed a case where the player last targeted by a beam would get an initial hit when the beam fires at the next target (if they don't move).\nFixed issues with Limbo's ability sounds.\nFixed Zephyr’s passive low-gravity not working. Not yet fixed.\nFixed issue with the Damage Output of Zephyr’s Divebomb\nFixed Radial Javelin not attributing kills to the caster as well as resulting in friendly fire.\nFixed an issue with Corpus Trench Run Sabotage maps having missing connectors.\nFixed an issue where accessing and leaving the ‘mods’ terminal from the Archwing Subsection causes functionality loss.\n",
-  "type": "Hotfix"
- },
- {
   "name": "Warframe: Archwing",
   "url": "https://forums.warframe.com/topic/328727-warframe-archwing/",
   "date": "2014-10-24T12:52:08Z",
@@ -7038,6 +7038,15 @@
   "additions": "",
   "changes": "Additions (From Devstream #27):\n\nAdded new Katana Stance \nDecisive Judgment, including new Combos!\nAdded new combos for the following weapons:\nNew Glaive Weapon Combos!\nNew Scythe Weapon Combos!\nNew Staff Weapon Combos!\nOptimized the collision on a number of Grineer art assets.\nTweaked a number of Dagger and Axe parry sound effects.\nImproved the performance of the Amprex on low end machines.\nScaled the Wings and Tail of the Shade Sentinel when using the Sprite skin.\nThe automatic-divvying of Alliance Vault resources when a Clan joins or leave the Alliance has been disabled. Manual divvying is still possible.\nAdded in the ability for Alliance  Treasurers to transfer funds from their Clan Vault to their Alliance Vault.\nThere are now separate \"Quick Melee\" and \"Melee Attack\" key bindings.\nImproved the performance of in game Transmissions.\nRoll animations will no longer play automatically after sprinting and jumping. Rolls will now only play when the player drops far enough and are moving forward.\n\n",
   "fixes": "Fixed the visuals on the battery component of the Amprex rifle.\nYet another instance of very large numerical values, i.e credits, appearing incorrectly in game.\nFixed a number of localization issues.\nFixed an issue with certain forms of damage not properly destroying Orokin Traps.\nFixed a number of crashes.\nFixed a number of projectile types ignoring Mag's Bullet Attractor power.\nFixed an issue with invisible collision causing a progression stopper in the Shipyards Defense tileset.\nFixed a number of missing slide sound effects for whip type weapons.\nFixed an issue with the Grustrag and Kril dioramas displaying incorrect weapons.\nFixed an issue with the Rejuvenation Aura mod not healing Sentinel health.   \nFixed an issue with Grustrag Bolt providing extra wallrun Stamina instead of losing it +50% faster.\nFixed a number of melee finishers.\n\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 13.1.1",
+  "url": "https://forums.warframe.com/topic/220915-hotfix-1311/",
+  "date": "2014-04-23T22:53:02Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Fixes:\n\n\nFixed gameplay crashes.\n\nFixed enemies not being dismembered by ranged weapons with high Slash-damage.\n\nFixed Sentinels losing XP accumulated during mission after being revived.\n\nHUD: manually-placed waypoint markers can now be cleared by aiming at them and pressing G.\nFor the full list of Update 13.1.0 additions and fixes check out:\nhttps://forums.warframe.com/index.php?/topic/220848-update-1310-amprex/\n\n",
   "type": "Hotfix"
  },
  {
@@ -7939,15 +7948,6 @@
   "changes": "Added:\n\n\nEnd-of-mission Orokin Void Rewards have been properly rectified, see here for more information on what went wrong with Update 10’s drops: https://forums.warframe.com/index.php?/topic/110474-an-apology/\n\nResource requirement changes for:\nDual Ichors:\nMutagen: 10 to 4\nForma: 2 to 1\nEmbolist:\nMutagen: 7 to 5\nForma: 2 to 1\nSynapse:\nMutagen: 11 to 5\nForma 3 to 2Djinn:\nMutagen: 15 to 6\nForma: 3 to 2\nDerelict keys:\n\nInto the Derelict: 1 hour to 1 minute.\nInto the Assassination mission aka Boss Fight: 3 hours to 1 hour (3 hours to 1 hour)\n",
   "fixes": "Fixed Bastille affecting fewer targets than expected when immune enemies (turrets, cameras, drones) are nearby\nFix for Miter not taking energy color attributes.Fix for pickups not working in Conclave.\nFix for crash that would occur if Dethcube vaporizes opponent in the Conclaves.\n",
   "type": "Update"
- },
- {
-  "name": "Hotfix 10.0.7",
-  "url": "https://forums.warframe.com/topic/110005-hotfix-1007/",
-  "date": "2013-09-19T22:03:38Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Additions:Darvo has emerged to offer discounted goods to the Tenno... he lurks in the Market.Fixes:Fix for Unranked Fusion Cores being offered as a mission reward.Fix for Turkish Players unable to join in-progress missions.Fix for motion blur in Syandana.\nFix for Gear Blueprints being sold for more credits than they cost.Fix for crash that could occur when viewing Arsenal while mission is starting.\n\n",
-  "type": "Hotfix"
  },
  {
   "name": "Hotfix 10.0.5 + Hotfix 10.0.6",
