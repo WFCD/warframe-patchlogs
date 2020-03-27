@@ -473,6 +473,16 @@
   "type": "Update"
  },
  {
+  "name": "Hotfix 25.6.3",
+  "url": "https://forums.warframe.com/topic/1120514-hotfix-2563/",
+  "date": "2019-08-14T19:38:43Z",
+  "imgUrl": "http://n9e5v4d8.ssl.hwcdn.net/uploads/64d766a2e72c7e35fe01c3cce8ff7c6f.jpg",
+  "additions": "Added Arsenal Ability videos for Atlas.\nDefault sort is now by Name, previous default has been renamed to ‘Date Added’.\nReduced the size of floating chunks of ice in Orb Vallis and tweaked the FX for an overall performance improvements when loading in.\nImproved robustness and accuracy of script runtime.\nMade a micro-optimization to the core math libraries.\nFixed a crash when re-casting Atlas’ Rumblers.\nFixed a script error when changing the Warframe Articula’s loadout.\n",
+  "changes": "Hotfix 25.6.3:\nMade some texture/material changes to the Wukong Samadhi Skin to reduce the amount of ‘sparkling’.\nImproved the tintable area of the Wukong Samadhi Skin tail, as it appeared as a more grey tone instead of a fuller dark black tone as intended.\nChanged Zealots to be allied to the level's Faction to prevent them clearing objectives.\nFixed Zealots not being allied with Infested. \nFixed Zealots not storming players on spawn.\nWhen Creator Mode is enabled, the email field will now be soft locked to prevent accidentally typing your ‘ValkyrIsB3stG1rl’ password into your email field. You now must click the new lock icon to turn off the lock. If you attempt to click the email field while it’s locked, the lock icon will pulse to remind you to unlock it first.\n\nTweaked Banshee Soprana’s skirt and cloth attributes to reduce clipping with her derriere.\n",
+  "fixes": "Fixed issues with the Teralysts as well as some other enemies not having properly sized collision.\nFixed having all Energy drained when casting Frost’s Freeze ability with the Freeze Frost Augment equipped on a Snow Globe.\nFixed Excalibur’s Furious Javelin not always removing the previous buff if you recast before it expires.\nFixed being affected by two or more Octavia Metronomes and leaving the radius of one of them causing Vivace and Forte buffs to become impossible to obtain until you become affected by a new Metronome cast.\nFixed the second “kick” of Nezha’s Pyroclastic Flow Augment not having any FX, making it appear to not function correctly.\nFixed Nyx’s Absorb consuming more than its base of 4 Energy per second even when not being attacked.\nFixed Warframe invulnerability (if applicable) being removed when Transferring back to Operator. As reported here: https://forums.warframe.com/topic/1119184-switching-to-operator-removes-any-invulnerability/\nFixed HUD buff indicator discrepancies between Host/Client when receiving a damage buff from Augments like Freeze Force, Shock Trooper etc.\nFixed the Klamora and Lega Prism’s continuous fire being affected by framerate. As reported here: https://www.reddit.com/r/Warframe/comments/cn5jsv/certain_operator_amps_have_energy_consumption/\nFixed the Spore Ephemera not rendering over certain Warframe parts.\nFixed the Imperator Vandal not rendering properly as an Arch Gun when using certain Skins or no Skin.\nFixed the Tatsu missing its forward momentum when changing directions. \nFixing Gas City Dropship spawns being rarer in non-Assassination missions.\nFixed text overlap in some languages when viewing restored Nightwave Acts.\nFixed a vertical line is showing up when you click to Rank up in the Solaris or Ostron Syndicates screen.\nFixed a hole in the floor of the Larunda Relay due to missing pillar collison. As reported here: https://forums.warframe.com/topic/1117724-larunda-relay-fall-through-the-map/\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Augment Tweaks: Hotfix 25.6.2",
   "url": "https://forums.warframe.com/topic/1119199-augment-tweaks-hotfix-2562/",
   "date": "2019-08-09T18:47:08Z",
@@ -8839,15 +8849,6 @@
   "additions": "",
   "changes": "Patch #2 Is Here!:\nOur second patch is here, and as usual, close and re-launch your game to receive the update.\nYour build will display the following upon a successful patch: 2012.10.29.17.41\n-Fixed cipher panels not activating after breaking out windows at end of defense mission\n-Fixed enemy count in extermination missions\n-Got rid of red progress bars over bleeding-out players\n-Fixed floating infestation worms/snails\n-Fixed exploit where you could choose a locked color when exiting the color picker\n-Improved responsiveness when picking up mods and other pickups\n-Tweaked XP (leveling) curves, should take much longer to rank up\n-Smoothed out animation transitions for mantling and rolling\n-Added low health indicators and feedback when taking damage\n-Nerfed Snipetron, added scope effects\n-Reduced Grineer Commander spawn frequency\n-Fixed quest card missions not playing as intended\n-Fixed high level mods dropping inappropriately\n-Various crashes fixed\nWith this patch, you’ll notice all of our accounts have been reset. We're reseting accounts to test changes to difficulty and ranks. Although this is typical of Beta testing, we are developing a bonus system for top players which will be implemented for future resets.\nNow let’s start from scratch!\n",
   "fixes": "",
-  "type": "Update"
- },
- {
-  "name": "Update #1 is here!",
-  "url": "https://forums.warframe.com/topic/228-update-1-is-here/",
-  "date": "2012-10-26T20:28:37Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Patch number 1 is here! To patch Warframe, close your game, and relaunch! Patch occurs in launcher.\nYour build will display the following upon a succesful patch: 10.26.15.22\nPatch revision notes:\n\nMade launcher support custom Windows text sizes (high-DPI settings caused  problems)\nFixed rescue agent getting stuck on cover objects\nPrevented players from dying in tutorial\nFixed “raise reactor” prompt not appearing for some players\nFixed players animating at higher rate in menus\nFixed kill ranking and display issues (all missing kills were recovered)\nFixed problems caused by enemies fallen into pits\nFixed enemies taking cover inside solid objects\nFixed player rank displayed at sign in (was showing 0 instead of actual rank)\nFixed jump-slash attack embedding players into stairs\nFixed a number of crashes and defects discovered by Beta testers\nRebalanced store item prices.\nPlease remember to obey all signs and rules; the safety of you and our crew is our highest priority\n\nNOTE: You will only be able to connect with users running the same version as you.\n",
   "type": "Update"
  },
  {
