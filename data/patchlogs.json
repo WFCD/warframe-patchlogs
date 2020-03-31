@@ -239,6 +239,16 @@
   "type": "Hotfix"
  },
  {
+  "name": "Empyrean: Hotfix 27.0.1",
+  "url": "https://forums.warframe.com/topic/1151534-empyrean-hotfix-2701/",
+  "date": "2019-12-13T06:07:49Z",
+  "additions": "",
+  "changes": "Empyrean: Hotfix 27.0.1:\nSentients in the Railjack Key retrieval mission no longer drop loot to address farming infinite Resources. This mission is intended to be a one-and-done mission to give you your Railjack Reliquary Key.\n",
+  "fixes": "Fixed not being able to join a Railjack mission from the Star Chart if you hadn't already completed the node.\nFixed Intrinsic not showing on the End of Mission screen when returning to Dojo from Railjack.\nFixed getting a duplicate Avionic pickup when just picking up one in a Railjack mission.\nFixed script error when starting a mission from your Orbiter, proceeding to the Dry Dock instead, and then starting a Railjack mission from Dry Dock and skipping the cinematic.\nFixed the Railjack Wing Turrets FX lingering across the game until you restarted. \nFixed a crash when on the Railjack Pilot seating during level level transition.\nFixed a crash when transitioning to missions from the Railjack.\nFixed a crash when failing a Railjack mission.\nFixed a crash when in the Intrinsics screen.\nFixed a crash when in the Options menu.\nFixed a crash when firing the Acrid.\nFixed a crash related to the Inbox.\nFixed a crash when looking at Warframe Ability videos in the Arsenal.\nFixed a script error when casting Revenant’s Enthrall ability.\nFixed a script error when casting Rhino’s Iron Skin ability.\nFixed a script error when casting Nekros’ Desecrate ability.\nFixed a script error when casting Vauban’s Minelayer ability.\nFixed a script error when casting Gauss’ Redline ability.\nFixed a script error when casting Wisp’s Reservoirs ability.\nFixed a script error when casting Mirage’s Sleight Of Hand ability. \nFixed a script error when casting Wukong’s Primal Fury ability.\nFixed a script error when casting Harrow’s Thurible ability.\nFixed [HC] text appearing for ‘Waiting For Players’ and ‘Leaving Soon’.\n",
+  "description": "The first of many Hotfixes, no doubt! Please bear with us as we triage and fix issues with the surprise Update! Warframe: Empyrean is indeed here! We will be working diligently to fix major game-breaking issues as they appear. Solid reproduction steps will help us greatly in appropriate forums!",
+  "type": "Hotfix"
+ },
+ {
   "name": "Empyrean: Update 27",
   "url": "https://forums.warframe.com/topic/1151428-empyrean-update-27/",
   "date": "2019-12-13T02:34:29Z",
@@ -461,15 +471,6 @@
   "additions": "Companion Weapon Rivens have been added back to Simaris’ Offerings! This time they will unveil for the proper weapon.\nAdded unique open/close sounds for the Nelumbo Shawzin.\nFixed a crash when in the Dojo.\nFixed a crash if you lost connection to the server and tried to access your Profile at the same time.\nFixed a rare crash when transitioning between Zones in Sanctuary Onslaught.\nPotential fix for UI lockup when leaving squads setting up for the Index.\nFixed spamming Look Links too quickly to Chat locking up your UI (serves you right!)\nFixed edge cases of a UI lockup when accessing the Leverian from a place outside of the Market or Codex. \nFixed Zealot Heralds Torid FX perpetually lingering, thus affecting performance.\nFixed Akarius FX particles perpetually lingering, thus also affecting performance.\nFixed a script error that could result if you left a mission while an Infested Runner was charging at you.\nFixed a script error when casting Gauss’ Kinetic Plating ability.\n",
   "changes": "Hotfix 25.7.2:\nAcceltra can now equip Rifle Ammo Mutation Mod.\nImprovements towards metallic chunk textures looking too soft on Warframes.\nFixes towards emissive colors on Warframes not working. This affected certain materials and were made exponentially worse if using a darker Emissive or Energy color.\nFixed weapon emissive colors to be crushed to near black if the weapon had PBR upgrades.\nFixes towards bad zoning reflections by tweaking lights, probs, glowing meshes, and redundant cubemaps. This fixes many cases of overly saturated areas such as the Jordas Golem exterior boss arena.\n",
   "fixes": "Fixed progression stopper after Round 10 of Disruption, where the Demolisher Thrasher wouldn't spawn above level 80.\nFixed more potential cases of Demolyst enemies not spawning in missions which are lower level than their equivalent Star Chart mission.\nFixed Aura Mods not functioning.\nFixed some players having their Mastery Rank recalculated slightly lower than before as a result of moving nodes around in the Star Chart for the Disruption expansion.\nFixed your camera flipping upside down when achieving ludicrous Gauss Mach Rush speed with maxed Field of View.\nFixed Euphona Prime having incorrect aimed accuracy when using the slug fire mode. As reported here: https://www.reddit.com/r/Warframe/comments/cxkb1o/euphona_prime_worse/\nFixed inability to play Shawzins that you have placed in your Orbiter.\nFixed Disruption Nox sometimes not attempting to shoot at players.\nFixed enemies become alerted when using a Scanner.\nFixed see-through Decorations when building in the Dojo.\nFixed appearing as a mini-Warframe when entering/leaving the Leverian as the Operator.\nFixed inability to Transfer out of the Operator when entering/leaving the Leverian as the Operator.\nFixed the Prime Details toggle not behaving properly for TennoGen Skins on Volt Prime.\nFixed Tyl Regor and Kela De Thaym turning into a puddle if Oberon’s Smite was used during the fight.\nFixed Volt’s electricity FX and Umbra’s Howl FX appearing as lines instead of lightning beams.\nFixed Clients losing loot into teleport pits.\nFixed broken animal Conservation notes in Orb Vallis.\nFixed attempting to change a Dojo Room description not saving and instead displaying 'undefined'.\nReverted the addition of unique open/close sounds for the Nelumbo Shawzin due to it causing crashes and breaking squadmates UI.\nImproved handling of corrupt shader caches to fix some crashes.\nFixed between-Wave rewards not popping up when playing Disruption on Mars \nOlympus.\nFixed your input swapping to Chat if you started a mission with the Appearance preview screen active.\nCurrently enemies in the Codex are missing their full drop reward information \nwe'll get it fixed!\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 25.7.1",
-  "url": "https://forums.warframe.com/topic/1123946-hotfix-2571/",
-  "date": "2019-08-30T00:36:50Z",
-  "additions": "",
-  "changes": "Hotfix 25.7.1:\n",
-  "fixes": "Fixes towards crashing when attempting to play the Profit Taker fight.\nFixed a directx10 startup crash.\nFixed a crash that occurred in the Grineer Settlement.\nFixed Simaris’ Inbox messages missing an icon.\nFixed a black textured Corpus door.\n\nSpamming Look Links too quickly in Chat locks up your UI.\n",
   "type": "Hotfix"
  },
  {
@@ -8403,6 +8404,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 8.1.6",
+  "url": "https://forums.warframe.com/topic/69308-hotfix-816/",
+  "date": "2013-06-24T20:41:27Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "A small batch!\n\n\nWeekend Dethcube bundle deal is now over.\n\nFixed crash when upgrading mod just as mission starts.\n\nFixed rare hang that could occur when joining alert missions.\n\nAdded better back-end diagnostics for chat server connection issues.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 8.1.5",
   "url": "https://forums.warframe.com/topic/68042-hotfix-815/",
   "date": "2013-06-21T20:50:10Z",
@@ -8841,15 +8851,6 @@
   "additions": "",
   "changes": "",
   "fixes": "As usual, relaunch your game to receive the update.\nUpon a successful update, your build will read: 2012.11.02.17.33\n\nMods are now dropped by enemies on death rather than appearing in crates\n\nNew Trinity abilities! Well of life, Energy Vampire, Link, Blessing.\n\nDifficulty selection is now available for cards that have been completed in the battle deck\n\nMission completion rewards are fixed\n\nAdded explanations for ammo pickups that aren't in current loadout\n\nFixed enemy ragdolls freezing in death pose\n\nBo Staff damage increase\n\nFixed certain Mods not applying correct bonus\n\nImproved mini-map markers and feedback for Extermination missions\n\nTuned AI targeting and perception\n\nVarious crash and localization fixes\n",
-  "type": "Update"
- },
- {
-  "name": "Update #3 is Here!",
-  "url": "https://forums.warframe.com/topic/429-update-3-is-here/",
-  "date": "2012-10-30T18:39:12Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Patch #3 is a smaller patch. As usual, relaunch your copy of Warframe to receive the patch.\nYour build will display the following upon a successful patch: 2012.10.30.12.30\n\n   Fixed not being able to exit room after destroying Jackal\n\n   Reduced damage dealt by Grineer rifles\n\n   Reduced Dual Skana slide-roundhouse damage\n\n   Added “Seasonal surprise”\n\n   Improved rescue target’s pathfinding and animation cycle\n\n   Beefed up the Gorgon rifle\n\n   Fixed enemy name tag in tutorial\n\n   Grineer shield regeneration tweaked\n-... what could it be ;)?\n",
   "type": "Update"
  },
  {
