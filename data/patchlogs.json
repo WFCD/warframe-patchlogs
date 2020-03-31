@@ -8402,6 +8402,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 8.1.5",
+  "url": "https://forums.warframe.com/topic/68042-hotfix-815/",
+  "date": "2013-06-21T20:50:10Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Some fixes!\n\n\nFixed AI spawning issues in the Grineer Galleon defense level.\n\nIncreased napalm damage resistance for the Artifact Pod.\n\nAdded a new Dethcube bundle to the Market! Pew pew pew!\n\nEdit:\n\n\nRemoved Crawler type enemies from Artifact Defense missions.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 8.1.4",
   "url": "https://forums.warframe.com/topic/67864-hotfix-814/",
   "date": "2013-06-21T14:27:44Z",
@@ -8840,15 +8849,6 @@
   "additions": "",
   "changes": "",
   "fixes": "Patch #3 is a smaller patch. As usual, relaunch your copy of Warframe to receive the patch.\nYour build will display the following upon a successful patch: 2012.10.30.12.30\n\n   Fixed not being able to exit room after destroying Jackal\n\n   Reduced damage dealt by Grineer rifles\n\n   Reduced Dual Skana slide-roundhouse damage\n\n   Added “Seasonal surprise”\n\n   Improved rescue target’s pathfinding and animation cycle\n\n   Beefed up the Gorgon rifle\n\n   Fixed enemy name tag in tutorial\n\n   Grineer shield regeneration tweaked\n-... what could it be ;)?\n",
-  "type": "Update"
- },
- {
-  "name": "Update #2 is Here!",
-  "url": "https://forums.warframe.com/topic/399-update-2-is-here/",
-  "date": "2012-10-29T22:45:37Z",
-  "additions": "",
-  "changes": "Patch #2 Is Here!:\nOur second patch is here, and as usual, close and re-launch your game to receive the update.\nYour build will display the following upon a successful patch: 2012.10.29.17.41\n-Fixed cipher panels not activating after breaking out windows at end of defense mission\n-Fixed enemy count in extermination missions\n-Got rid of red progress bars over bleeding-out players\n-Fixed floating infestation worms/snails\n-Fixed exploit where you could choose a locked color when exiting the color picker\n-Improved responsiveness when picking up mods and other pickups\n-Tweaked XP (leveling) curves, should take much longer to rank up\n-Smoothed out animation transitions for mantling and rolling\n-Added low health indicators and feedback when taking damage\n-Nerfed Snipetron, added scope effects\n-Reduced Grineer Commander spawn frequency\n-Fixed quest card missions not playing as intended\n-Fixed high level mods dropping inappropriately\n-Various crashes fixed\nWith this patch, you’ll notice all of our accounts have been reset. We're reseting accounts to test changes to difficulty and ranks. Although this is typical of Beta testing, we are developing a bonus system for top players which will be implemented for future resets.\nNow let’s start from scratch!\n",
-  "fixes": "",
   "type": "Update"
  },
  {
