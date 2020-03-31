@@ -1,5 +1,15 @@
 [
  {
+  "name": "Operation: Scarlet Spear: Titania Prime 27.3.7",
+  "url": "https://forums.warframe.com/topic/1180847-operation-scarlet-spear-titania-prime-2737/",
+  "date": "2020-03-31T20:11:53Z",
+  "imgUrl": "http://n9e5v4d8.ssl.hwcdn.net/uploads/1ab4f977d66d7798e9d2144502edd8fb.png",
+  "additions": "",
+  "changes": "Operation: Scarlet Spear: Titania Prime 27.3.7:\nTitania has had a history of clipping with Syadanas due to her wingspan features, and when designing her Gigelorum Prime Syandana it became apparent that it wasn’t going to sit right on her features. Considering it can look awesome on other Warframes, we started work on the shorter Gigelor Prime Syandana that will position nicely with Titania Prime’s features!\n*Consoles will receive the Gigelor Prime Syandana script and addition to the Prime Accessories Pack with Operation: Scarlet Spear.\nWe’ll update this thread when the script is complete!\n\nWe’ve made some slight collision and offset tweaks to have the Gigelorum Prime Syandana sit nicer between Titania’s wings.\n\nMade another fix towards Scarlet Spear Scores not getting uploaded, thus resulting in no Score on the Flotilla Leaderboards and no Victory Payout at the end of the Murex Wave.\nFixed the Aerolyst remaining invulnerable with its canisters destroyed, if disarmed by Naramon Disarming Blast.\n",
+  "fixes": "Fixed unreleased Railjack node being selectable in the Star Chart, resulting in endless loading cause it doesn’t actually exist and it was all a dream.\nFixed Warframe Ability preview videos not continuing if you hover on them after hovering on the Passive ability.\nFixed areas disappearing when viewed from long distances in the Hydron Defense tileset.\nFixed certain UI elements (Boss health bar, Markers, Enemy statuses) sometimes tinting red for the rest of the mission.\nFixed Lua and Kuva Fortress sometimes disappearing when zooming far out in the Star Chart. \nFixed a script error that could occur in Lua Disruption missions during Moonquakes (particularly of joining the mission mid-quake).\nFixed a script error that could occur in Lua Disruption missions if there was a Host migration during a Moonquake.\nFixed a script error when opening the Nightwave screen.\nFixed a script error when becoming downed while switching from your weapon to the Mining Cutter.\n",
+  "type": "Update"
+ },
+ {
   "name": "Operation: Scarlet Spear: Titania Prime 27.3.6",
   "url": "https://forums.warframe.com/topic/1180787-operation-scarlet-spear-titania-prime-2736/",
   "date": "2020-03-31T17:04:24Z",
@@ -226,16 +236,6 @@
   "changes": "Empyrean: Hotfix 27.0.2:\nIncreased the vacuum radius on Archwing and Railjack \nRailjack 200-250 \nArchwing 25-50\nReduced the the hold time to upgrade Avionics by 50%.\nMade the number of Fresnels and Nullstones that drop match the number dropped by other rare resources.\nDoubled the amount of End of Mission Railjack commons and slightly increased uncommons.\nChanged RailJack ‘Form A Crew’ button to also include ‘Select A Mission’ instruction\nRailjack Avionics, Dirac, and Wreckage can now vacuumed by Archwing.\nChanged spawning balance near end of Skirmish missions so there are fewer Crewships and Fighters as objectives near completion.\nReduced damage multiplier on Crewship engines.\nMade Crewships more resilient to Archwing fire.\nFixed tooltips reporting the wrong Engineering Intrinsic ranks while trying to craft Munitions and Doma Charges during missions\nFixed Clients bypassing pre-death state of Crewships, causing them to die prematurely.\nFixed Grineer Railjack Boarding Party having some incorrect Melee FX. \nFixed screen staying dark sometimes after leaving the Railjack customization screen.\nFixed camera getting suck on Reactor Room screen when closing Railjack customization.\nFixed unlocked Railjack Research showing when selecting ‘Hide Owned’. \nFixed ‘Hide Owned’ not working for Railjack Research.\nFixed Railjack randomize customization so it only selects from owned items.\nFixed cases of not being able to swap Glyphs on Railjack.\nFixed BENDAR CLUSTER node missing from Earth Proxima.\nFixed Fire Rate random buff not applying on Wreckage Railjack Armaments.\nFixed being able to install multiple Railjack Avionics of same parent type, if you have an Avionic of a base type equipped (AKA two of the same Hull Wave Avionics).\nFixed Ramsleds not despawning between Railjack missions. \nFixed being able to board the Archwing Slingshot in the Railjack while still in Hyperspace.\nFixed the Archwing Slingshot breaking for Clients if they tried to use it immediately after the Host.\nFixed Railjack malfunctions (Hull Breaches, etc) not being cleared on return to Dojo\nFixed a lingering fade-to-black when entering the Railjack from the Dry Dock.\nFixed a crash that occurred if you opened a locker before the Master Key Parazon Mod triggered.\nFixed Crewships not disengaging and warping away after an objective is finished.\nFixed Railjack HUD scaling not saving properly. \nFixed Orbiter Star Chart not checking Intrinsic requirements for joining Railjack missions.\nFixed script error in Railjack Point of Interest weak point script after a Host migration.\nFixed a bug for Clients where spinning Pulse Turbine blades animation will look laggy.\nFixed a bug with electricity FX not appearing after Pulse Turbine cable destruction.\nFixed left hand clipping on Excalibur Zato idle animation.\nFixed script crash that could occur when a Crewship spawns.\nFixed script crash that could occur from Fighter Escort spawns.\nFixed script crash that could occur when Fabricating in the Dry Dock.\nFixed script crash that could occur from Railjack pilot and guns.\nFixed explosion sounds in Railjack not respecting sound sliders.\n",
   "fixes": "Fixed a harmless network race condition that could lead to a script error.\nFixed a number of network race conditions that could break the portal in Sanctuary Onslaught.\nFixed script crash that could occur from Rhino’s Iron Skin ability.\nFixed script crash that could occur from Energy Shell.\nFixed script crash that could occur from Nekros’ Desecrate ability.\nFixed script crash that could occur from Gauss’ Redline ability.\nFixed script crash that could occur from Mirage’s Sleight of Hand ability.\nFixed script crash that could occur from Wukong’s Cloud Walker ability.\nFixed script crash that could occur from Wisp’s Reservoirs ability.\nFixed script crash that could occur from enemies using Switch Teleport.\nFixed script crash that could occur from Fishing.\nFixed script crash that could occur from completing a Bounty.\nFixed script crash that could occur when fighting Vay Hek.\nFixed script crash that could occur when fighting the Raptor.\nFixed script crash that could occur from Vauban’s Minelayer ability.\nFixed script crash that could occur in the Disruption gamemode.\nFixed script crash that could occur from Hildryn’s Balefire ability.\nFixed script crash that could occur from a Grineer Scorpion enemy.\nFixed a script crash that could occur when dealing damage with Rakta Dark Dagger.\nFixed script crash that could occur when picking up a Convergence Orb.\nFixed script crash if an Ancient Healer tried to protect certain types of NPC\nFixed script crash that could break specific encounters on the Orb Vallis.\n",
   "description": "Please bear with us as we triage and fix issues with the surprise Update! Warframe: Empyrean is indeed here! We will be working diligently to fix major game-breaking issues as they appear. Solid reproduction steps will help us greatly in appropriate forums!",
-  "type": "Hotfix"
- },
- {
-  "name": "Empyrean: Hotfix 27.0.1",
-  "url": "https://forums.warframe.com/topic/1151534-empyrean-hotfix-2701/",
-  "date": "2019-12-13T06:07:49Z",
-  "additions": "",
-  "changes": "Empyrean: Hotfix 27.0.1:\nSentients in the Railjack Key retrieval mission no longer drop loot to address farming infinite Resources. This mission is intended to be a one-and-done mission to give you your Railjack Reliquary Key.\n",
-  "fixes": "Fixed not being able to join a Railjack mission from the Star Chart if you hadn't already completed the node.\nFixed Intrinsic not showing on the End of Mission screen when returning to Dojo from Railjack.\nFixed getting a duplicate Avionic pickup when just picking up one in a Railjack mission.\nFixed script error when starting a mission from your Orbiter, proceeding to the Dry Dock instead, and then starting a Railjack mission from Dry Dock and skipping the cinematic.\nFixed the Railjack Wing Turrets FX lingering across the game until you restarted. \nFixed a crash when on the Railjack Pilot seating during level level transition.\nFixed a crash when transitioning to missions from the Railjack.\nFixed a crash when failing a Railjack mission.\nFixed a crash when in the Intrinsics screen.\nFixed a crash when in the Options menu.\nFixed a crash when firing the Acrid.\nFixed a crash related to the Inbox.\nFixed a crash when looking at Warframe Ability videos in the Arsenal.\nFixed a script error when casting Revenant’s Enthrall ability.\nFixed a script error when casting Rhino’s Iron Skin ability.\nFixed a script error when casting Nekros’ Desecrate ability.\nFixed a script error when casting Vauban’s Minelayer ability.\nFixed a script error when casting Gauss’ Redline ability.\nFixed a script error when casting Wisp’s Reservoirs ability.\nFixed a script error when casting Mirage’s Sleight Of Hand ability. \nFixed a script error when casting Wukong’s Primal Fury ability.\nFixed a script error when casting Harrow’s Thurible ability.\nFixed [HC] text appearing for ‘Waiting For Players’ and ‘Leaving Soon’.\n",
-  "description": "The first of many Hotfixes, no doubt! Please bear with us as we triage and fix issues with the surprise Update! Warframe: Empyrean is indeed here! We will be working diligently to fix major game-breaking issues as they appear. Solid reproduction steps will help us greatly in appropriate forums!",
   "type": "Hotfix"
  },
  {
@@ -2551,6 +2551,15 @@
   "type": "Update"
  },
  {
+  "name": "Plains of Eidolon: Hotfix 22.0.9",
+  "url": "https://forums.warframe.com/topic/865725-plains-of-eidolon-hotfix-2209/",
+  "date": "2017-10-23T21:51:59Z",
+  "additions": "",
+  "changes": "Plains Of Eidolon: Hotfix 22.0.9:\nAll Zaw Grip and Strike blueprints are now available at Rank 1 from Hok, and all cost 1000 standing.\nIncreased the damage of all Amp Prisms and Scaffolds.\nReduced all instances of Amp self-damage.\nArchwing disabler projectile no longer hit dodge-maneuvering players on explosion. \nArchwing disabler projectiles that target a flare have reduced explosion radius.\n",
+  "fixes": "Fixed an issue where players could trade in Brilliant Eidolon Shards for Endo. Maroo has returned from vacation and is sorry she got some tin-suits in trouble. \nFixed an issue with audio stuttering out on the Plains.\nFixed melee stances not staying equipped on ungilded Zaws.\nFixed the Ceno Cuirass not having similar build requirements to the Vahd Cuirass.\nFixed Eidolon Lens rewards from incursions not displaying properly.\nFixed Pull applying damage deformers and ragdoll to some enemies it shouldn't be.\nFixed Nova’s Worm Hole being able to escape the outer boundaries of Cetus.\nFixed an issue where Fusilai would sometimes reload very slowly.\nFixed Archwing disabler projectiles not actually tracking countermeasure flares. \nFixed Archwing disabler projectiles not being affected by bullet attractor pulls (Mag, Amesha, etc)\nFixed Zenurik Energizing Dash not always showing the proper value in the HUD buff when in two bubbles at once.\nFixed clients using Transference sometimes getting extra HUD buff icons.\nFixed a UI issue that occurred upon spending Focus while also redeeming Brilliant Eidolon Shards for Focus.\nFixed Magus and Virtuos appearing as Mods when crafted in the foundry.\nFixed amps built using Shwaak Prism and Shraksun Scaffold not passing through Volt’s Electric Shield.\nFixed Eidolon Lures having strange hitboxes until downed.\nFixed some leaking caused by Teralyst VFX.\nVarious localization updates.\nVarious crash fixes.\n\nFixed Amps NOT requiring standing to gild.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Plains of Eidolon: Hotfix 22.0.8",
   "url": "https://forums.warframe.com/topic/863518-plains-of-eidolon-hotfix-2208/",
   "date": "2017-10-20T21:44:33Z",
@@ -2776,15 +2785,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Chains of Harrow: Hotfix 21.1.1",
-  "url": "https://forums.warframe.com/topic/820507-chains-of-harrow-hotfix-2111/",
-  "date": "2017-07-20T19:33:36Z",
-  "additions": "",
-  "changes": "Chains Of Harrow: Hotfix 21.1.1:\nCompanion Kavats will now get knocked back and dissolve (instead of just vanishing) when they sadly die because you either left them or didn’t make it in time. \nReload sounds will now play properly when Dual-wielding the Zakti with thrown Melee weapons.\nBattalyst and Conculyst Sentient weapons will now disappear after a minute as opposed to lingering on the ground indefinitely. \nImproved texture-streaming responsiveness.\nImproved Channeling FX on Nova Prime and Oberon Prime. \nOptimized render performance in cases where dynamic lights were destroyed.\nEnemies will no longer automatically be killed by returning to the Arsenal area, and Host will not automatically kill enemies by using the enemy selector console. \nEnemies can be killed by the Host by selecting the 'Kill Enemies' button in the enemy selector console. \nThe 'Pause AI' button will now dynamically pause and unpause any currently existing enemies.\nReduced the AoE damage radius of the Zakti in Conclave\n",
-  "fixes": "Fixed a soft lock when attempting to craft Specters.\nFixed a crash that would occur when activating Excalibur’s Exalted Blade (and other similar abilities) then entering the Arsenal and going to the Melee weapon upgrades screen in Captura and the Simulacrum.\nFixed not receiving Syndicate Standing after completing a Syndicate mission. \nFixed Mesa’s Peacemaker not acquiring new targets if it fails to find a target within a short period of time after firing.\nFixed enemies affected by Nyx’s Chaos, Loki’s Radial Disarm, Naramon Mind Spike as well as Radiation procs not taking increased damage from faction damage Mods.\nFixed being able to get infected by a cyst in Captura and the Simulacrum.\nFixed the Zakti projectiles not hitting enemies in Mag’s Magnetize field. \nFixed the Zakti projectiles never exploding with toxic gas when killing enemies or hostile objects. \nFixed an issue that was causing all Sentient arms to no longer be destructible.\nFixed Syndicate Secondaries losing their unique skin in Dual-Wield and looking like the normal version of the weapon.\nFixed certain weapons firing \"out of the Rift\" when Limbo's Stasis is disabled. \nFixed the Mastery Sigil appearing unranked on Titania and her Skins.\nMore fixes towards Energy color issues when using Core Vent on the Elytron.\nFixed Armor attachments appearing dark in the Star Chart when you zoom out of a region.\n",
-  "type": "Hotfix"
- },
- {
   "name": "Chains of Harrow: Update 21.1.0 + 21.1.0.1",
   "url": "https://forums.warframe.com/topic/820014-chains-of-harrow-update-2110-21101/",
   "date": "2017-07-19T21:31:09Z",
@@ -2999,6 +2999,15 @@
   "changes": "Octavia’S Anthem: Update 20.5.0:\nAir Support Turrets will self-destruct after 60 min and Med Towers after 20 min to prevent long-term exploits\nPhorid’s portrait will now be displayed when viewing Invasion battle details instead of generic Infestation image.\nThe World State Window will now close when clicking outside of the window instead of having to manually close it.\nReduced the detonation delay of detonated explosive weapons (Talons, Castanas, etc).\nImproved Oberon’s Hallowed Ground ability to go up slopers.\nUpdated Aviator, Agility Drift and Heightened Reflexes Mods to read absolute % to avoid double negatives.\nUpdated Mod descriptions that mentioned Power -Range, Duration, and Efficiency to read as Ability and some where Power should say Energy.\n",
   "fixes": "Fixed Phorid Assassination requiring Animo Beacons/Judgment points when occupying Hades/Merrow.\nFixed issues with your currently selected Relic not properly displaying in squads.\nFixed a per-frame spot-load hitch in the lobby after a teammate had selected a Relic.\nFixed an error that would occur if you viewed a Profile that hadn't participated in Operation Ambulas Reborn.\nFixed Tysis playing doubling reload sounds.\nFixed falling through the world in the Simulacrum a Focus ability was used over a teleport volume.\nFixed sell screen for Ayatan Sculptures and Prime Parts in Maroo’s Bazaar/Relay showing all items.\nFixed falling through elevators when using Focus abilities while riding the elevator.\nFixed spamming Transference in teleport volumes sometimes resulting in falling out of the world.\nFixed another typo in Alad V’s boss fight transmission.\nFixed the quest marker breaking in the first mission of The Archwing quest.\nFixed the Electromagnetic Shield and Heightened Reflexes Mods displaying incorrect text descriptions.\nFixed Sugatras floating away when equipped on the the Scindo Manticore Skin.\nFixed the Incubus Syandana clipping through Titania’s wings.\nFixed numerous Syandanas clipping through Chroma’s Dynasty Skin.\nFixed Naramon Sundering Blast not giving enemies the correct Melee weapon for their faction when it disarms them.\nFixed the Avenging Truth Mod absorbing damage from ally players.\nFixed Resource purchase prompt displaying unit price as 0 Platinum in the in-game Market.\nFixed the Sacrifice Sentinel Mod putting you into a Bleedout state instead of reviving you in Archwing.\nFixed Clients UI stopping before 100% when charging Inaros’ Scarab Armor.\nFixed not being able to recolor some Sugatras.\nFixed reviving in Archwing displaying ground weapons equipped visually all at once.\nFixed Captura Scenes being displayed under ‘Crafting Components’ when Trading.\nFixed the bottom part of the Clan element in Profile summary being cut off when the player being viewed isn't in a Clan.\nFixed displaced text when viewing a profile.\nFixed Spearmint Scythe skin hand positions being offset on the Anku and Caustacyst.\nFixed the kill counter continuing to track enemy kills despite meeting the required amount for Extermination.\nFixed trade-banned players being able to trade.\nFixed missions timers slowing down the longer an Endless missions lasts.\nFixed a case where Clients would incorrectly think they received a proc they were supposed to be immune to with Inaros’ Negation Swarm Mod IF they were shot twice on the same frame, by the same source, and the 2nd shot tried to apply a proc that the 1st shot didn't.\nFixed Dojo bells not playing sounds for Clients.\nFixed a localization issue with some Mod categories not properly displaying (Companions, Augments).\nFixed issues with the menu scaling having unintended effects on the Companions menu if no pets were active.\nFixed performance issues with Frost's Avalanche FX.\n\nFixed Energy not being restored when you revive to the last value you had before.\nFixed all kills being reported as ‘BULLET JUMP’ in Conclave.\nFixed toxin damage hitting Limbo in the rift.\n",
   "type": "Update"
+ },
+ {
+  "name": "Octavia’s Anthem: Hotfix 20.4.6",
+  "url": "https://forums.warframe.com/topic/795965-octavia%E2%80%99s-anthem-hotfix-2046/",
+  "date": "2017-05-11T19:05:55Z",
+  "additions": "",
+  "changes": "Octavia’S Anthem: Hotfix 20.4.6:\nWe have made changes to the way Grineer Hellion missile knockdown works. Before, knockdown could occur on direct hits and if you were in the explosion AoE. After this change, knockdown will only have a chance to occur on direct hits (the explosion AoE will no longer have a chance to knock you down). \nOptimized memory usage and speed for game startup and the Navigation console.\nBalanced the amount of the Panthera’s Alt Fire beams fired in Limbo’s Rift to match other beam weapons in an effort to reduce performance issues.\nImproved translated text description placement on a handful of Mods.\nUpdated Companion UI to read as ‘Pets’ anywhere an Imprint is mentioned.\n",
+  "fixes": "Potential fix for Clients getting stuck doing a hack action when under poor network conditions.\nFixed reloading a charged Bow shot not canceling the shot.\nFixed casting one-handed abilities (Volt’s Shock, Ember’s Fireball, etc) canceling weapon reloads.\nFixed Transmuting a Mod in the Relay not showing results and not updating the Mod collection.\nFixed the Supra/Supra Vandal’s firing sounds being cut off. \nFixed the Handshake Emote animation not working properly in Relays.\nFixed the Operator remaining visible after taking control of a Golden Maw in The War Within.\nFixed minimap marker positions and on-screen markers being inconsistent. \nFixed not seeing the Lotus transmission after picking up the Navigation Segment during Vor’s Prize.\nPotential fix for experiencing a spot-load when you have a Sentinel weapon in your loadout but no Sentinel equipped.\nFixed a memory leak when throwing the Javlok/Ferrox in Limbo’s Stasis.\nFixed not being able to input the Datamass into a Mobile Defense terminal if someone is standing in the way.\nFixed not being able to use the vault doors in the Orokin Derelict if there's a Kavat/Kubrow or other player in the way.\nFixed continuous weapons (Ignis, etc) getting extreme Range when used in Limbo’s Stasis. \nFixed Landing Craft’s flying through walls in the Landing Craft Relay Hub.\nFixed Moon Clans seeing negative Nano Spore research numbers for the Hema. This was purely a UI bug. \nFixed spot-loading materials when you turned around in the Landing Craft after spawning in.\nFixed projectile weapons detonating prematurely in Limbo’s Stasis. \nFixed an issue with the Condor Dropship's enemy type ... it's not made of flesh. \nFixed being force-extracted on a specific Corpus Outpost tileset. \nFixed Air Support Med Towers and Sentry Turrets not being destroyed when the player who initiated them disconnects from the game. \nFixed hacked Ambulas dropping Animo Beacons (that you don’t get to keep) in Captura.\nFixed numerous instances of inconsistent translated text. \nFixed a typo in Alad V’s boss fight transmission. \nFixed a crash from Helios’ Detect Vulnerability Precept.\nFixed loading into a Lunaro lobby and only seeing ghostly Excalibur placeholders.\n",
+  "type": "Hotfix"
  },
  {
   "name": "Hotfix 20.4.5",
@@ -3452,15 +3461,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "The Glast Gambit: Hotfix 19.6.1",
-  "url": "https://forums.warframe.com/topic/749385-the-glast-gambit-hotfix-1961/",
-  "date": "2017-01-13T16:41:08Z",
-  "additions": "",
-  "changes": "The Glast Gambit: Hotfix 19.6.1:\nServer-side Invasion Change (live on all platforms as of January 12):\n\n\nFurther optimized network access to help alleviate ‘Network Not Responding’ issues.\nTweaked visibility of Frost’s Snowglobe when a dark Energy color is used.\nTweaked metal textures on the Frost Harka helmet to prevent it from turning flat-black as opposed to a jet-black. \nReverted the inability to click and view Relic/Arcanes in the Codex that you do not own. You can now view them as you could prior to Update 19.6.0. \nThe ‘Find and defeat Lephantis in Orokin Derelict’ Eris Junction task will now retroactively complete if you have already killed Lephantis.  \nThe Orokin Derelict will no longer be selected for Alerts and Syndicate missions. This resulted in loading into the normal Derelict mission as opposed to the Alert or Syndicate mission.\n",
-  "fixes": "Fixed a Dedicated Server crash.\nFixed not being able to progress through The New Strange due to having partially completed the quest before the Specters of the Rail update.\nFixed recasting Nidus’ Ravenous not refreshing Duration.\nFixed Nidus losing a Mutation Stack after falling into a pit.\nFixed Nidus being able to use Parasitic Link on disabled Corpus Security Cameras and Turrets.\nFixed script errors with the Kohm and the Dendra Armor.\nFixed Hydroid’s Tentacle Swarm sometimes violently throwing ragdolls outside of the world. Should also provide a minor improvement to performance when Tentacle Swarm is active.\nFixed not being able to equip a Burst Laser Riven Mod on the Prisma Burst Laser as per:\nFixed Companions closing the Helminth Infirmary door and trapping you inside.\nFixed some issues with Frost’s abilities not applying enough of the chosen Energy color.\nFixed numerous weapons and items not having a ‘Build’ tab in the Market.\nFixed Kuva Guardian impact sounds not playing for the Host.\nFixed Customization icons in the default colors option sometimes being in the wrong position and greyed out.\nFixed still being prompted to rename your Kubrow after selecting to cancel the renaming process.\nFixed several Kuva enemies and objects missing from the Codex.\nFixed Grineer workers on Ceres missing from the Codex.\nFixed a floating object in the Grineer Settlement extraction area.\nFixed the Vaykor Syandana FX appearing laggy.\nFixed a few translation errors.\nThe Regen Mod (both Primed and regular) now grants temporary invulnerability to Sentinels on revive for a duration of one second + one second per rank of the mod. This means that with a maxed Primed Regen, you could see 11 seconds of invulnerability after the Regen occurs.\n",
-  "type": "Hotfix"
- },
- {
   "name": "The Glast Gambit: Update 19.6.0 + 19.6.0.1",
   "url": "https://forums.warframe.com/topic/748631-the-glast-gambit-update-1960-19601/",
   "date": "2017-01-11T23:47:27Z",
@@ -3674,6 +3674,15 @@
   "additions": "",
   "changes": "",
   "fixes": "Tenno,\nAny minute now we will finish deploying the following. I will Update this thread when it is complete:\nScript is complete, relog if you were affected!\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "The War Within: Hotfix 19.0.1",
+  "url": "https://forums.warframe.com/topic/715913-the-war-within-hotfix-1901/",
+  "date": "2016-11-12T07:09:35Z",
+  "additions": "",
+  "changes": "The War Within: Hotfix 19.0.1:\n\nKubrows and Kavats can now be renamed for 25 Platinum!\nImproved huge hitches and delays when you owned a large number of cosmetic items (spot-loading).\n",
+  "fixes": "Fixed cinematics and conversations with NPCs in Relays taking over for every person within. \nFixed Clan emblems not appearing. \nFixed the Weekly Clem mission having a [PH] text in the title.\nFixed a crash with the Gear wheel.\nFixed a crash when attempting to join a mission.\nFixed a Conclave crash.\nSpoiler\nFixed a crash if your Sentinel killed you during the Purge phase in The War Within Quest.\nFixed a crash during the Queen's fight in The War Within Quest.\n\n",
   "type": "Hotfix"
  },
  {
@@ -4353,15 +4362,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Hotfix 18.10.4 Operation Rathuum.",
-  "url": "https://forums.warframe.com/topic/644355-hotfix-18104-operation-rathuum/",
-  "date": "2016-05-02T21:29:22Z",
-  "additions": "Added a Range description to the Ack & Brunt Electromagnetic Shielding Mod.\nAdded damage sounds when struck by Executioner Nok’s Carabus drone.\n\n",
-  "changes": "Hotfix 18.10.4 Operation Rathuum.:\nTweaked distance volume sounds on the Roller Sentries.\nUpgraded a handful of textures in Kela De Thaym’s Arena to trilinear filtering to improve quality on low-end PCs with anisotropic-filtering disabled.\nRemoved an unintentional Kavat Mod from Transmutation. Soon Kavats… soon.\nTweaked Rhino’s default energy color to be slightly more blue.\nIncrease delays on Xiphos turret to reduce the constant start/stop behavior that can occur when it's switching targets.\nRestored detail in Nyx Prime's textures.\nIncreased the resolution and slightly altered the tinting of Excalibur Prime.\nTweaked Vay Molta’s movement and attack sounds.\nGeneral improvements to audio mixing across all new Rathuum content. Audio elements now better respect volume control and Alt + Tab rules.\n\n",
-  "fixes": "Fixed a crash in The Jordas Verdict which prevented any attempts from completing.\nFixed a common crash that would occur when teleporting an NPC that was on an emplacement (Ramparts).\nFixed Invasion missions being unplayable due to the UI not providing users with the option to select them.\nFixed energy color not being displayed on Oberon.\nFixed high levels of dynamic music through the Arena.\nFixed various other unnecessary loud sounds by enemies, weapons, etc. throughout Kela De Thaym’s Arena.\nFixed receiving additional Credit rewards on missions that are not won.\nFixed other players getting damaged by projectiles (i.e Ogris)  after Mirage’s Hall of Mirrors expires.\nFixed Kela De Thaym’s Mods not being labeled as ‘NEW’.\nFixed the Ki'Teer Syandana placing incorrectly on Equinox as per: https://forums.warframe.com/topic/637842-equinox-and-kiteer-syandana/\nFixed duplicate Codex entries for the Orokin Spectator Eximus.\nFixed missing Hall of Ascension Mods from the Codex.\nFixed a hole in Kela De Thaym’s Arena map.\nFixed pickups not teleporting to a safe zone after falling outside of the level bounds.\nFixed lasers in the Void moving around wildly.\nFixed respawning in Kela De Thaym’s Arena with un-upgraded Health values after a host migration.\nFixed various freezes and crashes.\nFixed UI timer not being accurate when there is a delay between a player dying and the respawn timer being activated in Kela De Thaym’s Arena.\nFixed the Electromagnetic Shielding Mod’s damage transfer not scaling with Fusion level.\nFixed taking 100% of the Electromagnetic Shielding Mod damage transfer.\nFixed Roller Sentries moving while opening/closing which sometimes resulted in them never firing.\nFixed repeating transmissions in Kela De Thaym’s Arena.\n\n\n\n\n\n",
-  "type": "Hotfix"
- },
- {
   "name": "Hotfix 18.10.2 + 18.10.3: Operation Rathuum.",
   "url": "https://forums.warframe.com/topic/643527-hotfix-18102-18103-operation-rathuum/",
   "date": "2016-04-30T22:54:29Z",
@@ -4575,6 +4575,15 @@
   "additions": "",
   "changes": "\nRemoved the headshot multiplier from the Penta series, Castanas series, Kulstar, Talons and Angstrum in Conclave.\nRemoved the Hard versions of the following Conclave Daily Challenges: Capture the Cephalon, Combo Kills, Headshot Kills, Multi-weapon Kills, Payback Kills.\nNew Conclave Mod: Air Thrusters \n+100% Slide Boost while airborne, -0.2 Mobility\nIncreased the shields of most Warframes in Conclave.\nIncreased the Angstrum's initial projectile speed in Conclave.\nReduced the Angstrum's ammo pool in Conclave.\nIncreased the damage of the Daikyu in Conclave.\nReduced the damage of all Sniper Rifles apart from Vectis which increased, in Conclave.\nIncreased the damage of the Lex series in Conclave.\nIncreased the headshot multiplier of the Lex series in Conclave.\nReduced the damage of the Latron series in Conclave.\nReduced heavy melee weapon slam attack damage in Conclave.\nReduced one handed sword mid-air damage in Conclave.\nThe Penta series, Castanas series, Kulstar, Talons and Angstrum’s explosive damage no longer ignores cover in Conclave.\nThe Double Tap Mod can no longer be equipped with the Hydraulic Gauge Mod in Conclave.\n\n\nThe following changes are the first in a series of updates designed to make the Focus System more interactive and rewarding for players.  Because these changes will be frequent and gameplay-altering we will be applying a label to any major update made to the Focus System.  Please keep in mind that the nature of these changes is to provide overall improvement to the Focus System, and that we will monitor and make additional changes as necessary.\n\nAdded to notes 09:39 AM EST 12/02.\n\n\nRemoved all Focus related cooldowns and timers in the Simulacrum so players don't have to wait to test and experiment with Focus powers.\nHacking terminals in Sortie Spy Missions will no longer trigger alarms when failed, giving only the damaging shock to the player.\nSorties will give 25 R5 Fusion Cores upon completion in addition to a prize from the Sortie Season from now until February 16th when Divine Will ends. Praise the Void!\nAsh now has new audio FX on Bladestorm’s finishing attacks.\n\n",
   "fixes": "\n\n\nTenno,\n\nCorpus Bursa MOAs make a return to the battlefield!  A new Corpus creation threatens to upset the balance of the System.  Uncover the Corpus' latest threat to peace in the Solar System in Tactical Alert: Divine Will.\n\nDivine Will is on from February 11th at 6:40 until  February 16 at 2 p.m. ET.\n\nHunt down this new mechanical threat, Tenno!\n\n\nISOLATOR BURSA \nSeparates and isolates its prey.\nDROVER BURSA \nCorrals its prey for rapid destruction.\nDENIAL BURSA \nBlocks choke points to protect objectives.\n\n\n\n\nFixed an error causing Vauban’s Bastille to continue indefinitely if the ability was active before Vauban revived.\nFixed the Stug occasionally firing in the wrong direction, too far off to the side.\nFixed Focus Ability cooldowns being reset on Host Migration.\nFixed some instances where using a zipline would take a greater priority over using other context actions such as reviving a player.\nFixed an error in Nezha’s Warding Halo description that caused the ‘bonus shield’ amount to not display, even though it was still being applied.\nFixed an issue that would cause login rewards to be lost by players whose game closed immediately after logging in.\nFixed several Mods showing duration to multiple decimal places.\nFixed the End of Mission screen not properly displaying the correct Focus Daily limit.\nFixed daily Focus limit tracking being lost after a Host Migration.\nFixed Ivara’s Artemis Bow not properly getting buffs from Rifle Mods.\nFixed the Lanka’s combo meter not properly updating when an enemy is slain.\nFixed Nunchaku weapons not hitting the enemy until the second attack.\nFixed an error that would cause the Options menu to ask players to confirm changes, even when no changes have been made.\nFixed a ‘Node Locked’ message appearing when clicking on a completed Sortie Mission.\nFixed Infested enemies still being able to use their passive auras in Limbo’s Rift.\nFixed equipping a Specter causing a large hitch when ‘double-clicked’ into the gear wheel.\nFixed Clients not seeing other Clients Glaive weapon when thrown.\nFixed an extended delay that occurs with the Ogris when attempting to fire the weapon after cancelling a charged shot.\nFixed the Mutalist Alad V Assassinate Key displaying an incorrect description in the Foundry.\nFixed some of the Staticor’s visual FX firing from the player’s feet.\nFixed the Porta Chest Plate’s Arsenal description not displaying the proper information.\nFixed an additional revive marker appearing after an ally has been revived while irradiation.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 18.4.9",
+  "url": "https://forums.warframe.com/topic/607236-hotfix-1849/",
+  "date": "2016-02-08T22:15:39Z",
+  "additions": "",
+  "changes": "Hotfix 18.4.9:\n\n\nWhen Limbo casts Rift Walk, it now takes your equipped Companion (Kubrow or Sentinel) in with you automatically.\nWe now turn Trilinear Filtering on by default for a number of PBR floor textures to improve visuals on min-spec machines.\nThe game now explains that you need to unlock Planet/Node first when clicking on a Sortie missions whose underlying node hasn't been unlocked yet.\nIncreased the base kill-affinity for the following units:\n\nArid Heavy Gunner Eximus\nBailiff Eximus\nCorpus Tech Eximus\nCorrupted Bombard Eximus\nCorrupted Heavy Gunner Eximus\nFrontier Heavy Gunner Eximus\nGrineer Manic\nGrineer Warden\nGrineer Warden Eximus\nJuggernaut Behemoth\nSensor Regulator Eximus\nCorpus Warden\nCorpus Warden Eximus\nDrekar Manic Bombard\nManic Bombard Eximus\nThe above changes also reduced the required number of scans for Sensor Regulator Eximus from 20 to 3.\nRemoved 3 redundant drone types from the codex (there were manual entries for Infestation    Attack Mutalist, Mutalist Lightning Carrier, and Mutalist Toxic Carrier that were no longer needed).\n\n\nReduced the damage of the Rubico in Conclave.\n\n",
+  "fixes": "\nRescued stranded Corpus units that had been left at Ker and Albedo nodes (Corpus enemies on Grineer nodes).\nFixed Clients being unable to see Staticor charges if they are knocked down mid-charge.\nFixed an issue where players would become stuck after a combination of wall-clinging, jumping, and meleeing.\nFixed an issue where Arcane enhancement descriptions were using improper text.\nFixed Emblems being stuck in the new Porta armor as per: https://forums.warframe.com/index.php?/topic/605236-emblem-stuck-in-porta-shoulder-plate/\nFixed Phobos Excavation mission using Frontier Grineer instead of Arid.\nFixed Staticor shots missing sound.\nFixed broken Eximus variations for Corrupted Butcher, Heavy Gunner and Drakar Heavy Gunner preventing them from ever spawning.\n\n",
   "type": "Hotfix"
  },
  {
@@ -5928,15 +5937,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Hotfix 15.13.4",
-  "url": "https://forums.warframe.com/topic/397275-hotfix-15134/",
-  "date": "2015-02-06T19:59:26Z",
-  "additions": "",
-  "changes": "Changes:\n\nUpdated reverb sounds to Grineer Forest tileset.\n\n",
-  "fixes": "\nFixed broken facial texture on Steel Meridian’s leader in the Relays.\nFixed Maroo having a male Red Veil agent body instead of an intended female one.\nFixed the Prisma Veritux being untradeable.\nFixed an issue that would occur when the player camera was too close to a ceiling.\nFixed progression being halted in Void Sabotage by enemy alarms.\nFixed HUD alignment issue if Exterminate triggers as an alternative objective during a Spy Mission.\nFixed crash caused by trading with Baro Ki’Teer.\nFixed credits picked up during Mission currently displaying incorrectly on the Mission Progress and End of Mission screen.\nFixed the Minimap in the final Mission of Stolen Dreams being misaligned.\nFixed tileset on Corpus Spy Missions occasionally showing Infested decorations.\nFixed Mission objectives not properly updating in Codex for the Stolen Dreams Quest.\nFixed issue occurred by host migration in Archwing Missions.\n",
-  "type": "Hotfix"
- },
- {
   "name": "Hotfix 15.13.3",
   "url": "https://forums.warframe.com/topic/397107-hotfix-15133/",
   "date": "2015-02-06T16:44:41Z",
@@ -7053,6 +7053,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 13.2.1",
+  "url": "https://forums.warframe.com/topic/225192-hotfix-1321/",
+  "date": "2014-05-01T23:01:53Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Fixes:\n\n\n\n\nFixes rain FX appearing as black lines in Shipyard levels.\n\n\nFixed frequent hitches occurring when navigating/viewing front-end menus.\n\n\nFixed host-migration sometimes resulting in Mission Failure when playing Specters of Liberty event.\n\n\nFixed excessive motion blur effects being seen when riding the elevators in Shipyard levels.\n\n\nFixed some still in-progress weapons showing up in the Codex (sorry for the tease).\n\n\nFixed Katana not appearing in player's hand when executing stealth attacks/finishers.\n\n\nFixed incorrect Clan Rank values being briefly displaying when entering the Clan tab.\n\n\nFixed a number of text and localization issues.\n\n\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 13.2.0: Specters Of Liberty",
   "url": "https://forums.warframe.com/topic/224977-update-1320-specters-of-liberty/",
   "date": "2014-05-01T19:25:32Z",
@@ -7267,15 +7276,6 @@
   "changes": "",
   "fixes": "Update 12.4.0\n\n\nEVENT: Tethra’s Doom:\nDisable the Fomorian Fleet and stop Vay Hek's plans! https://warframe.com/news/tethras-doom-now\n\n",
   "type": "Update"
- },
- {
-  "name": "Hotfix 12.3.2",
-  "url": "https://forums.warframe.com/topic/186716-hotfix-1232/",
-  "date": "2014-02-27T20:07:40Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Hotfix 12.3.2 Changes: Changes to the Grustrag Three drop logic, they no longer exhaust everything in their repertoire (mod + part + resource) on death, they now each drop (mod OR part OR resource). Fixes: Fixed Jat Kittag FX reflecting a sweet party on the screen instead of a deadly hammer, sorry, party is over.Fixed issue with endless mission rewards in missions where the Grustrag Three have spawned.Fixed issues with Forest Level walls and collisions.  Fixed Immortal Skin unintentionally overriding Ember Prime’s gold colours.Fixed mods picked up in game not having backgrounds.Fixed Grustrag Bolt removal recipe not being craftable if you only have one Warframe.\n",
-  "type": "Hotfix"
  },
  {
   "name": "Hotfix 12.3.2",
@@ -7953,6 +7953,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 10.1.2",
+  "url": "https://forums.warframe.com/topic/112656-hotfix-1012/",
+  "date": "2013-09-24T22:41:12Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 10.1.2\nFixed Vor becoming permanently invincible during boss fight\nFixed Serration mod not affecting Torid damage\nFixed Mobile Defense cryopod becoming invulnerable after host migration\nAdjusted Phorid's drop rate chances to match other bosses\nFixed emblem positions on Carrier and Djinn Sentinels\nReworked chat server authentication protocols\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 10.1.1",
   "url": "https://forums.warframe.com/topic/112182-update-1011/",
   "date": "2013-09-23T22:13:46Z",
@@ -8394,15 +8403,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Hotfix 8.1.6",
-  "url": "https://forums.warframe.com/topic/69308-hotfix-816/",
-  "date": "2013-06-24T20:41:27Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "A small batch!\n\n\nWeekend Dethcube bundle deal is now over.\n\nFixed crash when upgrading mod just as mission starts.\n\nFixed rare hang that could occur when joining alert missions.\n\nAdded better back-end diagnostics for chat server connection issues.\n",
-  "type": "Hotfix"
- },
- {
   "name": "Hotfix 8.1.5",
   "url": "https://forums.warframe.com/topic/68042-hotfix-815/",
   "date": "2013-06-21T20:50:10Z",
@@ -8841,6 +8841,15 @@
   "additions": "",
   "changes": "",
   "fixes": "As usual, relaunch your game to receive the update.\nUpon a successful update, your build will read: 2012.11.02.17.33\n\nMods are now dropped by enemies on death rather than appearing in crates\n\nNew Trinity abilities! Well of life, Energy Vampire, Link, Blessing.\n\nDifficulty selection is now available for cards that have been completed in the battle deck\n\nMission completion rewards are fixed\n\nAdded explanations for ammo pickups that aren't in current loadout\n\nFixed enemy ragdolls freezing in death pose\n\nBo Staff damage increase\n\nFixed certain Mods not applying correct bonus\n\nImproved mini-map markers and feedback for Extermination missions\n\nTuned AI targeting and perception\n\nVarious crash and localization fixes\n",
+  "type": "Update"
+ },
+ {
+  "name": "Update #3 is Here!",
+  "url": "https://forums.warframe.com/topic/429-update-3-is-here/",
+  "date": "2012-10-30T18:39:12Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Patch #3 is a smaller patch. As usual, relaunch your copy of Warframe to receive the patch.\nYour build will display the following upon a successful patch: 2012.10.30.12.30\n\n   Fixed not being able to exit room after destroying Jackal\n\n   Reduced damage dealt by Grineer rifles\n\n   Reduced Dual Skana slide-roundhouse damage\n\n   Added “Seasonal surprise”\n\n   Improved rescue target’s pathfinding and animation cycle\n\n   Beefed up the Gorgon rifle\n\n   Fixed enemy name tag in tutorial\n\n   Grineer shield regeneration tweaked\n-... what could it be ;)?\n",
   "type": "Update"
  },
  {
