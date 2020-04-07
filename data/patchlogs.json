@@ -238,6 +238,16 @@
   "type": "Update"
  },
  {
+  "name": "Empyrean: Hotfix 27.0.3",
+  "url": "https://forums.warframe.com/topic/1153336-empyrean-hotfix-2703/",
+  "date": "2019-12-16T15:44:21Z",
+  "additions": "",
+  "changes": "Empyrean: Hotfix 27.0.3:\nCorrected Zetki Cryophon stats to their intended values. This fixes the Zetki Cryphon not having stronger damage than the base Cryphon.\nTweaked flares and explosion FX of Fighters and Crewships in Railjack missions.\nFixed incorrect scale and lighting of a certain prison.\nFixed missing collision on some Crewships in Railjack.\nFixed a crash when attempting to join a player’s Railjack from their Orbiter.\nFixed a script crash that could kill your Railjack HUD.\nFix for Clients not seeing turret weapon attachment animations in Railjack.\nRemoved an unnecessary friendship door from Saturn Grineer Asteroid tileset interior.\n",
+  "fixes": "Fixed missing in-world transmissions on Jupiter's Gas City tileset.\nFixed Terra Embattor Moa's mortar attack breaking if a target was destroyed while being targeted.  \nFixed script crash if an Arbitration Shield Drone tried to protect certain types of NPC.\nFixed a network race condition that could lead to missing Client-side FXs in Hijack missions.\nFixed broken HUD elements in Hijack missions after a Host migration.\nFixed a script error that would occur if a Client joined a fishing party in progress.\nFixed a script error when casting Volt’s Discharge ability.\nFixed a script error when casting Nova’s Molecular Prime ability.\nFixed a script error related to Kavats.\nFixed a potential script error in the Revenge Sentinel Precept.\nFixed a potential script error in the Unleashed Kubrow Precept.\n\n\n*Please note that we’re still working on getting updated droptables with the new Railjack nodes.\n",
+  "description": "*We've made a change related to the Umbra Forma Blueprint reward. These are an intentional reward drop for Railjack missions in the Veil Proxima region (harder enemies, better rewards)! Wires got crossed to have it drop on Earth, which is not intentional.",
+  "type": "Hotfix"
+ },
+ {
   "name": "Empyrean: Hotfix 27.0.2",
   "url": "https://forums.warframe.com/topic/1151964-empyrean-hotfix-2702/",
   "date": "2019-12-13T22:20:57Z",
