@@ -943,6 +943,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Plains of Eidolon Remaster: Hotfix 24.6.1",
+  "url": "https://forums.warframe.com/topic/1079735-plains-of-eidolon-remaster-hotfix-2461/",
+  "date": "2019-04-05T02:00:14Z",
+  "additions": "",
+  "changes": "Plains Of Eidolon Remaster: Hotfix 24.6.1:\nChanged Rahn Prism Blueprint to require 3 Seram Beetle Shells instead of Glappid Bait.\n",
+  "fixes": "Fixed the Film Grain setting always being enabled. \nFixed several crashes when resetting your key bindings to defaults.\nFixed a crash that could occur when transitioning from the Plains back to Cetus. \nFixed a crash when dying.\nFixed a random crash that randomly happened at random. Did we mention it's random?\nFixes towards Multishot Mods potentially not working with the Simulor.\nLoc-Pins skyrocket out of reach making them inaccessible to remove.\nScript will be run tomorrow to refund Loc-Pins back.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Plains of Eidolon Remaster: Update 24.6.0",
   "url": "https://forums.warframe.com/topic/1079621-plains-of-eidolon-remaster-update-2460/",
   "date": "2019-04-04T23:14:14Z",
