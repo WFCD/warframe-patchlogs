@@ -7056,6 +7056,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 13.5.1",
+  "url": "https://forums.warframe.com/topic/238867-hotfix-1351/",
+  "date": "2014-05-30T15:20:05Z",
+  "additions": "",
+  "changes": "\n\nTrinity’s Blessing is now cast-able when in the air.\n\nChanged the placement of shoulder armor on Rhino Prime.\n\nAlerts now show quantity of reward items being offered in the Alert Info window.\n\nAlerts now display reward when hovering over alert node.\n\n",
+  "fixes": "Hotfix 13.5.1:\n\n\n\nFixed Bladestorm not forcing a Bleed Proc on targets that Ash (or clone) is attacking.\n\nFixed Bladestorm being a guaranteed kill on Zanuka and Grustrag 3 if cast.\n\nFixed issues with lingering FX on the Obex.\n\nFixed issues reported with overly loud sounds in many areas for users with uncommon speaker configurations. (https://forums.warframe.com/index.php?/topic/194419-corrupted-ancient-roar-too-loud/?p=2259906, https://forums.warframe.com/index.php?/topic/214571-dear-god-my-ears/)\n\nFixed the selling of Mods not returning credits in some cases.\n\nFixed common crash issue that would occur if a client destroyed a Kubrow den.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 13.5.0: Edo Armor & Nami Solo",
   "url": "https://forums.warframe.com/topic/238069-update-1350-edo-armor-nami-solo/",
   "date": "2014-05-28T23:05:58Z",
@@ -7945,15 +7954,6 @@
   "changes": "The Gradivus Dilemmagradivusmarsbattle Pay5end Of Event Rewardstier One Rewards \n5:\n\nThe top three clans in each tier will receive a Faction-specific trophy in Gold, Silver and Bronze form based on their position on the leaderboards for which faction they support.\nYour clan's score requires a commitment: each member's faction rating will erode the clan's opposing faction's rating. If one member does 100 Corpus missions and another does 100 Grineer missions, they will cancel each other out and your standing will be zero with both. Coordinate.\nGo to Mars to participate in “The Gradivus Dilemma”!\n\nQuestions? See here: https://forums.warframe.com/index.php?/topic/122841-update-1050-the-gradivus-dilemma/?p=1462802\nDay of the Dead weapon skins pack.\nHalloween color picker added!\nTeam Totem consumables now available for purchase in 10-pack quantities with reusable Blueprints.\n\nCHANGES:\nSoma Mastery Rank increased from 3 to 6.\nMade it easier to revive fallen Tenno (facing angle no longer matters).\nSwapped Skyresh & Stickney mission types to moves survival off the main path in Phobos\nOft-requested “separate DOF/Motion Blur” options is now live. These are separate options now.\nResized Survival reward popup for easier reading.\nAdded unique names and descriptions for differing Infested Crawlers.\nBoar Prime energy colour is now tint-able.\nWeapons affected by sound-dampening mods are a little louder now by request.\nCamera faces in player direction when starting a Conclave match.\nCorpus Outpost \nLarge circular doors now behave like all other doors in the game and do not automatically close.\nCorrupted “Magnum Force” mod now works with Acrid.\nCorrupted Mod “Magnum Force” changed from Damage/Recoil to Damage/Accuracy trade-off.\nPrime gear rewards added to 5m, 10m, and 20+ min tiers in Void Survival missions.\nOptimizations made to ambient sounds on Grineer Galleon and Grineer Settlement.\nStandardized conclave requirements at lower levels in mission decks and powersuit ability rebalance for lower conclave levels.\nLotus HUD beeps and text typing sounds now mute when user lowers volume of Lotus\nTurned non-player Soma down.\nStun/Knockdown mods value decreased in conclaves.\nRage mod value increased to upper tier conclaves (200 to 500)\nIncreased damage resistance for all Warframes in conclave. (10% to 15%)\nNew skybox added to Corpus ship levels.\nNew sound for Frost’s Snowglobe ability.\n\n\nFIXES:\nFixed a crash that could happen if you did a charged melee attack with Dual Ichor on a downed enemy.\nFixed some enemy AI navigation issues.\nFixed ragdolls affected by weapons and abilities so they function consistently between host and client.\nFixed healing ancient from emitting healing pulses while ragdolled (pulses would look like they were coming from the wrong spot).\nFixed broken firing animations for Bow weapons.\nFixed nightmare Assassination missions giving only the nightmare reward, and not the boss reward.\nFixed the Survival mission issue of life support bar appearing at 0% for a few seconds before life support is deactivated.\nFixed many possible bad cases happening when doing multiple vault runs (loss of player functionality, potential crash, debuff applied to wrong player, debuff fx applied to non-debuffed player, etc).\nFixed various reported map issues across all art sets (navigation, broken geometry, etc.)\nFixed Survival rewards that were doubling up on the 5 minute reward.\nFixed revive context action from appearing in Conclave duels.\nFixed Ash’s Bladestorm ability that would sometimes ignore enemies who are standing right beside the initial target.\nFixed duration of Nova’s Molecular Prime in Conclave duels (lowered to 5 seconds).\nFixed Arsenal UI that would not update accuracy values when equipping mods that change accuracy.\nFixed Lotus enemy alert notifications from happening too often.\nFixed some layout issues in multiple Conclave maps.\nFixed issue where destroying a Loki Decoy or Saryn Moult avatar would award players a kill in Conclave duels.\nFixed Vauban’s Bounce ability that caused friendly AI to play perpetual falling animation.\nFixed some reported issues related to malfunctioning loot containers.\nNOTE: Host Migration has been disabled for the event mission type until further notice, it will be hotfixed ASAP.\n",
   "fixes": "",
   "type": "Update"
- },
- {
-  "name": "Hotfix 10.4.1",
-  "url": "https://forums.warframe.com/topic/121173-hotfix-1041/",
-  "date": "2013-10-18T17:44:54Z",
-  "additions": "",
-  "changes": "Hotfix 10.4.1:\n",
-  "fixes": "",
-  "type": "Hotfix"
  },
  {
   "name": "Update 10.4.0",
