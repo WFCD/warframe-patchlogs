@@ -6832,6 +6832,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 14.0.7 + 14.0.7.1",
+  "url": "https://forums.warframe.com/topic/270543-hotfix-1407-14071/",
+  "date": "2014-07-23T00:49:37Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 14.0.7.1\n\nFixed not being able to receive game invites from players who aren't on your friends list.\n\nAdditions:\nAdded in Dark Sector End-of-mission HUD messages to explain that the conflict ended instead of ‘lost connection’.  This HUD screen shows the full amount of Battle Pay earned.\nChanges:\nContinued performance improvement to the Mod screen.\nLowered the Tutorial Ballista's weapon damage.\nAdded in a HUD indicator for Dark Sector Core Health.\nReduced the delays on Kubrow's Scavenge ability.\nTeammate names will now be displayed in Dark Sectors to help distinguish them from enemies.\nThe Kubrow Bite mod has been added to feral Kubrow drop tables, it was not intended to only be available through transmutation, it’s meant to be a drop.\n\nUI Improvements\n\nThe Squad overlay screen will now draw above the load out screen.\nThe Mod screen will now use the optimal resolution and the edges will fade away.\nMods on the Mod Screen will now draw behind the player's avatar.\nThe player's Warframe will now stand up when in the Mods screen so as not to obscure the player's view.\nAn extra row on the bottom of the Mod screens has been added to ensure they full collection is shown on screen.\nIncreased the size of the Icons that appear over planets on the Solar Map.\nWarning labels have been added to certain Hint text.\nIncreased the size of font in the Arsenal menu.\nThe Kubrow Hunt and Howl abilities will no longer trigger when enemies are not alerted.\n\nFixes:\nFixed a number of localization issues.\nFixed an issue with Dark Sector messages from Defenders indicating that they're playing for the attacking side.\nFixed an issue with the player's hand clipping into the Kubrow when playing certain interaction animations.\nFixed an issue with emblems on the Carabus Dethcube not being placed symmetrically on either side of it's body.\nFixed an issue with Rai-Jin cannon's not being constructible in Schemas.\nFixed an issue with the \"Timeline Selection\" text being unreadable.\nFixed an excessive amount of desaturation seen on Melee Channeling colors.\nFixed an issue with Nav Coordinate Icons appearing stretched in the Foundry.\nFixed a number of map holes in the Dark Sector tilesets.\nFixed an issue Ember Prime's Fire Mohawk having erroneous Melee Channeling effects applied to it.\nFixed incorrect messages being displayed during  Dark Sector conflicts.\nFixed a number of Ordis lines getting prematurely cut off.\nFixed an issue with client Hall of Mirror clones having all equipped Mods apply to all equipped weapons.\nFixed an issue an issue with computer terminals spawning incorrectly on Infested Corpus tilesets.\nFixed an issue with the Credit Bonus and Resource names overlapping in the Mission Complete screen.\nFixed a game hang that could occur if you joined a host right as the mission ended.\nFixed an Dark Sector exploit which players could get inside geometry.\n\nDon’t see your issue here? We are catching up and keeping track of the continued issues in the new megathread. Many of these issues have been logged to dev already, and we will be fixing them as soon as we are able. Thank you for your patience!  https://forums.warframe.com/index.php?/topic/269828-post-hotfix-1405-update-14-issue-megathread/\n\n\n\nFixed not being able to receive game invites from players who aren't on your friends list.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 14.0.6",
   "url": "https://forums.warframe.com/topic/270031-hotfix-1406/",
   "date": "2014-07-22T18:09:24Z",
@@ -7046,15 +7055,6 @@
   "changes": "",
   "fixes": "\n\n\n\n\nAdditions:\n\n\n\nChanges:\n\n\n\n\n\n\n\n\nSpecter Changes:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelios Changes:\n\n\n\n\n\n\n\n\nFixes:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n• Fixed issues with Ember Prime appearing headless. • Fixed issues with armor being misplaced on Ember/Ember Prime.\n\n\n\n",
   "type": "Update"
- },
- {
-  "name": "Hotfix 13.5.2 + 13.5.3",
-  "url": "https://forums.warframe.com/topic/239114-hotfix-1352-1353/",
-  "date": "2014-05-30T23:33:48Z",
-  "additions": "",
-  "changes": "Changes:\n\n\nTweaked the positioning of Emblem offsets on the Edo Shoulder Armor pieces.\n\n\n\n\n\n",
-  "fixes": "\n\nFixed an issue with the Obex not playing the correct animations.\n\n\nFixed an issue with a number of Lotus Voice Over lines missing from the Suspicious Shipments alert missions.\n\n\nFixed an issue with kills made by Ash’s Bladestorm clones not counting towards the players total kill count.\n\n\nFixed an animation issue that would appear when performing Ash’s Bladestorm with no melee weapon equipped.\n\n\nFixed an issue with the attacks from Ash’s Bladestorm clones not properly counting towards  the combo hit counter.\n\n\nFixed a number of localization issues including missing transmission lines in the Suspicious Shipment alerts missions.\n\n\nFixed an issue with the word \"Blueprint\" appearing twice in Alert popup descriptions.\n\n\nFixed an issue with melee attacks performed after using Bladestorm not doing damage.\n\n\nFixed an issue with the Volt Arcane Pulse helmet having an incorrect tooltip.\n\n\n\n\n\n\n\n\nFixed missing textures for Alad V in the transmissions for Suspicious Shipment Alerts.\n\n\nFixed a minor grammatical error in a Lotus transmission.\n\n\n\n",
-  "type": "Hotfix"
  },
  {
   "name": "Hotfix 13.5.2 + 13.5.3",
