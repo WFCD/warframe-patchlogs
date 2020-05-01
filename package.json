@@ -16,7 +16,9 @@
     "build": "node ./build/update.js",
     "lint": "eslint --ignore-path .gitignore .",
     "test": "mocha",
-    "lint:fix": "eslint --ignore-path .gitignore . --fix"
+    "lint:fix": "eslint --ignore-path .gitignore . --fix",
+    "snyk-protect": "npx snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "dependencies": {
@@ -31,5 +33,6 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "mocha": "^7.1.2"
-  }
+  },
+  "snyk": true
 }
