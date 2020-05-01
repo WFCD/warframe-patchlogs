@@ -3456,6 +3456,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "The Glast Gambit: Hotfix 19.9.3",
+  "url": "https://forums.warframe.com/topic/760078-the-glast-gambit-hotfix-1993/",
+  "date": "2017-02-07T21:51:44Z",
+  "additions": "Optimized several server-side operations to prepare for Baro’s arrival this Friday.\n",
+  "changes": "The Glast Gambit: Hotfix 19.9.3:\n",
+  "fixes": "Fixed a number of server-side issues that cropped up after 19.9.2 deployment.\nFixed massive performance issues on Kuva Fortress Defense when walking around and meleeing around the Defense Target.\nFixed certain finishers (e.g. Galatine back stab) teleporting the victim into strange spots (often out of bounds) after the finisher completes.\nFixed a case of players sliding/teleporting really far when performing a ground finisher on enemies (notably with the Redeemer).\nFixed enemies remaining hostile after being spotted during your first try of the Mastery Rank 9 Test. \nFixed the Helminth Infirmary chair not curing your Warframe of the Cyst.\nFixed Nidus’ Market Build tab stating his parts drop from the ‘Purify’ mission when it’s actually the ‘Infested Salvage’ mission.\nFixed inconsistent terminology and grammar in Maroo’s Bazaar and elsewhere.\nFixed a level hole in the Grineer Settlement tileset.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Glast Gambit: Hotfix 19.9.2 (Phase One: DB Upgrades)",
   "url": "https://forums.warframe.com/topic/759911-the-glast-gambit-hotfix-1992-phase-one-db-upgrades/",
   "date": "2017-02-07T13:58:54Z",
