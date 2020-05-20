@@ -1,5 +1,15 @@
 [
  {
+  "name": "Nightwave Series 3: Glassmaker: Hotfix 27.5.4",
+  "url": "https://forums.warframe.com/topic/1194906-nightwave-series-3-glassmaker-hotfix-2754/",
+  "date": "2020-05-20T17:29:12Z",
+  "imgUrl": "http://n9e5v4d8.ssl.hwcdn.net/uploads/19e0e61e81bc1e5fe229b3f7d70e1b32.jpg",
+  "additions": "",
+  "changes": "Nightwave Series 3: Glassmaker: Hotfix 27.5.4:\n\nHead to the respective Syndicate Offerings to add these new Warframe Augments to your Arsenal!\nYour move speed in Glassmaker Crime Scene #1 now matches the Leverian move speed. Inspect with more haste!\nCephalite Resonance is now linkable in Chat which can also reveal the amount in your Inventory.\nFixed a script error that could occur if an enemy was Glassed while on a mounted turret.\nBaruuk’s Desolate Hands will no longer consume a charge from Baruuk when sharing with Allies.\nFrom player requests, the Directed Convergence Mod has been converted to an Exilus Mod.\nImproved robustness of the launcher in the face of hostile networks (this may solve cases where an update is not visible to some users immediately).\nFixed an issue with certain particle effects when running the game at very high frame-rates. As seen here:\n",
+  "fixes": "Fixed a crash that could occur in Sortie Defense missions due to Defense Targets patrolling outside of the combat zone. \nFixed inability to target Baruuk’s Desolate Hands and Nezha’s Warding Halo on Defendable objects. \nFixed ability to hack a Bursa for free if you exited the hack via the pause menu.\nFixed Blood Rush, Gladiator Mod Set, and Weeping Wounds bonuses not resetting if you’re the Operator when the Combo expires.\nFixed Parazon Mods not remaining equipped after a Host migration.\nFixed an abrupt Mission Failed due to Arbitration Defense targets dying randomly when attempting to teleport to the player when falling behind or just simply falling through the ground to their demise. As reported here: https://forums.warframe.com/topic/1194047-defense-arbitration-missions-spawning-bug-investigating/\nFixed Wardens in Rescue missions sometimes teleporting ahead of the player en route to extraction.\nFixed downed Kuva Larvlings sometimes teleporting ahead of the player en route to extraction.\nFixed Hildryn’s Ability Drain not updating in Arsenal Stats.\nFixed another case of the Vasca Curative not working on Kavats.\nFixed Nezha and Zephyrs Passive disable Augments giving the incorrect amount of Strength.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Nightwave Series 3: Glassmaker: Hotfix 27.5.3",
   "url": "https://forums.warframe.com/topic/1193593-nightwave-series-3-glassmaker-hotfix-2753/",
   "date": "2020-05-15T18:04:23Z",
@@ -221,16 +231,6 @@
   "additions": "",
   "changes": "Scarlet Spear: Hotfix 27.3.2:\n8+ Hours into Operation: Scarlet Spear has provided some great feedback and bug reporting thanks to you! We have been piling a list together of the Top Feedback Items that the team will be addressing in the coming days:\n\nLowered the Condrix Health scaling for 2-4 player squads.\nFurther Ground mission changes in terms of scaling are being discussed \nstay tuned!\nThe Murex Wave timer displayed in the Scarlet Spear Instance selector will now just display at the top, instead of redundantly beside each Instance.\nImproved UI/HUD messages for squads whose OpLinks require Reinforcements from players in the Flotilla.\nReduced the distance at which you will see Emblems above players heads in the Flotilla.\nFixed a crash for heavily loaded Scarlet Spear Flotillas.\nFixed a Client crash that occurred when a Host migrated and said Client was punted back to their Orbiter.\nFixed a crash that could occur when loading into a Railjack/Murex Raid mission.\nFixed not receiving earned rewards in a Murex Raid if you returned to the Flotilla manually (less than 5 Murex).\nFixed score discrepancies in the UI when a Host migration occurred in the Ground mission.\nFixed cases of enemies not spawning after multiple mission runs with the Oplink.\nFixed OpLink spawning more FX each time it gets spawned, and duplicate FX being created for each Client. This fix should also slightly improve performance!\nFixed Oplink state appearing as a filepath in the Flotilla squad labels above the Murex/Earth holograms.\nFixed a ghost of Flotilla players appearing in your Railjack upon starting a Murex Raid.\nFixed a script error that resulted in an inability to deploy an Oplink if one was previously destroyed in the mission.\nFixed a script error if the Railjack dies in a Murex Raid.\nFixed a script error in the Scarlet Spear Ground mission due to destroyed OpLink.\n",
   "fixes": "Fixed a crash related to Sentinels.\nPotential fix for Vulkan drivers crashing the Steam overlay after it's injected into the Launcher.\nFixed the Wreckage capacity limit pulse FX in the Railjack Configuration UI pulsing even when you aren’t reaching the limit.\nFixed incorrect reference lines in Nova’s Leverian.\nFixed a script error that occurred due to enemies attempting to flee while players are transitioning a level.\nFixed a script error that resulted in forcing squadmates to log out.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Operation: Scarlet Spear: Hotfix 27.3.1",
-  "url": "https://forums.warframe.com/topic/1178166-operation-scarlet-spear-hotfix-2731/",
-  "date": "2020-03-24T19:21:39Z",
-  "additions": "",
-  "changes": "Scarlet Spear: Hotfix 27.3.1:\nEverything you see there will be there for the whole event. Nothing is getting rotated out.\nWe are Adding more Arcanes to complete the collection.\nSquads Oplink state is now displayed with their respective label above either the Murex or Earth holograms. If you choose to deploy Oplink Reinforcement this information displays which squad could use your help the most!\nWe're aware that this appears in filepaths currently. The urgency to Hotfix the crashes took precedent!\nReduced Stance Forma Blueprint Nitain cost from 10 down to 5. \nFixed crash when attempting to run Murex Raids or Ground missions in Scarlet Spear.\nFixed Clients seeing a double fly-in cinematic when returning to the Flotilla from a Murex Raid.\nFixed squad labels displayed above the Ground/Murex missions in the Flotilla overlapping each other.\nFixed a script error related to Sentient Fighters attacking in the Murex Raid.\n",
-  "fixes": "Fixed a DX10 crash that occurred shortly after launching Warframe with Deferred Rendering enabled.\n",
-  "description": "Scarlet Spear Clarity + FAQ:How does the Scarlet Spear Credit Trade store work?",
   "type": "Hotfix"
  },
  {
@@ -3681,6 +3681,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "The Glast Gambit: Hotfix 19.5.3",
+  "url": "https://forums.warframe.com/topic/739021-the-glast-gambit-hotfix-1953/",
+  "date": "2016-12-23T18:20:36Z",
+  "additions": "",
+  "changes": "Increase Antiserum drop rate for 4 player squads in Infested Salvage\nReduced Armor drain & damage at 0 Armor in Infested Salvage\n",
+  "fixes": "Full information on The Glast Gambit: Update 19.5 can be found here:\n\nEDIT: Both of these scripts are complete. All affected accounts should be updated.\nFixed some spawning issues in Infested Salvage\nFixed Armor not resetting after respawn in Infested Salvage\nFixed points scored in the last round not counting towards your Wager score in the Index\nFixed some of the Index Noggles (note: if you placed Derim Zahn, M-WAM, or Tia Mayn before the hotfix you just need to place it again to fix the mesh used).\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Glast Gambit: Hotfix 19.5.1 + 19.5.2",
   "url": "https://forums.warframe.com/topic/738388-the-glast-gambit-hotfix-1951-1952/",
   "date": "2016-12-22T20:02:10Z",
@@ -4573,15 +4582,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Hotfix 18.8.1",
-  "url": "https://forums.warframe.com/topic/635853-hotfix-1881/",
-  "date": "2016-04-08T16:07:16Z",
-  "additions": "",
-  "changes": "Hotfix 18.8.1:\n\n•    Slowing tar created by Infested units now only affects movement speed.\n•    The health of the tar now scales according to the level of the Tar Mutalist.\n•    Increased the tar lifespan from 6 seconds to 10 seconds.\n•    The Quanta Vandal and Prova Vandal are now tradable! \n•    Reduced the Hyekka Master’s Ignis damage by almost half and reduced the status chance by 10%. \n•    Reduced the Hyekka Master’s Firebomb damage by 5% and reduced the status chance by 20%.\n•    Market Gifts can no longer be sent to players who have placed you on their ignore list. \n•    Companions will no longer share XP while you’re dead in a mission.\n•    Kubrows will now use the same logic as Sentinels by despawning when you have died. Upon revival Kubrows will respawn unless they were killed due to incoming damage during bleedout.\n",
-  "fixes": "•    Fixed the Sibear not applying color customizations properly. \n•    Fixed Wukong’s Cloud Walker ability leaving weapons visible for a moment when cast.\n•    Fixed the datamass falling through the floor in Void Mobile Defense missions.\n•    Fixed a rare case of Gear not being consumed at the end of a mission after a host migration.\n•    Fixed players not being damaged by the flaming entrance beneath the J3 Jordas Golem.\n•    Fixed a host migration crash.\n•    Fixed a crash that occurred when attempting to rejoin a previous mission after aborting during bleedout.\n•    Fixed the Arsenal search bar not clearing it’s previous search.\n•    Fixed using the search feature in the Arsenal resetting your scroll placement. \n•    Fixed rare case of Clients missing Finisher effects. \n•    Fixed missing quick attack and melee combo sounds for the Glaive Prime.\n•    Fixed the Diriga Sentinel's interaction with Arc Traps causing a game crash.\n",
-  "type": "Hotfix"
- },
- {
   "name": "Update 18.8.0",
   "url": "https://forums.warframe.com/topic/635136-update-1880/",
   "date": "2016-04-06T20:31:30Z",
@@ -5470,6 +5470,15 @@
   "additions": "",
   "changes": "Changes:\n\nReduced the frequency of Forma Blueprints dropping in T3 Defense Rotation C.\nBo Prime Blueprint and Ember Prime Helmet Blueprint have been added to T3 Defense Rotation C.\n\n",
   "fixes": "Fixed issues with the Prisma Cleavers not having proper audio effects in a variety of attack/holster scenarios.\n\nNote: The changes to T3D tier C drops didn't dilute the chance of getting the Ash Prime part you're after -\nthey just added ducat-variety to the common drops.  Ash Prime BP still has the same drop rate as before.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 16.11.3",
+  "url": "https://forums.warframe.com/topic/488018-hotfix-16113/",
+  "date": "2015-07-10T15:47:25Z",
+  "additions": "",
+  "changes": "Changes:\nSome Endless Nightmare missions now function like their Alert counterparts in completion criteria to be eligible for a Nightmare Mod. Specifics as follows:\nNightmare Interception now requires 2 Rounds to be eligible for extraction/Nightmare Mods, like their Alert Counterparts.\nNightmare Defense missions now require 10 Waves to be eligible for extraction/Nightmare Mods, like their Alert Counterparts.\nNightmare Excavation (Nodes & Alerts) now requires 500 units of Cryotic before extraction is enabled.\n",
+  "fixes": "Fixed players being unable to put Arcanes on Ash Prime’s helmet (for real this time \nthis fix resolves anyone who had purchased Ash Prime vs crafting!) This should also fix some users with un-Arcaneable Volt Prime helmets.\nFixed Nightmare Defense Missions not properly giving Nightmare Mod rewards.\nFixed left-side Badges falling to the floor when equipping the Harkonar Chestguard in Arsenal.\nFixed the Ukrainian option in the launcher language selector not working properly.\nFixed issue with the launcher not properly starting Warframe.\nFixed a variety of issues in the deployment of certain types of Specters.\n",
   "type": "Hotfix"
  },
  {
