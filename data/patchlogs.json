@@ -941,6 +941,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "The Jovian Concord: Hotfix 25.0.5",
+  "url": "https://forums.warframe.com/topic/1098082-the-jovian-concord-hotfix-2505/",
+  "date": "2019-05-28T21:14:42Z",
+  "additions": "",
+  "changes": "The Jovian Concord: Hotfix 25.0.5:\nOperation: Hostile Mergers Endurance score stat is now displayed in the Player/Clan Profile > Stats.\n",
+  "fixes": "Further fixes towards your Warframe teleporting to last Operator position when falling out of the map during the Ropalolyst fight which resulted in a constant fade-in/fade-out black screen. We are working on an additional fix that we aim to ship tomorrow.\nFixed inability to Donate Hexenon to the Clan Vault.\nFixed the Komorex’s Energy color persisting as default.\nFixed the Unity Planter not displaying properly in its Market diorama.\nFixed missing collision on the Terra Auto Turrets in Orb Vallis.\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Jovian Concord: Hotfix 25.0.4",
   "url": "https://forums.warframe.com/topic/1098019-the-jovian-concord-hotfix-2504/",
   "date": "2019-05-28T18:32:28Z",
