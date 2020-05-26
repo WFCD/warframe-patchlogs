@@ -1412,6 +1412,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Fortuna: Hotfix 24.2.1",
+  "url": "https://forums.warframe.com/topic/1044968-fortuna-hotfix-2421/",
+  "date": "2018-12-18T15:50:10Z",
+  "additions": "",
+  "changes": "Fortuna: Hotfix 24.2.1:\nRemoved the dissolve FX when equipping your Atmosphere Arch-Gun.\n",
+  "fixes": "Fixed some AI spawning issues in the Orb Heist Bounties resulting in certain phases to be unplayable.\nFixed inability to complete Mastery Rank tests (the increased Mastery for K-Drive and Moa-Pets was not being included).\nFixed crashes caused by optimizations that were not compatible in 32-bit Warframe.\nFixed certain language text appearing wonky/distorted.\nFixed incorrect Sugatra offset on the Cobra & Crane.\nFixed a script error when attempting to invite another player.\nFixed a script error when casting Wukong’s Iron Jab ability.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Fortuna: The Profit-Taker - Update 24.2",
   "url": "https://forums.warframe.com/topic/1044890-fortuna-the-profit-taker-update-242/",
   "date": "2018-12-18T13:59:14Z",
