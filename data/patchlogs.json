@@ -470,6 +470,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Rising Tide: Hotfix 26.1.2",
+  "url": "https://forums.warframe.com/topic/1146388-rising-tide-hotfix-2612/",
+  "date": "2019-11-25T21:20:27Z",
+  "additions": "",
+  "changes": "Rising Tide: Hotfix 26.1.2:\nImprovements towards Orokin Derelict mission markers to address pathing issues.\nReduced Orbiter machine sounds while in Menu screens.\n",
+  "fixes": "Fixed an issue where the ‘Chimera’ Prologue could not be completed. \nFixed the Orb Vallis Coildrives driving in erratic circles and sometimes becoming stuck when going off course. This also fixes an inability to complete Coildrive Bounties!\nFixed a recurring issue where hacking a panel on a Corpus tileset would prevent you from hacking it again in the future, potentially locking the player in the room during lockdown.\nPotential fix towards Stalker not remaining in the mission if a Host migration occurred while he was out for blood.\nFixed low number of spawns in the second Rising Tide quest mission.\nFixed Companions getting distracted by Roller Floofs while being viewed in the Arsenal, making them near impossible to customize.\nFixed some Dry Dock skyboxes appearing rotated.\nFixed inability to Revive after getting clocked by a submersible mine underwater.\nFixed the ‘Ordis Volume’ slider option applying to Cy Transmission volume. Cy Transmission volume are now affected by the ‘Transmission Volume’ slider.\nFixed Archwing boost sound playing when using Titania’s Razorwing.\nFixed misaligned Link when viewing the Kludgekil Machete Zaw Skin.\nWe’re chasing a related issue of the FX also being misaligned. \nFixed a script error when casting Baruuk’s Serene Storm ability.\nFixed some holes within the new Orbiter.\nFixed missing description for the Narvarr Prime Armor.\nFixed Audio Options text appearing as boxes or otherwise being smaller than expected.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Rising Tide: Hotfix 26.1.1",
   "url": "https://forums.warframe.com/topic/1145002-rising-tide-hotfix-2611/",
   "date": "2019-11-23T01:50:20Z",
