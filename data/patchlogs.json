@@ -9084,6 +9084,15 @@
   "type": "Update"
  },
  {
+  "name": "Update #3 is Here!",
+  "url": "https://forums.warframe.com/topic/429-update-3-is-here/",
+  "date": "2012-10-30T18:39:12Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Patch #3 is a smaller patch. As usual, relaunch your copy of Warframe to receive the patch.\nYour build will display the following upon a successful patch: 2012.10.30.12.30\n\n   Fixed not being able to exit room after destroying Jackal\n\n   Reduced damage dealt by Grineer rifles\n\n   Reduced Dual Skana slide-roundhouse damage\n\n   Added “Seasonal surprise”\n\n   Improved rescue target’s pathfinding and animation cycle\n\n   Beefed up the Gorgon rifle\n\n   Fixed enemy name tag in tutorial\n\n   Grineer shield regeneration tweaked\n-... what could it be ;)?\n",
+  "type": "Update"
+ },
+ {
   "name": "Update #2 is Here!",
   "url": "https://forums.warframe.com/topic/399-update-2-is-here/",
   "date": "2012-10-29T22:45:37Z",
