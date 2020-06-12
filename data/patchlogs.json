@@ -9084,6 +9084,15 @@
   "type": "Update"
  },
  {
+  "name": "Update #2 is Here!",
+  "url": "https://forums.warframe.com/topic/399-update-2-is-here/",
+  "date": "2012-10-29T22:45:37Z",
+  "additions": "",
+  "changes": "Patch #2 Is Here!:\nOur second patch is here, and as usual, close and re-launch your game to receive the update.\nYour build will display the following upon a successful patch: 2012.10.29.17.41\n-Fixed cipher panels not activating after breaking out windows at end of defense mission\n-Fixed enemy count in extermination missions\n-Got rid of red progress bars over bleeding-out players\n-Fixed floating infestation worms/snails\n-Fixed exploit where you could choose a locked color when exiting the color picker\n-Improved responsiveness when picking up mods and other pickups\n-Tweaked XP (leveling) curves, should take much longer to rank up\n-Smoothed out animation transitions for mantling and rolling\n-Added low health indicators and feedback when taking damage\n-Nerfed Snipetron, added scope effects\n-Reduced Grineer Commander spawn frequency\n-Fixed quest card missions not playing as intended\n-Fixed high level mods dropping inappropriately\n-Various crashes fixed\nWith this patch, you’ll notice all of our accounts have been reset. We're reseting accounts to test changes to difficulty and ranks. Although this is typical of Beta testing, we are developing a bonus system for top players which will be implemented for future resets.\nNow let’s start from scratch!\n",
+  "fixes": "",
+  "type": "Update"
+ },
+ {
   "name": "Update #1 is here!",
   "url": "https://forums.warframe.com/topic/228-update-1-is-here/",
   "date": "2012-10-26T20:28:37Z",
