@@ -9085,6 +9085,15 @@
   "type": "Update"
  },
  {
+  "name": "Update #4 is here!",
+  "url": "https://forums.warframe.com/topic/470-update-4-is-here/",
+  "date": "2012-11-02T23:13:48Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "As usual, relaunch your game to receive the update.\nUpon a successful update, your build will read: 2012.11.02.17.33\n\nMods are now dropped by enemies on death rather than appearing in crates\n\nNew Trinity abilities! Well of life, Energy Vampire, Link, Blessing.\n\nDifficulty selection is now available for cards that have been completed in the battle deck\n\nMission completion rewards are fixed\n\nAdded explanations for ammo pickups that aren't in current loadout\n\nFixed enemy ragdolls freezing in death pose\n\nBo Staff damage increase\n\nFixed certain Mods not applying correct bonus\n\nImproved mini-map markers and feedback for Extermination missions\n\nTuned AI targeting and perception\n\nVarious crash and localization fixes\n",
+  "type": "Update"
+ },
+ {
   "name": "Update #3 is Here!",
   "url": "https://forums.warframe.com/topic/429-update-3-is-here/",
   "date": "2012-10-30T18:39:12Z",
