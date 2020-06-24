@@ -8185,6 +8185,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 10.2.1",
+  "url": "https://forums.warframe.com/topic/116270-hotfix-1021/",
+  "date": "2013-10-04T20:37:06Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 10.2.1*\n\n\nFix for issues with retrying the rank 7 – 8 mastery tests.\nFix for issues after failing the rank 9 mastery test not allowing successful retrials.\nFix for issues with rank 10 – 11 mastery not informing players of failure.\nFix for Torid’s cloud not using energy colour.\nFixed Twin Vipers having redundant flashlight.\nFix for after a migration during a duel players will be repeatedly teleported out of the duel arena\nFixed Twin Gremlins having a flashlight on your off-hand weapon.\nFixed Dera Muzzle flash offset.\nFixed NPCs potentially falling through floor when activating panic-button.\nFix for context action button in Dojo reading file path instead of “X”.\nFix for unresponsive UI in certain cases of leaving and joining sessions.\nFix for not being able to accept invite-only game sessions from clan members who weren’t on friends list.*For more information about Hotfixes, Content Updates, and Warframe, SEE HERE: https://forums.warframe.com/index.php?/topic/115254-warframe-content-updates-moved-to-wednesdays/\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 10.2.0",
   "url": "https://forums.warframe.com/topic/113787-update-1020/",
   "date": "2013-09-27T19:52:28Z",
@@ -8399,15 +8408,6 @@
   "changes": "Additions:\n\nA new Grineer weapon appears: the HIND!\n\nThe first Alliances have emerged, and our 1001+ clans have been split.\n\n\nFlux energy beam is now affected by Energy Colour!\nDera muzzle flash is now affected by Energy Colour!\nExcalibur Radial Blind now uses Energy Colours!\nRemoved the Corpus Void Key Blueprint from the Store \nowned copies can be sold for the same purchase price\nEnabled selling of Corpus Ciphers and Data Masses.\nImprovements  to the Transmutation system: you can no longer transmute your final power card of a given type.\nImprovements to Enemy AI on Settlement defense, they are not as cowardly and won’t huddle in their Spawn location.\nAdded Sobek reload animiaton tweaks.\nAudio updates to the Desert Skate and Grineer Jetpack Troops\nTweaks to Twin Viper sounds\nTweaks to Orthos hit sounds\nTweaks to Grineer Miter sounds.\nTweaks to Rhino’s Iron Skin lighting.\nTweaks to settlement enemy navigation.\nAdded fancy footwork to Grineer Jetpack landing animations.\nMods and Blueprints will never expire as drops.\nElite Grineer Lancers now use the Hind!\n\n\n",
   "fixes": "\n\nAdded multiple localization fixes\nMultiple fixes for the Grineer Settlement levels.\nFixed the fact that players can consume their final power cards with Transmute\nFixed enemies not leaving the spawn rooms in Settlement Defense\nFixed the Contact List breaking after sending a clan invite while in the Dojo\nFixed the Stalker dropping blueprints 100% of the time\nFixed not being able to perform stealth take-downs on any idle Grineer\nFixed the Stamina Orbs appearing as blue instead of green after building the Dojo Obstacle Course\nFixed the Sabotage Target not appearing on client after a host migration\nFixed enemies being inaccessible in the Settlement Spy missions\nFix for Banshee Silence effect not using correct energy colours\nFix for unlit textures in Corpus Ship room.\nFixing enemy levels on Phobos , Stickney (max level increased by 2 instead of being same as min level)\nFix for Warframe power cast animations replaying if they are knocked down during animation.\nFix Volt Overload creating two effects on clients.\nFix for animations being cancelled due to pain flinch.\n\nForgot one:\n\nFix for crashes when using continuous fire weapons through Electric Shield.\n",
   "type": "Update"
- },
- {
-  "name": "Hotfix 9.5.3",
-  "url": "https://forums.warframe.com/topic/95311-hotfix-953/",
-  "date": "2013-08-14T16:54:17Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Hotfix 9.5.3:\n\nAdditions:\nCorpus Void Keys are sellable for 1500 Credits.\nAdded hacking consoles to locations in Settlement tileset that users could be locked in.\n\nChanges\n\nImproved blueprint drop rates for Phobos boss fight.\nMore loot table changes! All enemies now have a chance to drop Fusion Cores.\nChat window tweaks to assist in readability of chat on bright levels (White text on Sand was problematic).\nTweaks to Grineer Hellion animations and movement.\nRollers have been removed from Grineer Settlements. The Grineer need to make up their mind!\nHand Positions on several weapons have been tweaked.\nKril And Vor have gone through endurance training and no longer attack and fear Sand Skates.\nReduced spawn rate of enemies on prison for Settlement Capture mission.\nBuff to pistol Armor Piercing mod.\nBuff to melee electrical damage mod: up to 10% from 5%.\n\nFixes\n\nFix for objective marker sometimes not appearing for Spy missions in Corpus Outpost.\nFixed Trinity blueprints dropping from Grineer Commanders.\nFix for Lech Kril sometimes becoming invincible when fighting him.\nFix for Sand Skate repeating his taunt animation.\nFix for credit booster not applying to end-of-match reward.\nFix for missing ceiling texture in settlement.\nFix for floating container in settlements.\nFix for Color Picker UI menu becoming unstable after “double clicking”\nFix for the Miter’s holster position.\nFix for “Reputation” UI appearing in defense missions.. more on that later!\nVarious settlement map bug fixes.\nCrash fixes.\n",
-  "type": "Hotfix"
  },
  {
   "name": "Hotfix 9.5.2",
@@ -8635,6 +8635,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 8.2.1",
+  "url": "https://forums.warframe.com/topic/72746-hotfix-821/",
+  "date": "2013-07-03T17:45:14Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Just a small hotfix this afternoon... enjoy the livestream!\n\n\nfixed gameplay crash when joining a mission in progress\n\nSee the full 8.2 notes here: https://forums.warframe.com/index.php?/topic/70880-hotfix-82-tenno-reinforcement/\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 8.2: Tenno Reinforcement",
   "url": "https://forums.warframe.com/topic/70880-hotfix-82-tenno-reinforcement/",
   "date": "2013-06-28T17:08:23Z",
@@ -8848,15 +8857,6 @@
   "additions": "",
   "changes": "Additions:\n\n\nNew melee weapon: The Glaive.*\n\nAdded new damage deformers for enemies, meaning more ways to dismember your foes.\n\nAdded Dual Dagger stealth attack (was sharing dual sword stealth attack).\n\nAdded new Grineer death/fall sounds.\n\n\n\nFrost power mods moved to common pool, increased chance for drops.\n\nIncreased base Crit Chance and Damage on Grakata.\n\nTrinity and Mag's helmet effect now works with \"energy\" palette color changes.\n\nMoved Objectives to later part of missions so the route to extraction is shorter after objective is complete.\n\nToned down lighting/flare on most melee weapons.\n\nAdded damage fall-off to all shotguns--no more shotgun sniping.\n\nRevised sounds for security cameras.\n\nRevised sound for Trinity's Link power.\n\nMultiple improvements to various sounds events (mixing, attenuation, surface materials).\n\nRemoved pit under Jackal spawn to prevent any accidents.\nGorgon accuracy adjustments while aimed.\n\nFire rate adjustments to Akimbo and Semi-Auto Pistols.\n\n",
   "fixes": "\n\nFixed Saryn's Miasma power not awarding XP or kills.\n\nFixed Saryn's Miasma power not being affected by Continuity or Focus mods.\n\nFixed Saryn's Venom power not being affected by Continuity mod.\n\nFixed the linking of Loki's Decoy and Switch Teleport powers that was causing avatars to sometimes fall outside the level.\n\nFixed Trinity's link ability that was affecting/destroying her Sentinel.\n\nFixed Rhino Charge and Slash Dash powers framerate dependencies, powers now consistently work as intended.\n\nFixed Banshee Soundquake power that was causing visibility issues for other players (not the caster).\n\nFixed Ember's Fire Blast power that was causing visibility issues for other players (not the caster).\n\nFixed Apex particles that would remain on ragdolls after using Nyx's Mind Control power.\n\nFixed Mag's Shield Polarize power playing sound twice.\n\nFixed Frost's Freeze power not being affected by Continuity mod.\n\nFixed Frost's Snow Globe power not being affected by Continuity and Range mods.\n\nFixed Ancient Healer power that was not healing surrounding Infested.\n\nFixed Nyx's armband FX showing up with projectors.\n\nFixed some Defense mission issues with enemies spawning in areas they can't get down from.\n\nFixed host migration during Spy missions where objectives would reset for clients after a host migration.\n\nFixed Slash Dash not dealing appropriate damage on clients.\n\nFixed login rewards clobbering your current loadout.\n\nFixed Long Range weapons not consistently hitting targets at 50m or greater.\n\nFixed visibility of \"BACK\" button on color customization screen.\n\nFixed various bugs and nav mesh issues in reported levels.\n\nFixed common matchmaking issue where users would receive a “Disconnected” error.\n\nFixed Sentinel death affect that was causing frame rate issues.\n\nFixed Ash’s Bladestorm power, it will no longer target turrets or security cameras.\nFixed Login reward handing out \"0 Shotgun Ammo\" boxes.\n\n\n",
-  "type": "Update"
- },
- {
-  "name": "Update 7.8.1",
-  "url": "https://forums.warframe.com/topic/34366-update-781/",
-  "date": "2013-04-24T13:47:15Z",
-  "additions": "\nAll Cheaters will now be Banned. No Exceptions!Hacking/Cheating bans are now automatic. Our existing cheat/hack detection code that has been tracking hacks and is now configured to take action automatically now. Do not run hacking programs while playing Warframe. You will be banned.\nMod UI has received significant improvements:    Added category tabs to the Mod pages    Enabled fusion for installed mods\n",
-  "changes": "Update 7.8.1:\n\n\nFix for inventory transactions committing 3 times if log server is unresponsive\nFix for spy mission objective resetting after host migration\nFix Trinity’s Link ability destroying equipped Sentinel.\n\n",
-  "fixes": "\n\nMod UI will now display Shotgun for Primary.\nUI Properly filters out old fusion cores.\nRename gun Mod categories: 2H is now Primary and 1H is now Secondary.\n\nUI no longer shows \"Equipped\" icon for mods that were just purchased\nAdded Tooltips for mod tabs.\nFix for \"news feed\" inching further and further up the screen each time you relogin to game.\n\"Hold to Wall Run\" option now properly saves.\nFixed missed FX when gibbing an enemy on client\n\nFix for post-fusion UI errors. Mod slots were not properly vacated, and fusion could be performed in error.\n\n\nUpdate Downloads are now more fault tolerant.\n\nFix for crash that had chance to occur at extraction.\n",
   "type": "Update"
  },
  {
