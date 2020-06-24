@@ -8861,6 +8861,15 @@
   "type": "Update"
  },
  {
+  "name": "Update 7.8.1",
+  "url": "https://forums.warframe.com/topic/34366-update-781/",
+  "date": "2013-04-24T13:47:15Z",
+  "additions": "\nAll Cheaters will now be Banned. No Exceptions!Hacking/Cheating bans are now automatic. Our existing cheat/hack detection code that has been tracking hacks and is now configured to take action automatically now. Do not run hacking programs while playing Warframe. You will be banned.\nMod UI has received significant improvements:    Added category tabs to the Mod pages    Enabled fusion for installed mods\n",
+  "changes": "Update 7.8.1:\n\n\nFix for inventory transactions committing 3 times if log server is unresponsive\nFix for spy mission objective resetting after host migration\nFix Trinity’s Link ability destroying equipped Sentinel.\n\n",
+  "fixes": "\n\nMod UI will now display Shotgun for Primary.\nUI Properly filters out old fusion cores.\nRename gun Mod categories: 2H is now Primary and 1H is now Secondary.\n\nUI no longer shows \"Equipped\" icon for mods that were just purchased\nAdded Tooltips for mod tabs.\nFix for \"news feed\" inching further and further up the screen each time you relogin to game.\n\"Hold to Wall Run\" option now properly saves.\nFixed missed FX when gibbing an enemy on client\n\nFix for post-fusion UI errors. Mod slots were not properly vacated, and fusion could be performed in error.\n\n\nUpdate Downloads are now more fault tolerant.\n\nFix for crash that had chance to occur at extraction.\n",
+  "type": "Update"
+ },
+ {
   "name": "Update 7.8.0",
   "url": "https://forums.warframe.com/topic/31722-update-780/",
   "date": "2013-04-19T21:13:26Z",
