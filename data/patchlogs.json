@@ -5935,6 +5935,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 16.3.4",
+  "url": "https://forums.warframe.com/topic/442256-hotfix-1634/",
+  "date": "2015-04-16T20:21:12Z",
+  "additions": "",
+  "changes": "Amd Driver Issues:\n\nIn response to continued crashes on AMD drivers we’re rolling back our Hotfix change that enabled our Launcher to automatically adjust Driver versions from DirectX 10 or 11.  We apologize for the inconvenience and are working hard to get a permanent solution to this issue.\n\n\n",
+  "fixes": "Fixed the Temple of Honor not appearing on the player map in Dojos.\nFixed missing wall textures in Cephalon Capture Orokin level.\nFixed a lack of collision on some wall textures on Corpus ship tilesets.\nFixed a door texture on Assassination Missions in Grineer Shipyards that had missing textures.\nFixed the Rakta Ballistica not sitting on Chroma when holstered.\nFixed Clan ranks not being properly localized.\nFixed various broken textures in Archwing Missions.\nFixed 7 day Affinity Booster not working correctly for accounts under the referral program.\nFixed Vauban’s Perpetual Vortex Mod no longer pulling in enemies after the initial Vortex time has ended.\nFixed muzzle flash not showing properly on weapons as per: https://forums.warframe.com/index.php?/topic/397557-muzzle-flash-not-showing-on-weapons/page-2\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 16.3.3 + 16.3.3.1",
   "url": "https://forums.warframe.com/topic/441719-hotfix-1633-16331/",
   "date": "2015-04-15T23:15:27Z",
