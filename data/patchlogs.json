@@ -4585,6 +4585,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 18.13.1",
+  "url": "https://forums.warframe.com/topic/652966-hotfix-18131/",
+  "date": "2016-05-28T02:45:03Z",
+  "additions": "",
+  "changes": "Changes:\n\nTemporarily removed Mag's Vacuum Passive sound until we can refine.\n",
+  "fixes": "\nFixed Valkyr’s Warcry not having any effect when cast.\n\nFixed having an unpurchased TennoGen attachment item in your inventory.\n\nFixed crashing in the Arcane installment screen.\n\nMultishot Secondary Mods are now properly inherited with Mesa’s Peacemaker. For added clarity, only non-weapon specific Secondary Mods scale with Peacemaker. We are still reviewing this for results to see if it needs scaling back in terms of sheer damage output. Please note that Regulators base damage was reduced in 18.13.1 to compensate for Multishot inheriting damage potential.\n\n\nPossible fix for GeForce 1080 users being unable to play Warframe.\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 18.13.0: TennoGen, Passives, & Reworks",
   "url": "https://forums.warframe.com/topic/652752-update-18130-tennogen-passives-reworks%C2%A0/",
   "date": "2016-05-27T21:20:29Z",
@@ -6151,15 +6160,6 @@
   "type": "Update"
  },
  {
-  "name": "Update 15.15 + 15.15.01",
-  "url": "https://forums.warframe.com/topic/404349-update-1515-151501/",
-  "date": "2015-02-18T20:48:46Z",
-  "additions": "",
-  "changes": "Tenno Reinforcements:\n\nTonbo Polearm available now!\n\nCut enemies down swiftly and precisely with the Tonbo Polearm. During the darkest days of the Old War many Tenno relied solely on the Tonbo to keep them alive.\n\n\n\nBasic information about each Mission will appear when highlighting a node that has multiple Missions.\nCorpus and Grineer Spy Vaults will now have greater variety in difficulty scaling on higher difficulty.\nAdded objective marker to door hack panel of in Grineer Spy Missions.\nChanged Corpus vs Grineer Spy Missions on Europa to be Corpus only.\nPlayers will now receive a notification when trying to chat in a channel they’ve been banned or muted in.\nReduced the number of scans required on the Bomb in the Once Awake Quest.\n\nRatka Ballistica now deals 30 damage per uncharged bolt. The damage type is broken down to 15 Puncture, 7.5 Impact and 7.5 Slash.\n\n",
-  "fixes": "\nFixed lasers not disabling in Corpus Spy Missions after the lasers have been destroyed.  \nFixed inaccessible Rare Loot Crates and Syndicate Medallions on Grineer Spy Missions.\nFixed force fields in Spy Missions not disappearing when destroyed / deactivated.\nFixed alarms still being triggerable after data has been extracted in Spy Missions.\nFixed Neural Sensors and Neurodes having the wrong descriptions in the Market.\n\n\nFixed the Tonbo not appearing in Tenno Research Lab.\n\nIf your post in a Hotfix/Update thread includes 'Still no fix for....\"\n\n1) Include a link to a relevant bug report/screenshot that has details on reproducibility and the nature of the issue.\nWithout these details it is increasingly difficult to troubleshoot the specifics involved in resolving a bug.\n",
-  "type": "Update"
- },
- {
   "name": "Hotfix 15.14.1",
   "url": "https://forums.warframe.com/topic/401520-hotfix-15141/",
   "date": "2015-02-13T17:05:04Z",
@@ -6598,6 +6598,15 @@
   "additions": "",
   "changes": "\nImproved Dojo load times and Dojo stability for 32-bit systems.\nMade improvements to long host migration times caused by recent optimizations.\nWarframes can now be rotated in the Sigil preview diorama.\nTweaked the volumes of Ancient Screams.\nImproved the Corpus Drone engine audio and increased the audible distance of related sound effects.\nIncreased the volume of Grineer hacking minigame related sound effects.\nRemoved the doppler effect from Orokin alarm sound effects.\nIncreased the volume of numerous Grineer combat barks.\nIncreased the movement speed of co-op hack doors to match the movement speed of other doors.\nRewrote and re-recorded one of the Archwing Quest opening transmissions.\nReduced the amount of reverb heard on the Pyrana sound effects.\nIncreased the volume of the Pyrana reload sound effect.\nCapture Targets’s Shields Drone will not provide instant shield recharges.\n\n",
   "fixes": "15.1.2\n\nFixed multiple issues with Windows XP systems, please let us know of your continued issues as they occur.\nFixed potential issues with Interception and Defense reward screens not showing mods or player names past certain waves.\nFixed an issue with Odonata’s Energy Shell impeding Melee attack homing on enemies.\nFixed issues with floating rooms and items on Europa.\nFixed an incorrect objective marker on the minimap during the Archwing Quest.\nFixed Mag's Bullet Attractor killing player sentinels as per this thread https://forums.warframe.com/index.php?/topic/254993-bullet-attractor-kills-sentinels-last-tested-nov-3\nFixed a floating Cryopod in Corpus Defense maps.\nFixed an issue with players not always receiving Cryotic after completing an Excavation mission.\nFixed a loss of functionality that could occur when attempting to access the Syndicates menu via the Pause Menu.\nFixed a number of broken visuals associated with breaking windows during Trench Run mission.\nCorrected an outdated Basic Training Codex line.\nFixed a scaling issue seen with Valkyr’s ambient visual effects during Archwing missions.\nFixed an issue with Infested Healing Ancients spamming their charge sound effects.\nFixed another instance of lockdown’s not ending correctly after the Stalker leaves.\nFixed an instance of the Stalker getting stuck in waiting to spawn mode on Interception and Defense maps.\nFixed a number of AI navigation issues seen on certain Ice Planet tiles.\nFixed an issue with Ash’s Smoke Shadow Augment lasting forever if cast by a client who subsequently quits the mission.\nFixed an issue with Ash’s Smoke Shadow affecting Defense targets.\nFixed being able to use weapons while on the Liset, specifically after removing the Grustrag Bolt.\nFixed an issue with getting inside asteroids as seen here: https://forums.warframe.com/index.php?/topic/340650-archwing-able-to-get-inside-asteroids/\nFixed an issue with enemies not always spawning at the start of Capture missions.\nFixed an issue with the player getting stuck in missions if the End of Mission screen appeared while viewing mission progress via the pause menu.\n\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 15.1.1",
+  "url": "https://forums.warframe.com/topic/340842-hotfix-1511/",
+  "date": "2014-11-06T21:48:06Z",
+  "additions": "",
+  "changes": "\nTrinity’s Energy Vampire can no longer be cast on inactive Corpus turrets.\nChanged and fixed several spawning, navigation, and objective details on Eris \nViver.\n\n",
+  "fixes": "Hotfix 15.1.1\n\n\nFixed Revive button resulting in an instant mission fail when playing alone.\nFixed Archwing Trench Run levels having invisible walls.\nFixed issue with AI flying into geometry in Archwing missions.\nFixed stealth finishers being far less effective than they should be.\nFixed Christmas coming early for Dojo Decorations.\nFixed an issue with melee channeling effects not properly matching the selected energy color.\nFixed several Sigil icons appearing as ammo boxes.\nFixed a Crash related to accessing a Clan Dojo.\nFixed many crashes on Windows XP systems.\nVarious Crash fixes.\n\n\n",
   "type": "Hotfix"
  },
  {
@@ -7723,15 +7732,6 @@
   "additions": "",
   "changes": "Changes:\n\nAccuracy Changes (increases) for Tetra (was 8.3, now is 18.2).\nBuffed Harvesters spawn rate (doubled) + guaranteed Detron component drop upon death.\n\n",
   "fixes": "Fixed Purple Text not showing blueprints in messages.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 11.8.1",
-  "url": "https://forums.warframe.com/topic/166934-hotfix-1181/",
-  "date": "2014-01-22T21:10:40Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Fixed chat in the Dojo/Conclave losing functionality if Purple/Mauve Text rears their new head.\nFixed missing door icons on research rooms in Dojo.\nFixed issues with Purple/Mauve Text’s synchronization of information.\n",
   "type": "Hotfix"
  },
  {
