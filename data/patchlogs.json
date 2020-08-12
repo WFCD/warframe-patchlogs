@@ -3685,6 +3685,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "The Glast Gambit: Hotfix 19.9.2 (Phase One: DB Upgrades)",
+  "url": "https://forums.warframe.com/topic/759911-the-glast-gambit-hotfix-1992-phase-one-db-upgrades/",
+  "date": "2017-02-07T13:58:54Z",
+  "additions": "",
+  "changes": "Additions:\n",
+  "fixes": "\nFixed a rare case of players sometimes not unlocking the Focus system when completing The Second Dream, which resulted in progression stoppers during The War Within.\n\nFixed progression stopper in the Grineer Shipyard tileset caused by missing Mobile Defense consoles.\n\nFixed a script error when using the Sibear.\n\nFixed a script error when casting Rhino’s Rhino Charge.\n\nFixed script errors in Broken Scepter and Ivara Quiver with null avatar.\n\nFixed being able to complete the puzzle phase of The Law of Retribution by going in and out of Transference to occupy numerous pads.\n\nFixed Clients missing their Archwing weapons when spawning in water at the start of the Sortie mission.\n\nFixed Ivara’s arrows misbehaving after casting her Artemis Bow.\n\nPotential fix for Clients with Hysteria/Exalted Blade/Primal Fury/Artemis Bow active and running into a Nullifier briefly causing complete ability/melee/weapon switch lockout on next cast.\n\nFixed Automatic weapon removal in ‘Weapon Only’ Sortie missions stripping players of their Submersible weapons on Uranus.\n\nFixed numerous Baro Ki’Teer offerings not being Chat linkable.\n\nFixed mismatched ships appearing in the fly-in cinematics for Clients.\n\nFixed rare script error in squad overlay when mission gets aborted due to Client not having proper items equipped in loadout.\n\nFixed Void Fissure Reactant pickups interrupting Melee animations.\n\nFixed the Proto Glaive Skin not working properly on any thrown Melee weapons and appearing blurry in the Arsenal.\n-Fixed missing enemy death FX when using Sobex with Acid Shells as per:\n\n\n\nFixed enemies remaining hostile after being spotted during your first try of the Mastery Rank 9 test.\n\nFixed Chat issue where users with names that are prefixes for other players names were getting incorrectly notified (e.g. DEMegan getting notified if DEMegan2 gets @’ed)\n\nFixed a level hole in the Grineer Sealab tileset.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "The Glast Gambit: Hotfix 19.9.1",
   "url": "https://forums.warframe.com/topic/757913-the-glast-gambit-hotfix-1991/",
   "date": "2017-02-02T22:32:29Z",
