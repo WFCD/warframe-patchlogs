@@ -5261,6 +5261,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 17.10.1",
+  "url": "https://forums.warframe.com/topic/556984-hotfix-17101/",
+  "date": "2015-11-05T23:37:10Z",
+  "additions": "",
+  "changes": "Saryn Changes:\n\nInstead of just disappearing on enemy death, Saryn’s Spores will now detonate at a reduced spread distance if the target dies.\nToxic Lash can now proc multiple times.\n\n\nMade some tweaks to the audio FX of Viral procs.\n\n",
+  "fixes": "\nFixed Nova’s Antimatter Drop not properly showing damage numbers.\nFixed a crash relating to inventory logging.\nFixed some gaps and collision issues on terrain scattered about Stage 1 of the Jordas Verdict.\nFixed players not receiving a Revive screen when dying to a Purge in Stage 3 of the Jordas Verdict.  Players reviving after being killed during a Purge will now revive outside of the Golem.\nFixed an error breaking the transition from Archwing moving from Stage 1 to Stage 2 of the Jordas Verdict.\nFixed badges not sitting correctly on the Saryn Orphid Skin.\nFixed Ember's Fireblast, Vauban's Vortex and Volt's Electric Shield Abilities being cancelled when you enter a Nullifier Bubble.\nApplied a potential fix for crashes associated with XP and DX9.\nFixed an error that would occur during Saryn’s Spore detonation / spread.\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 17.10.0",
   "url": "https://forums.warframe.com/topic/556384-update-17100/",
   "date": "2015-11-04T23:21:00Z",
