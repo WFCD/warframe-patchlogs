@@ -4812,6 +4812,15 @@
   "type": "Update"
  },
  {
+  "name": "Hotfix 18.5.6",
+  "url": "https://forums.warframe.com/topic/622846-hotfix-1856/",
+  "date": "2016-03-10T20:00:17Z",
+  "additions": "",
+  "changes": "Hotfix 18.5.6:\n",
+  "fixes": "",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 18.5.5 + 18.5.5.1",
   "url": "https://forums.warframe.com/topic/621794-hotfix-1855-18551/",
   "date": "2016-03-08T21:47:49Z",
@@ -5250,15 +5259,6 @@
   "additions": "",
   "changes": "Additions:\nAdded Saryn Orphid Profile Icons for a limited time! Find them by going to your Profile Icon settings. These unique icons will be removed November 18, at 2 p.m EST.\n\n\nReduced the damage of Saryn’s Miasma in Conclave.\n\n\nReduced the particle FX on Saryn’s Spore when spreading between enemies to address performance issues.\nDoubled the duration of Saryn’s Molt.\nSaryn’s Spores now cost half normal energy when cast on Molt.\nDestroying an enemy affected by Saryn’s Spores with Toxic Lash will now restore 2 energy to Saryn.\nSaryn’s Toxic Lash can now be recast to refresh its duration.\n\n\nIncreased the grab range of Esophages in the interior of the J-3 Jordas Golem during the Jordas Verdict Trial.\n\n",
   "fixes": "\nFixed additional issues during the Stage 1 to Stage 2 transition in the Jordas Verdict Trial.\nFixed players being able to hit the first Golem nerve through glass in Stage 3 of the Jordas Verdict Trial.\nFixed potential progression stopper during Stage 3 of the Jordas Verdict Trial.\nFixed some issues preventing enemies from properly spawning Stage 3 of the Jordas Verdict Trial.\nFixed a visual issue allowing players to teleport outside of the level during Stage 3 of the Jordas Verdict Trial.\nFixed an issue causing players to get stuck in a sliding door during Stage 2 of the Jordas Verdict Trial.\nFixed a percentage error showing too many decimals in the HUD buff of Chroma’s Vex Armor as per: https://forums.warframe.com/index.php?/topic/556099-chroma-vex-armor-too-many-decimals/\nFixed Saryn’s Miasma being able to be recast repeatedly after using Spores.\nFixed the visual screen shake FX becoming stuck on the screen after using the Liset’s Air Support as per: https://forums.warframe.com/index.php?/topic/547858-weird-air-support-behaviour/\nFixed an issue that would shrink Hydroid after using Undertow, making him impossible to hit but more susceptible to becoming hidden in a bowl of Cheerios.  \nFixed Saryn’s Spore creating tiny Spores on some enemies.\n\n\n\n\n\nFixed an error preventing Clients/Hosts from loading into Archwing Missions.\nFixed an issue where no energy was being returned from enemies affected by Spore while Toxic Lash was active if the melee strikes were lethal. Lethal strikes on Spore'd enemies with an active Toxic Lash will now regenerate energy as intended from the last hotfix.\n\n\nWe are currently aware that Saryn’s Toxic Lash is no longer functioning after killing an enemy in melee.  This issue will be resolved as soon as possible, and we apologize for the confusion it has caused during Saryn’s rework period.  Thank you for your patience.\n",
-  "type": "Hotfix"
- },
- {
-  "name": "Hotfix 17.10.1",
-  "url": "https://forums.warframe.com/topic/556984-hotfix-17101/",
-  "date": "2015-11-05T23:37:10Z",
-  "additions": "",
-  "changes": "Saryn Changes:\n\nInstead of just disappearing on enemy death, Saryn’s Spores will now detonate at a reduced spread distance if the target dies.\nToxic Lash can now proc multiple times.\n\n\nMade some tweaks to the audio FX of Viral procs.\n\n",
-  "fixes": "\nFixed Nova’s Antimatter Drop not properly showing damage numbers.\nFixed a crash relating to inventory logging.\nFixed some gaps and collision issues on terrain scattered about Stage 1 of the Jordas Verdict.\nFixed players not receiving a Revive screen when dying to a Purge in Stage 3 of the Jordas Verdict.  Players reviving after being killed during a Purge will now revive outside of the Golem.\nFixed an error breaking the transition from Archwing moving from Stage 1 to Stage 2 of the Jordas Verdict.\nFixed badges not sitting correctly on the Saryn Orphid Skin.\nFixed Ember's Fireblast, Vauban's Vortex and Volt's Electric Shield Abilities being cancelled when you enter a Nullifier Bubble.\nApplied a potential fix for crashes associated with XP and DX9.\nFixed an error that would occur during Saryn’s Spore detonation / spread.\n\n",
   "type": "Hotfix"
  },
  {
