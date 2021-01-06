@@ -5721,6 +5721,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 17.5.3",
+  "url": "https://forums.warframe.com/topic/536870-hotfix-1753/",
+  "date": "2015-10-02T16:07:50Z",
+  "additions": "",
+  "changes": "Hotfix 17.5.3:\n\n\nAtlas has had his Armor stat increased to 450.\nEquinox's 4th Ability has had its energy drain-per-second changed from 5 to 3.5\nRamparts now only spawn in missions with level 15 enemies or higher.\nArchwing Afterburner speed increased by 2x (default Spacebar to activate).\n",
+  "fixes": "Fixed Nyx's Chaos Sphere augment not working at all.\nFixed Asteroid Mobile Defense missions not being completable.\nFixed Infested Rescue missions not being completable.\nFixed Mesa's Peacemaker now showing correct aiming UI for Clients.\nFixed Excavation missions not spawning enough power cell carriers.\nFixed the Arcane UI incorrectly showing 2 Arcanes in your inventory after Distilling an Arcane.\nFixed unreleased Mods appearing in the Codex.\nFixed some Infested getting stuck on areas in the Infested Reactor room.\nFixed the Supra being unable to use the Rifle Ammo Mutation Mod.\nFixed Atlas's Tectonics toggling not always working as intended as per https://forums.warframe.com/index.php?/topic/536715-atlas-tectonics-glitch/\nFixed Valkyr's Prolonged Paralysis pulling enemies significantly farther than intended.\nFixed Clients not seeing enemy levels.\nFixed various crashes.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 17.5.2",
   "url": "https://forums.warframe.com/topic/536441-hotfix-1752/",
   "date": "2015-10-02T06:33:46Z",
