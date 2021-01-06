@@ -2568,6 +2568,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Beasts of the Sanctuary: Hotfix 22.18.7",
+  "url": "https://forums.warframe.com/topic/950089-beasts-of-the-sanctuary-hotfix-22187/",
+  "date": "2018-04-25T21:12:12Z",
+  "additions": "",
+  "changes": "Beasts Of The Sanctuary: Hotfix 22.18.7:\n\nPlayer experiences and data determined that enemy scaling was broken and not consistent with game modes outside of Onslaught. A more descriptive and in-depth read can be viewed here: https://forums.warframe.com/topic/950011-sanctuary-onslaught-difficulty-changes/\nKhora Blueprints have been removed from Elite rewards and replaced with Radiant Axi Relics. Other Relics have moved around rotations to fit \nsee our drop-table site for full drops!\nRemoved the Rank 30 Warframe requirement from Sanctuary Onslaught \nremains a requirement for Elite Onslaught.\nCertain Onslaught tiles now have a 20% chance of having an environmental hazard.\nIncreased Specimen spawns in the Corpus Gas City Onslaught tile and Grineer Fortress Onslaught tile.\nReverted the addition of more types of Grineer, Corpus, and Infested Specimens to Onslaught. More testing will be done for these Specimens and added in at a later time.\nRemoved more tiles that were leading to Specimen navigation issues.\nRemoved physical lockers and containers from the Void Onslaught tile.\nRemoved Simaris line referring to 'comrades' when Conduit is closing to eliminate possibility of referencing other players when running Solo.\nA prompt will appear that indicates you need to have a Rank 30 Warframe (Elite) and have completed The New Strange quest when selecting Sanctuary Onslaught if you do not meet those requirements.\nQuill Onkko has added a Cetus Wisp to his Offerings in Cetus. These can be purchased with Quill Standing for Architect level Tenno.\nOnly a maximum of 4 Mine Ospreys will spawn at any given moment.\nTweaked the Hagoromo Zephyr Skin to improve the metallicness of the metal and toned down the grime textures as requested by the creator.\n",
+  "fixes": "Fixes towards crashing when entering a Conduit.\nFixed rejoining right before the Conduit materializes can prevent it from spawning.\nFixed invulnerability not being applied/removed correctly in various scenarios of jumping through the Conduit as the Operator.\nFixed some Onslaught tiles having permanent Fire hazards due to explosive barrels.\nFixed Wukong’s Primal Fury adding increased Range to all Melee weapons instead of just his Iron Staff.\nFixed initial Conduit not showing at correct size for Clients.\nFixed minor performance issue and crashing during the ‘Protect the Moon’ phase of The Second Dream.\nFixed Dark Split-Sword Affinity and Focus being lost when a Host migration occurs.\nFixed Venari UI stats overlapping text when Dual Wielding.\nFixed the Vala Sugatra Prime not attaching properly to weapons.\nFixed a script error related to Wall Latching.\nFixed button callout showing wrong icon when swapping Move/Look to opposite sticks when using a controller.\nFixed Venari's loadout slot appearing in the Conclave Arsenal even if Khora is not equipped. Interacting with Venari’s loadout slot would result in a crash.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Beasts of the Sanctuary: Hotfix 22.18.6",
   "url": "https://forums.warframe.com/topic/949603-beasts-of-the-sanctuary-hotfix-22186/",
   "date": "2018-04-24T18:41:48Z",
@@ -4359,15 +4368,6 @@
   "changes": "Recurring Dreams: Hotfix 3:\nInaros can no longer use the Conclave Mod Low Current Leap.\n",
   "fixes": "Fixed forced solo Quest missions not giving out proper Quest rewards (Mission 1 of Vor's Prize & mission 3 of Kubrow Quest). This should help a handful of players who cannot progress through their Quests. \nFixed a script error when casting Nezha’s Divine Spears ability.\nFixed a script error when casting Rhino’s Charge ability.\n*Please note that a script is being run in ~30 minutes to fix players stuck in quests. \nThe script is complete! Please relog now if you were stuck in your Quests.\n",
   "type": "Hotfix"
- },
- {
-  "name": "PC: Baro: 2 Day Extension (PAX Aus)",
-  "url": "https://forums.warframe.com/topic/714130-pc-baro-2-day-extension-pax-aus/",
-  "date": "2016-11-06T10:21:46Z",
-  "additions": "",
-  "changes": "",
-  "fixes": "Hey all,\nJust a heads up that current PC Baro Ki Teer has been extended by 48 hours! Our time in Australia at PAX revealed that a large portion of our Aussie players would miss the 50th visit from Baro due to travel for the event. The extension is live!\nThanks,\nRebecca\n",
-  "type": "Update"
  },
  {
   "name": "Recurring Dreams: Hotfix 2",
