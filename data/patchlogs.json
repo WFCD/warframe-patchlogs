@@ -5272,6 +5272,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 18.4.8",
+  "url": "https://forums.warframe.com/topic/605807-hotfix-1848/",
+  "date": "2016-02-05T23:22:31Z",
+  "additions": "",
+  "changes": "Reduced AoE range of Staticor charged shots in Conclave\nVisual tweaks to Staticor\nUpdated Duality’s clone death animation to be less morbid \nwill now float away\n\n",
+  "fixes": "\n\nFixed a hole in the terrain that allowed players to go out of bounds on the Grineer Underwater Sealab tileset.\nFixed Fatal Attraction issue that could allow mesmerized enemies to fire at you\nFixed Prime Spoilers from being shown to eager eyes  (still spoiling, apparently)\nFixed Duality Augment Mod scaling improperly \nFixed visual bug with Staticor while holding a Datamass or Energy Cell\nFix for crash caused by Chesa pickups\nFixed dual secondary animations getting slowed after using AoE abilities\nFixed Staticor’s “glow” offset being inconsistent\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 18.4.7",
   "url": "https://forums.warframe.com/topic/605204-hotfix-1847/",
   "date": "2016-02-04T22:43:36Z",
@@ -6163,15 +6172,6 @@
   "type": "Hotfix"
  },
  {
-  "name": "Hotfix 16.6.1",
-  "url": "https://forums.warframe.com/topic/466144-hotfix-1661/",
-  "date": "2015-05-28T20:43:00Z",
-  "additions": "",
-  "changes": "Conclave Changes:\n\nRespawn timers are now independent for each player killed instead of respawning players in communal ‘waves’ in Annihilation.\nHealth orbs now heal for 50 HP in PvP.\nReduced the range and damage of Ember’s World on Fire in PvP.\nOro pickups in Annihilation are now colored red.\nBraton stats fixed in the Conclave Arsenal.\nWarframe Ability projectiles no longer deal double damage to players on headshots.\nThe Forfeit Timer will now properly activate when there’s only one player in Annihilation.\n\n",
-  "fixes": "\nFixed a crash that would occur due to enemies self destructing.\nFixed an issue where cosmetic attachments would not properly display their intended location.\nFixed Nyx’s Mind Control removing armor from enemies.\nFixed items vacuumed in by the Carrier becoming stuck to the Carrier.\nFixed Manic Grineer becoming impossible to kill due to continued teleporting.\nFixed Trial Leaderboards not properly archiving.\nFixed minor visual issues with Oro visuals in the Conclave dioramas.\nFixed Annihilation Conclave matches not ending when only one player remains in the Conclave.\nFixed players not properly being assigned to even teams in Conclave.\nFixed an error caused by a host leaving a solo game of Cephalon Capture.\nFixed Energy Surge not properly activating in Conclave.\nFixed an issue causing players to immediately pick up the Cephalon after dropping it in Conclave.\nFixed the Braton’s stats not reading correctly in the Conclave Arsenal.\n",
-  "type": "Hotfix"
- },
- {
   "name": "Update 16.6.0",
   "url": "https://forums.warframe.com/topic/465618-update-1660/",
   "date": "2015-05-27T21:08:21Z",
@@ -6385,6 +6385,15 @@
   "additions": "",
   "changes": "",
   "fixes": "Changes\n\nRemoved some procedural rooms from Void Survival that would not spawn Survival points.\nCernos has been given the PBR treatment!\nPlayers can now use the /unstuck command when in Solo mode.The /unstuck command is now usable in any chat channel, but only when a player is in a Mission.\n\nFixes\n\nFixed crash that would occur for players using AMD drivers when loading into missions.\nFixed a location on Ceres, Exta where players could become stuck against terrain and the level ceiling.\nFixed issue in Gifting caused by selecting a negative quantity, also prevented players from Gifting negative amounts in the future.\nEDIT: BLACK SCREEN Some unfortunate players are getting a nonresponsive black screen on boot up. We're working on this and your support tickets help. Workaround seem to be possible disabling fullscreen in Launcher settings.\n",
+  "type": "Hotfix"
+ },
+ {
+  "name": "Hotfix 16.2.1",
+  "url": "https://forums.warframe.com/topic/435632-hotfix-1621/",
+  "date": "2015-04-06T15:46:34Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Changes\n\nRemoved health regeneration from the Grineer Manic.\nImproved the responsiveness of the Grineer Manic’s reactive teleport.\nRadiation and Toxic procs are now less effective on the Grineer Manic.\nMade various localization changes.\nThe unstuck command will now only function in the Squad chat. Please note that this command is still in the WIP stage, and will be tweaked as necessary! Reminder: Squad chat tab still exists in Solo mode.\n\nFixes\n\nFixed crash at boot or when loading into Missions experienced by specific AMD hardware when using DirectX 10 or 11.\nFixed various gameplay crashes.\nFixed Mastery Rank test in the Relay assuming the player selected ‘Qualify’ when entering the pause menu on the ‘Qualify / ‘Practice’ option.\nFixed issue with ‘unstuck’ command when used in Archwing.\nFixed Sargas Ruk doing a flashy T-pose on death, instead of dying like a normal Grineer.  What an attention seeker!\nFixed Clients displaying incorrect HUD Transmissions during Quest missions.\nFixed Latron Prime Blueprint dropping from Reinforced Orokin Loot Crates instead of Boltor Prime Blueprint.\nFixed the navigation waypoint not properly pathing to extraction points.\n",
   "type": "Hotfix"
  },
  {
