@@ -8647,6 +8647,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 10.1.2",
+  "url": "https://forums.warframe.com/topic/112656-hotfix-1012/",
+  "date": "2013-09-24T22:41:12Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Hotfix 10.1.2\nFixed Vor becoming permanently invincible during boss fight\nFixed Serration mod not affecting Torid damage\nFixed Mobile Defense cryopod becoming invulnerable after host migration\nAdjusted Phorid's drop rate chances to match other bosses\nFixed emblem positions on Carrier and Djinn Sentinels\nReworked chat server authentication protocols\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Update 10.1.1",
   "url": "https://forums.warframe.com/topic/112182-update-1011/",
   "date": "2013-09-23T22:13:46Z",
