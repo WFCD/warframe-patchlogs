@@ -1,11 +1,11 @@
 [
  {
-  "name": "Orphix Venom: Hotfix 29.6.7",
-  "url": "https://forums.warframe.com/topic/1245021-orphix-venom-hotfix-2967/",
+  "name": "Orphix Venom: Hotfix 29.6.7 + 29.6.7.1",
+  "url": "https://forums.warframe.com/topic/1245021-orphix-venom-hotfix-2967-29671/",
   "date": "2021-01-13T14:47:23Z",
   "additions": "",
   "changes": "Orphix Venom: Hotfix 29.6.7:\n",
-  "fixes": "Fixed Operation exploit (and disqualified scores that had been earned with it.)\nFixed a script error when casting Nova’s Antimatter Drop ability. \nFixed Unreal Skin preventing Nightwatch Napalm Mod from functioning.\nFixed Necramechs not advancing the \"Kill enemies with X Element\" Nightwave Act.\n",
+  "fixes": "Fixed Operation exploit (and disqualified scores that had been earned with it.)\nFixed a script error when casting Nova’s Antimatter Drop ability. \nFixed Unreal Skin preventing Nightwatch Napalm Mod from functioning.\nFixed Necramechs not advancing the \"Kill enemies with X Element\" Nightwave Act.\n\nFixed a significant performance drop related to the Unreal Drakgoon Flak Cannon Skin projectile trails.\n",
   "type": "Hotfix"
  },
  {
