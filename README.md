@@ -16,7 +16,7 @@ patchlogs on *all* items, you can find pre-compiled files there too.
 
 ### Installation
 ```
-npm install warframe-items
+npm install warframe-patchlogs
 ```
 
 <br>
