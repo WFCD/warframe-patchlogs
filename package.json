@@ -9,7 +9,9 @@
   },
   "author": "Kaptard",
   "license": "MIT",
-  "contributors": ["Tobiah <tobiah@pm.me>"],
+  "contributors": [
+    "Tobiah <tobiah@pm.me>"
+  ],
   "bugs": {
     "url": "https://github.com/WFCD/warframe-patchlogs/issues"
   },
