@@ -1,0 +1,28 @@
+name: Build
+on:
+  schedule:
+    - cron: "55 * * * *"
+
+jobs:
+  lint:
+    name: Build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: npm install
+    - run: npm update
+    - run: npm run build
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      with:
+        skip_dirty_check: false
+        commit_message: 'fix(items): new patchlogs'
