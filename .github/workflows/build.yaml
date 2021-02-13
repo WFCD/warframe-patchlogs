@@ -25,4 +25,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
         skip_dirty_check: false
-        commit_message: 'fix(items): new patchlogs'
+        commit_message: 'feat(patchlogs): new patchlogs'
