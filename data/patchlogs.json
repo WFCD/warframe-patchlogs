@@ -8422,6 +8422,15 @@
   "type": "Hotfix"
  },
  {
+  "name": "Hotfix 11.0.7",
+  "url": "https://forums.warframe.com/topic/137891-hotfix-1107/",
+  "date": "2013-11-25T23:32:16Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Fixed Sentinels not showing in Codex if selected for viewing.\nRemoved energy drain from no-shield mode Nightmare missions.\nFixed issues with Scanner breaking primary weapon usage if knocked down.\nFixed Alad V’s boss diorama being a solo Moa.\nBuffs to Alad V – his max level is increased.\nBuffs to Zanuka’s shields and missiles.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Hotfix 11.0.6",
   "url": "https://forums.warframe.com/topic/137755-hotfix-1106/",
   "date": "2013-11-25T21:07:30Z",
@@ -8861,15 +8870,6 @@
   "changes": "Additions:\n\nAdded Warframe idle animation customization: “Agile” and “Noble”.\nMod Rewards from “Arid Fear” event (Shred, Vigor, Lethal Torrent) now available in Nightmare Mode\nFounders Badges are live in-game! Visit https://forums.warframe.com/index.php?/topic/100061-founders-badges-in-game-now/?p=1139283 for all the info.\n\nImproved Trinity’s cast animation for Blessing ability.\nMiter – increased fire rate, higher charge damage. Charged shots fire through targets.\nImprovements to ragdolls.\n",
   "fixes": "Fixed incorrect emblem decorations on Dethcube.\nFixed Ember’s Overheat ability that was creating extra fire FX on clients.\nFixed performance issues relating to Saryn’s Venom orbs.\nFixed bug where you could navigate between regions after playing Void keys.\nFixed text field for Market sale items in Russian language.\nFixed Puncture Mods not working as intended on projectile weapons.\nFixed various reported crashes.\n",
   "type": "Update"
- },
- {
-  "name": "Hotfix 9.6.1",
-  "url": "https://forums.warframe.com/topic/98468-hotfix-961/",
-  "date": "2013-08-22T21:42:24Z",
-  "additions": "",
-  "changes": "Hotfix 9.6.1:\nArid Fear Dojo Trophy Recipes have now been distributed to the top clans from the past event! Congrats!\nAdded new visual effect while Blessing is active\nAdded visual effects to several idle animations\nIntegrated text translations for various languages\nChanges\nUpdated reload sound effects for Snipetron, Snipetron Vandal, and Torid\nUpdated visual effects for Dera muzzle flash\nImproved visual effects for Flux beam\nSwitched Radial Blind's color back to white with some tinges of energy color\nRemoved inconveniently-placed loot crates that were thwarting Kril's plans for Tenno domination\nNyx's Chaos now only stuns bosses, not make them murder their subordinates\nFixes\nFixed energy colors not being applied to Trinity's Link\nFixed Link beam occasionally attaching itself to nothing in particular\nFixed Volt Speed not being affected by power duration mods for clients\nFixed Rhino Stomp being \"In Use\" on the client even though it didn't affect any enemies\nFixed energy colors not being applied to Tesla\nFixed sentinels sometimes dropping items on death\nFixed \"Cannot use in Air\" message appearing indefinitely if player jumped and used a power right away\nFixed Raptor missiles following invisible targets\nFixed energy colors not being applied to Vortex\nFixed Nova being launched into orbit if she casts Molecular Prime right as she jumps\nFixed Drop disappearing on clients after fusing it past level 1\nFixed energy colors not being applied to Drop\n",
-  "fixes": "",
-  "type": "Hotfix"
  },
  {
   "name": "Update 9.6",
