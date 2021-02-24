@@ -1,5 +1,14 @@
 [
  {
+  "name": "Octavia Prime: Hotfix 29.9.1",
+  "url": "https://forums.warframe.com/topic/1250638-octavia-prime-hotfix-2991/",
+  "date": "2021-02-24T16:26:15Z",
+  "additions": "",
+  "changes": "Octavia Prime: Hotfix 29.9.1:\nReplaced the Pangolin Prime Blueprint with the Pangolin Prime Handle in the Axi C6 Relic.\nThis was always the intention but was missed!\nUpdated the Nihil Bosskey description to include details on its limited use and reward table.\n\n",
+  "fixes": "Fixed the recent Syndicate Sacrifice Vaulted items not actually being swapped out as indicated below:\nReplaced Arbiters of Hexis Sacrifice of Equinox Prime Neuroptics with Atlas Prime Systems\nReplaced Arbiters of Hexis Sacrifice of Tipedo Prime Handle with Corinth Prime Barrel.\nReplaced Red Veil Sacrifice of Equinox Prime Systems with Ivara Prime Chassis.\nReplaced Steel Meridian Sacrifice of Equinox Prime Neuroptics with Nezha Prime Neuroptics. \nFixed Tenora Prime asking for the wrong item when unlocking the Exilus slot.\nFixed Pandero Prime's model reverting to the regular version while Dual Wielding.\nFixed a script error when viewing a Fish description.\nFixed the Aristei Prime Shawzin not being available as an instrument choice for the Shawzin Emote, if you used it an Orbiter Decoration.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Octavia Prime: Update 29.9.0",
   "url": "https://forums.warframe.com/topic/1250473-octavia-prime-update-2990/",
   "date": "2021-02-23T18:53:41Z",
