@@ -1,5 +1,15 @@
 [
  {
+  "name": "Corpus Proxima & The New Railjack: Hotfix 29.10.9",
+  "url": "https://forums.warframe.com/topic/1257043-corpus-proxima-the-new-railjack-hotfix-29109/",
+  "date": "2021-04-01T21:36:42Z",
+  "additions": "Added 14 new chat emotes!\n",
+  "changes": "Fixed not receiving shared loot in Railjack on-foot areas (POIs, Crewships, etc.) if picked up by Necramechs. \nFixed being stuck in your Necramech floating in space if you were in a Grineer/Corpus Crewship when it exploded. \nFixed a crash that could occur in certain Railjack encounters with range-based auras (Orvin-Haarc, Venus for example). \nFixed Tether Battle Mod having max stats at Rank 0. \nThis also fixes stat values increasing and decreasing sporadically in the Fusion screen while upgrading the mod. \nFixed Tactical Menu Teleporting while entering Railjack Turret locking Warframe in place after being Teleported and rendering the Turret unusable. \nFixes towards Client getting stuck in Archwing Slingshot due to lag. \nFixed the new Armaments that were released in Update 29.10.0 not appearing when filtered by house type (Zekti, Vidar, Lavan) at the ‘Configure Railjack’ panel.\nFixed the Stanchion Corpus ship missing its engines at the bottom. \nFixed old textures appearing on Corpus ships in Proxima regions.\n",
+  "fixes": "Tenno, Here Is Our Ninth Hotfix Since The Corpus Proxima & The New Railjack With Continued Fixes & Changes As The Days Progress. While We Focus On Fixes And Functionality, We Continue To Read And Collect Feedback In Parallel For Review And Discussion. As We Know, Update 30: Call Of The Tempestarii Is Coming April 2021, Meaning We’Ll Be Shifting Over To A “No Hotfix’ Realm In April \nWe’Ll Let You Know Exactly When.:\nFixed being able to select Sigils as Operator Secondary Face in Appearance options. \nFixed script error when Crew member goes into bleed out. \nFixed issues of some large caves in Deimos missing fish, despite bait/hotspots, etc. \nFixed Voidrig’s Guard Mode only firing 5-6 shots if you hold down the fire button right after activating. \nMore fixes towards Arsenal being inaccessible from the Dry Dock unless there is an Observatory in the Dojo.\n",
+  "description": "Tomorrow is also a holiday for us here in Canada! We will be ‘closing’ our home offices for a long weekend. We’ll be back bellies full of mini eggs on Monday.",
+  "type": "Hotfix"
+ },
+ {
   "name": "Corpus Proxima & The New Railjack: Hotfix 29.10.8",
   "url": "https://forums.warframe.com/topic/1256868-corpus-proxima-the-new-railjack-hotfix-29108/",
   "date": "2021-03-31T21:18:05Z",
