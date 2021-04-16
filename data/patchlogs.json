@@ -1,5 +1,14 @@
 [
  {
+  "name": "Call of the Tempestarii: Hotfix 30.0.5",
+  "url": "https://forums.warframe.com/topic/1259551-call-of-the-tempestarii-hotfix-3005/",
+  "date": "2021-04-16T19:09:25Z",
+  "additions": "",
+  "changes": "",
+  "fixes": "Call of the Tempestarii: Hotfix 30.0.5\nFixes:\n\nFixed a common crash caused by the last hotfix related to Fissures.\nFixed Sevagoth’s Gloom not working when Subsumed onto Lavos. It will use Duration instead of Drain.\nFixed Sevagoth’s Shadow form not disappearing if you enter your Arsenal. LOL.\nFixed holes in the Despot Syandana. As reported here: https://forums.warframe.com/topic/1258997-major-texture-holes-on-despot-cape-syandana-update-414/\nFixed an exploit in Assassinate Bounty missions in the Orb Vallis. \nFixed erroneous prompts in the Crew UI with a Controller. \nFixed the ‘Cancel’ button having no functionality in the HUD customization screen on a controller. \nFixed missing labels on weekly missions in the World State Panel.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Call of the Tempestarii: Hotfix 30.0.4",
   "url": "https://forums.warframe.com/topic/1259484-call-of-the-tempestarii-hotfix-3004/",
   "date": "2021-04-16T15:29:15Z",
