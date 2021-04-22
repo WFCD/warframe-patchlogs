@@ -454,6 +454,15 @@
   "type": "Update"
  },
  {
+  "name": "Heart of Deimos: TennoGen: 29.2.1",
+  "url": "https://forums.warframe.com/topic/1229060-heart-of-deimos-tennogen-2921/",
+  "date": "2020-10-01T15:51:22Z",
+  "additions": "",
+  "changes": "Heart Of Deimos: Tennogen: 29.2.1:\n\nWith 29 incredible new items in TennoGen Round 19, we’ve split it up into 2 parts!\nCheck out TennoGen Round 19 \nPart 1 via Steam!\n\n\nGauss Agito Skin by Rekkou\nGauss Graxx Skin by Faven\nHildryn Sigrun Skin by malaya, Jadie, and Awk'Q-Luz\nZephyr Blade of the Lotus Skin by BeastBuster\nMag Corpra Skin by FrellingHazmot\nMirage Kitsune Skin by kakarrot2812 and Skyeraikes\n\nTitania Viraji Helmet by malaya and blazingcobalt\nBlaze Oculus by blazingcobalt\n\nNight Hunter Syandana by Mz-3\nTsujinasa Syandana by BeastBuster\nRanulyst Syandana by led2012 and daemonstar\n\nGrimstone Heavy Blade Skin by Vulbjorn, the graphical walrus\nObanakk Heavy Blade Skin by VoidPunch\nOsiris Polearm Skin by Lubox\n\nMantis Lilieae Skin by MaceMadunusus\n\nXulatu Chest Armor by led2012\n\nFor those of you using DX10, the launcher will now remind you that we’re phasing DX10 out in the near future.\nFriendly informative reminder: https://www.warframe.com/specs2021 \nRemoved the Gas Status Effect from the Deimos Jugulus shooting bone glaives.\nThe Gas Status Effect was unintended \nshould only be administering Slash.\n\n",
+  "fixes": "Fixes towards a crash that could occur in a Survival mission when choosing to return to the Orbiter.\nFixed an issue where the \"swap polarity\" functionality would be broken on weapons that had only ever done no-op Polarizations.\nFixed the Quassus leaving you \"unarmed\" after using heavy attacks.\nFixed a section in the Ustara Crater within the Orb Vallis that resulted in your Warframe turning invisible, the minimap changing, and enemies not attacking you.\nFixed a spot in the Grineer Sealab tileset where enemies struggled to jump down a hole as a team, which resulted in AFK farming.\nMore fixes towards Look Link issues and diorama issues with the new Companions (mismatching tails, for example).  \nFixed the Oscira Bow Skin not applying correctly to the Kuva Bramma.\nFixed missing Standing icon when viewing the eidolon Hunt Bounty with Konzu.\nFixed screens overlapping when purchasing a Glyph. \nFixed a script error when offering an Eidolon Shard during a Teralyst Hunt Bounty.\nFixed a script error when a Ghoul Devourer attempts to grapple you.\nFixed a script error when the Treasurer spawns.\nFixed a script error when throwing a Shock Spear in a Free Roam transition (Elevator, etc).\nFixed a script error when casting Ember’s Immolation ability.\nFixed a script error when casting Nyx’s Psychic Bolts ability.\n\nThe ‘Deferred Rendering’ Display option has been retitled to ‘Graphics Engine’.\n",
+  "type": "Update"
+ },
+ {
   "name": "Heart of Deimos: Prime Vault: 29.2.0",
   "url": "https://forums.warframe.com/topic/1228676-heart-of-deimos-prime-vault-2920/",
   "date": "2020-09-29T17:59:17Z",
