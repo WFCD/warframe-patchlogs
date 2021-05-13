@@ -1,5 +1,14 @@
 [
  {
+  "name": "Call of the Tempestarii: TennoGen: Hotfix 30.2.2",
+  "url": "https://forums.warframe.com/topic/1263763-call-of-the-tempestarii-tennogen-hotfix-3022/",
+  "date": "2021-05-13T21:44:39Z",
+  "additions": "",
+  "changes": "Call Of The Tempestarii: Tennogen: Hotfix 30.2.2:\n\nRemoved Cephalon Cy Research from Clans and moved Blueprint to the in-game Market for Credits.\nFixed inability to start another Railjack mission after returning to the Relay Dry Dock \nFixed the Recovered Wreckage button in the configure Railjack console in the Dry Dock being misplaced in certain languages.\n\nRemoved Sevagoth’s Shadow visually animating while he’s invisible due to visual noise.\n\n",
+  "fixes": "Fixed some rare crashes.\nFixed a handful of misaligned Khora Helmets.\nFixed the Neo Z7 Relic from the Profit-Taker Phase 4 rewards not being Radiant.\nFixed inability to select the bottom row of Infused Abilities in the Helminth screen. \nFixed seeing [PH] Universal Reservoir when casting Wisp’s Fused Reservoir.\nFixed numerous Armor pieces being misaligned on Protea.\nFixed alignment issues with the Mulciber Chest Plate.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Call of the Tempestarii: TennoGen: Hotfix 30.2.1",
   "url": "https://forums.warframe.com/topic/1263706-call-of-the-tempestarii-tennogen-hotfix-3021/",
   "date": "2021-05-13T17:21:51Z",
