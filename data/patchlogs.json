@@ -1,5 +1,14 @@
 [
  {
+  "name": "Call of the Tempestarii: TennoGen: Hotfix 30.2.1",
+  "url": "https://forums.warframe.com/topic/1263706-call-of-the-tempestarii-tennogen-hotfix-3021/",
+  "date": "2021-05-13T17:21:51Z",
+  "additions": "",
+  "changes": "Call Of The Tempestarii: Tennogen: Hotfix 30.2.1:\n\n",
+  "fixes": "Fixed causing Damage to yourself and squadmates if you have Mirage’s Hall of Mirrors active and your clones inflict a Status Effect which causes Damage in a radius (Gas, Electric, etc) that lingers on the target and the clone ability ends.\nFixed Excalibur Umbra not attacking when in Melee range when you have no Melee weapon equipped. \nFixed cases of Quill Onkko's cave door sometimes not opening after accessing Cetus from the Plains (and potentially other cases of doors not opening).\nFixed Railjack Pulse Turbine doors not opening for either Host or Client.\nFixed small alignment issues with the Khora Graxx and Khora Fiera Helmet.\nFixed a script error when your Warframe died while you were in Operator mode.\nFixed a script error when viewing the Plexus.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Call of the Tempestarii: TennoGen: Update 30.2.0",
   "url": "https://forums.warframe.com/topic/1263575-call-of-the-tempestarii-tennogen-update-3020/",
   "date": "2021-05-12T19:38:18Z",
