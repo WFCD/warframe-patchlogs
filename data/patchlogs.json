@@ -1,5 +1,14 @@
 [
  {
+  "name": "Gara Prime: Hotfix 30.3.1",
+  "url": "https://forums.warframe.com/topic/1265229-gara-prime-hotfix-3031/",
+  "date": "2021-05-25T21:15:21Z",
+  "additions": "",
+  "changes": "Gara Prime: Hotfix 30.3.1:\n\nHotdropped live: Fixed the Sabella Prime Kavat Fur Pattern not providing the following Fur Colors:\nAros Brown\nPaskan Crimson\nNaru Blue\nMaipal Yellow\nA script has been run to provide the missing Fur Colors to affected accounts. Relog!\n\n",
+  "fixes": "Fixed a crash related to this fix (has been reverted for now):\nFixed an issue where Saryn's Molt would not spawn in the correct spot when transitioning from idle -> jog.\nFixed a crash related to water volumes. \nFixed a softlock when opening a Look Link while customizing HUD colors.\nFixed Recent Players list not scrolling with the mouse wheel.\nFixed activity text in the Recent Players list becoming increasingly tiny.\nFixed the Epitaph moving around and being in random positions when swapping back and forth between Primary and Secondary weapons several times, when getting staggered or when throwing a Glaive while Dual Wielding.\nFixed being taken to your own Profile when attempting to view a squadmates Profile by opening the Last Mission Results.\nFixed Mission Abort showing Mission Time as 0s on the End of Mission screen.\nFixed seeing the option to equip your Kuva Lich with another weapon in the Railjack Crew management screen.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Gara Prime: Update 30.3.0",
   "url": "https://forums.warframe.com/topic/1265162-gara-prime-update-3030/",
   "date": "2021-05-25T17:56:49Z",
