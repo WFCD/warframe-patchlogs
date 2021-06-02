@@ -1,5 +1,14 @@
 [
  {
+  "name": "Gara Prime: Hotfix 30.3.4",
+  "url": "https://forums.warframe.com/topic/1266345-gara-prime-hotfix-3034/",
+  "date": "2021-06-02T19:15:05Z",
+  "additions": "",
+  "changes": "Gara Prime: Hotfix 30.3.4:\n\nAdded custom aspect-ratio settings for advanced multi-monitor setups that confused our auto-detection.\nAnother big thank you to Raid0u! Image curtesy of Raid0u 3x 4K monitors at 60FPS:\n\n",
+  "fixes": "Fixed Clients not being able to see adjusted Crew Competency ranks when hovering over their profiles in the Tactical Map. \nFixed being prompted with a confusing error message and your Crew member appearing unarmed when assigning the same weapon to a Crew member twice.\nFixed Crew mates in the squad panel UI not updating their Status Effects when replacing a player.\nFixed script error when teleporting to players/Crew mates while in the Archwing Slingshot.\nFixed a script error when using the Omni to Recall to the Railjack.\n\nFixed update failures for a small subset of players. (thanks to Raid0u for helping us diagnose this)\nFixed a functionality loss upon copying a loadout to one of multiple loadout slots that share the same equipment.\nFixed crash in new aspect ratios.\nFixed a crash in the Fortuna elevator during the Vox Solaris Quest.\nFixed a crash occurring whenever any Warframe equipped with the Celestia Syandana tries to open the Abilities menu.\nFixed Squad being disbanded automatically during force extract on Endless mission types, instead of the intended choice to stay or leave.\nFixed Gara missing from the Invert Tap/Hold list options.\nFixed the same node being selected twice when an invading Faction wins a battle and spreads to multiple nodes.\nFixed Sevagoth's Shadow not using the proper Energy colours if you change to a different Sevagoth.\nFixed seeing duplicate Emblems when equipped on the Sabella Prime Fur Pattern.\nFixed incorrect head and tail coloring when previewing a Kavat Skin while having an incompatible pet type equipped.\nFixed Modding discrepancies when moving a Polarity matching Mod and not having enough Mod capacity.\nFixed Friends appearing to be offline even though they're not if you go to the ingame Market and try to Gift a Friend before first going to the Friends list.\nFixed a script error when attempting to Contribute to Research in the Dojo.\nFixed a script related to Defense objects in Railjack.\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Gara Prime: Hotfix 30.3.3",
   "url": "https://forums.warframe.com/topic/1265693-gara-prime-hotfix-3033/",
   "date": "2021-05-28T19:45:00Z",
