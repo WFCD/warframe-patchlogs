@@ -20,6 +20,7 @@ jobs:
     - run: npm install
     - run: npm update
     - run: npm run build
+    - run: git checkout -- package-lock.json #prevent package-lock.json-only feat changes
     - uses: stefanzweifel/git-auto-commit-action@v4
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
