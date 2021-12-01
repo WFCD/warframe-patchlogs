@@ -1,6 +1,7 @@
 ## warframe-patchlogs
 [![npm](https://img.shields.io/npm/v/warframe-patchlogs.svg)](https://npmjs.org/warframe-patchlogs)
-[![build](https://ci.nexus-stats.com/api/badges/WFCD/warframe-patchlogs/status.svg)](https://ci.nexus-stats.com/WFCD/warframe-patchlogs)
+[![build](https://github.com/WFCD/warframe-patchlogs/actions/workflows/build.yaml/badge.svg)](https://github.com/WFCD/warframe-patchlogs/actions/workflows/build.yaml)
+[![release](https://github.com/WFCD/warframe-patchlogs/actions/workflows/release.yaml/badge.svg)](https://github.com/WFCD/warframe-patchlogs/actions/workflows/release.yaml)
 
 [![Supported by Warframe Community Developers](https://warframestat.us/wfcd.png)](https://github.com/WFCD "Supported by Warframe Community Developers")
 
@@ -8,7 +9,7 @@
 
 All warframe patchlogs parsed to more usable JSON. Also lets you find all
 patchlogs for a specific item. This package has primarily been built for
-[warframe-items](https://github.com/nexus-devs/warframe-items), so opinionated
+[warframe-items](https://github.com/WFCD/warframe-items), so opinionated
 decisions are based on the needs of that repository. If you're looking for
 patchlogs on *all* items, you can find pre-compiled files there too.
 
