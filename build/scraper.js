@@ -1,7 +1,7 @@
 const request = require('cloudscraper-promise')
 const cheerio = require('cheerio')
 const cache = require('../data/patchlogs.json')
-const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/'
+const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/'
 const sleep = (s) => new Promise(resolve => setTimeout(resolve, s))
 const title = (str) => str.toLowerCase().replace(/\b\w/g, l => l.toUpperCase())
 

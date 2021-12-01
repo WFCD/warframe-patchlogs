@@ -1,3 +1,9 @@
+const keys = ['changes', 'fixes', 'additions']
+
+/**
+ * @typedef {Object} RawPatchData
+ */
+
 class Patchlogs {
   constructor () {
     this.posts = require('./data/patchlogs.json')
@@ -6,6 +12,7 @@ class Patchlogs {
   /**
    * Retrieve patch logs specific to a certain item. Still very much Beta,
    * probably always will be, but I'm trying \o/
+   * @param {RawPatchData} item item to pull changes from
    */
   getItemChanges (item) {
     const logs = []
@@ -17,7 +24,7 @@ class Patchlogs {
       target.name = target.name.replace(' Prime', '')
     }
 
-    for (const post of this.posts) {
+    this.posts.forEach(post => {
       const log = {
         name: post.name,
         date: post.date,
@@ -29,11 +36,9 @@ class Patchlogs {
       }
 
       // Parse changes, fixes, additions
-      for (const key of ['changes', 'fixes', 'additions']) {
+      keys.forEach(key => {
         const lines = post[key].split('\n')
-
-        for (let i = 0; i < lines.length; i++) {
-          const line = lines[i]
+        lines.forEach((line, i) => {
           let includesAbility = false
 
           // Loop through abilities to see if line contains that name. Could be
@@ -61,21 +66,19 @@ class Patchlogs {
                   changes.push(subline)
                 }
               }
-            }
-
-            // Changes are in one line
-            else {
+            } else { // Changes are in one line
               changes.push(line)
             }
             log[key] += log[key] ? '\n' + changes.join('\n') : changes.join('\n')
           }
-        }
-      }
+        })
+      })
 
       if (log.changes || log.fixes || log.additions) {
         logs.push(log)
       }
-    }
+    })
+
     return logs.sort((a, b) => {
       const d1 = new Date(a.date)
       const d2 = new Date(b.date)
