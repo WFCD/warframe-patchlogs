@@ -36,7 +36,9 @@
     "mocha": "^9.1.3"
   },
   "eslintConfig": {
-    "extends": ["standard"],
+    "extends": [
+      "standard"
+    ],
     "globals": {
       "describe": "readonly",
       "it": "readonly"
@@ -45,5 +47,7 @@
       "brace-style": 0
     }
   },
-  "eslintIgnore": ["node_modules"]
+  "eslintIgnore": [
+    "node_modules"
+  ]
 }
