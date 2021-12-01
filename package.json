@@ -17,11 +17,9 @@
   },
   "scripts": {
     "build": "node ./build/update.js",
-    "lint": "eslint --ignore-path .gitignore .",
+    "lint": "eslint .",
     "test": "mocha",
-    "lint:fix": "eslint --ignore-path .gitignore . --fix",
-    "snyk-protect": "npx snyk protect",
-    "prepare": "npm run snyk-protect"
+    "lint:fix": "eslint . --fix"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "dependencies": {
@@ -37,5 +35,15 @@
     "eslint-plugin-standard": "^4.0.1",
     "mocha": "^7.0.1"
   },
-  "snyk": true
+  "eslintConfig": {
+    "extends": ["standard"],
+    "globals": {
+      "describe": "readonly",
+      "it": "readonly"
+    },
+    "rules": {
+      "brace-style": 0
+    }
+  },
+  "eslintIgnore": ["node_modules"]
 }
