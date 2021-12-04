@@ -23,7 +23,6 @@
     "prepublishOnly": "npm_config_yes=true npx clean-package"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.3",
