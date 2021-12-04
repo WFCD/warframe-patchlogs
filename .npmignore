@@ -1,0 +1,11 @@
+node_modules/
+build/
+test/
+.gitignore
+.github
+.nvmrc
+package.json.backup
+.install/
+.lua/
+.nyc_output/
+coverage/

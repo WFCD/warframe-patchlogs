@@ -2,3 +2,6 @@ node_modules
 .idea/
 coverage/
 .nyc_output
+package.json.backup
+.install/
+.lua/

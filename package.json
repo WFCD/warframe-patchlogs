@@ -19,7 +19,8 @@
     "build": "node build/update.js",
     "lint": "eslint .",
     "test": "nyc mocha",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepublishOnly": "npm_config_yes=true npx clean-package"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "dependencies": {},
@@ -134,5 +135,18 @@
   "engines": {
     "node": ">=14.18.2"
   },
-  "engineStrict": true
+  "engineStrict": true,
+  "cleanPackage": {
+    "remove": [
+      "mocha",
+      "devDependencies",
+      "eslintIgnore",
+      "eslintConfig",
+      "scripts",
+      "clean-package",
+      "nyc",
+      "babel",
+      "prettier"
+    ]
+  }
 }
