@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GH_TOKEN }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
@@ -22,8 +24,6 @@ jobs:
     - run: npm run build
     - run: git checkout -- package-lock.json #prevent package-lock.json-only feat changes
     - uses: stefanzweifel/git-auto-commit-action@v4
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
         skip_dirty_check: false
         commit_message: 'feat(patchlogs): new patchlogs'
