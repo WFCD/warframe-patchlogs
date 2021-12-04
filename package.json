@@ -128,9 +128,6 @@
     ],
     "skip-full": true
   },
-  "files": [
-    "index.js"
-  ],
   "engines": {
     "node": ">=14.18.2"
   },
