@@ -1,4 +1,5 @@
 const fs = require('fs')
+const path = require('path')
 const scraper = require('./scraper.js')
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/'
 const sleep = (s) => new Promise(resolve => setTimeout(resolve, s))
@@ -21,6 +22,6 @@ async function update () {
   })
 
   // Store logs so we can re-use them later without additional scraping
-  fs.writeFileSync(`${__dirname}/../data/patchlogs.json`, JSON.stringify(scraper.posts, null, 1))
+  fs.writeFileSync(path.resolve(__dirname, '../data/patchlogs.json'), JSON.stringify(scraper.posts, null, 1))
 }
 update()
