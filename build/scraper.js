@@ -31,7 +31,7 @@ class Scraper {
     if (text.length < 2) {
       throw new Error('Connection blocked by Cloudflare.');
     }
-    return parseInt(text[text.length - 1]);
+    return parseInt(text[text.length - 1], 10);
   }
 
   /**
