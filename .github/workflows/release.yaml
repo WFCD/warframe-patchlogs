@@ -6,6 +6,7 @@ on:
     paths:
       - build/*
       - data/*
+      - package.json
 jobs:
   release:
     name: Release
