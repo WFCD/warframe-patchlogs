@@ -73,7 +73,7 @@ class Patchlogs {
           // Loop through abilities to see if line contains that name. Could be
           // solved easier with some regex, but that causes some memory leak
           // that I'm unable to understand.
-          target?.abilities?.forEach((ability) => {
+          target && target.abilities && target.abilities.forEach((ability) => {
             includesAbility = line.includes(ability.name) ? true : includesAbility;
           });
 
