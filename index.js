@@ -73,9 +73,11 @@ class Patchlogs {
           // Loop through abilities to see if line contains that name. Could be
           // solved easier with some regex, but that causes some memory leak
           // that I'm unable to understand.
-          target && target.abilities && target.abilities.forEach((ability) => {
-            includesAbility = line.includes(ability.name) ? true : includesAbility;
-          });
+          if (target && target.abilities) {
+            target.abilities.forEach((ability) => {
+              includesAbility = line.includes(ability.name) ? true : includesAbility;
+            });
+          }
 
           if (line.includes(target.name) || includesAbility) {
             const changes = [];
