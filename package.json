@@ -33,7 +33,7 @@
     "@types/progress": "^2.0.5",
     "cheerio": "^1.0.0-rc.10",
     "cloudscraper-promise": "^1.0.0",
-    "colors": "^1.4.0",
+    "colors": "1.4.0",
     "eslint": "^8.3.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
