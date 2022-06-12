@@ -20,14 +20,14 @@
     "lint": "eslint .",
     "test": "nyc mocha",
     "lint:fix": "eslint . --fix",
-    "postinstall": "install-peerdeps @wfcd/eslint-config@^1.1.5 -S",
+    "postinstall": "install-peerdeps @wfcd/eslint-config@^1.1.6 -S",
     "prepublishOnly": "npm_config_yes=true npx clean-package"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "devDependencies": {
     "@types/cheerio": "^0.22.30",
     "@types/progress": "^2.0.5",
-    "@wfcd/eslint-config": "^1.1.5",
+    "@wfcd/eslint-config": "^1.1.6",
     "cheerio": "^1.0.0-rc.10",
     "cloudscraper-promise": "^1.0.0",
     "colors": "1.4.0",
@@ -45,27 +45,6 @@
     "parser": "@babel/eslint-parser",
     "parserOptions": {
       "sourceType": "script"
-    },
-    "rules": {
-      "global-require": "off",
-      "no-console": "off",
-      "class-methods-use-this": "off",
-      "no-param-reassign": [
-        "error",
-        {
-          "props": false
-        }
-      ],
-      "import/no-extraneous-dependencies": [
-        "error",
-        {
-          "devDependencies": [
-            "test/**",
-            "build/**"
-          ]
-        }
-      ],
-      "max-classes-per-file": ["error", 2]
     }
   },
   "babel": {
