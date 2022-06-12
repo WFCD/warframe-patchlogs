@@ -1,3 +1,5 @@
+'use strict';
+
 const prod = process.env.NODE_ENV === 'production';
 
 const ProgressBar = require('progress');

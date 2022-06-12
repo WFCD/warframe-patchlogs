@@ -1,3 +1,5 @@
+'use strict';
+
 const keys = ['changes', 'fixes', 'additions'];
 
 /**
@@ -40,7 +42,7 @@ class Patchlogs {
    * Retrieve patch logs specific to a certain item. Still very much Beta,
    * probably always will be, but I'm trying \o/
    * @param {PatchOptions} item item to pull changes from
-   * @return {Array<PatchData>}
+   * @returns {Array<PatchData>}
    */
   getItemChanges(item) {
     const logs = [];

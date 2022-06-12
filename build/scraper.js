@@ -1,3 +1,5 @@
+'use strict';
+
 const request = require('cloudscraper-promise');
 const cheerio = require('cheerio');
 const cache = require('../data/patchlogs.json');
@@ -37,8 +39,8 @@ class Scraper {
   /**
    * Scrape single page of posts
    * @param {string} url to fetch content from
-   * @param {ProgressBar} bar
-   * @return {void}
+   * @param {ProgressBar} bar progress bar to visually track progress
+   * @returns {void}
    */
   async scrape(url, bar) {
     const html = (await request.get(url)).body.toString('utf-8');
@@ -86,8 +88,8 @@ class Scraper {
   /**
    * Retrieve logs from a single post.
    * @param {string} url url to fetch
-   * @param {object} data post data
-   * @return {void}
+   * @param {Object} data post data
+   * @returns {void}
    */
   async scrapePost(url, data) {
     const html = (await request.get(url)).body.toString('utf-8');
