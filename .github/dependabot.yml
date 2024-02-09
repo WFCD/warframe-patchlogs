@@ -23,7 +23,7 @@ updates:
       day: "friday"
       time: "00:00"
     commit-message:
-      prefix: ""
+      prefix: "ci"
       prefix-development: "dev"
       include: "scope"
     labels:
