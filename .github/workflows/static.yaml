@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
@@ -28,7 +28,7 @@ jobs:
       with:
         path: data/json
         key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
@@ -46,7 +46,7 @@ jobs:
       with:
         path: data/json
         key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
-    - uses: actions/setup-node@v1
+    - uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
