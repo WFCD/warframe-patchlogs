@@ -24,7 +24,7 @@ jobs:
         node-version: [15.x]
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/cache@v2
+    - uses: actions/cache@v4
       with:
         path: data/json
         key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
@@ -42,7 +42,7 @@ jobs:
         node-version: [11.x,12.x,13.x,14.x,15.x,16.x,17.x]
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/cache@v2
+    - uses: actions/cache@v4
       with:
         path: data/json
         key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
