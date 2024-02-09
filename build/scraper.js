@@ -2,7 +2,9 @@
 
 const request = require('cloudscraper-promise');
 const cheerio = require('cheerio');
+
 const cache = require('../data/patchlogs.json');
+
 const sleep = require('./sleep');
 const title = require('./title');
 

@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('assert');
+
 const patchlogs = require('../index');
 
 describe('index.js', () => {

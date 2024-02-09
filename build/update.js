@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+
 const scraper = require('./scraper');
 const sleep = require('./sleep');
 const ProgressBar = require('./progress');
