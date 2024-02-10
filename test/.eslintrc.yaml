@@ -1,0 +1,3 @@
+globals:
+  describe: readonly
+  it: readonly

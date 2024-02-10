@@ -1,9 +1,7 @@
-'use strict';
+import ProgressBar from 'progress';
+import chalk from 'chalk';
 
 const prod = process.env.NODE_ENV === 'production';
-
-const ProgressBar = require('progress');
-const colors = require('colors/safe');
 
 /**
  * Simple progress bar
@@ -11,11 +9,11 @@ const colors = require('colors/safe');
 class Progress extends ProgressBar {
   constructor(string, total) {
     super(
-      `${string.padEnd(24, ' ')}: ${colors.green('[')}:bar${colors.green(
+      `${string.padEnd(24, ' ')}: ${chalk.green('[')}:bar${chalk.green(
         ']'
       )} :current/:total (:elapseds) :etas remaining`,
       {
-        incomplete: colors.red('-'),
+        incomplete: chalk.red('-'),
         width: 20,
         total,
       }
@@ -27,7 +25,7 @@ class Progress extends ProgressBar {
  * Use dummy object in prod because pm2 won't render
  * the progress bar properly.
  */
-module.exports = prod
+export default prod
   ? /** @type ProgressBar */ class {
       interrupt() {}
 
