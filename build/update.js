@@ -1,4 +1,4 @@
-import fs from 'fs';
+import { writeFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -33,7 +33,7 @@ async function update() {
   });
 
   // Store logs so we can re-use them later without additional scraping
-  fs.writeFileSync(resolve(dirName, '../data/patchlogs.json'), JSON.stringify(scraper.posts, undefined, 1));
+  writeFileSync(resolve(dirName, '../data/patchlogs.json'), JSON.stringify(scraper.posts, undefined, 1));
 }
 
 update();
