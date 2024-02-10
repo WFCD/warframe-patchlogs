@@ -1,3 +1,2 @@
-globals:
-  describe: readonly
-  it: readonly
+env:
+  mocha: true
