@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = (str) => str.toLowerCase().replace(/\b\w/g, (l) => l.toUpperCase());
+export default (str) => str.toLowerCase().replace(/\b\w/g, (l) => l.toUpperCase());

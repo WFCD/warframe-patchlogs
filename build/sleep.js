@@ -1,6 +1,4 @@
-'use strict';
-
-module.exports = (s) =>
+export default (s) =>
   new Promise((resolve) => {
     setTimeout(resolve, s);
   });

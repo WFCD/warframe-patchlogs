@@ -1,4 +1,4 @@
-'use strict';
+import patchlogs from './data/patchlogs.json' assert { type: 'json' };
 
 const keys = ['changes', 'fixes', 'additions'];
 
@@ -25,7 +25,7 @@ const keys = ['changes', 'fixes', 'additions'];
  * @typedef {Object} PatchOptions
  * @property {string} name item name to search for
  * @property {string} type item type to match
- * @property {Array<Ability>} abilities item abilities
+ * @property {Array<Ability>?} abilities item abilities
  */
 
 /**
@@ -34,9 +34,7 @@ const keys = ['changes', 'fixes', 'additions'];
  */
 
 class Patchlogs {
-  constructor() {
-    this.posts = require('./data/patchlogs.json');
-  }
+  #posts /** @type {Array<PatchData>} */ = patchlogs;
 
   /**
    * Retrieve patch logs specific to a certain item. Still very much Beta,
@@ -54,7 +52,7 @@ class Patchlogs {
       target.name = target.name.replace(' Prime', '');
     }
 
-    this.posts.forEach((post) => {
+    this.#posts.forEach((post) => {
       /** @type {PatchData} */
       const log = {
         name: post.name,
@@ -116,4 +114,4 @@ class Patchlogs {
   }
 }
 
-module.exports = new Patchlogs();
+export default new Patchlogs();

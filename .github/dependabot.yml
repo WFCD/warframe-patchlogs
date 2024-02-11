@@ -7,11 +7,10 @@ updates:
       day: "friday"
       time: "00:00"
     commit-message:
-      prefix: ""
-      prefix-development: "dev"
-      include: "scope"
+      prefix: "chore(deps)"
     labels:
-      - "dependencies"
+      - "Scope: Dependencies"
+      - "Type: Maintenance"
     open-pull-requests-limit: 10
     pull-request-branch-name:
       separator: "-"
@@ -27,7 +26,8 @@ updates:
       prefix-development: "dev"
       include: "scope"
     labels:
-      - "dependencies"
+      - "Scope: Dependencies"
+      - "Type: Maintenance"
     open-pull-requests-limit: 10
     pull-request-branch-name:
       separator: "-"

@@ -1,13 +1,14 @@
-'use strict';
+import { writeFileSync } from 'node:fs';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const fs = require('fs');
-const path = require('path');
-
-const scraper = require('./scraper');
-const sleep = require('./sleep');
-const ProgressBar = require('./progress');
+import scraper from './scraper.js';
+import sleep from './sleep.js';
+import ProgressBar from './progress.js';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/';
+
+const dirName = dirname(fileURLToPath(import.meta.url));
 
 /**
  * Run the update script
@@ -32,6 +33,7 @@ async function update() {
   });
 
   // Store logs so we can re-use them later without additional scraping
-  fs.writeFileSync(path.resolve(__dirname, '../data/patchlogs.json'), JSON.stringify(scraper.posts, undefined, 1));
+  writeFileSync(resolve(dirName, '../data/patchlogs.json'), JSON.stringify(scraper.posts, undefined, 1));
 }
+
 update();

@@ -1,12 +1,9 @@
-'use strict';
+import cheerio from 'cheerio';
 
-const request = require('cloudscraper-promise');
-const cheerio = require('cheerio');
+import cache from '../data/patchlogs.json' assert { type: 'json' };
 
-const cache = require('../data/patchlogs.json');
-
-const sleep = require('./sleep');
-const title = require('./title');
+import sleep from './sleep.js';
+import title from './title.js';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
 
@@ -28,7 +25,7 @@ class Scraper {
    * @returns {Promise<number>} total number of pages
    */
   async getPageNumbers() {
-    const html = (await request.get(baseUrl)).body.toString('utf-8');
+    const html = await (await fetch(baseUrl)).text();
     const $ = cheerio.load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
@@ -45,7 +42,7 @@ class Scraper {
    * @returns {void}
    */
   async scrape(url, bar) {
-    const html = (await request.get(url)).body.toString('utf-8');
+    const html = await (await fetch(baseUrl)).text();
     const $ = cheerio.load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
 
@@ -94,7 +91,7 @@ class Scraper {
    * @returns {void}
    */
   async scrapePost(url, data) {
-    const html = (await request.get(url)).body.toString('utf-8');
+    const html = await (await fetch(baseUrl)).text();
     const $ = cheerio.load(html);
     const article = $('article').first();
     const post = article.find('div[data-role="commentContent"]');
@@ -144,4 +141,4 @@ class Scraper {
   }
 }
 
-module.exports = new Scraper();
+export default new Scraper();

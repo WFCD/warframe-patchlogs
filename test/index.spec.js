@@ -1,8 +1,6 @@
-'use strict';
+import assert from 'assert';
 
-const assert = require('assert');
-
-const patchlogs = require('../index');
+import patchlogs from '../index.js';
 
 describe('index.js', () => {
   describe('#getItemChanges', () => {

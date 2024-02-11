@@ -2,23 +2,21 @@ name: Build
 on:
   schedule:
     - cron: "55 */4 * * *"
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   lint:
     name: Build
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: ['lts/*']
-
     steps:
     - uses: actions/checkout@v4
       with:
         token: ${{ secrets.GH_TOKEN }}
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version-file: '.nvmrc'
     - run: npm install
     - run: npm run build
     - run: git checkout -- package-lock.json #prevent package-lock.json-only feat changes

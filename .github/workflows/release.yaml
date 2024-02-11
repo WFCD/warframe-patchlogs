@@ -7,21 +7,20 @@ on:
       - build/*
       - data/*
       - package.json
+concurrency:
+  group: ${{ github.workflow }}-${{ github.branch }}
+  cancel-in-progress: true
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version-file: '.nvmrc'
       - run: npm ci
       - run: npm run lint
       - run: npm test
@@ -31,6 +30,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         with:
-          semantic_version: 17
           branches: |
             ['master']
