@@ -47,8 +47,10 @@ jobs:
     - run: npm run build
     - uses: actions/cache/save@v4
       with:
-       path: data/patchlogs.json
-       key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+        path: |
+          data/patchlogs.json
+          node_modules/
+        key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -59,7 +61,7 @@ jobs:
       with:
         path: |
           data/patchlogs.json
-          node_modules
+          node_modules/
         key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
     - uses: actions/setup-node@v4
       with:
