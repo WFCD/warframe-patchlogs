@@ -21,7 +21,7 @@
     "lint": "eslint .",
     "test": "c8 mocha",
     "lint:fix": "eslint . --fix",
-    "postinstall": "install-peerdeps @wfcd/eslint-config@latest -S",
+    "postinstall": "install-peerdeps @wfcd/eslint-config@1 -S",
     "prepublishOnly": "npm_config_yes=true npx clean-package"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
