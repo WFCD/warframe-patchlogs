@@ -19,13 +19,17 @@ class Scraper {
     this.posts = [];
   }
 
+  async #fetch() {
+    return (await fetch(baseUrl)).text();
+  }
+
   /**
    * Retrieve number of post pages to look through. This value should be set to
    * 1 through the constructor if we only need the most recent changes.
    * @returns {Promise<number>} total number of pages
    */
   async getPageNumbers() {
-    const html = await (await fetch(baseUrl)).text();
+    const html = await this.#fetch();
     const $ = cheerio.load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
@@ -42,7 +46,7 @@ class Scraper {
    * @returns {void}
    */
   async scrape(url, bar) {
-    const html = await (await fetch(baseUrl)).text();
+    const html = await this.#fetch();
     const $ = cheerio.load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
 
@@ -91,7 +95,7 @@ class Scraper {
    * @returns {void}
    */
   async scrapePost(url, data) {
-    const html = await (await fetch(baseUrl)).text();
+    const html = await this.#fetch();
     const $ = cheerio.load(html);
     const article = $('article').first();
     const post = article.find('div[data-role="commentContent"]');
