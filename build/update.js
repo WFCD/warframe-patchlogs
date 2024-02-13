@@ -17,6 +17,10 @@ const dirName = dirname(fileURLToPath(import.meta.url));
 async function update() {
   const pages = await scraper.getPageNumbers();
   const bar = new ProgressBar('Scraping Page', pages);
+  if (pages === 0) {
+    bar.interrupt('No pages to scrape');
+    process.exit(1);
+  }
   for (let i = 1; i <= pages; i += 1) {
     // console.log(`:: Scraping page ${i}/${pages}`);
     await scraper.scrape(`${baseUrl}?page=${i}`, bar);
