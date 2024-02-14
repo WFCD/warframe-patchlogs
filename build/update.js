@@ -37,7 +37,10 @@ async function update() {
   });
 
   // Store logs so we can re-use them later without additional scraping
-  writeFileSync(resolve(dirName, '../data/patchlogs.json'), JSON.stringify(scraper.posts, undefined, 1));
+  writeFileSync(
+    resolve(dirName, '../data/patchlogs.json'),
+    JSON.stringify(Array.from(new Set(scraper.posts)), undefined, 1)
+  );
 }
 
 update();
