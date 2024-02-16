@@ -19,7 +19,7 @@ class Scraper {
     this.posts = [];
   }
 
-  async #fetch(url) {
+  async #fetch(url = baseUrl) {
     return (await fetch(url)).text();
   }
 
@@ -29,7 +29,7 @@ class Scraper {
    * @returns {Promise<number>} total number of pages
    */
   async getPageNumbers() {
-    const html = await this.#fetch(baseUrl);
+    const html = await this.#fetch();
     const $ = cheerio.load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
