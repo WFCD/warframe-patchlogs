@@ -3,21 +3,23 @@ import chalk from 'chalk';
 
 const prod = process.env.NODE_ENV === 'production';
 
+const plain = (string) =>
+  `${string.padEnd(24, ' ')}: ${chalk.green('[')}:bar${chalk.green(']')} :current/:total (:elapseds) :etas remaining `;
+const caching = (string) =>
+  `${string.padEnd(24, ' ')}: ${chalk.yellow('[')}:bar${chalk.yellow(
+    ']'
+  )} :current/:total (:elapseds) :etas remaining / :cachedc | :uncachedu`;
+
 /**
  * Simple progress bar
  */
 class Progress extends ProgressBar {
-  constructor(string, total) {
-    super(
-      `${string.padEnd(24, ' ')}: ${chalk.green('[')}:bar${chalk.green(
-        ']'
-      )} :current/:total (:elapseds) :etas remaining`,
-      {
-        incomplete: chalk.red('-'),
-        width: 20,
-        total,
-      }
-    );
+  constructor(string, total, bigparse) {
+    super(bigparse ? caching(string) : plain(string), {
+      incomplete: chalk.red('-'),
+      width: 20,
+      total,
+    });
   }
 }
 
