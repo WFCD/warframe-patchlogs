@@ -3,6 +3,7 @@ import request from 'cloudscraper-promise';
 
 import cache from '../data/patchlogs.json' assert { type: 'json' };
 
+import ProgressBar from './progress.js';
 import sleep from './sleep.js';
 import title from './title.js';
 
@@ -13,11 +14,29 @@ const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
  * @property {Array<{PatchData}>} posts
  */
 class Scraper {
+  #pagesBar;
+  #numPages;
+  #postsBar;
+  #numPosts = 0;
+  #numCached = 0;
+  #numUncached = 0;
+
+  /**
+   * Array of fetched pages' posts to parse
+   * @type {Array<Array<PatchData>>}
+   */
+  #fetchedPages = [];
+
   constructor() {
     this.setup = new Promise((resolve) => {
       this.resolve = resolve;
     });
     this.posts = [];
+  }
+
+  interrupt() {
+    this.#pagesBar.interrupt('No pages found');
+    process.exit(1);
   }
 
   async #fetch(url = baseUrl) {
@@ -27,7 +46,7 @@ class Scraper {
   /**
    * Retrieve number of post pages to look through. This value should be set to
    * 1 through the constructor if we only need the most recent changes.
-   * @returns {Promise<number>} total number of pages
+   * @returns {Promise<number>} set the total number of pages
    */
   async getPageNumbers() {
     const html = await this.#fetch();
@@ -37,22 +56,23 @@ class Scraper {
     if (text.length < 2) {
       throw new Error('Connection blocked by Cloudflare.');
     }
-    return parseInt(text[text.length - 1], 10);
+    this.#numPages = parseInt(text[text.length - 1], 10);
+    this.#pagesBar = new ProgressBar('Scraping Page', this.#numPages);
+    return this.#numPages;
   }
 
   /**
    * Scrape single page of posts
    * @param {string} url to fetch content from
-   * @param {ProgressBar} bar progress bar to visually track progress
    * @returns {void}
    */
-  async scrape(url, bar) {
+  async scrape(url) {
     const html = await this.#fetch(url);
     const $ = cheerio.load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
+    const page /** @type {PatchData[]} */ = [];
 
-    // Loop through found elements. Stupid jquery doesn't support async inside
-    // each loop.
+    // Loop through found elements.
     // eslint-disable-next-line no-restricted-syntax
     for (const key in selector) {
       if (key.match(/^\d+$/)) {
@@ -72,19 +92,39 @@ class Scraper {
           changes: '',
           fixes: '',
         };
+        page.push(post);
+        this.#numPosts += 1;
+      }
+    }
+    this.#fetchedPages.push(page);
+    this.#pagesBar.tick();
+    if (this.#fetchedPages.length === this.#numPages) {
+      this.#postsBar = new ProgressBar('Parsing Posts', this.#numPosts, true);
+      // eslint-disable-next-line no-restricted-syntax
+      for await (const posts of this.#fetchedPages) {
+        const index = this.#fetchedPages.indexOf(posts);
+        await this.#parsePage(posts);
+        if (index !== this.#fetchedPages.length - 1) await sleep(1000);
+      }
+    }
+  }
 
-        if (post.url) {
-          const cached = cache.find((p) => p.name === post.name);
+  async #parsePage(posts /** @type {Array<PatchData>} */) {
+    // eslint-disable-next-line no-restricted-syntax
+    for await (const post of posts) {
+      if (post.url) {
+        const cached = cache.find((p) => p.name === post.name);
 
-          if (cached) {
-            this.posts.push(cached);
-          } else {
-            await sleep(1000);
-            await this.scrapePost(post.url, post);
-            bar.tick({ status: 'Scraped', post: undefined });
-            this.posts.push(post);
-          }
+        if (cached) {
+          this.posts.push(cached);
+          this.#numCached += 1;
+        } else {
+          await sleep(100);
+          await this.#scrapePost(post.url, post);
+          this.posts.push(post);
+          this.#numUncached += 1;
         }
+        this.#postsBar.tick({ cached: this.#numCached, uncached: this.#numUncached });
       }
     }
   }
@@ -95,7 +135,7 @@ class Scraper {
    * @param {Object} data post data
    * @returns {void}
    */
-  async scrapePost(url, data) {
+  async #scrapePost(url, data) {
     const html = await this.#fetch(url);
     const $ = cheerio.load(html);
     const article = $('article').first();
@@ -143,6 +183,7 @@ class Scraper {
         }
       });
     data.type = data.name.includes('Hotfix') ? 'Hotfix' : 'Update';
+    return data;
   }
 }
 
