@@ -19,8 +19,8 @@ class Scraper {
     this.posts = [];
   }
 
-  async #fetch() {
-    return (await fetch(baseUrl)).text();
+  async #fetch(url = baseUrl) {
+    return (await fetch(url)).text();
   }
 
   /**
@@ -46,7 +46,7 @@ class Scraper {
    * @returns {void}
    */
   async scrape(url, bar) {
-    const html = await this.#fetch();
+    const html = await this.#fetch(url);
     const $ = cheerio.load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
 
@@ -95,7 +95,7 @@ class Scraper {
    * @returns {void}
    */
   async scrapePost(url, data) {
-    const html = await this.#fetch();
+    const html = await this.#fetch(url);
     const $ = cheerio.load(html);
     const article = $('article').first();
     const post = article.find('div[data-role="commentContent"]');
