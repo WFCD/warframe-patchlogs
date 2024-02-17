@@ -36,6 +36,10 @@ const keys = ['changes', 'fixes', 'additions'];
 class Patchlogs {
   #posts /** @type {Array<PatchData>} */ = patchlogs;
 
+  get posts() {
+    return Object.freeze(this.#posts);
+  }
+
   /**
    * Retrieve patch logs specific to a certain item. Still very much Beta,
    * probably always will be, but I'm trying \o/
