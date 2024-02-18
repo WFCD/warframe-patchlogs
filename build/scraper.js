@@ -1,5 +1,4 @@
 import cheerio from 'cheerio';
-import request from 'cloudscraper-promise';
 
 import cache from '../data/patchlogs.json' assert { type: 'json' };
 
@@ -40,7 +39,7 @@ class Scraper {
   }
 
   async #fetch(url = baseUrl) {
-    return (await request.get(url)).body.toString('utf-8');
+    return (await fetch(url)).text();
   }
 
   /**

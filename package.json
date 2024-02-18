@@ -49,8 +49,8 @@
       "@babel/preset-env"
     ],
     "plugins": [
-      "@babel/plugin-proposal-class-properties",
-      "@babel/plugin-proposal-private-methods"
+      "@babel/plugin-transform-class-properties",
+      "@babel/plugin-transform-private-methods"
     ]
   },
   "prettier": "@wfcd/eslint-config/prettier",
@@ -86,8 +86,5 @@
       "babel",
       "prettier"
     ]
-  },
-  "dependencies": {
-    "cloudscraper-promise": "^1.0.0"
   }
 }
