@@ -34,7 +34,7 @@ class Scraper {
   }
 
   interrupt() {
-    this.#pagesBar.interrupt('No pages found');
+    console.error('No pages found');
     process.exit(1);
   }
 
