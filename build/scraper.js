@@ -1,4 +1,4 @@
-import cheerio from 'cheerio';
+import { load } from 'cheerio';
 
 import cache from '../data/patchlogs.json' assert { type: 'json' };
 
@@ -49,7 +49,7 @@ class Scraper {
    */
   async getPageNumbers() {
     const html = await this.#fetch();
-    const $ = cheerio.load(html);
+    const $ = load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
     if (text.length < 2) {
@@ -67,7 +67,7 @@ class Scraper {
    */
   async scrape(url) {
     const html = await this.#fetch(url);
-    const $ = cheerio.load(html);
+    const $ = load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
     const page /** @type {PatchData[]} */ = [];
 
@@ -136,7 +136,7 @@ class Scraper {
    */
   async #scrapePost(url, data) {
     const html = await this.#fetch(url);
-    const $ = cheerio.load(html);
+    const $ = load(html);
     const article = $('article').first();
     const post = article.find('div[data-role="commentContent"]');
     data.imgUrl = article.first().find('img.ipsImage').first().attr('data-imageproxy-source');
