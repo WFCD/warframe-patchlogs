@@ -33,7 +33,7 @@
     "chalk": "^5.3.0",
     "cheerio": "^1.0.0-rc.12",
     "install-peerdeps": "^3.0.3",
-    "mocha": "^10.3.0",
+    "mocha": "^11.0.1",
     "progress": "^2.0.3"
   },
   "eslintIgnore": [
