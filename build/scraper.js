@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 
 import cache from '../data/patchlogs.json' with { type: 'json' };
 
@@ -41,19 +41,24 @@ class Scraper {
   }
 
   async #fetch(url = baseUrl) {
-    const browser = await puppeteer.use(StealthPlugin()).launch({ headless: true });
-    const page = await browser.newPage();
+    let browser;
 
-    await page.goto(url, {
-      waitUntil: ['networkidle0', 'domcontentloaded'],
-      timeout: 30000, // 30 second timeout
-    });
+    try {
+      const browser = await puppeteer.use(StealthPlugin()).launch({ headless: true });
+      const page = await browser.newPage();
 
-    const html = await page.content();
+      await page.goto(url, {
+        waitUntil: ['networkidle0', 'domcontentloaded'],
+        timeout: 30000, // 30 second timeout
+      });
 
-    browser.close();
-
-    return html;
+      return await page.content();
+    } catch (err) {
+      console.error('Failed to fetch page:', err);
+      throw err;
+    } finally {
+      await browser.close();
+    }
   }
 
   /**
