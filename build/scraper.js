@@ -44,7 +44,7 @@ class Scraper {
     let browser;
 
     try {
-      const browser = await puppeteer.use(StealthPlugin()).launch({ headless: true });
+      browser = await puppeteer.use(StealthPlugin()).launch({ headless: true });
       const page = await browser.newPage();
 
       await page.goto(url, {
