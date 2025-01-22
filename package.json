@@ -31,7 +31,7 @@
     "@wfcd/eslint-config": "^1.5.1",
     "c8": "^10.1.2",
     "chalk": "^5.3.0",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.0.0",
     "install-peerdeps": "^3.0.3",
     "mocha": "^11.0.1",
     "progress": "^2.0.3"
@@ -86,5 +86,10 @@
       "babel",
       "prettier"
     ]
+  },
+  "dependencies": {
+    "puppeteer": "^24.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }

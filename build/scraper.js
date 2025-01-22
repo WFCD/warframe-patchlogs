@@ -1,10 +1,12 @@
 import { load } from 'cheerio';
 
-import cache from '../data/patchlogs.json' assert { type: 'json' };
+import cache from '../data/patchlogs.json' with { type: 'json' };
 
 import ProgressBar from './progress.js';
 import sleep from './sleep.js';
 import title from './title.js';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import puppeteer from 'puppeteer-extra';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
 
@@ -39,7 +41,19 @@ class Scraper {
   }
 
   async #fetch(url = baseUrl) {
-    return (await fetch(url)).text();
+    const browser = await puppeteer.use(StealthPlugin()).launch({ headless: true });
+    const page = await browser.newPage();
+
+    await page.goto(url, {
+      waitUntil: ['networkidle0', 'domcontentloaded'],
+      timeout: 30000, // 30 second timeout
+    });
+
+    const html = await page.content();
+
+    browser.close();
+
+    return html;
   }
 
   /**
