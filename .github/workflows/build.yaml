@@ -18,7 +18,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - run: npm ci
-      - uses: browser-actions/setup-chrome@v1
+      - run: npm i
       - run: npm run build
       - run: npm test
       - run: git checkout -- package-lock.json #prevent package-lock.json-only feat changes
