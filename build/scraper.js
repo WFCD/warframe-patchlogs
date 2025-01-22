@@ -1,12 +1,12 @@
 import { load } from 'cheerio';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import puppeteer from 'puppeteer-extra';
 
 import cache from '../data/patchlogs.json' with { type: 'json' };
 
 import ProgressBar from './progress.js';
 import sleep from './sleep.js';
 import title from './title.js';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
-import puppeteer from 'puppeteer-extra';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
 
