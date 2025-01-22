@@ -1,4 +1,4 @@
-import patchlogs from './data/patchlogs.json' assert { type: 'json' };
+import patchlogs from './data/patchlogs.json' with { type: 'json' };
 
 const keys = ['changes', 'fixes', 'additions'];
 
