@@ -40,7 +40,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
-      - run: npx puppeteer browsers install chrome
+      - uses: browser-actions/setup-chrome@v1
       - uses: actions/cache/restore@v4
         with:
           path: node_modules/
