@@ -22,48 +22,49 @@ jobs:
     needs: [install]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version-file: '.nvmrc'
-    - uses: actions/cache/restore@v4
-      with:
-       path: node_modules/
-       key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
-    - run: npm run lint
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+      - uses: actions/cache/restore@v4
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+      - run: npm run lint
   build:
     name: Build
     needs: [install]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version-file: '.nvmrc'
-    - uses: actions/cache/restore@v4
-      with:
-        path: node_modules/
-        key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
-    - run: npm run build
-    - uses: actions/cache/save@v4
-      with:
-        path: |
-          data/patchlogs.json
-          node_modules/
-        key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+      - run: npx puppeteer browsers install chrome
+      - uses: actions/cache/restore@v4
+        with:
+          path: node_modules/
+          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+      - run: npm run build
+      - uses: actions/cache/save@v4
+        with:
+          path: |
+            data/patchlogs.json
+            node_modules/
+          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
   test:
     name: Test
     runs-on: ubuntu-latest
     needs: [build, lint]
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/cache/restore@v4
-      with:
-        path: |
-          data/patchlogs.json
-          node_modules/
-        key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
-    - uses: actions/setup-node@v4
-      with:
-        node-version-file: '.nvmrc'
-    - run: npm test
+      - uses: actions/checkout@v4
+      - uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/patchlogs.json
+            node_modules/
+          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+      - run: npm test
