@@ -1,6 +1,8 @@
 import { load } from 'cheerio';
+import puppeteer from 'puppeteer-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 
-import cache from '../data/patchlogs.json' assert { type: 'json' };
+import cache from '../data/patchlogs.json' with { type: 'json' };
 
 import ProgressBar from './progress.js';
 import sleep from './sleep.js';
@@ -39,7 +41,27 @@ class Scraper {
   }
 
   async #fetch(url = baseUrl) {
-    return (await fetch(url)).text();
+    let browser;
+
+    try {
+      browser = await puppeteer
+        .use(StealthPlugin())
+        .launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+
+      const page = await browser.newPage();
+
+      await page.goto(url, {
+        waitUntil: ['networkidle0', 'domcontentloaded'],
+        timeout: 30000, // 30 second timeout
+      });
+
+      return await page.content();
+    } catch (err) {
+      console.error('Failed to fetch page:', err);
+      throw err;
+    } finally {
+      await browser.close();
+    }
   }
 
   /**
