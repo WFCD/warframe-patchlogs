@@ -34,7 +34,10 @@
     "cheerio": "^1.0.0",
     "install-peerdeps": "^3.0.3",
     "mocha": "^11.0.1",
-    "progress": "^2.0.3"
+    "progress": "^2.0.3",
+    "puppeteer": "^24.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   },
   "eslintIgnore": [
     "node_modules",
@@ -87,9 +90,5 @@
       "prettier"
     ]
   },
-  "dependencies": {
-    "puppeteer": "^24.1.0",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
-  }
+  "dependencies": {}
 }
