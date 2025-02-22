@@ -52,12 +52,12 @@ class Scraper {
 
       await page.goto(url, {
         waitUntil: ['networkidle0', 'domcontentloaded'],
-        timeout: 30000, // 30 second timeout
+        timeout: 60000, // 60 second timeout
       });
 
       return await page.content();
     } catch (err) {
-      console.error('Failed to fetch page:', err);
+      console.error(`Failed to fetch ${url}:`, err);
       throw err;
     } finally {
       await browser.close();
