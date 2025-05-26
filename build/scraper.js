@@ -62,6 +62,9 @@ class Scraper {
         }),
       });
       const { solution } = await res.json();
+      if (!solution?.response) {
+        throw solution;
+      }
       return solution.response;
     } catch (error) {
       console.error(`Failed to fetch from proxy ${url}:`, error);
