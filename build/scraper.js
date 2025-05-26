@@ -9,6 +9,8 @@ import title from './title.js';
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
 const proxyUrl = process.env.PROXY_URL;
 const isCI = process.env.CI === 'true';
+const ciTimeout = process.env.CI_TIMEOUT ? parseInt(process.env.CI_TIMEOUT, 10) : 60000;
+const localTimeout = process.env.LOCAL_TIMEOUT ? parseInt(process.env.LOCAL_TIMEOUT, 10) : 12000000;
 
 if (!proxyUrl) {
   console.error('PROXY_URL environment variable is not set.');
@@ -54,7 +56,7 @@ class Scraper {
           cmd: 'request.get',
           url,
           session,
-          maxTimeout: isCI ? 60000 : 12000000,
+          maxTimeout: isCI ? ciTimeout : localTimeout,
           returnOnlyCookies: false,
           returnPageContent: true,
         }),
