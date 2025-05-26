@@ -9,6 +9,7 @@ import sleep from './sleep.js';
 import title from './title.js';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
+const proxyUrl = process.env.PROXY_URL;
 
 /**
  * Scraper to get patch logs from forums.
@@ -40,13 +41,34 @@ class Scraper {
     process.exit(1);
   }
 
+  async #fetchFromProxy(url = baseUrl) {
+    try {
+      const res = await fetch(`${proxyUrl}/v1`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          cmd: 'request.get',
+          url,
+          session: 'fetch-warframe',
+          maxTimeout: 60000,
+          returnOnlyCookies: false,
+          returnPageContent: true,
+        }),
+      });
+      const { solution } = await res.json();
+      return solution.response;
+    } catch (error) {
+      console.error(`Failed to fetch from proxy ${url}:`, error);
+      throw error;
+    }
+  }
+
   async #fetch(url = baseUrl) {
+    const args = ['--no-sandbox', '--disable-setuid-sandbox', proxyUrl ? `--proxy-server=${proxyUrl}` : undefined];
     let browser;
 
     try {
-      browser = await puppeteer
-        .use(StealthPlugin())
-        .launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+      browser = await puppeteer.use(StealthPlugin()).launch({ headless: true, args: args.filter(Boolean) });
 
       const page = await browser.newPage();
 
@@ -60,7 +82,7 @@ class Scraper {
       console.error(`Failed to fetch ${url}:`, err);
       throw err;
     } finally {
-      await browser.close();
+      await browser?.close();
     }
   }
 
@@ -70,7 +92,7 @@ class Scraper {
    * @returns {Promise<number>} set the total number of pages
    */
   async getPageNumbers() {
-    const html = await this.#fetch();
+    const html = await this.#fetchFromProxy();
     const $ = load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
@@ -88,7 +110,7 @@ class Scraper {
    * @returns {void}
    */
   async scrape(url) {
-    const html = await this.#fetch(url);
+    const html = await this.#fetchFromProxy(url);
     const $ = load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
     const page /** @type {PatchData[]} */ = [];
