@@ -42,7 +42,10 @@
   ],
   "eslintConfig": {
     "extends": "@wfcd/eslint-config/esm",
-    "parser": "@babel/eslint-parser"
+    "parser": "@babel/eslint-parser",
+    "rules": {
+      "no-console": "off"
+    }
   },
   "babel": {
     "presets": [

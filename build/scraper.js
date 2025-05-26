@@ -1,4 +1,5 @@
 import { load } from 'cheerio';
+
 import cache from '../data/patchlogs.json' with { type: 'json' };
 
 import ProgressBar from './progress.js';
@@ -8,6 +9,11 @@ import title from './title.js';
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
 const proxyUrl = process.env.PROXY_URL;
 const isCI = process.env.CI === 'true';
+
+if (!proxyUrl) {
+  console.error('PROXY_URL environment variable is not set.');
+  process.exit(1);
+}
 
 /**
  * Scraper to get patch logs from forums.
@@ -47,7 +53,7 @@ class Scraper {
         body: JSON.stringify({
           cmd: 'request.get',
           url,
-          session: 'fetch-warframe',
+          session,
           maxTimeout: isCI ? 60000 : 12000000,
           returnOnlyCookies: false,
           returnPageContent: true,
@@ -121,12 +127,14 @@ class Scraper {
     this.#fetchedPages.push(page);
     this.#pagesBar.tick();
     if (isCached) {
-      await Promise.all(new Array(this.#numPages).fill(0).map(async (i, idx) => {
-        if (idx < this.#numPages - 1) {
-          this.#pagesBar.tick();
-          await sleep(10);
-        }
-      }));
+      await Promise.all(
+        new Array(this.#numPages).fill(0).map(async (i, idx) => {
+          if (idx < this.#numPages - 1) {
+            this.#pagesBar.tick();
+            await sleep(10);
+          }
+        })
+      );
     }
 
     return isCached;
@@ -134,7 +142,7 @@ class Scraper {
 
   // after scraping the last of the above pages, we can start parsing posts...
   // need to find a way to return above and not re-scrape old pages
-  async parsePosts(afterEachPage = async (posts) => {}) {
+  async parsePosts(afterEachPage) {
     this.#postsBar = new ProgressBar('Parsing Posts', this.#numPosts, true);
     // eslint-disable-next-line no-restricted-syntax
     for await (const posts of this.#fetchedPages) {

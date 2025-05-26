@@ -22,7 +22,6 @@ jobs:
         with:
           authkey: ${{ secrets.TS_AUTHKEY }}
       - run: npm ci
-      - run: npm i
       - run: npm run build
         env:
           PROXY_URL: ${{ secrets.SOLVERR_PROXY_URL }}

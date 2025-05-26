@@ -4,7 +4,6 @@ import { fileURLToPath } from 'node:url';
 
 import scraper from './scraper.js';
 import sleep from './sleep.js';
-import patchlogs from '../data/patchlogs.json' with { type: 'json' };
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/';
 
@@ -19,11 +18,8 @@ const write = (posts) => {
   });
 
   // Store logs so we can re-use them later without additional scraping
-  writeFileSync(
-    resolve(dirName, '../data/patchlogs.json'),
-    JSON.stringify(Array.from(new Set(toWrite)), undefined, 1)
-  );
-}
+  writeFileSync(resolve(dirName, '../data/patchlogs.json'), JSON.stringify(Array.from(new Set(toWrite)), undefined, 1));
+};
 
 /**
  * Run the update script
