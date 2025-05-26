@@ -34,10 +34,7 @@
     "cheerio": "^1.0.0",
     "install-peerdeps": "^3.0.3",
     "mocha": "^11.0.1",
-    "progress": "^2.0.3",
-    "puppeteer": "^24.2.1",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "progress": "^2.0.3"
   },
   "eslintIgnore": [
     "node_modules",
@@ -45,7 +42,10 @@
   ],
   "eslintConfig": {
     "extends": "@wfcd/eslint-config/esm",
-    "parser": "@babel/eslint-parser"
+    "parser": "@babel/eslint-parser",
+    "rules": {
+      "no-console": "off"
+    }
   },
   "babel": {
     "presets": [

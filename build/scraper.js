@@ -1,6 +1,4 @@
 import { load } from 'cheerio';
-import puppeteer from 'puppeteer-extra';
-import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 
 import cache from '../data/patchlogs.json' with { type: 'json' };
 
@@ -9,6 +7,13 @@ import sleep from './sleep.js';
 import title from './title.js';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
+const proxyUrl = process.env.PROXY_URL;
+const isCI = process.env.CI === 'true';
+
+if (!proxyUrl) {
+  console.error('PROXY_URL environment variable is not set.');
+  process.exit(1);
+}
 
 /**
  * Scraper to get patch logs from forums.
@@ -40,27 +45,25 @@ class Scraper {
     process.exit(1);
   }
 
-  async #fetch(url = baseUrl) {
-    let browser;
-
+  async #fetch(url = baseUrl, session = 'fetch-warframe') {
     try {
-      browser = await puppeteer
-        .use(StealthPlugin())
-        .launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
-
-      const page = await browser.newPage();
-
-      await page.goto(url, {
-        waitUntil: ['networkidle0', 'domcontentloaded'],
-        timeout: 60000, // 60 second timeout
+      const res = await fetch(`${proxyUrl}/v1`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          cmd: 'request.get',
+          url,
+          session,
+          maxTimeout: isCI ? 60000 : 12000000,
+          returnOnlyCookies: false,
+          returnPageContent: true,
+        }),
       });
-
-      return await page.content();
-    } catch (err) {
-      console.error(`Failed to fetch ${url}:`, err);
-      throw err;
-    } finally {
-      await browser.close();
+      const { solution } = await res.json();
+      return solution.response;
+    } catch (error) {
+      console.error(`Failed to fetch from proxy ${url}:`, error);
+      throw error;
     }
   }
 
@@ -70,7 +73,7 @@ class Scraper {
    * @returns {Promise<number>} set the total number of pages
    */
   async getPageNumbers() {
-    const html = await this.#fetch();
+    const html = await this.#fetch(undefined, 'get-page-numbers');
     const $ = load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
@@ -92,6 +95,7 @@ class Scraper {
     const $ = load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
     const page /** @type {PatchData[]} */ = [];
+    let isCached = false;
 
     // Loop through found elements.
     // eslint-disable-next-line no-restricted-syntax
@@ -113,31 +117,56 @@ class Scraper {
           changes: '',
           fixes: '',
         };
+        if (cache.find((p) => p.name === post.name)) {
+          isCached = true;
+        }
         page.push(post);
         this.#numPosts += 1;
       }
     }
     this.#fetchedPages.push(page);
     this.#pagesBar.tick();
-    if (this.#fetchedPages.length === this.#numPages) {
-      this.#postsBar = new ProgressBar('Parsing Posts', this.#numPosts, true);
-      // eslint-disable-next-line no-restricted-syntax
-      for await (const posts of this.#fetchedPages) {
-        const index = this.#fetchedPages.indexOf(posts);
-        await this.#parsePage(posts);
-        if (index !== this.#fetchedPages.length - 1) await sleep(1000);
+    if (isCached) {
+      await Promise.all(
+        new Array(this.#numPages).fill(0).map(async (i, idx) => {
+          if (idx < this.#numPages - 1) {
+            this.#pagesBar.tick();
+            await sleep(10);
+          }
+        })
+      );
+    }
+
+    return isCached;
+  }
+
+  // after scraping the last of the above pages, we can start parsing posts...
+  // need to find a way to return above and not re-scrape old pages
+  async parsePosts(afterEachPage) {
+    this.#postsBar = new ProgressBar('Parsing Posts', this.#numPosts, true);
+    // eslint-disable-next-line no-restricted-syntax
+    for await (const posts of this.#fetchedPages) {
+      const index = this.#fetchedPages.indexOf(posts);
+      await this.#parsePage(posts);
+      if (afterEachPage) {
+        await afterEachPage(this.posts);
+      }
+      if (index !== this.#fetchedPages.length - 1) {
+        await sleep(1000);
       }
     }
   }
 
   async #parsePage(posts /** @type {Array<PatchData>} */) {
+    // preserve prior cached posts, don't wait for them to be discovered again
+    this.posts.push(...cache);
+
     // eslint-disable-next-line no-restricted-syntax
     for await (const post of posts) {
       if (post.url) {
         const cached = cache.find((p) => p.name === post.name);
 
         if (cached) {
-          this.posts.push(cached);
           this.#numCached += 1;
         } else {
           await sleep(100);
@@ -153,7 +182,7 @@ class Scraper {
   /**
    * Retrieve logs from a single post.
    * @param {string} url url to fetch
-   * @param {Object} data post data
+   * @param {PatchData} data post data
    * @returns {void}
    */
   async #scrapePost(url, data) {
@@ -204,7 +233,6 @@ class Scraper {
         }
       });
     data.type = data.name.includes('Hotfix') ? 'Hotfix' : 'Update';
-    return data;
   }
 }
 
