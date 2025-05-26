@@ -45,10 +45,10 @@ jobs:
         with:
           authkey: ${{ secrets.TS_AUTHKEY }}
       - uses: actions/cache/restore@v4
+        id: restore-cache
         with:
           path: node_modules/
           key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
-      - run: npm ci
       - run: npm run build
         env:
           PROXY_URL: ${{ secrets.SOLVERR_PROXY_URL }}
