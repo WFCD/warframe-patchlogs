@@ -27,7 +27,7 @@ jobs:
           PROXY_URL: ${{ secrets.SOLVERR_PROXY_URL }}
       - run: npm test
       - run: git checkout -- package-lock.json #prevent package-lock.json-only feat changes
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           skip_dirty_check: false
           commit_message: 'feat(patchlogs): new patchlogs'
