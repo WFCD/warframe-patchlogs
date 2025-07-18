@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "devDependencies": {
-    "@types/cheerio": "^0.22.30",
+    "@types/cheerio": "^1.0.0",
     "@types/progress": "^2.0.5",
     "@wfcd/eslint-config": "^1.5.1",
     "c8": "^10.1.2",
