@@ -1,5 +1,14 @@
 [
  {
+  "name": "Isleweaver: Hotfix 39.0.6",
+  "url": "https://forums.warframe.com/topic/1462984-isleweaver-hotfix-3906/",
+  "date": "2025-07-19T14:04:18Z",
+  "additions": "Added the Memetic Glyph Pack II to the In-Game Market.\nThis Pack features Glyphs from our Pre-TennoCon Nostalgia Twitch Drops campaign. If you missed the Twitch Drops, you can now grab the bundle via the Market or purchase them individually via the Glyph menu.\n",
+  "changes": "Missed Note From 39.0.5:\nImproved performance issues in the Albrecht’s Laboratories tileset.\nUpdated the on-hover tip for the Jupiter Junction \"Complete the Advanced Movement Tutorial in the Codex\" following player feedback.\nAlso fixed the Advanced Movement Tutorial screen displaying \"Replay Tutorial\", which was leading to confusion.\n",
+  "fixes": "Fixed a crash caused by Melee Slam Attacks.\nFixed Aya being listed as a rare Void Surplus reward — it is now properly marked uncommon! \nThis was just a visual bug in one of the on-hover descriptions, actual drop rates were unaffected.\nFixed cases of the first Incarnon Evolution appearing locked on certain Incarnon Genesis weapons.\nThis was only a visual bug, players were still able to use their Incarnon Form in-mission.\nFixed a loss of function when attempting to change Warframe colors while cycling between Warframes in the \"Choose Your Warframe\" section of Awakening.\nFixed an extra Mod Slot appearing when attempting to Polarize an Exalted secondary weapon via the Loadout screen in the Navigation menu, preventing players from actually being able to install Forma.\nNow, players can properly Polarize their Exalted secondaries via this Loadout screen.\nFixed cases of \"Skip clanmates/these names\" not actually skipping certain names when Batch Removing friends.\nFixed applying Polychrome to a Dojo Room not indicating that players need to fund its construction.\nFixed Necraloid appearing in the Sanctum Anatomica minimap when he is not yet accessible.\nFixed a PH tag in Gauss' Thermal Transfer buff description when Blast Damage is buffed.\nFor list of known issues for Isleweaver that are on our radar, visit our dedicated thread: https://forums.warframe.com/topic/1458568-known-issues-isleweaver/\n\n",
+  "type": "Hotfix"
+ },
+ {
   "name": "Isleweaver: Hotfix 39.0.5",
   "url": "https://forums.warframe.com/topic/1461749-isleweaver-hotfix-3905/",
   "date": "2025-07-07T19:12:48Z",
