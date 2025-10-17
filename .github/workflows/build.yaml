@@ -18,7 +18,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - run: npm ci
-      - uses: wenoa/setup-wireguard@main
+      - uses: wenoa/setup-wireguard@v1.0.0
         with:
           WG_CONFIG: ${{ secrets.WG_CONFIG }}
       - run: npm run build
