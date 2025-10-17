@@ -7,10 +7,6 @@ import sleep from './sleep.js';
 import title from './title.js';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
-const isCI = process.env.CI === 'true';
-const ciTimeout = process.env.CI_TIMEOUT ? parseInt(process.env.CI_TIMEOUT, 10) : 60000;
-const localTimeout = process.env.LOCAL_TIMEOUT ? parseInt(process.env.LOCAL_TIMEOUT, 10) : 12000000;
-
 
 /**
  * Scraper to get patch logs from forums.
@@ -40,31 +36,6 @@ class Scraper {
   interrupt() {
     console.error('No pages found');
     process.exit(1);
-  }
-
-  async #fetch(url = baseUrl, session = 'fetch-warframe') {
-    try {
-      const res = await fetch(`${proxyUrl}/v1`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          cmd: 'request.get',
-          url,
-          session,
-          maxTimeout: isCI ? ciTimeout : localTimeout,
-          returnOnlyCookies: false,
-          returnPageContent: true,
-        }),
-      });
-      const { solution } = await res.json();
-      if (!solution?.response) {
-        throw solution;
-      }
-      return solution.response;
-    } catch (error) {
-      console.error(`Failed to fetch from proxy ${url}:`, error);
-      throw error;
-    }
   }
 
   /**
