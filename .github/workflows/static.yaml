@@ -40,18 +40,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
-      - name: Tailscale
-        uses: tailscale/github-action@v3
-        with:
-          authkey: ${{ secrets.TS_AUTHKEY }}
       - uses: actions/cache/restore@v4
         id: restore-cache
         with:
           path: node_modules/
           key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+      - uses: wenoa/setup-wireguard@main
+        with:
+          WG_CONFIG: ${{ secrets.WG_CONFIG }}
       - run: npm run build
-        env:
-          PROXY_URL: ${{ secrets.SOLVERR_PROXY_URL }}
       - uses: actions/cache/save@v4
         with:
           path: |

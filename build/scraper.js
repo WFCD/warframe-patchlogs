@@ -7,15 +7,10 @@ import sleep from './sleep.js';
 import title from './title.js';
 
 const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-notes/';
-const proxyUrl = process.env.PROXY_URL;
 const isCI = process.env.CI === 'true';
 const ciTimeout = process.env.CI_TIMEOUT ? parseInt(process.env.CI_TIMEOUT, 10) : 60000;
 const localTimeout = process.env.LOCAL_TIMEOUT ? parseInt(process.env.LOCAL_TIMEOUT, 10) : 12000000;
 
-if (!proxyUrl) {
-  console.error('PROXY_URL environment variable is not set.');
-  process.exit(1);
-}
 
 /**
  * Scraper to get patch logs from forums.
@@ -78,7 +73,7 @@ class Scraper {
    * @returns {Promise<number>} set the total number of pages
    */
   async getPageNumbers() {
-    const html = await this.#fetch(undefined, 'get-page-numbers');
+    const html = await fetch(baseUrl);
     const $ = load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
@@ -96,7 +91,7 @@ class Scraper {
    * @returns {void}
    */
   async scrape(url) {
-    const html = await this.#fetch(url);
+    const html = await fetch(url);
     const $ = load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
     const page /** @type {PatchData[]} */ = [];
@@ -191,7 +186,7 @@ class Scraper {
    * @returns {void}
    */
   async #scrapePost(url, data) {
-    const html = await this.#fetch(url);
+    const html = await fetch(url);
     const $ = load(html);
     const article = $('article').first();
     const post = article.find('div[data-role="commentContent"]');
