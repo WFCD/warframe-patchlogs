@@ -44,7 +44,7 @@ class Scraper {
    * @returns {Promise<number>} set the total number of pages
    */
   async getPageNumbers() {
-    const html = await fetch(baseUrl).then(r => r.text());
+    const html = await fetch(baseUrl).then((r) => r.text());
     const $ = load(html);
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
@@ -62,7 +62,7 @@ class Scraper {
    * @returns {void}
    */
   async scrape(url) {
-    const html = await fetch(url).then(r => r.text());
+    const html = await fetch(url).then((r) => r.text());
     const $ = load(html);
     const selector = $('ol[id^="elTable"] .ipsDataItem');
     const page /** @type {PatchData[]} */ = [];
@@ -157,7 +157,7 @@ class Scraper {
    * @returns {void}
    */
   async #scrapePost(url, data) {
-    const html = await fetch(url).then(r => r.text());
+    const html = await fetch(url).then((r) => r.text());
     const $ = load(html);
     const article = $('article').first();
     const post = article.find('div[data-role="commentContent"]');
