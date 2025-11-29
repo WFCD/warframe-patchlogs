@@ -40,17 +40,21 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
-      - name: VPN
-        uses: wenoa/setup-wireguard@main
-        with:
-          WG_CONFIG: ${{ secrets.WG_CONFIG }}
       - uses: actions/cache/restore@v4
         id: restore-cache
         with:
           path: node_modules/
           key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+      - name: Tailscale
+        uses: tailscale/github-action@v4
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:ci
       - name: Build
         run: npm run build
+        env:
+          PROXY_URL: ${{ secrets.SOLVERR_PROXY_URL }}
       - name: Save Cache
         uses: actions/cache/save@v4
         with:
