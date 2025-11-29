@@ -13,8 +13,7 @@ const ciTimeout = process.env.CI_TIMEOUT ? parseInt(process.env.CI_TIMEOUT, 10) 
 const localTimeout = process.env.LOCAL_TIMEOUT ? parseInt(process.env.LOCAL_TIMEOUT, 10) : 12000000;
 
 if (!proxyUrl) {
-  console.error('PROXY_URL environment variable is not set.');
-  process.exit(1);
+  console.warn('PROXY_URL environment variable is not set.');
 }
 
 /**
@@ -48,6 +47,10 @@ class Scraper {
   }
 
   async #fetch(url = baseUrl, session = 'fetch-warframe') {
+    if (!proxyUrl) {
+      return fetch(url).then((res) => res.text());
+    }
+
     try {
       const res = await fetch(`${proxyUrl}/v1`, {
         method: 'POST',
@@ -83,7 +86,7 @@ class Scraper {
     const text = $('a[id^="elPagination"]').text().trim().split(' ');
 
     if (text.length < 2) {
-      throw new Error('Connection blocked by Cloudflare.');
+      throw new Error(`No pages found for ${text}. A Proxy will be required.`);
     }
     this.#numPages = parseInt(text[text.length - 1], 10);
     this.#pagesBar = new ProgressBar('Scraping Page', this.#numPages);
