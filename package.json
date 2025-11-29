@@ -6,7 +6,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/WFCD/warframe-patchlogs.git"
+    "url": "git+https://github.com/WFCD/warframe-patchlogs.git"
   },
   "author": "Kaptard",
   "license": "MIT",
