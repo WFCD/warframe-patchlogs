@@ -3,11 +3,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - build/*
-      - data/*
-      - package.json
-      - package-lock.json
 concurrency:
   group: ${{ github.workflow }}-${{ github.branch }}
   cancel-in-progress: true
