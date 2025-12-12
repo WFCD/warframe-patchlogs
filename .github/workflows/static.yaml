@@ -13,7 +13,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - run: npm ci
-      - uses: actions/cache/save@v4
+      - uses: actions/cache/save@v5
         with:
           path: node_modules/
           key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
@@ -26,7 +26,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v5
         with:
           path: node_modules/
           key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
@@ -40,7 +40,7 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v5
         id: restore-cache
         with:
           path: node_modules/
@@ -56,7 +56,7 @@ jobs:
         env:
           PROXY_URL: ${{ secrets.SOLVERR_PROXY_URL }}
       - name: Save Cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: |
             data/patchlogs.json
@@ -68,7 +68,7 @@ jobs:
     needs: [build, lint]
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v5
         with:
           path: |
             data/patchlogs.json
