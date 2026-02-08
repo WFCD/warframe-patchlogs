@@ -5,5 +5,5 @@ package*.json:
   - prettier --write
   - npm dedupe
   - npx sort-package-json
-'*.{json,yml,yaml},!data/json/*.json':
+'!(data/json/*.json)*.{json,yml,yaml}':
   - prettier --write
