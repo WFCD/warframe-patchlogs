@@ -18,6 +18,8 @@ babel.config.json
 .eslintrc.json
 .prettierrc.json
 package.json.backup
+.lintstagedrc.yml
+.commitlintrc.mjs
 
 # IDE and coverage files
 .install/
