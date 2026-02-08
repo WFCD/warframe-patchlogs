@@ -31,6 +31,10 @@ jobs:
           path: node_modules/
           key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
       - run: npm run lint
+      - name: Lint Title
+        env:
+          TITLE: ${{ github.event.pull_request.title }}
+        run: npx --no-install commitlint <<< "$TITLE"
   build:
     name: Build
     needs: [install]
@@ -61,7 +65,7 @@ jobs:
           path: |
             data/patchlogs.json
             node_modules/
-          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}-save
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -73,7 +77,7 @@ jobs:
           path: |
             data/patchlogs.json
             node_modules/
-          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}
+          key: ${{ runner.os }}-${{ github.run_id }}${{ github.run_number }}-save
       - uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'

@@ -1,11 +1,32 @@
+# artifacts & dependencies
 node_modules/
+
+# source files for building data files
 build/
+
+# test files
 test/
+
+# project configs
 .gitignore
 .github
 .nvmrc
+babel.config.json
+.mocharc.json
+.c8rc.json
+.eslintignore
+.eslintrc.json
+.prettierrc.json
 package.json.backup
+.lintstagedrc.yml
+.commitlintrc.mjs
+.releaserc.yaml
+.husky/
+
+# IDE and coverage files
 .install/
 .lua/
 .nyc_output/
 coverage/
+tailscale*
+.idea/
