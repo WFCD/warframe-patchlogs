@@ -1,5 +1,5 @@
 {
-  "name": "warframe-patchlogs",
+  "name": "@wfcd/patchlogs",
   "version": "0.0.0",
   "description": "All warframe patchlogs parsed to more usable JSON. Also lets you find all patchlogs for a specific item.",
   "main": "index.js",
@@ -21,8 +21,7 @@
     "lint": "eslint .",
     "test": "c8 mocha",
     "lint:fix": "eslint . --fix",
-    "postinstall": "install-peerdeps @wfcd/eslint-config@latest -S",
-    "prepublishOnly": "npm_config_yes=true npx clean-package"
+    "postinstall": "install-peerdeps @wfcd/eslint-config@latest -S"
   },
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "devDependencies": {
@@ -36,58 +35,8 @@
     "mocha": "^11.7.5",
     "progress": "^2.0.3"
   },
-  "eslintIgnore": [
-    "node_modules",
-    "index.d.ts"
-  ],
-  "eslintConfig": {
-    "extends": "@wfcd/eslint-config/esm",
-    "parser": "@babel/eslint-parser",
-    "rules": {
-      "no-console": "off"
-    }
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-transform-class-properties",
-      "@babel/plugin-transform-private-methods"
-    ]
-  },
-  "prettier": "@wfcd/eslint-config/prettier",
-  "mocha": {
-    "exit": true,
-    "spec": "test/**/*.spec.js",
-    "timeout": 10000
-  },
-  "c8": {
-    "exclude": [
-      "test/**",
-      "build/**"
-    ],
-    "reporter": [
-      "lcov",
-      "text"
-    ],
-    "skip-full": true
-  },
   "engines": {
     "node": ">=18.19.0"
   },
-  "engineStrict": true,
-  "clean-package": {
-    "remove": [
-      "mocha",
-      "devDependencies",
-      "eslintIgnore",
-      "eslintConfig",
-      "scripts",
-      "clean-package",
-      "c8",
-      "babel",
-      "prettier"
-    ]
-  }
+  "engineStrict": true
 }

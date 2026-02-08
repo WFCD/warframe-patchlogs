@@ -5,3 +5,4 @@ coverage/
 package.json.backup
 .install/
 .lua/
+tailscale*

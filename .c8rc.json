@@ -1,0 +1,11 @@
+{
+  "exclude": [
+    "test/**",
+    "build/**"
+  ],
+  "reporter": [
+    "lcov",
+    "text"
+  ],
+  "skip-full": true
+}
