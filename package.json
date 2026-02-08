@@ -1,6 +1,7 @@
 {
   "name": "@wfcd/patchlogs",
   "version": "0.0.0",
+  "private": false,
   "description": "All warframe patchlogs parsed to more usable JSON. Also lets you find all patchlogs for a specific item.",
   "homepage": "https://github.com/WFCD/warframe-patchlogs#readme",
   "bugs": {

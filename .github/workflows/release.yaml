@@ -23,6 +23,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    needs: [verify]
     permissions:
       id-token: write
       contents: write
