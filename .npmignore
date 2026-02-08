@@ -20,6 +20,8 @@ babel.config.json
 package.json.backup
 .lintstagedrc.yml
 .commitlintrc.mjs
+.releaserc.yaml
+.husky/
 
 # IDE and coverage files
 .install/
@@ -27,3 +29,4 @@ package.json.backup
 .nyc_output/
 coverage/
 tailscale*
+.idea/
