@@ -32,7 +32,7 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           skip_dirty_check: false
-          commit_message: 'feat(patchlogs): new patchlogs'
+          commit_message: 'fix: new patchlogs'
           commit_user_name: wfcd-bot-boi
           commit_user_email: botboi@warframestat.us
           commit_author: wfcd-bot-boi <botboi@warframestat.us>
