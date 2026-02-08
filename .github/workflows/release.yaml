@@ -17,6 +17,8 @@ jobs:
           node-version-file: '.nvmrc'
       - run: npm ci
       - run: npm run lint
+      - name: Run commitlint
+        run: npx commitlint --last
       - run: npm test
   release:
     name: Release
