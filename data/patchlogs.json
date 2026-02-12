@@ -1,5 +1,15 @@
 [
   {
+    "name": "Vauban Heirloom: Hotfix 41.1.1",
+    "url": "https://forums.warframe.com/topic/1493181-vauban-heirloom-hotfix-4111/",
+    "date": "2026-02-12T20:05:46Z",
+    "additions": "",
+    "changes": "Missed Note from 41.1.0: \nVauban's Ability Projectiles now take his velocity into account when thrown. This way, when moving quickly on land or in the air, they will no longer lag behind him.\nRemoved the bright flash VFX from Vauban’s Photon Strike as it could cause photosensitivity issues.\nFixed Vauban's Tether-Flechette being instantly destroyed if cast with Vazarin's Guardian Shell active.\nFixes towards Tether-Flechette's projectiles missing the shake FX following Vauban's Minelayer changes.\nFixed enemies appearing to fight gravity as they are pulled towards Vauban's Tether-Flechette mine.\nFixed Sparring weapons appearing invisible when equipped on Vauban Prime.\nFixed a script error caused by Vauban's Bastille.\nFixed a script error caused by Vauban's Tesla Nervos.\nFixed a script error caused by the Tether-Flechette mine from Vauban's Minelayer.\n",
+    "fixes": "Top Fixes:\nFixed a progression stop in the Interrogation stage of The Old Peace if players died before the objective waypoint spawned.\nFixed the Operator being shorter than usual during Table For Two encounter in Duviri.\nFixed a loss of function when interacting with a Notification while previewing a Landing Craft skin.\nFixed various Syandana offset, holster offset, and cloth issues on the Vauban Heirloom skin.\nFixed energy color tints not properly applying to Gemini Skin irises.\nAlso fixed cases of Gemini skins taking on unintended tints in dioramas and loading screens.\nFixed Lyon's face deforming if his Mitre is removed from his Gemini Skin.\nFixed the Insign I Sporoi (and ranked up variants) having an incorrect offset on the Lyon Gemini Skin with his Mitre unequipped.\nFixed the Malean Ephemera market diorama not being centered on the actual Ephemera.\nFixed a script error when grappling to Anchors in The Perita Rebellion while using Titania's Razorwing.\nFixed a script error when viewing the Juggernaut in the Codex.\nFixed a rare sound leak caused by certain grenades.\nFor list of known issues that are on our radar, visit our dedicated thread: https://forums.warframe.com/topic/1492704-known-issues-vauban-heirloom/\n\n",
+    "description": "This issue was introduced as a fix for those skipping ranks in The Devil’s Triad, locking them out of the (Spoiler) Reunion. Unfortunately, it had unintended effects and we apologize for the state that this fix shipped in.",
+    "type": "Hotfix"
+  },
+  {
     "name": "Update 41.1: Vauban Heirloom",
     "url": "https://forums.warframe.com/topic/1492778-update-411-vauban-heirloom/",
     "date": "2026-02-11T16:03:38Z",
