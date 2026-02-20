@@ -1,5 +1,14 @@
 [
   {
+    "name": "Vauban Heirloom: Hotfix 41.1.2",
+    "url": "https://forums.warframe.com/topic/1493810-vauban-heirloom-hotfix-4112/",
+    "date": "2026-02-17T16:03:12Z",
+    "additions": "",
+    "changes": "Platinum Pack Refresh:\n",
+    "fixes": "Fixed Kaya's KIM Rank changing to Associates after 41.1.1. \nShe should be reverted to her original pre-hotfix Rank!\nFixed Vauban's Tesla Nervos preventing Nekros' Shadows and Equinox's Duality Specter from targeting enemies that the Nervos are latched onto.\nFixed the buff from Volt's Shocking Speed augment being able to damage allies.\nFixed Dagath Yfari's right arm bending in the wrong spot, causing issues with various Animation Sets.\nFixed Dagath Yfari not applying tints correctly to the metal channel.\nFixed a script error caused by Volt Prime in the Prime Vanguard fight in The Perita Rebellion.\nFor list of known issues that are on our radar, visit our dedicated thread: https://forums.warframe.com/topic/1492704-known-issues-vauban-heirloom/\n\n",
+    "type": "Hotfix"
+  },
+  {
     "name": "Vauban Heirloom: Hotfix 41.1.1",
     "url": "https://forums.warframe.com/topic/1493181-vauban-heirloom-hotfix-4111/",
     "date": "2026-02-12T20:05:46Z",
