@@ -1,5 +1,14 @@
 [
   {
+    "name": "The Shadowgrapher: Hotfix 42.0.3",
+    "url": "https://forums.warframe.com/topic/1499118-the-shadowgrapher-hotfix-4203/",
+    "date": "2026-03-27T17:03:38Z",
+    "additions": "",
+    "changes": "",
+    "fixes": "Fixes:\nFixed upgrading a Riven in the Upgrade Menu of any weapon variant (Prime, Tenet, Rakta, Vandal, etc.) changing the Riven's compatibility to only be for that specific weapon variant.\nRivens in this state will be fixed in a later hotfix. We need a little bit more time to ensure we can safely revert them to their original compatibility. \nFixed the Enkaus' unique trait being able to disintegrate enemies with a special state — i.e. Sister Candidates, Thrax Centurions, etc.\nNow enemies with a spectral state will have their form triggered faster instead of being skipped.\nEnemies like Sister Candidates will no longer be completely dissolved, meaning players can mercy them to spawn a Sister.\nFixed the Syndicate Medallion donation screen slider to use the maximum donation amount instead of total Medallions owned.\nFixed the Styanax Raevuz Skin having a useless \"None\" Auxiliary attachment.\nFixed various leg armor offsets on the Gauss Moto Skin.\nFixed the Atramentum Balloon VFX lingering after destruction in Follie’s Hunt missions.\nFixes towards the Fend-RX Chest Armor using incorrect capitalization in some menus.\nFixed a rare case of players getting logged out if they immediately speak to an NPC in a Hub after logging in.\nFixed a script error in The Guilty.\nFixed a script error in Void Cascade when killing an enemy near an expired Exolizer.\nFixed a script error related to the Martyr Symbiosis Precept.\nFixed a script error related to Excavation bounty objectives in the Orb Vallis.\nFixed a script error related to Follie's Sketchbook.\nFor list of known issues that are on our radar, visit our dedicated thread: https://forums.warframe.com/topic/1497599-known-issues-the-shadowgrapher/\n",
+    "type": "Hotfix"
+  },
+  {
     "name": "The Shadowgrapher: Hotfix 42.0.2",
     "url": "https://forums.warframe.com/topic/1498750-the-shadowgrapher-hotfix-4202/",
     "date": "2026-03-26T19:51:08Z",
