@@ -1,5 +1,14 @@
 [
   {
+    "name": "The Shadowgrapher: Hotfix 42.0.5",
+    "url": "https://forums.warframe.com/topic/1500761-the-shadowgrapher-hotfix-4205/",
+    "date": "2026-04-02T19:08:36Z",
+    "additions": "",
+    "changes": "Operation: Atramentum — Begins At 3:30pm Et!:\nThis hotfix brings some behind-the-scenes work for our upcoming Operation: Atramentum. Get ready to squad up with your Clan and complete Shadowgraphs to earn new rewards.\nLearn more about this Operation here:\n\nThese are changes that were missing notes from Shadowgrapher and subsequent hotfixes.\nReduced the Ducat values of the following Prime Parts from 100 to 65 as their rarity was changed to Uncommon with their Prime Resurgence Relics:\nPhantasma Prime Stock\nBaruuk Prime Neuroptics\nGaruda Prime Systems Blueprint\nThe built version of this item was already reduced, but the Blueprint was unchanged!\nWisp Prime Chassis\nFixed some areas of the Orbiter being too dark.\nFixed Zariman glass textures not displaying correctly in Dojos with a built Dry Dock.\n",
+    "fixes": "Fixed missing SFX when picking up Atramentum.\nFixed the Faction information for the Vesper Relay not being localized.\nFixed the Vesper Relay icon being too large, we pinky swear. Third time's the charm?\nFor list of known issues that are on our radar, visit our dedicated thread: https://forums.warframe.com/topic/1497599-known-issues-the-shadowgrapher/\n",
+    "type": "Hotfix"
+  },
+  {
     "name": "The Shadowgrapher: Hotfix 42.0.4",
     "url": "https://forums.warframe.com/topic/1500079-the-shadowgrapher-hotfix-4204/",
     "date": "2026-03-30T20:12:09Z",
