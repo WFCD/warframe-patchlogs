@@ -1,5 +1,14 @@
 [
   {
+    "name": "Voruna Prime: Hotfix 42.0.10",
+    "url": "https://forums.warframe.com/topic/1505719-voruna-prime-hotfix-42010/",
+    "date": "2026-05-06T20:10:51Z",
+    "additions": "",
+    "changes": "Changes:\nAdded Community Customizations for Vauban and Dagath from Prime Time 472.\nBalor Fomorian and Razorback Armada events are no longer blocked by other active community events, like Operations. \nAlso reduced the description shown in the World State Window in the Base of Operations to reduce clutter.\nThe Secura Lecta's bonus Credits will now trigger if the enemy died while suffering Damage Over Time (DOT) effects from the weapon even if it's not currently equipped.\nAlso fixed edge-cases of the Secura Lecta's bonus Credits being triggered multiple times on one enemy.\nMoved the metals on the Nulwarden Syandana (and its variant) to be on the Accents channel.\n",
+    "fixes": "Fixed the Nulwarden Syandana covering player screens in-mission.\nFixed cases of not being able to send invites to players due to outdated Windows versions causing significant network delays. \nFixed being able to enter other missions as Stalker if players left the squad as they were loading into a Belly of the Beast mission via \"A Shared Purpose\".\nFixed cases of accounts being unable to add or remove players from their Ignore list.\nFixed being able to place multiple Glyphs or Clan Prisms in missions.\nFixed Nora Night transmissions playing during Quest dioramas.\nFixed offset issues for the Stardust Signa on Gyre Prime.\nFixed Excavators lingering after the bounty stage is completed in the Orb Vallis for Clients.\nFixed Operators having broken facial animations in cinematics if The Duviri Paradox was completed before The Second Dream.\nFixed Regal Aya not being included in the listed currency on the TennoCon 2026 Digital Pack market page.\nFixed a script error related to the Shockprod Fishing Spear.\nFixed a script error caused by the gas cloud modifier in The Descendia and Temporal Archimedea.\nFixed a script error related to the chatbox when joining a Belly of the Beast mission via \"A Shared Purpose\".\nFor list of known issues that are on our radar, visit our dedicated thread: https://forums.warframe.com/topic/1497599-known-issues-the-shadowgrapher/\n",
+    "type": "Hotfix"
+  },
+  {
     "name": "Voruna Prime: Hotfix 42.0.9",
     "url": "https://forums.warframe.com/topic/1505376-voruna-prime-hotfix-4209/",
     "date": "2026-05-04T15:00:35Z",
