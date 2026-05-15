@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^21.0.1",
-    "@commitlint/config-conventional": "^20.4.1",
+    "@commitlint/config-conventional": "^21.0.1",
     "@types/cheerio": "^1.0.0",
     "@types/progress": "^2.0.7",
     "@wfcd/eslint-config": "^1.6.4",
