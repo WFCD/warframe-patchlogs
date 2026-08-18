@@ -1,5 +1,14 @@
 [
   {
+    "name": "Amir’s Shockwave: Hotfix 43.5.3",
+    "url": "https://forums.warframe.com/topic/1520640-amir%E2%80%99s-shockwave-hotfix-4353/",
+    "date": "2026-08-18T19:04:45Z",
+    "additions": "",
+    "changes": "Changes:\nNightwave Radio now plays from the Nightwave console in the Backrooms if the Nora Night Volume slider is not set to zero.\nUpdated the description of Athodai Prime's unique trait Overdrive to specify it triggers on weakpoint kills (previously said headshot).\nAlly Gemini Skin voice lines are now affected by the Enemy & Ally Combat Volume slider in the Advanced Sound Effects Mixer.\nImproved handling of corrupt shader caches, which could result in crashing.\nSurge Eximus' electricity ability now has a maximum casting range of 50m. \nFixed additional cases of Surge Eximus units causing Clients to crash in Uranus Proxima and Deep Mines missions.\nFixed the Surge Eximus' electricity ability not being affected by Banshee's Silence.\nFixed the Surge Eximus' electricity ability dealing damage across two ticks instead of one.\nThe actual damage output from the electric shocks is unchanged.\nFixed Surge Eximus being able to target invisible players.\n",
+    "fixes": "Fixed being able to drag tints into a Signa's X and Y axis setting in the Appearance menu. \nFixed metallic elements in the Backrooms appearing black for systems with low graphics settings.\nFixed various minor decoration issues in Höllvandeim, including a poster not displaying properly, and Lettie's seat missing her lumbar support pillow. \nFixed being unable to place Dojo Decorations in the portal’s dissolve range of the Courtier's Bliss and Harbinger's Pass Dojo Rooms.\nFixed Kubrows and Kavats having a duplicate listing of their default fur pattern.\nFixed a crash when interacting with the KIM system.\nFor list of known issues that are on our radar, visit our dedicated thread: https://forums.warframe.com/topic/1519687-known-issues-amirs-shockwave/\n",
+    "type": "Hotfix"
+  },
+  {
     "name": "Amir’s Shockwave: Hotfix 43.5.2",
     "url": "https://forums.warframe.com/topic/1520019-amir%E2%80%99s-shockwave-hotfix-4352/",
     "date": "2026-08-13T19:34:40Z",
