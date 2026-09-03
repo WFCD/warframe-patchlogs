@@ -36,7 +36,7 @@
     "commitlint": "^21.0.1",
     "husky": "^9.1.7",
     "install-peerdeps": "^3.0.7",
-    "mocha": "^11.7.5",
+    "mocha": "^12.0.0",
     "progress": "^2.0.3"
   },
   "engines": {
