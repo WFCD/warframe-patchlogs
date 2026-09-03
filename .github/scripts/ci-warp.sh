@@ -16,22 +16,23 @@ cleanup() {
 }
 
 start_warp() {
-  local -a port_args=()
+  local -a docker_run=(
+    docker run -d --name "$WARP_CONTAINER"
+    --device-cgroup-rule 'c 10:200 rwm'
+    --cap-add NET_ADMIN
+    --cap-add MKNOD
+    --cap-add AUDIT_WRITE
+    --sysctl net.ipv6.conf.all.disable_ipv6=0
+    --sysctl net.ipv4.conf.all.src_valid_mark=1
+    -e WARP_SLEEP=2
+  )
   if [[ -n "${WARP_PORTS-}" ]]; then
-    port_args+=(-p "$WARP_PORTS")
+    docker_run+=(-p "$WARP_PORTS")
   fi
+  docker_run+=("$WARP_IMAGE")
 
   docker rm -f "$WARP_CONTAINER" >/dev/null 2>&1 || true
-  docker run -d --name "$WARP_CONTAINER" \
-    "${port_args[@]}" \
-    --device-cgroup-rule 'c 10:200 rwm' \
-    --cap-add NET_ADMIN \
-    --cap-add MKNOD \
-    --cap-add AUDIT_WRITE \
-    --sysctl net.ipv6.conf.all.disable_ipv6=0 \
-    --sysctl net.ipv4.conf.all.src_valid_mark=1 \
-    -e WARP_SLEEP=2 \
-    "$WARP_IMAGE" >/dev/null
+  "${docker_run[@]}" >/dev/null
 }
 
 wait_for_warp() {
