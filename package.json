@@ -40,8 +40,8 @@
     "progress": "^2.0.3"
   },
   "engines": {
-    "node": ">=18.19.0",
-    "npm": ">=9.5.0"
+    "node": ">=24",
+    "npm": ">=10"
   },
   "publishConfig": {
     "access": "public",

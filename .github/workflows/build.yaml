@@ -18,16 +18,10 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - run: npm ci
-      - name: Tailscale
-        uses: tailscale/github-action@780049a30b6ff5c378a9e7b389d15ece7a204888 # v4.1.3
-        with:
-          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
-          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
-          tags: tag:ci
-      - run: npm run build
+      - name: Build and test through WARP
         env:
-          PROXY_URL: ${{ secrets.SOLVERR_PROXY_URL }}
-      - run: npm test
+          CI: true
+        run: .github/scripts/ci-warp.sh run 'npm run build && npm test'
       - run: git checkout -- package-lock.json #prevent package-lock.json-only feat changes
       - uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
         with:

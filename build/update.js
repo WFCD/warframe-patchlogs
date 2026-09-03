@@ -3,9 +3,6 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import scraper from './scraper.js';
-import sleep from './sleep.js';
-
-const baseUrl = 'https://forums.warframe.com/forum/3-pc-update-build-notes/';
 
 const dirName = dirname(fileURLToPath(import.meta.url));
 
@@ -18,7 +15,7 @@ const write = (posts) => {
   });
 
   // Store logs so we can re-use them later without additional scraping
-  writeFileSync(resolve(dirName, '../data/patchlogs.json'), JSON.stringify(Array.from(new Set(toWrite)), undefined, 1));
+  writeFileSync(resolve(dirName, '../data/patchlogs.json'), JSON.stringify(Array.from(new Set(toWrite)), undefined, 2));
 };
 
 /**
@@ -26,18 +23,15 @@ const write = (posts) => {
  * @returns {Promise<void>}
  */
 async function update() {
-  const pages = await scraper.getPageNumbers();
-  if (!pages) scraper.interrupt();
-  for (let i = 1; i <= pages; i += 1) {
-    const alreadyCachd = await scraper.scrape(`${baseUrl}?page=${i}`);
-    if (alreadyCachd) break;
-    if (i !== pages - 1) await sleep(250);
+  const count = await scraper.scrapeFeed(write);
+  if (!count) scraper.interrupt();
+
+  if (!scraper.hasNewPosts) {
+    console.info('no new posts in RSS feed');
+    return;
   }
 
-  // If we have cached posts, we can skip parsing them again
-  await scraper.parsePosts(write);
-
-  console.info('finished scraping update pages, parsing posts...');
+  console.info('finished scraping RSS feed (new posts and/or imgUrl backfills)');
   await write(scraper.posts);
 }
 
