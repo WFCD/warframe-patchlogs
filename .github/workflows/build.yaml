@@ -23,7 +23,7 @@ jobs:
           CI: true
         run: .github/scripts/ci-warp.sh run 'npm run build && npm test'
       - run: git checkout -- package-lock.json #prevent package-lock.json-only feat changes
-      - uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7.2.0
+      - uses: stefanzweifel/git-auto-commit-action@d0b01107b5db882071f96de5dd4b54961ea93f4c # v7.2.1
         with:
           skip_dirty_check: false
           commit_message: 'fix: new patchlogs'
